@@ -368,6 +368,7 @@
 	<message key="xmlui.EPerson.EditProfile.first_name">Vorname</message>
 	<message key="xmlui.EPerson.EditProfile.last_name">Nachname</message>
 	<message key="xmlui.EPerson.EditProfile.telephone">Telefon</message>
+	<message key="xmlui.EPerson.EditProfile.Language">Sprache</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions">Abonnements</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions_help">Sie können Sammlungen abonnieren, um laufend per E-Mail über Neuerscheinungen informiert zu werden. Sie können beliebig viele Sammlungen abonnieren. Eine Alternative zur Benachrichtigung per E-Mail sind die RSS feeds.</message>
 	<message key="xmlui.EPerson.EditProfile.email_subscriptions">E-Mail-Abonnement</message>
@@ -796,6 +797,8 @@
 	<message key="xmlui.administrative.FlowItemUtils.metadata_added">Neues Metadatum hinzugefügt.</message>
 	<message key="xmlui.administrative.FlowItemUtils.item_withdrawn">Das Dokument wurde zurückgezogen.</message>
 	<message key="xmlui.administrative.FlowItemUtils.item_reinstated">Das Dokument wurde wieder zugänglich gemacht.</message>
+	<message key="xmlui.administrative.FlowItemUtils.item_moved">Das Dokument wurde verschoben.</message>
+	<message key="xmlui.administrative.FlowItemUtils.item_move_failed">Die Zielsammlung wurde nicht gefunden.</message>
 	<message key="xmlui.administrative.FlowItemUtils.bitstream_added">Die neue Datei wurde hochgeladen.</message>
 	<message key="xmlui.administrative.FlowItemUtils.bitstream_failed">Beim Hochladen der Datei ist ein Fehler aufgetreten.</message>
 	<message key="xmlui.administrative.FlowItemUtils.bitstream_updated">Die Dateiinformation wurde aktualisiert.</message>
@@ -819,6 +822,7 @@
 	<message key="xmlui.administrative.Navigation.context_export_item">Dokument Exportieren</message>
     <message key="xmlui.administrative.Navigation.context_export_collection">Sammlung Exportieren</message>
     <message key="xmlui.administrative.Navigation.context_export_community">Bereich Exportieren</message>
+    <message key="xmlui.administrative.Navigation.context_export_metadata">Metadaten Exportieren</message>
 	
 	<!-- Site administrator options -->
 	<message key="xmlui.administrative.Navigation.administrative_head">Administration</message>
@@ -833,7 +837,7 @@
     <message key="xmlui.administrative.Navigation.administrative_withdrawn">Verworfene Dokumente</message>
 	<message key="xmlui.administrative.Navigation.administrative_control_panel">Systemdaten</message>
 	<message key="xmlui.administrative.Navigation.statistics">Statistiken</message>
-		
+	<message key="xmlui.administrative.Navigation.administrative_import_metadata">Metadaten Importieren</message>
     <!-- my account items -->
 	<message key="xmlui.administrative.Navigation.account_export">Meine Exporte</message>
 	
@@ -958,7 +962,8 @@
 	<message key="xmlui.administrative.group.EditGroupForm.pending_warn">Bitte beachten Sie: anhängige Änderungen werden erst wirksam, wenn Sie auf "Speichern" klicken.</message>
 	<message key="xmlui.administrative.group.EditGroupForm.submit_add">Hinzufügen</message>
 	<message key="xmlui.administrative.group.EditGroupForm.submit_remove">Entfernen</message>
-	<message key="xmlui.administrative.group.EditGroupForm.collection_para">Diese Gruppe hat Bezug zur Sammlung: </message>
+	<message key="xmlui.administrative.group.EditGroupForm.collection_para">Diese Gruppe ist mit folgender Sammlung assoziiert: </message>
+	<message key="xmlui.administrative.group.EditGroupForm.community_para">Diese Gruppe ist mit folgendem Bereich assoziiert: </message>
 	<message key="xmlui.administrative.group.EditGroupForm.label_name">Gruppennamen ändern: </message>
 	<message key="xmlui.administrative.group.EditGroupForm.label_instructions">Diese Gruppe gehört zu einer bestimmten Sammlung und der Name kann nicht geändert werden.</message>
 	<message key="xmlui.administrative.group.EditGroupForm.label_search">Suche nach Mitgliedern zum Hinzufügen: </message>
@@ -1226,6 +1231,7 @@
 	
 	<!-- general edit item messages -->
 	<message key="xmlui.administrative.item.general.item_trail">Dokumente</message>
+	<message key="xmlui.administrative.item.general.template_head">Metadatenschablone für die Sammlung: {0} bearbeiten</message>
 	<message key="xmlui.administrative.item.general.option_head">Dokument bearbeiten</message>
 	<message key="xmlui.administrative.item.general.option_status">Dokumentstatus</message>
 	<message key="xmlui.administrative.item.general.option_bitstreams">Zugehörige Dateien</message>
@@ -1270,6 +1276,15 @@
 	<message key="xmlui.administrative.item.ConfirmItemForm.column3">Sprache</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_withdraw">Verwerfen</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_reinstate">Wieder aktivieren</message>
+	
+	<!-- org.dspace.app.xmlui.aspect.administrative.item.MoveItemForm -->
+	<message key="xmlui.administrative.item.MoveItemForm.title">Verschieben</message>
+	<message key="xmlui.administrative.item.MoveItemForm.trail">Verschieben</message>
+	<message key="xmlui.administrative.item.MoveItemForm.head1">Dokument: {0} verschieben</message>
+	<message key="xmlui.administrative.item.MoveItemForm.collection">Sammlung</message>
+	<message key="xmlui.administrative.item.MoveItemForm.collection_help">Wählen Sie die Sammlung, in die Sie das Dokument verschieben möchten.</message>
+	<message key="xmlui.administrative.item.MoveItemForm.collection_default">Sammlung wählen</message>
+	<message key="xmlui.administrative.item.MoveItemForm.submit_move">Verschieben</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditBitstreamForm -->
 	<message key="xmlui.administrative.item.EditBitstreamForm.title">Datei bearbeiten</message>
@@ -1336,9 +1351,13 @@
 	<message key="xmlui.administrative.item.EditItemStatusForm.submit_authorizations">Rechte bearbeiten</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.submit_withdraw">Verwerfen</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.submit_reinstate">Wieder aktivieren</message>
+	<message key="xmlui.administrative.item.EditItemStatusForm.submit_move">Verschieben...</message>
+	<message key="xmlui.administrative.item.EditItemStatusForm.label_move">Dokument in eine andere Sammlung verschieben</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.submit_delete">Endgültig löschen</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.na">n/a</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.sysadmins_only">(nur für Systemadministratoren)</message>
+	<message key="xmlui.administrative.item.EditItemStatusForm.collection_admins_only">(nur für Sammlungsadministratoren)</message>
+	<message key="xmlui.administrative.item.EditItemStatusForm.not_allowed">(Sie haben nicht die notwendigen Rechte, um diese Aktion auszuführen)</message>
 	
 	<!-- org.dspace.app.xmlui.administrative.item.ViewItem -->
 	<message key="xmlui.administrative.item.ViewItem.title">Dokumentanzeige</message>
@@ -1350,6 +1369,39 @@
 	<message key="xmlui.administrative.item.FindItemForm.identifier_label">Interne Dokument-ID oder Handle</message>
 	<message key="xmlui.administrative.item.FindItemForm.identifier_error">Kennung konnte nicht zugeordnet werden.</message>
 	<message key="xmlui.administrative.item.FindItemForm.find">Finde</message>
+	
+	<!-- org.dspace.app.xmlui.administrative.metadataimport -->
+    <message key="xmlui.administrative.metadataimport.general.title">Metadaten importieren</message>
+    <message key="xmlui.administrative.metadataimport.general.head1">Metadaten importieren</message>
+    <message key="xmlui.administrative.metadataimport.general.trail">Metadaten importieren</message>
+    <message key="xmlui.administrative.metadataimport.general.changes">Änderungen</message>
+    <message key="xmlui.administrative.metadataimport.general.no_changes">Es wurden keine Änderungen gefunden</message>
+    <message key="xmlui.administrative.metadataimport.general.new_item">Neues Dokument</message>
+    <message key="xmlui.administrative.metadataimport.flow.upload_successful">Das Hochladen war erfolgreich</message>
+    <message key="xmlui.administrative.metadataimport.flow.upload_failed">Beim Hochladen ist ein Fehler aufgetreten</message>
+    <message key="xmlui.administrative.metadataimport.flow.import_successful">Import erfolgreich</message>
+    <message key="xmlui.administrative.metadataimport.flow.import_failed">Import fehlgeschlagen</message>
+    <message key="xmlui.administrative.metadataimport.flow.over_limit">Die Anzahl der durchzuführenden Änderungen übersteigt die maximale erlaubte Anzahl. Beschränken Sie Ihre Änderungen oder ändern Sie bulkedit.gui-item-limit in dspace.cfg</message>
+
+    <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportConfirm -->
+    <message key="xmlui.administrative.metadataimport.MetadataImportMain.submit_upload">CSV Hochladen</message>
+
+    <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportConfirm -->
+    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.success">Bearbeitung erfolgreich</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.changes_committed">Änderungen, die an dem Dokument durchgeführt wurden:</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_added">Hinzugefügt: </message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_removed">Entfernt: </message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_added">Zur Sammlung hinzugefügt</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_removed">Aus der Sammlung entfernt</message>
+        
+    <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportUpload -->
+    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_add">Hinzufügen: </message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_remove">Entfernen: </message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_add">Zur Sammlung hinzufügen</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_remove">Aus der Sammlung entfernen</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.changes_pending">Anstehenden Änderungen für das Dokument</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.submit_confirm">Änderungen durchführen</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.hint">Die anstehenden Änderungen sind unten zur Kontrolle aufgeführt.</message>
 	
 	<!-- general mapper messages -->
 	<message key="xmlui.administrative.mapper.general.mapper_trail">Dokumente Spiegeln</message>
@@ -1413,12 +1465,14 @@
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.role_group">Zugehörige Gruppe</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.role_buttons">  </message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_admins">Administratoren</message>
+		<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf">Bearbeitungsschritte im Geschäftsgang</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step1">Annehmen/Ablehnen Schritt</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step2">Annehmen/Ablehnen/Bearbeiten Schritt</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step3">Bearbeiten Schritt</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_submitters">Veröffentlichungsberechtigte</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_default_read">Standard lesender Zugriff</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.sysadmins_only"><nobr>(nur für Systemadministratoren)</nobr></message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>(Sie haben nicht die Berechtigung dies zu konfigurieren)</nobr></message>
 
 	<!-- org.dspace.app.xmlui.administrative.collection.DeleteCollectionConfirm.java -->
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.title">Löschung bestätigen</message>
@@ -1462,7 +1516,93 @@
 	<message key="xmlui.administrative.collection.CreateCollectionForm.trail">Sammlung anlegen</message>
 	<message key="xmlui.administrative.collection.CreateCollectionForm.main_head">Geben Sie die Informationen zur Sammlung: {0} ein</message>
 	<message key="xmlui.administrative.collection.CreateCollectionForm.submit_save">Anlegen</message>
+	<!-- General to the harvesting options under collection -->
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.title">Harvesting-Einstellungen für Sammlungen</message>
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.trail">Harvesting</message>
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.options_harvest">Quelle des Inhalts</message>
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.label_source">Quelle des Inhalts</message>
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.source_normal">Dies ist eine Standard-DSpace-Sammlung</message>
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.source_harvested">Diese Sammlung bezieht ihren Inhalt via Harvesting aus einer externen Quelle.</message>
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.submit_save">Speichern</message>
 	
+	<!-- org.dspace.app.xmlui.administrative.collection.SetupCollectionHarvestingForm.java -->
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.main_settings_head">Die per Harvesting bearbeitete Sammlung</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.options_head">Harvesting Optionen</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_oai_provider">OAI Provider</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_setid">OAI Set ID</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_metadata_format">Metadatenformat</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaiurl">Die URL des OAI Providers des Zielrepositoriums.</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaiurl">Sie müssen eine Set ID der Zielsammlung angeben.</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">Der Persistent Identifier, der vom OAI Provider für die Zielsammlung verwendet wird.</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">Sie müssen eine Set ID der Zielsammlung angeben.</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Inhalt wird über Harvesting bezogen</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Inhalt wird über Harvesting bezogen</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">Nur die Metadaten über Harvesting beziehen.</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">Beziehe die Metadaten über Harvesting und referenziere die Dateien (hierfür ist ORE Unterstützung Voraussetzung).</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_bs">Beziehe sowohl die Metadaten alsauch die Dateien über Harvesting (hierfür ist ORE Unterstützung Voraussetzung).</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.submit_test">Test-Einstellungen</message>
+	
+	<!-- org.dspace.app.xmlui.administrative.collection.EditCollectionHarvestingForm.java -->
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.main_settings_head">Die per Harvesting bearbeitete Sammlung</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_oai_provider">OAI Provider</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_setid">OAI Set ID</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_metadata_format">Metadatenformat</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_harvest_level">Inhalt wird über Harvesting bezogen</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_harvest_result">Ergebnisse des letzten Harvesting</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_result_new">Diese Sammlung wurde noch nicht per Harvesting abgearbeitet.</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_harvest_status">Aktueller Harvesting-Status</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_ready">Sammlung fürs Harvesting bereit</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_busy">Diese Sammlung wird gerade per Harvesting bearbeitet</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_queued">Diese Sammlung befindet sich in der Warteschleife für das Harvesting.</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_oai_error">Während des letzen Harvesting ist ein OAI-PMH Fehler aufgetreten.</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_unknown_error">Ein unerwarteter/unbekannter Fehler ist währen des letzten Harvestings aufgetreten.</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.option_md_only">HNur die Metadaten über Harvesting beziehen.</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.option_md_and_ref">Beziehe die Metadaten über Harvesting und referenziere die Dateien.</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.option_md_and_bs">Beziehe sowohl die Metadaten alsauch die Dateien über Harvesting (komplette Reproduktion der Ressource).</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.submit_change_settings">Einstellungen ändern</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.submit_import_now">Jetzt importieren</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.submit_reimport_collection">Den Status zurücketzen und die Sammlung nochmal importieren</message>
+
+	<message key="xmlui.administrative.ControlPanel.option_harvest">Harvesting</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_scheduler_head">Harvesting Zeitplaneinstellungen</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_status">Status</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_actions">Aktionen</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_submit_start">Das Harvesting starten</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_submit_reset">Den Harvestingstatus zurücksezten</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_submit_resume">Wiederaufnehmen</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_submit_pause">Pause</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_submit_stop">Stop</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_collections">Collectionen, die für das Harvesting eingerichtet sind</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_active">Laufenden Harvesting-Prozesse</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_queued">Harvesting Warteschleife</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_errors">OAI Fehlermeldungen</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_internal_errors">Interne Fehlermeldungen</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_head_generator_settings">Generator Einstellungen</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_url">OAI-PMH URL</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_source">ORE Quelle</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_head_harvester_settings">Harvester Einstellungen</message>	
+	
+		<!-- General tags for community management -->
+	<message key="xmlui.administrative.community.general.community_trail">Bereiche</message>
+	<message key="xmlui.administrative.community.general.options_metadata">Metadinformationen bearbeiten</message>
+	<message key="xmlui.administrative.community.general.options_roles">Bearbeiterrollen vergeben</message>
+	
+	<!-- org.dspace.app.xmlui.administrative.community.AssignCommunityRoles.java -->
+	<message key="xmlui.administrative.community.AssignCommunityRoles.title">Bearbeiten der Rollen für den Bereich</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.trail">Rollen</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.main_head">Bearbeiten des Bereiches: {0}</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.no_role">keine</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.create">Anlegen...</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.help_admins">Bereichsadministratoren können Teilbereiche und Sammlungen anlegen und selbige bearbeiten oder Bearbeiterfunktionen delegieren. Des weiteren können Sie bestimmen, wer in einer Sammlung veröffentlichen und wer nach Veröffentlichung die Metadaten bearbeiten darf. Zudem können sie Ressourcen aus anderen Sammlungen in die eigenen Sammlungen spiegeln, sofern die Rechte der zu spiegelnden Ressourcen dies erlauben.</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.default_read_custom">Dieser Bereich verwendet die Standardzugriffsrechte. </message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.default_read_anonymous">Der lesende Zugriff auf die Metadaten und Inhalte neuer Dokumente ist allen Nutzer gestattet.</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.edit_authorizations">Die Zugriffsrechte direkt bearbeiten.</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.role_name">Rolle</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.role_group">Zugehörige Gruppe</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.role_buttons">  </message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.label_admins">Administratoren</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.sysadmins_only"><nobr>(nur für Systemadministratoren)</nobr></message>
+		
 	<!-- org.dspace.app.xmlui.administrative.community.DeleteCommunityConfirm.java -->
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.title">Löschung bestätigen</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.trail">Bestätigen</message>
@@ -1472,6 +1612,12 @@
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item2">alle Dokumente, die ausschließlich in diesem Bereich enthalten sind</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item3">der Inhalt dieser Dokumente</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item4">alle Rechte zu diesem Bereich</message>
+
+	<!-- org.dspace.app.xmlui.administrative.community.DeleteCommunityRoleConfirm.java -->
+	<message key="xmlui.administrative.community.DeleteCommunityRoleConfirm.title">Bestätigung des Löschens der Bearbeiterrolle</message>
+	<message key="xmlui.administrative.community.DeleteCommunityRoleConfirm.trail">Bestätigen</message>
+	<message key="xmlui.administrative.community.DeleteCommunityRoleConfirm.main_head">Löschen der Rolle: {0} bestätigen</message>
+	<message key="xmlui.administrative.community.DeleteCommunityRoleConfirm.main_para">Sind Sie sicher, dass diese Rolle gelöscht werden soll? Alle Änderungen und Anpassungen an der Gruppe {0} sind damit unwiderruflich verloren.</message>
 	
 	<!-- org.dspace.app.xmlui.administrative.community.EditCommunityMetadataForm.java -->
 	<message key="xmlui.administrative.community.EditCommunityMetadataForm.title">Bereichsmetadaten bearbeiten</message>
@@ -1579,7 +1725,21 @@
 	<message key="xmlui.administrative.NotAuthorized.para2">Als anderer Benutzer einloggen.</message>
 	
 	
-	
+	    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     Statistics Aspect
+
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <message key="xmlui.statistics.title">Statistik</message>
+    <message key="xmlui.statistics.visits.total">Gesamtzahl der Zugriffe</message>
+    <message key="xmlui.statistics.visits.month">Gesamtzahl der Zugriffe pro Monat</message>
+    <message key="xmlui.statistics.visits.views">Zugriffe</message>
+    <message key="xmlui.statistics.visits.countries">Zugriffe nach Ländern</message>
+    <message key="xmlui.statistics.visits.cities">Zugriffe nach Städten</message>
+    <message key="xmlui.statistics.visits.bitstreams">Zugriffe auf Dateien</message>
+    <message key="xmlui.statistics.Navigation.title">Statistik</message>
+    <message key="xmlui.statistics.Navigation.view">Zugriffsstatistik</message>
+    <message key="xmlui.statistics.trail">Statistik</message>
 	
 	
 	
@@ -1656,6 +1816,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-size">Größe</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-format">Format</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Anzeige</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-description">Beschreibung</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Öffnen</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">Zu diesem Dokument gibt es keine Dateien.</message>
 
@@ -1774,6 +1935,45 @@
   <message key="xmlui.dri2xhtml.mimetype.video/mpeg2">MPEG-2 Video</message>
   <message key="xmlui.dri2xhtml.mimetype.video/mp4">MPEG-4 Video</message>
   <message key="xmlui.dri2xhtml.mimetype.video/quicktime">QuickTime Video</message>
-	
-	
+  
+    <!-- explanatory messages for choice authority confidence values -->
+  <message key="xmlui.authority.confidence.description.cf_unset">Dieser Wert wurde niemals validiert.</message>
+  <message key="xmlui.authority.confidence.description.cf_novalue">Im Normdatenbereich gibt es keinen passenden Wert.</message>
+  <message key="xmlui.authority.confidence.description.cf_rejected">Die Normdatenreferenz empfiehlt, diese Veröffentlichung abzulehnen</message>
+  <message key="xmlui.authority.confidence.description.cf_failed">Im Normdatenreferenzbereich ist ein interner Fehler aufgetreten.</message>
+  <message key="xmlui.authority.confidence.description.cf_notfound">Im Normdatenbereich gibt es keine passenden Treffer</message>
+  <message key="xmlui.authority.confidence.description.cf_ambiguous">Es gibt mehrere Treffer in der Normdatenreferenz.</message>
+  <message key="xmlui.authority.confidence.description.cf_uncertain">Der Wert ist eindeutig und gültig, wurde aber bis jetzt noch nicht von einem menschlichen Bearbeiter bestätigt und gilt somit als unsicher.</message>
+  <message key="xmlui.authority.confidence.description.cf_accepted">Dieser Normdateneintrag wurde von einem Benutzer als gültig bestätigt.</message>
+  <!-- help message on "unlock" button in EditItemMetadata display -->
+  <message key="xmlui.authority.confidence.unlock.help">Gebe den Normdatenwert für die manuelle Bearbeitung frei oder markiere ihn wieder als gesperrt.</message>
+
+  <!-- Choice Lookup popup window -->
+  <!-- NOTE: These messages necessarily use a *different* format for
+     - parameters, unfortunately, since substitution happens in the
+     - JavaScript (AJAX) that completes the lookup popup window.
+     - So, positional parameters are @1@, @2@, etc.
+    -->
+  <message key="xmlui.ChoiceLookupTransformer.title">DSpace Referenzwerte nachschlagen</message>
+  <message key="xmlui.ChoiceLookupTransformer.accept">Akzeptieren</message>
+  <message key="xmlui.ChoiceLookupTransformer.add">Hinzufügen</message>
+  <message key="xmlui.ChoiceLookupTransformer.cancel">Abbrechen</message>
+  <message key="xmlui.ChoiceLookupTransformer.more">Weitere Ergebnisse anzeigen</message>
+  <!-- params are: start, end, total-count, search-value -->
+  <message key="xmlui.ChoiceLookupTransformer.results">Ergebniss(e) @1@ bis @2@ von @3@ für "@4@"</message>
+  <message key="xmlui.ChoiceLookupTransformer.fail">Laden der Auswahldaten fehlgeschlagen: </message>
+
+  <!-- Choice Lookup - sample config for dc.publisher field -->
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.help">Name des Herausgebers</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.title">Herausgeber nachschlagen</message>
+  <!-- Params are: search-value -->
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.nonauthority">Nicht-Referenzwert: @1@</message>
+
+  <!-- Choice Lookup - sample config for dc.contributor.author field -->
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help">Name in der Form "Nachname, Vorname"</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help.last">Nachname, z. B. "Müller"</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help.first">Vorname(n) z. B. "Michael"</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.title">LC Personennamenreferenzdatenbank</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.nonauthority">Lokaler Wert "@1@" (nicht in Referenzdatenbank)</message>
+
 </catalogue>
