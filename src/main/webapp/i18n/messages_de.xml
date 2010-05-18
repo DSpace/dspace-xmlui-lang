@@ -167,6 +167,7 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">(Wähle Jahr)</message>	
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year">Oder geben Sie ein Jahr ein: </message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year_help">Auflistung von Dokumenten eines bestimmten Jahres.</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.no_results">Für diese Browse-Ansicht gibt es keine Ergebnisse.</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.sort_by">Sortiert nach: </message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.order"> Sortierung: </message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.rpp"> Ergebnisse: </message><!-- /Page -->
@@ -1285,6 +1286,8 @@
 	<message key="xmlui.administrative.item.MoveItemForm.collection_help">Wählen Sie die Sammlung, in die Sie das Dokument verschieben möchten.</message>
 	<message key="xmlui.administrative.item.MoveItemForm.collection_default">Sammlung wählen</message>
 	<message key="xmlui.administrative.item.MoveItemForm.submit_move">Verschieben</message>
+    <message key="xmlui.administrative.item.MoveItemForm.inherit_policies">Rechte erben</message>
+    <message key="xmlui.administrative.item.MoveItemForm.inherit_policies_help">Die Standardrechte der Zielsammlung erben</message>	
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditBitstreamForm -->
 	<message key="xmlui.administrative.item.EditBitstreamForm.title">Datei bearbeiten</message>
@@ -1391,14 +1394,18 @@
     <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.changes_committed">Änderungen, die an dem Dokument durchgeführt wurden:</message>
     <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_added">Hinzugefügt: </message>
     <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_removed">Entfernt: </message>
-    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_added">Zur Sammlung hinzugefügt</message>
-    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_removed">Aus der Sammlung entfernt</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_newowner">Zu besitzender Sammlung hinzugefügt</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_oldowner">Aus besitzender Sammlung entfernt</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_mapped">In Sammlung gespiegelt</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_unmapped">Spiegelung aus Sammlung gelöscht</message>
         
     <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportUpload -->
     <message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_add">Hinzufügen: </message>
     <message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_remove">Entfernen: </message>
-    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_add">Zur Sammlung hinzufügen</message>
-    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_remove">Aus der Sammlung entfernen</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_newowner">Zur neuen besitzenden Sammlung hinzufügen</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_oldowner">Aus besitzender Sammlung entfernen</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_mapped">In Sammlung spiegeln</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_unmapped">Spiegelung in Sammlung löschen</message>
     <message key="xmlui.administrative.metadataimport.MetadataImportUpload.changes_pending">Anstehenden Änderungen für das Dokument</message>
     <message key="xmlui.administrative.metadataimport.MetadataImportUpload.submit_confirm">Änderungen durchführen</message>
     <message key="xmlui.administrative.metadataimport.MetadataImportUpload.hint">Die anstehenden Änderungen sind unten zur Kontrolle aufgeführt.</message>
