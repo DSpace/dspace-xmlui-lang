@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="utf-8"?> 
 <!--
   messages_cs.xml
 
-  Version: $Revision: $
+  Version: $Revision: 4695 $
  
-  Date: $Date:$
+  Date: $Date: 2010-01-15 17:06:30 +0000 (Fri, 15 Jan 2010) $
  
  Copyright (c) 2002-2010, Duraspace.  All rights reserved.
 
@@ -35,8 +35,8 @@
  TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
  USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
  DAMAGE.
--->
-<catalogue xml:lang="cs" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+ -->
+<catalogue xml:lang="cs" xmlns:i18n="http://apache.org/cocoon/i18n/2.1" >
 	
 	<!--
 		The format used by all keys is as follows
@@ -166,6 +166,7 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">(Zvolte rok)</message>	
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year">Nebo napište rok:</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year_help">Prohlížet záznamy z daného roku.</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.no_results">Tento dotaz nevrátil žádné výsledky.</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.sort_by">Seřadit dle:</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.order">Řazení:</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.rpp">Výsledky:</message><!-- /Page -->
@@ -1275,6 +1276,8 @@
 	<message key="xmlui.administrative.item.MoveItemForm.collection_help">Vyberte kolekci, do které chcete přesunout tento záznam.</message>
 	<message key="xmlui.administrative.item.MoveItemForm.collection_default">Vyberte kolekci...</message>
 	<message key="xmlui.administrative.item.MoveItemForm.submit_move">Přesunout</message>
+	<message key="xmlui.administrative.item.MoveItemForm.inherit_policies">Zdědit politiky</message>
+	<message key="xmlui.administrative.item.MoveItemForm.inherit_policies_help">Zdědit výchozí politiky cílové kolekce</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditBitstreamForm -->
 	<message key="xmlui.administrative.item.EditBitstreamForm.title">Editovat bitový tok</message>
@@ -1382,14 +1385,18 @@
 	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.changes_committed">Změny byly aplikovány v záznamu</message>
 	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_added">Přidané: </message>
 	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_removed">Odstraněné: </message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_added">Přidané do kolekce</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_removed">Odstraněné z kolekce</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_newowner">Přidané do vlastnící kolekce</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_oldowner">Odstraněné z vlastnící kolekce</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_mapped">Namapované do kolekce</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_unmapped">Odmapované z kolekce</message>
 
 	<!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportUpload -->
 	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_add">Přidat: </message>
 	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_remove">Odstranit: </message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_add">Přidat do kolekce</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_remove">odstranit z kolekce</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_newowner">Přidat do vlastnící kolekce</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_oldowner">odstranit z vlastnící kolekce</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_mapped">Namapovat do kolekce</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_unmapped">Odmapovat z kolekce</message>
 	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.changes_pending">Čekající změny záznamu</message>
 	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.submit_confirm">Použít změny</message>
 	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.hint">Změny záznamu čekající na kontrolu jsou uvedeny níže</message>
