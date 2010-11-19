@@ -46,7 +46,13 @@
 	<message key="xmlui.PageNotFound.title">Seite nicht gefunden</message>
 	<message key="xmlui.PageNotFound.head">Seite nicht gefunden</message>
 	<message key="xmlui.PageNotFound.para1">Die Seite, die Sie angefordert haben, konnte nicht gefunden werden.</message>
-	
+
+	<!--
+	   The "utils" non-aspect
+       -->
+    <message key="xmlui.utils.AuthenticationUtil.onlyAdmins">Nur Administratoren dieser Seite dürfen sich als anderer Nutzer anmelden.</message>
+    <message key="xmlui.utils.AuthenticationUtil.onlyAuthenticatedAdmins">Nur authentifizierte Administratoren dürfen sich als anderer Nutzer anmelden.</message>
+    <message key="xmlui.utils.AuthenticationUtil.notAnotherAdmin">Sie können nicht die Identität eines anderen Administrators annehmen.</message>	
 	
 	<!--
 		This section is for feed syndications (RSS, atom, etc)  
@@ -1210,6 +1216,8 @@
 	<message key="xmlui.administrative.item.general.option_bitstreams">Zugehörige Dateien</message>
 	<message key="xmlui.administrative.item.general.option_metadata">Metadaten</message>
 	<message key="xmlui.administrative.item.general.option_view">Dokumentanzeige</message>
+	<message key="xmlui.administrative.item.general.option_curate">Pflege</message>
+    <message key="xmlui.administrative.item.general.option_queue">Zu Bearbeiten</message>
 	
 	<!-- org.dspace.app.xmlui.administrative.item.AddBitstreamForm -->
 	<message key="xmlui.administrative.item.AddBitstreamForm.title">Datei hochladen</message>
@@ -1337,7 +1345,13 @@
 	<!-- org.dspace.app.xmlui.administrative.item.ViewItem -->
 	<message key="xmlui.administrative.item.ViewItem.title">Dokumentanzeige</message>
 	<message key="xmlui.administrative.item.ViewItem.trail">Dokumentanzeige</message>
-	
+
+    <!-- org.dspace.app.xmlui.administrative.item.CurateItemForm.java -->
+    <message key="xmlui.administrative.item.CurateItemForm.main_head">Pflege des Dokuments: {0}</message>
+    <message key="xmlui.administrative.item.CurateItemForm.title">Dokumentpflege</message>
+    <message key="xmlui.administrative.item.CurateItemForm.trail">Kurator</message>
+    <message key="xmlui.administrative.item.CurateItemForm.label_name">Aufgabe</message>
+    	
 	<!-- org.dspace.app.xmlui.administrative.item.FindItemForm -->
 	<message key="xmlui.administrative.item.FindItemForm.title">Dokumentsuche</message>
 	<message key="xmlui.administrative.item.FindItemForm.head1">Dokumentsuche</message>
@@ -1354,6 +1368,8 @@
     <message key="xmlui.administrative.metadataimport.general.new_item">Neues Dokument</message>
     <message key="xmlui.administrative.metadataimport.flow.upload_successful">Das Hochladen war erfolgreich</message>
     <message key="xmlui.administrative.metadataimport.flow.upload_failed">Beim Hochladen ist ein Fehler aufgetreten</message>
+    <message key="xmlui.administrative.metadataimport.flow.upload_badschema">Unbekanntes Metadatenschema in der Überschrift</message>
+    <message key="xmlui.administrative.metadataimport.flow.upload_badelement">Unbekanntes Metadatenelement in der Überschrift</message>
     <message key="xmlui.administrative.metadataimport.flow.import_successful">Import erfolgreich</message>
     <message key="xmlui.administrative.metadataimport.flow.import_failed">Import fehlgeschlagen</message>
     <message key="xmlui.administrative.metadataimport.flow.over_limit">Die Anzahl der durchzuführenden Änderungen übersteigt die maximale erlaubte Anzahl. Beschränken Sie Ihre Änderungen oder ändern Sie bulkedit.gui-item-limit in dspace.cfg</message>
@@ -1422,7 +1438,8 @@
 	<message key="xmlui.administrative.collection.general.collection_trail">Sammlungen</message>	
 	<message key="xmlui.administrative.collection.general.options_metadata">Metadaten bearbeiten</message>	
 	<message key="xmlui.administrative.collection.general.options_roles">Bearbeiterrollen zuordnen</message>	
-	
+	<message key="xmlui.administrative.collection.general.options_curate">Pflegen</message>
+    <message key="xmlui.administrative.collection.general.options_queue">Zu Bearbeiten</message>
 	
 	<!-- org.dspace.app.xmlui.administrative.collection.AssignCollectionRoles.java -->
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.title">Bearbeiterrollen der Sammlung bearbeiten</message>
@@ -1453,6 +1470,12 @@
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.sysadmins_only"><nobr>(nur für Systemadministratoren)</nobr></message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>(Sie haben nicht die Berechtigung dies zu konfigurieren)</nobr></message>
 
+    <!-- org.dspace.app.xmlui.administrative.collection.CurateCollectionForm.java -->
+    <message key="xmlui.administrative.collection.CurateCollectionForm.main_head">Pflege der Sammlung: {0}</message>
+    <message key="xmlui.administrative.collection.CurateCollectionForm.title">Pflege einer Sammlung</message>
+    <message key="xmlui.administrative.collection.CurateCollectionForm.trail">Kurator</message>
+    <message key="xmlui.administrative.collection.CurateCollectionForm.label_name">Aufgabe</message>
+        
 	<!-- org.dspace.app.xmlui.administrative.collection.DeleteCollectionConfirm.java -->
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.title">Löschung bestätigen</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.trail">Bestätigen</message>
@@ -1565,6 +1588,8 @@
 	<message key="xmlui.administrative.community.general.community_trail">Bereiche</message>
 	<message key="xmlui.administrative.community.general.options_metadata">Metadinformationen bearbeiten</message>
 	<message key="xmlui.administrative.community.general.options_roles">Bearbeiterrollen vergeben</message>
+	<message key="xmlui.administrative.community.general.options_curate">Bestandspflege</message>
+    <message key="xmlui.administrative.community.general.options_queue">Zu Bearbeiten</message>
 	
 	<!-- org.dspace.app.xmlui.administrative.community.AssignCommunityRoles.java -->
 	<message key="xmlui.administrative.community.AssignCommunityRoles.title">Bearbeiten der Rollen für den Bereich</message>
@@ -1581,7 +1606,13 @@
 	<message key="xmlui.administrative.community.AssignCommunityRoles.role_buttons">  </message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.label_admins">Administratoren</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.sysadmins_only"><nobr>(nur für Systemadministratoren)</nobr></message>
-		
+
+    <!-- org.dspace.app.xmlui.administrative.community.CurateCommunityForm.java -->
+    <message key="xmlui.administrative.community.CurateCommunityForm.main_head">Bereichspflege: {0}</message>
+    <message key="xmlui.administrative.community.CurateCommunityForm.title">Bereichspflege</message>
+    <message key="xmlui.administrative.community.CurateCommunityForm.trail">Kurator</message>
+    <message key="xmlui.administrative.community.CurateCommunityForm.label_name">Aufgabe</message>
+        		
 	<!-- org.dspace.app.xmlui.administrative.community.DeleteCommunityConfirm.java -->
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.title">Löschung bestätigen</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.trail">Bestätigen</message>
@@ -1792,6 +1823,7 @@
 	
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-head">Dateien zu dieser Ressource</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-file">Dateien</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-files-name">Name</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-size">Größe</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-format">Format</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Anzeige</message>
