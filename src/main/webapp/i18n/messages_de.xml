@@ -35,6 +35,8 @@
 	<message key="xmlui.general.delete">Löschen</message>
 	<message key="xmlui.general.next">Weiter</message>
 	<message key="xmlui.general.untitled">Ohne Titel</message>
+	<message key="xmlui.general.perform">Ausführen</message>
+    <message key="xmlui.general.queue">In die Warteschleife</message>
 	
 	
 	<!-- 
