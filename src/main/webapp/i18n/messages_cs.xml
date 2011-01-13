@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?> 
 <!--
 
     The contents of this file are subject to the license and copyright
@@ -6,57 +7,21 @@
 
     http://www.dspace.org/license/
 
+    Version: $Revision$
+    Date: $Date$
 -->
-<?xml version="1.0" encoding="utf-8"?> 
-<!--
-  messages_cs.xml
-
-  Version: $Revision: 4695 $
- 
-  Date: $Date: 2010-01-15 17:06:30 +0000 (Fri, 15 Jan 2010) $
- 
- Copyright (c) 2002-2010, Duraspace.  All rights reserved.
-
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions are
- met:
-
- - Redistributions of source code must retain the above copyright
- notice, this list of conditions and the following disclaimer.
-
- - Redistributions in binary form must reproduce the above copyright
- notice, this list of conditions and the following disclaimer in the
- documentation and/or other materials provided with the distribution.
-
- - Neither the name of Duraspace nor the names of its
- contributors may be used to endorse or promote products derived from
- this software without specific prior written permission.
-
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
- ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
- HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
- BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
- OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
- ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
- TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
- USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
- DAMAGE.
- -->
-<catalogue xml:lang="cs" xmlns:i18n="http://apache.org/cocoon/i18n/2.1" >
+<catalogue xml:lang="cs" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
 	
 	<!--
 		The format used by all keys is as follows
 		
 		xmlui.<Aspect>.<Java Class>.<name>
 		
-		There are a few exceptions to this nameing format,
+		There are a few exceptions to this naming format,
 		1) Some general keys are in the xmlui.general namespace 
 		   because they are used very frequently.
 		2) Some general keys which are specific to a particular aspect 
-		   may be found at xmlui.<Aspect> without specifiying a 
+		   may be found at xmlui.<Aspect> without specifying a 
 		   particular java class. 
 		--> 
 	
@@ -72,7 +37,8 @@
 	<message key="xmlui.general.delete">Smazat</message>
 	<message key="xmlui.general.next">Další</message>
 	<message key="xmlui.general.untitled">Nepojmenovaný</message>
-	
+	<message key="xmlui.general.perform">Vykonat</message>
+	<message key="xmlui.general.queue">Fronta</message>
 	
 	<!-- 
 		Page not found keys 
@@ -85,6 +51,14 @@
 	<message key="xmlui.PageNotFound.para1">Stránka, kterou jste požadovali, nebyla nalezena.</message>
 	
 	
+	<!--
+		The "utils" non-aspect
+	-->
+	<message key="xmlui.utils.AuthenticationUtil.onlyAdmins">Pouze správci stránek se mohou přihlásit pod identitou jiného uživatele.</message>
+	<message key="xmlui.utils.AuthenticationUtil.onlyAuthenticatedAdmins">Pouze přihlášení uživatelé, kteří jsou správci, se mohou přihlásit pod identitou jiného uživatele.</message>
+	<message key="xmlui.utils.AuthenticationUtil.notAnotherAdmin">Není možné se přihlásit pod identitou jiného správce.</message>
+
+
 	<!--
 		This section is for feed syndications (RSS, atom, etc)  
 	-->
@@ -115,7 +89,7 @@
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_community">Výsledky hledání komunity: {0}</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_collection">Výsledky hledání kolekce: {0}</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_none">Výsledky hledání</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.result_query">Váš dotaz „{0}“ přinesl {1} výsledků.</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.result_query">Váš dotaz "{0}“ přinesl {1} výsledků.</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head2">Komunity a kolekce odpovídající vašemu dotazu</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head3">Záznamy odpovídající vašemu dotazu</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">Hledání nepřineslo žádné výsledky.</message>
@@ -447,8 +421,8 @@
 	<message key="xmlui.EPerson.FailedAuthentication.BadArgs">Nebylo možné ověřit, protože byly přijaty neplatné argumenty.</message>
 	<message key="xmlui.EPerson.FailedAuthentication.NoSuchUser">Uživatel s uvedenými přihlašovacími údaji nebyl nalezen.</message>
 	<message key="xmlui.EPerson.FailedAuthentication.title">Autentifikace se nezdařila</message>
-    <message key="xmlui.EPerson.FailedAuthentication.trail">Nezdařená autentifikace</message>
-    <message key="xmlui.EPerson.FailedAuthentication.h1">Autentifikace se nezdařila</message>
+	<message key="xmlui.EPerson.FailedAuthentication.trail">Nezdařená autentifikace</message>
+	<message key="xmlui.EPerson.FailedAuthentication.h1">Autentifikace se nezdařila</message>
 	
 	<!-- Login xml files -->
 	<message key="xmlui.eperson.noAuthMethod.head">Metoda autentifikace nebyla nalezena</message>
@@ -659,11 +633,11 @@
 	<!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
 	<message key="xmlui.Submission.submit.UploadStep.head">Nahrat soubory</message>
 	<message key="xmlui.Submission.submit.UploadStep.file">Soubor</message>
-	<message key="xmlui.Submission.submit.UploadStep.file_help">Prosím, zadejte plnou cestu k souboru na vašem počítači, která odpovídá vašemu záznamu. Po kliknutí na „Procházet...“ se zobrazí nové okno, které vám umožní vybrat soubor z vašeho počítače.</message>
+	<message key="xmlui.Submission.submit.UploadStep.file_help">Prosím, zadejte plnou cestu k souboru na vašem počítači, která odpovídá vašemu záznamu. Po kliknutí na "Procházet...“ se zobrazí nové okno, které vám umožní vybrat soubor z vašeho počítače.</message>
 	<message key="xmlui.Submission.submit.UploadStep.file_error">Záznam musí obsahovat alespoň jeden soubor.</message>
 	<message key="xmlui.Submission.submit.UploadStep.upload_error">Vyskytl se problém při nahrávání vašeho souboru. Buď nebyl správně zadán název souboru nebo nastal problém v síti, který znemožnil korektní uložení vašeho souboru. Další přičinou může být pokus o nahrání souboru ve formátu, který je jen pro interní použití. Prosím, zkuste to znovu.</message>
 	<message key="xmlui.Submission.submit.UploadStep.description">Popis souboru</message>
-	<message key="xmlui.Submission.submit.UploadStep.description_help">Můžete poskytnout stručný popis souboru, např. „<i>Hlavní článek</i>“ nebo „<i>Experimentální hodnoty dat</i>“.</message>
+	<message key="xmlui.Submission.submit.UploadStep.description_help">Můžete poskytnout stručný popis souboru, např. "<i>Hlavní článek</i>“ nebo "<i>Experimentální hodnoty dat</i>“.</message>
 	<message key="xmlui.Submission.submit.UploadStep.submit_upload">Nahrát soubor a přidat další</message>
 	<message key="xmlui.Submission.submit.UploadStep.head2">Nahrané soubory</message>
 	<message key="xmlui.Submission.submit.UploadStep.column0">Primární</message>
@@ -686,14 +660,14 @@
 	<message key="xmlui.Submission.submit.EditFileStep.head">Editovat soubor</message>
 	<message key="xmlui.Submission.submit.EditFileStep.file">Soubor</message>
 	<message key="xmlui.Submission.submit.EditFileStep.description">Popis souboru</message>
-	<message key="xmlui.Submission.submit.EditFileStep.description_help">Můžete dodat stručný popis obsahu tohoto souboru. Například „<i>Hlavní článek</i>“ nebo „<i>Experimentální hodnoty dat</i>“.</message>
-	<message key="xmlui.Submission.submit.EditFileStep.info1">Z níže uvedeného seznamu vyberte formát souboru, například „<i>Adobe PDF</i>“ nebo „<i>Microsoft Word</i>“. <strong>Není-li formát v seznamu</strong>, a popište ho v textovém poli pod seznamem.</message>
+	<message key="xmlui.Submission.submit.EditFileStep.description_help">Můžete dodat stručný popis obsahu tohoto souboru. Například "<i>Hlavní článek</i>“ nebo "<i>Experimentální hodnoty dat</i>“.</message>
+	<message key="xmlui.Submission.submit.EditFileStep.info1">Z níže uvedeného seznamu vyberte formát souboru, například "<i>Adobe PDF</i>“ nebo "<i>Microsoft Word</i>“. <strong>Není-li formát v seznamu</strong>, a popište ho v textovém poli pod seznamem.</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_detected">Zjištený formát</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_selected">Vybraný formát</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_default">Formát není v seznamu</message>
-	<message key="xmlui.Submission.submit.EditFileStep.info2">Není-li formát ve výše uvedeném seznamu, <strong>vyberte „Formát není v seznamu“ výše</strong> a popište formát souboru ve spodním poli.</message>
+	<message key="xmlui.Submission.submit.EditFileStep.info2">Není-li formát ve výše uvedeném seznamu, <strong>vyberte "Formát není v seznamu“ výše</strong> a popište formát souboru ve spodním poli.</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_user">Jiný formát</message>
-	<message key="xmlui.Submission.submit.EditFileStep.format_user_help">Název aplikace, kterou jste použili k vytvoření souboru, a číslo verze (např. „<i>ACMESoft SuperApp verze 1.5</i>“).</message>
+	<message key="xmlui.Submission.submit.EditFileStep.format_user_help">Název aplikace, kterou jste použili k vytvoření souboru, a číslo verze (např. "<i>ACMESoft SuperApp verze 1.5</i>“).</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.ReviewStep -->
 	<message key="xmlui.Submission.submit.ReviewStep.head">Zkontrolovat záznam</message>
@@ -722,11 +696,11 @@
 	<!-- org.dspace.app.xmlui.Submission.submit.LicenseStep -->
 	<message key="xmlui.Submission.submit.LicenseStep.head">Distribuční licence</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>Ještě poslední krok:</strong> Aby mohl DSpace kopírovat, překládat a šířit váš příspěvek celosvětově, musíte souhlasit s následujícími podmínkami.</message>
-	<message key="xmlui.Submission.submit.LicenseStep.info2">Udělte standardní distribuční licenci vybráním „Uděluji licenci“ a potom klikněte na „Dokončit příspěvek“.</message>
+	<message key="xmlui.Submission.submit.LicenseStep.info2">Udělte standardní distribuční licenci vybráním "Uděluji licenci“ a potom klikněte na "Dokončit příspěvek“.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info3">Pokud máte dotazy týkající se této licence, prosím kontaktujte správce systému.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_label">Distribuční licence</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_checkbox">Uděluji licenci</message>
-	<message key="xmlui.Submission.submit.LicenseStep.decision_error">Abyste mohli dokončit zaslání příspěvku, musíte udělit tuto licenci. Pokud momentálně nejste schopni udělit tuto licenci, můžete svou práci uložit a vrátit se k ní později nebo můžete odstranit příspěvek kliknutím na tlačítko „Uložit a ukončit“.</message>
+	<message key="xmlui.Submission.submit.LicenseStep.decision_error">Abyste mohli dokončit zaslání příspěvku, musíte udělit tuto licenci. Pokud momentálně nejste schopni udělit tuto licenci, můžete svou práci uložit a vrátit se k ní později nebo můžete odstranit příspěvek kliknutím na tlačítko "Uložit a ukončit“.</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.RemovedStep -->
 	<message key="xmlui.Submission.submit.RemovedStep.head">Příspěvek odstraněn</message>
@@ -745,11 +719,11 @@
 	<message key="xmlui.Submission.workflow.PerformTaskStep.take_submit">Převzít úlohu</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.leave_help">Ponechat tuto úlohu v zásobníku, aby ji převzal někdo jiný.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.leave_submit">Zanechat úlohu</message>
-	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_help">Vyberte „Schválit“, pokud záznam splňuje podmínky pro vložení do repozitáře DSpace.</message>
+	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_help">Vyberte "Schválit“, pokud záznam splňuje podmínky pro vložení do repozitáře DSpace.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_submit">Schválit záznam</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_help">Pokud jste již záznam editovali, použijte tuto volbu pro zapsání záznamu do archivu.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_submit">Uložit do archivu</message>
-	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">Jestli jste zkontrolovali záznam a je <strong>ne</strong>vhodný na vložení do kolekce, vyberte „Zamítnout“. Do následující zprávy pak vyplňte proč je záznam nevhodný a zda by měl odesílatel něco změnit a záznam znovu odeslat.</message>
+	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">Jestli jste zkontrolovali záznam a je <strong>ne</strong>vhodný na vložení do kolekce, vyberte "Zamítnout“. Do následující zprávy pak vyplňte proč je záznam nevhodný a zda by měl odesílatel něco změnit a záznam znovu odeslat.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_submit">Zamítnout záznam</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.edit_help">Vyberte tuto volbu pro změnu metadat záznamu.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.edit_submit">Editovat metadata</message>
@@ -846,9 +820,9 @@
 	<message key="xmlui.administrative.ItemExport.item.not.found">Požadovaný záznam nebyl nalezen.</message>
 	<message key="xmlui.administrative.ItemExport.collection.not.found">Požadovaná kolekce nebyla nalezena.</message>
 	<message key="xmlui.administrative.ItemExport.community.not.found">Požadovaná komunita nebyla nalezena.</message>
-	<message key="xmlui.administrative.ItemExport.item.success">Záznam byl úspěšně exportován. Měli byste obdržet e-mail, jakmile bude archiv připraven na stažení. Můžete také použít odkaz „Moje exporty“ k zobrazení seznamu archivů, které jsou pro vás dostupné.</message>
-	<message key="xmlui.administrative.ItemExport.collection.success">Kolekce byla úspěšně exportována. Měli byste obdržet e-mail, jakmile bude archiv připraven na stažení. Můžete také použít odkaz „Moje exporty“ k zobrazení seznamu archivů, které jsou pro vás dostupné.</message>
-	<message key="xmlui.administrative.ItemExport.community.success">Komunita byla úspěšně exportována. Měli byste obdržet e-mail, jakmile bude archiv připraven na stažení. Můžete také použít odkaz „Moje exporty“ k zobrazení seznamu archivů, které jsou pro vás dostupné.</message>
+	<message key="xmlui.administrative.ItemExport.item.success">Záznam byl úspěšně exportován. Měli byste obdržet e-mail, jakmile bude archiv připraven na stažení. Můžete také použít odkaz "Moje exporty“ k zobrazení seznamu archivů, které jsou pro vás dostupné.</message>
+	<message key="xmlui.administrative.ItemExport.collection.success">Kolekce byla úspěšně exportována. Měli byste obdržet e-mail, jakmile bude archiv připraven na stažení. Můžete také použít odkaz "Moje exporty“ k zobrazení seznamu archivů, které jsou pro vás dostupné.</message>
+	<message key="xmlui.administrative.ItemExport.community.success">Komunita byla úspěšně exportována. Měli byste obdržet e-mail, jakmile bude archiv připraven na stažení. Můžete také použít odkaz "Moje exporty“ k zobrazení seznamu archivů, které jsou pro vás dostupné.</message>
 	<message key="xmlui.administrative.ItemExport.available.head">Exportní archivy dostupné na stažení:</message>
 	
 
@@ -1060,8 +1034,8 @@
 	<!-- org.dspace.app.xmlui.administrative.registries.EditMetadataSchema.java -->
 	<message key="xmlui.administrative.registries.EditMetadataSchema.title">Schéma metadat</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.trail">Schéma metadat</message>
-	<message key="xmlui.administrative.registries.EditMetadataSchema.head1">Schéma metadat: „{0}“</message>
-	<message key="xmlui.administrative.registries.EditMetadataSchema.para1">Toto je schéma metadat pro „{0}“. Můžete přidat nové nebo aktualizovat stávající pole metadat do tohoto schématu. Pole můžete také vybrat pro smazání nebo přesun do jiného schématu.</message>
+	<message key="xmlui.administrative.registries.EditMetadataSchema.head1">Schéma metadat: "{0}“</message>
+	<message key="xmlui.administrative.registries.EditMetadataSchema.para1">Toto je schéma metadat pro "{0}“. Můžete přidat nové nebo aktualizovat stávající pole metadat do tohoto schématu. Pole můžete také vybrat pro smazání nebo přesun do jiného schématu.</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head2">Pole schematu metadat</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column1"/>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column2">ID</message>
@@ -1088,7 +1062,7 @@
 	<!-- org.dspace.app.xmlui.administrative.registries.FormatRegistryMain.java -->
 	<message key="xmlui.administrative.registries.FormatRegistryMain.title">Registr formátů</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.head">Registr formátů bitového toku</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.para1">Tento seznam formátů bitových toků poskytuje informace o známych formátech a úrovni jejich podpory. Pomocí tohoto nástroje můžete upravovat nebo přidávat nové formáty bitových toků. Formáty označené jako „interní“ jsou uživatelům skryté a používají se na účely správy.</message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.para1">Tento seznam formátů bitových toků poskytuje informace o známych formátech a úrovni jejich podpory. Pomocí tohoto nástroje můžete upravovat nebo přidávat nové formáty bitových toků. Formáty označené jako "interní“ jsou uživatelům skryté a používají se na účely správy.</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.new_link">Přidat nový formát bitového toku</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column2">ID</message>
@@ -1155,8 +1129,8 @@
 	<!-- org.dspace.app.xmlui.administrative.authorization.EditContainerPolicies -->
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.title">Editovat politiku</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.trail">Seznam politik</message>
-	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_head_collection">Politiky kolekce „{0}“ ({1},ID: {2})</message>
-	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_head_community">Politiky komunity „{0}“ ({1},ID: {2})</message>
+	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_head_collection">Politiky kolekce "{0}“ ({1},ID: {2})</message>
+	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_head_community">Politiky komunity "{0}“ ({1},ID: {2})</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_add_link">Kliknutím zde přidáte novou politiku.</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.submit_add">Přidat</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_id">ID</message>
@@ -1200,8 +1174,8 @@
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_head">Výsledky hledání</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.policy_currentGroup">Vybrat skupinu</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.label_search">Hledat skupinu</message>
-    <message key="xmlui.administrative.authorization.EditPolicyForm.submit_search_groups">Hledat</message>
-    <message key="xmlui.administrative.authorization.EditPolicyForm.label_action">Vybrat operaci</message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.submit_search_groups">Hledat</message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.label_action">Vybrat operaci</message>
     
 	
 	<!-- org.dspace.app.xmlui.administrative.authorization.AdvacedAuthorizationsForm -->
@@ -1210,9 +1184,9 @@
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.main_head">Pokročilý správce politik</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.main_para">Dovoluje použití zástupných znaků a vyčištění politik pro typy obsahu v rámci konkrétních kolekcí. UPOZORNĚNÍ - odstranění práva čtení (READ) ze záznamu ho učiní nezobrazitelným!</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_groupSentence">Pro všechny vybrané skupiny...</message>
-    <message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_actionSentence">...udělit schopnost vykonat následující operaci...</message>
+	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_actionSentence">...udělit schopnost vykonat následující operaci...</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_resourceSentence">...pro všechny následující typy objektů...</message>
-    <message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_collectionSentence">...v následujících kolekcích.</message>
+	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_collectionSentence">...v následujících kolekcích.</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_policyGroup">Skupina</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_policyAction">Operace</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_policyResource">Typ obsahu</message>
@@ -1237,6 +1211,8 @@
 	<message key="xmlui.administrative.item.general.option_bitstreams">Bitové toky záznamu</message>
 	<message key="xmlui.administrative.item.general.option_metadata">Metadata záznamu</message>
 	<message key="xmlui.administrative.item.general.option_view">Zobrazit záznam</message>
+	<message key="xmlui.administrative.item.general.option_curate">Spravovat</message>
+	<message key="xmlui.administrative.item.general.option_queue">Fronta</message>
 	
 	<!-- org.dspace.app.xmlui.administrative.item.AddBitstreamForm -->
 	<message key="xmlui.administrative.item.AddBitstreamForm.title">Nahrát bitový tok</message>
@@ -1249,9 +1225,9 @@
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.LICENSE">Licence</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.CC_LICENSE">Licence Creative Commons</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.file_label">Soubor</message>
-	<message key="xmlui.administrative.item.AddBitstreamForm.file_help">Prosím, zadejte název souboru na vašem počítači, který odpovídá vašemu záznamu. Po kliknutí na „Procházet...“ se zobrazí nové okno, které vám umožní vybrat soubor z vašeho počítače.</message>
+	<message key="xmlui.administrative.item.AddBitstreamForm.file_help">Prosím, zadejte název souboru na vašem počítači, který odpovídá vašemu záznamu. Po kliknutí na "Procházet...“ se zobrazí nové okno, které vám umožní vybrat soubor z vašeho počítače.</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.description_label">Popis</message>
-	<message key="xmlui.administrative.item.AddBitstreamForm.description_help">Můžete poskytnout stručný popis souboru, např. „<i>Hlavní článek</i>“ nebo „<i>Experimentální hodnoty dat</i>“.</message>
+	<message key="xmlui.administrative.item.AddBitstreamForm.description_help">Můžete poskytnout stručný popis souboru, např. "<i>Hlavní článek</i>“ nebo "<i>Experimentální hodnoty dat</i>“.</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.submit_upload">Nahrát</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.no_bundles">Potřebujete oprávnění ADD a WRITE alespoň na jednom svazku, abyste mohli nahrávat nové bitové toky.</message>
 	
@@ -1277,7 +1253,7 @@
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_withdraw">Vyřadit</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_reinstate">Znovu zařadit</message>
 
-    <!-- org.dspace.app.xmlui.aspect.administrative.item.MoveItemForm -->
+	<!-- org.dspace.app.xmlui.aspect.administrative.item.MoveItemForm -->
 	<message key="xmlui.administrative.item.MoveItemForm.title">Přesunout</message>
 	<message key="xmlui.administrative.item.MoveItemForm.trail">Přesunout</message>
 	<message key="xmlui.administrative.item.MoveItemForm.head1">Přesunout záznam: {0}</message>
@@ -1297,13 +1273,13 @@
 	<message key="xmlui.administrative.item.EditBitstreamForm.primary_option_yes">ano</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.primary_option_no">ne</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.description_label">Popis</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.description_help">Můžete poskytnout stručný popis souboru, např. „<i>Hlavní článek</i>“ nebo „<i>Experimentální hodnoty dat</i>“.„</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.para1">Ze seznamu níže vyberte formát souboru, například „<i>Adobe PDF</i>“ nebo „<i>Microsoft Word</i>“, <b>NEBO</b> pokud se formát souboru nenachází v seznamu, popište ho prosím do pole níže.</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.description_help">Můžete poskytnout stručný popis souboru, např. "<i>Hlavní článek</i>“ nebo "<i>Experimentální hodnoty dat</i>“."</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.para1">Ze seznamu níže vyberte formát souboru, například "<i>Adobe PDF</i>“ nebo "<i>Microsoft Word</i>“, <b>NEBO</b> pokud se formát souboru nenachází v seznamu, popište ho prosím do pole níže.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.format_label">Vybraný formát</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.format_default">Formát není v seznamu</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.para2">Není-li formát uveden na seznamu výše, <strong>vyberte „Formát není v seznamu“ výše</strong> popište ho v poli níže.</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.para2">Není-li formát uveden na seznamu výše, <strong>vyberte "Formát není v seznamu“ výše</strong> popište ho v poli níže.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_label">Jiný formát</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">Aplikace, kterou jste použili na vytvoření souboru a číslo verze (např. „<i>ACMESoft SuperApp verze 1.5</i>“).</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">Aplikace, kterou jste použili na vytvoření souboru a číslo verze (např. "<i>ACMESoft SuperApp verze 1.5</i>“).</message>
 	
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.title">Bitové toky záznamu</message>
@@ -1358,13 +1334,17 @@
 	<message key="xmlui.administrative.item.EditItemStatusForm.submit_delete">Trvale vymazat</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.na">n/a</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.sysadmins_only">(jen pro správce systému)</message>
-
 	<message key="xmlui.administrative.item.EditItemStatusForm.collection_admins_only">(jen pro správce kolekce)</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.not_allowed">(nemáte oprávnění vykonat tuto operaci)</message>
 	
 	<!-- org.dspace.app.xmlui.administrative.item.ViewItem -->
 	<message key="xmlui.administrative.item.ViewItem.title">Zobrazit záznam</message>
 	<message key="xmlui.administrative.item.ViewItem.trail">Zobrazit záznam</message>
+	<!-- org.dspace.app.xmlui.administrative.item.CurateItemForm.java -->
+	<message key="xmlui.administrative.item.CurateItemForm.main_head">Spravovat položku: {0}</message>
+	<message key="xmlui.administrative.item.CurateItemForm.title">Spravovat položku</message>
+	<message key="xmlui.administrative.item.CurateItemForm.trail">Kurátor</message>
+	<message key="xmlui.administrative.item.CurateItemForm.label_name">Úloha</message>
 	
 	<!-- org.dspace.app.xmlui.administrative.item.FindItemForm -->
 	<message key="xmlui.administrative.item.FindItemForm.title">Najít záznam</message>
@@ -1377,14 +1357,16 @@
 	<message key="xmlui.administrative.metadataimport.general.title">Importovat Metadata</message>
 	<message key="xmlui.administrative.metadataimport.general.head1">Importovat Metadata</message>
 	<message key="xmlui.administrative.metadataimport.general.trail">Importovat Metadata</message>
-	<message key="xmlui.administrative.metadataimport.general.changes">changes</message>
-	<message key="xmlui.administrative.metadataimport.general.no_changes">No changes were detected</message>
-	<message key="xmlui.administrative.metadataimport.general.new_item">New item</message>
-	<message key="xmlui.administrative.metadataimport.flow.upload_successful">Upload successful</message>
-	<message key="xmlui.administrative.metadataimport.flow.upload_failed">Upload failed</message>
-	<message key="xmlui.administrative.metadataimport.flow.import_successful">Import successful</message>
-	<message key="xmlui.administrative.metadataimport.flow.import_failed">Import failed</message>
-	<message key="xmlui.administrative.metadataimport.flow.over_limit">Number of changes exceeds maximum allowed. Limit changes or alter bulkedit.gui-item-limit in dspace.cfg</message>
+	<message key="xmlui.administrative.metadataimport.general.changes">změny</message>
+	<message key="xmlui.administrative.metadataimport.general.no_changes">Nebyly zjištěny změny</message>
+	<message key="xmlui.administrative.metadataimport.general.new_item">Nová položka</message>
+	<message key="xmlui.administrative.metadataimport.flow.upload_successful">Nahrání přeběhlo úspěšně</message>
+	<message key="xmlui.administrative.metadataimport.flow.upload_failed">Nahrání selhalo</message>
+	<message key="xmlui.administrative.metadataimport.flow.upload_badschema">Neznámé schéma metadat v hlavičce</message>
+	<message key="xmlui.administrative.metadataimport.flow.upload_badelement">Neznámý element metadat v hlavičce</message>
+	<message key="xmlui.administrative.metadataimport.flow.import_successful">Import přeběhl úspěšně</message>
+	<message key="xmlui.administrative.metadataimport.flow.import_failed">Import selhal</message>
+	<message key="xmlui.administrative.metadataimport.flow.over_limit">Počet změn překročil povolené maximum. Omezte změny nebo změňte bulkedit.gui-item-limit v dspace.cfg</message>
 
 	<!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportConfirm -->
 	<message key="xmlui.administrative.metadataimport.MetadataImportMain.submit_upload">Nahrát CSV</message>
@@ -1416,7 +1398,7 @@
 	<!-- org.dspace.app.xmlui.administrative.mapper.MapperMain -->
 	<message key="xmlui.administrative.mapper.MapperMain.title">Mapování záznamů</message>
 	<message key="xmlui.administrative.mapper.MapperMain.head1">Mapování záznamů - Namapuje záznamy z jiných kolekcí</message>
-	<message key="xmlui.administrative.mapper.MapperMain.para1">Kolekce: „<strong>{0}</strong>“</message>
+	<message key="xmlui.administrative.mapper.MapperMain.para1">Kolekce: "<strong>{0}</strong>“</message>
 	<message key="xmlui.administrative.mapper.MapperMain.para2">Toto je nástroj na mapování záznamů, který umožňuje správcům kolekce mapovat záznamy z jiných kolekcí do této kolekce. Můžete hledat záznamy z jiných kolekcí a mapovat je nebo procházet seznam aktuálně mapovaných záznamů.</message>
 	<message key="xmlui.administrative.mapper.MapperMain.stat_label">Statistiky</message>
 	<message key="xmlui.administrative.mapper.MapperMain.stat_info"><strong>{0} z {1}</strong> záznamů v této kolekci je mapovaných z jiných kolekcí</message>
@@ -1428,7 +1410,7 @@
 	<!-- org.dspace.app.xmlui.administrative.mapper.SearchItemForm -->
 	<message key="xmlui.administrative.mapper.SearchItemForm.title">Hledat záznamy</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.trail">Hledat záznamy</message>
-	<message key="xmlui.administrative.mapper.SearchItemForm.head1">Hledat záznamy odpovídající: „{0}“</message>
+	<message key="xmlui.administrative.mapper.SearchItemForm.head1">Hledat záznamy odpovídající: "{0}"</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.submit_map">Mapovat vybrané záznamy</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column1"/>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column2">Kolekce</message>
@@ -1449,8 +1431,9 @@
 	<!-- General tags for collection management -->
 	<message key="xmlui.administrative.collection.general.collection_trail">Kolekce</message>	
 	<message key="xmlui.administrative.collection.general.options_metadata">Editovat metadata</message>	
-	<message key="xmlui.administrative.collection.general.options_roles">Přidelit role</message>	
-	
+	<message key="xmlui.administrative.collection.general.options_roles">Přidělit role</message>	
+	<message key="xmlui.administrative.collection.general.options_curate">Spravovat</message>
+	<message key="xmlui.administrative.collection.general.options_queue">Fronta</message>
 	
 	<!-- org.dspace.app.xmlui.administrative.collection.AssignCollectionRoles.java -->
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.title">Editovat role kolekce</message>
@@ -1481,6 +1464,12 @@
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.sysadmins_only"><nobr>(jen pro správce systému)</nobr></message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>(nemáte oprávnění ke konfiguraci)</nobr></message>
 
+	<!-- org.dspace.app.xmlui.administrative.collection.CurateCollectionForm.java -->
+	<message key="xmlui.administrative.collection.CurateCollectionForm.main_head">Spravovat kolekci: {0}</message>
+	<message key="xmlui.administrative.collection.CurateCollectionForm.title">Spravovat kolekci</message>
+	<message key="xmlui.administrative.collection.CurateCollectionForm.trail">Kurátor</message>
+	<message key="xmlui.administrative.collection.CurateCollectionForm.label_name">Úloha</message>
+	
 	<!-- org.dspace.app.xmlui.administrative.collection.DeleteCollectionConfirm.java -->
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.title">Potvrdit smazání</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.trail">Potvrzení</message>
@@ -1594,6 +1583,8 @@
 	<message key="xmlui.administrative.community.general.community_trail">Komunity</message>
 	<message key="xmlui.administrative.community.general.options_metadata">Upravit metadata</message>
 	<message key="xmlui.administrative.community.general.options_roles">Přidělit role</message>
+	<message key="xmlui.administrative.community.general.options_curate">Spravovat</message>
+	<message key="xmlui.administrative.community.general.options_queue">Fronta</message>
 
 	<!-- org.dspace.app.xmlui.administrative.community.AssignCommunityRoles.java -->
 	<message key="xmlui.administrative.community.AssignCommunityRoles.title">Upravit role komunity</message>
@@ -1611,6 +1602,12 @@
 	<message key="xmlui.administrative.community.AssignCommunityRoles.label_admins">Správci</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.sysadmins_only"><nobr>(pouze správci systému)</nobr></message>
 
+	<!-- org.dspace.app.xmlui.administrative.community.CurateCommunityForm.java -->
+	<message key="xmlui.administrative.community.CurateCommunityForm.main_head">Spravovat komunitu: {0}</message>
+	<message key="xmlui.administrative.community.CurateCommunityForm.title">Spravovat komunitu</message>
+	<message key="xmlui.administrative.community.CurateCommunityForm.trail">Spravovat</message>
+	<message key="xmlui.administrative.community.CurateCommunityForm.label_name">Úloha</message>
+	
 	<!-- org.dspace.app.xmlui.administrative.community.DeleteCommunityConfirm.java -->
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.title">Potvrdit smazání</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.trail">Potvrzení</message>
@@ -1764,9 +1761,15 @@
 	<!-- structural.xsl -->
 	<message key="xmlui.dri2xhtml.structural.footer-promotional">
 		<a href="http://di.tamu.edu" id="ds-logo-link">                            
-			<span id="ds-footer-logo"> </span>
+			<span id="ds-footer-logo">&#160;</span>
 		</a>
-		<p>Tato webstránka používá Manakin, nové uživatelské rozhraní pro DSpace, které vytvořili Texas A&amp;M University Libraries. Rozhraní lze do velké míry přizpůsobit pomocí Manakin Aspects a témat vzhledu založených na XSL. Další informace naleznete na <a href="http://di.tamu.edu">http://di.tamu.edu</a> a <a href="http://dspace.org">http://dspace.org</a></p>
+		<p>
+			Tato webstránka používá Manakin, nové uživatelské rozhraní pro DSpace, které vytvořily Texas A&amp;M University Libraries.
+			Rozhraní lze do velké míry přizpůsobit pomocí Manakin Aspects a témat vzhledu založených na XSL.
+			Další informace naleznete na
+			<a href="http://di.tamu.edu">http://di.tamu.edu</a> ai
+			<a href="http://dspace.org">http://dspace.org</a>
+		</p>
 	</message>
 	<message key="xmlui.dri2xhtml.structural.contact-link">Kontaktujte nás</message>
 	<message key="xmlui.dri2xhtml.structural.feedback-link">Vyjádření názoru</message>
@@ -1796,7 +1799,12 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.no-preview">Není dostupný náhled</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.no-title">Nepojmenovaný</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.no-author">Neznámý autor</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.non-conformant">Toto není objekt DSpace v souladu s profilem METS 1.0 a proto ho nelze efektivně zobrazit. Můžete změnit buď šablonu, která obsluhuje obecný případ v dri2xhtml, aby vykonávala potřebnou funkci nebo vytvořit šablonu odpovídající libovolnému profilu, který používáte.</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.non-conformant">
+		Toto není objekt DSpace v souladu s profilem METS 1.0, a proto ho nelze efektivně zobrazit.
+		Můžete změnit šablonu, která obsluhuje obecný případ v dri2xhtml,
+		aby vykonávala potřebnou funkci nebo, vytvořit šablonu odpovídající libovolnému profilu,
+		který používáte.
+	</message>
 	
 	<message key="xmlui.dri2xhtml.METS-1.0.item-preview">Náhled</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-title">Název</message>
@@ -1810,6 +1818,7 @@
 	
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-head">Soubory tohoto záznamu</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-file">Soubory</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-name">Název</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-size">Velikost</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-format">Formát</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Zobrazit</message>
@@ -1824,8 +1833,14 @@
 	
 	<message key="xmlui.dri2xhtml.METS-1.0.license-text">K tomuto záznamu jsou přiřazeny následující licenční soubory:</message>
 		
-	<message key="xmlui.dri2xhtml.METS-1.0.collection-not-implemented">Sumární zobrazení (summaryView) kolekce není momentálně použité nebo implementované. To je možné napravit přepsáním šablony dri2xhtml s názvem collectionSummaryView.</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.community-not-implemented">Sumární zobrazení (summaryView) komunity není momentálně použité nebo implementované. To je možné napravit přepsáním šablony dri2xhtml s názvem communitySummaryView.</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.collection-not-implemented">
+		Sumární zobrazení (summaryView) kolekce není momentálně použité nebo implementované.
+		To je možné napravit přepsáním šablony dri2xhtml s názvem collectionSummaryView.
+	</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.community-not-implemented">
+		Sumární zobrazení (summaryView) komunity není momentálně použité nebo implementované.
+		To je možné napravit přepsáním šablony dri2xhtml s názvem communitySummaryView.
+	</message>
 	
 	<message key="xmlui.dri2xhtml.METS-1.0.collection-logo-alt">Logo kolekce</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.community-logo-alt">Logo komunity</message>
@@ -1834,8 +1849,12 @@
 		
 	<!-- Internationalization elements specific to the Qualified Dublin Core metadata handler.
 		DS-METS-1.0-QDC.xsl -->
-	<message key="xmlui.dri2xhtml.METS-1.0.qdc-not-applicable">Qualified Dublin Core (QDC) nelze momentálně aplikovat na komunity a kolekce DSpace. Při používaní QDC byste měli používat QDC crosswalk pro záznamy DSpace a DIM nebo MODS pro zpracování komunit a kolekcí.</message>
-	
+	<message key="xmlui.dri2xhtml.METS-1.0.qdc-not-applicable">
+		Qualified Dublin Core (QDC) nelze momentálně aplikovat na komunity a kolekce DSpace.
+		Při používaní QDC byste měli používat QDC crosswalk pro záznamy DSpace a DIM nebo MODS
+		pro zpracování komunit a kolekcí.
+	</message>
+		
 	<message key="xmlui.dri2xhtml.METS-1.0.header-qdc-elements">Prvky Dublin Core</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.header-qdc-terms">Termíny Dublin Core</message>
 	
