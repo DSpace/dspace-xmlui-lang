@@ -60,6 +60,7 @@
 		This section is for feed syndications (RSS, atom, etc)  
 	-->
 	<message key="xmlui.feed.general_description">Das digitale Repositorium erfasst, speichert, erhält, erschließt und verbreitet digitale Forschungsergebnisse.</message>
+	<message key="xmlui.feed.header">RSS Feeds</message>
 	<message key="xmlui.feed.logo_title">Feed Bild</message>
 	<message key="xmlui.feed.untitled">Ohne Titel</message>
 	
@@ -587,12 +588,22 @@
 	<message key="xmlui.Submission.Submissions.status_7">Die Veröffentlichung wurde archiviert</message>
 	<message key="xmlui.Submission.Submissions.status_unknown">Status unbekannt</message>
 
+    <!-- Same transformer, completed submissions section -->
+    <message key="xmlui.Submission.Submissions.completed.head">Angenommene Veröffentlichungen</message>
+    <message key="xmlui.Submission.Submissions.completed.info">Dies sind die Ihre in DSpace angenommenen Veröffentlichungen.</message>
+    <message key="xmlui.Submission.Submissions.completed.column1">Zugangsdatum</message>
+    <message key="xmlui.Submission.Submissions.completed.column2">Titel</message>
+    <message key="xmlui.Submission.Submissions.completed.column3">SAmmlung</message>
+    <message key="xmlui.Submission.Submissions.completed.limit">Es werden 50 Ihrer Veröffentlichungen angezeigt. </message>
+    <message key="xmlui.Submission.Submissions.completed.displayall">Anzeige aller Veröffentlichungen.</message>
+
 	<!-- submission progress bar messages -->
 	<message key="xmlui.Submission.submit.progressbar.initial-questions">Einleitende Fragen</message>
 	<message key="xmlui.Submission.submit.progressbar.describe">Beschreiben</message>
 	<message key="xmlui.Submission.submit.progressbar.upload">Hochladen</message>
 	<message key="xmlui.Submission.submit.progressbar.verify">Überprüfen</message>
 	<message key="xmlui.Submission.submit.progressbar.creative-commons">Creative Commons Lizenz</message>
+	<message key="xmlui.Submission.submit.progressbar.CClicense">CC Lizenz</message>
 	<message key="xmlui.Submission.submit.progressbar.license">DSpace Lizenz</message>
 	<message key="xmlui.Submission.submit.progressbar.complete">Fertig</message>
 	
@@ -647,6 +658,8 @@
 	<message key="xmlui.Submission.submit.UploadStep.file">Datei</message>
 	<message key="xmlui.Submission.submit.UploadStep.file_help">Bitte geben Sie den voll qualifizierten Pfad zu der Datei auf Ihrem Rechner an. Wenn Sie auf "Durchsuchen" klicken, öffnet sich ein neues Fenster, in welchem Sie die Datei auf Ihrem Rechner suchen und auswählen können.</message>
 	<message key="xmlui.Submission.submit.UploadStep.upload_error">Ein Problem ist während des Hochladens Ihrer Datei aufgetreten. Dies kann verschiedene Gründe haben: der Dateiname war fehlerhaft, aufgrund eines Netzwerkproblems wurde die Datei nicht korrekt übertragen oder Sie haben versucht, eine Dateiformat hochzuladen, welches auf dem Repositorium nicht zugelassen ist. Bitte überprüfen Sie Ihre Eingaben und versuchen es noch einmal.</message>
+	<message key="xmlui.Submission.submit.UploadStep.virus_error">Die Datei wurde nich hochgeladen, da sie scheinbar einen Virus enthält. Bitte wenden Sie sich an den System-Administrator.</message>
+    <message key="xmlui.Submission.submit.UploadStep.virus_checker_error">Beim Virusscan der Datei ist ein technisches Problem aufgetreten. Bitte wenden Sie sich an den System-Administrator.</message>
 	<message key="xmlui.Submission.submit.UploadStep.file_error">Das Dokument muss mindestens eine Datei enthalten.</message>
 	<message key="xmlui.Submission.submit.UploadStep.description">Beschreibung</message>
 	<message key="xmlui.Submission.submit.UploadStep.description_help">Zusätzlich können Sie eine kurze Beschreibung der Datei eingeben, z. B. "<i>Hauptband</i>", oder "<i>Anhang</i>".</message>
@@ -701,10 +714,12 @@
 	<!-- org.dspace.app.xmlui.Submission.submit.CCLicenseStep -->
 	<message key="xmlui.Submission.submit.CCLicenseStep.head">Creative Commons Lizenz</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.info1">Wenn Sie eine  <a href="http://creativecommons.org/">Creative Commons</a> Lizenz zu Ihrem Dokument hinzufügen: <strong>Creative Commons Lizenzen legen fest, wie ihr Werk genutzt werden kann.</strong> Wenn Sie eine Creative Commons Lizenz hinzufügen möchten, klicken sie auf die untere Schaltfläche. Sie werden dann zur Creative Commons Seite weitergeleite, wo Sie aus verschiedenen Lizenzmodellen auswählen können.  Nachdem Sie eine Lizenz ausgewählt haben, kehren Sie zu dieser Seite zurück.</message>
+	<message key="xmlui.Submission.submit.CCLicenseStep.submit_choose_creative_commons">Wählen Sie eine Lizenz</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.submit_to_creative_commons">Weiter zur Creative Commons Seite, um eine Lizenz auszuwählen.</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.license">Lizenz</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.submit_remove">Entfernen dieser Creative Commons Lizenz</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.no_license">keine Creative Commons Lizenz wurde ausgewählt</message>
+	<message key="xmlui.Submission.submit.CCLicenseStep.save_changes">Sie müssen auf "Weiter" klicken, um Ihre Ändeurngen zu speichern.</message>
+	<message key="xmlui.Submission.submit.CCLicenseStep.select_change">Auswahl oder Änderung der Lizenz</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.LicenseStep -->
 	<message key="xmlui.Submission.submit.LicenseStep.head">DSpace Lizenz</message>
@@ -759,7 +774,11 @@
 	
 	<!-- action-generated messages. These are referenced from the sitemap rather than a transformer --> 	
 	
-	<message key="xmlui.administrative.FlowEPersonUtils.add_eperson_success_notice">Der Benutzeraccount wurde angelegt.</message>
+	<message key="xmlui.administrative.FlowCurationUtils.curate_success_notice">Die Aufgabe wurde erfolgreich ausgeführt.</message>
+    <message key="xmlui.administrative.FlowCurationUtils.curate_failed_notice">Die Aufgabe wurde unerwartet abgebrochen oder die Ausführung ist fehlgeschlagen. Für weitere Informationen wenden Sie sich an den Administrator und überprüfen Sie die Log-Dateien.</message>
+    <message key="xmlui.administrative.FlowCurationUtils.queue_success_notice">Die Aufgabe wurde erfolgreich in die Warteschlange eingereiht.</message>
+    <message key="xmlui.administrative.FlowCurationUtils.queue_failed_notice">Die Aufgabe konnte nicht in die Warteschlange eingefügt werden. Es ist ein Fehler aufgetreten.Für weitere Informationen wenden Sie sich an den Administrator und überprüfen Sie die Log-Dateien.</message>
+    <message key="xmlui.administrative.FlowEPersonUtils.add_eperson_success_notice">Der Benutzeraccount wurde angelegt.</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.edit_eperson_success_notice">Der Benutzeraccount wurde aktualisiert.</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.reset_password_success_notice">Dem Benutzer wurde eine E-Mail mit entsprechender Kennung gesandt, unter der er sein Passwort neu vergeben kann.</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.delete_eperson_success_notice">Der/Die Benutzer wurden gelöscht.</message>
@@ -819,6 +838,8 @@
 	<message key="xmlui.administrative.Navigation.administrative_control_panel">Systemdaten</message>
 	<message key="xmlui.administrative.Navigation.statistics">Statistiken</message>
 	<message key="xmlui.administrative.Navigation.administrative_import_metadata">Metadaten Importieren</message>
+	<message key="xmlui.administrative.Navigation.administrative_curation">Datenpflege - Aufgabens</message>
+	
     <!-- my account items -->
 	<message key="xmlui.administrative.Navigation.account_export">Meine Exporte</message>
 	
@@ -1230,7 +1251,7 @@
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.METADATA">Dateien mit Metainformationen</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.THUMBNAIL">Vorschaubilder</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.LICENSE">Lizenzen</message>
-	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.CC_LICENSE">Creative Commons Lizenz</message>
+	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.CC-LICENSE">Creative Commons Lizenz</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.file_label">Datei</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.file_help">Bitte geben Sie den Dateinamen mit voll qualifizierten Pfad auf Ihrem Rechner ein. Wenn Sie auf "Stöbern" klicken, öffnet sich ein neues Fenster, in dem Sie die Datei auf Ihrem Rechner heraussuchen können. Nachdem Sie die entsprechende Datei gewählt haben, wird das Fenster automatisch geschlossen.</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.description_label">Beschreibung</message>
@@ -1287,6 +1308,11 @@
 	<message key="xmlui.administrative.item.EditBitstreamForm.para2">Wenn das Format nicht in der Auswahlliste ist, <strong>wählen Sie "Format nicht zur Auswahl"</strong> und beschreiben Sie das Format in dem dafür vorgesehenen Feld.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_label">Sonstiges Format</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">Die Anwendung mit der die Datei erstellt wurde und die Versionsnummer, z. B.: "<i>ACMESoft SuperApp version 1.5</i>".</message>
+    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Dateiname:</message>
+    <message key="xmlui.administrative.item.EditBitstreamForm.name_help">Datei umbenennen. Dies führt zu einer Änderung in der angezeigten URL aber alte Links werden solange sich die Sequence ID nicht ändert korrekt aufgelöst.</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.previous_order">Vorher:</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.order_up">Nach oben</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.order_down">Nach unten</message>
 	
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.title">Zur Ressourcegehörige Dateien</message>
@@ -1297,11 +1323,14 @@
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column3">Beschreibung</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column4">Format</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column5">Anzeige</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column6">Sortierung</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column7"> </message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.bundle_label"><strong>Bündle: {0}</strong></message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.primary_label"> (primär) </message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.view_link">anzeigen</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_add">Eine neue Datei hochladen</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_delete">Dateien löschen</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_reorder">Dateisortierung ändern</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.no_upload">Sie benötigen ADD (Hinzufügen) und WRITE (Schreib) Rechte an Dokument und Bündel, um eine Datei hochspielen zu können.</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.no_remove">Sie benötigen REMOVE (Lösch) Rechte an Dokument und Bündel, um Dateien löschen zu können.</message>
 	
@@ -1388,6 +1417,9 @@
     <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_oldowner">Aus besitzender Sammlung entfernt</message>
     <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_mapped">In Sammlung gespiegelt</message>
     <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_unmapped">Spiegelung aus Sammlung gelöscht</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_deleted">Ressource gelöscht</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_withdrawn">Ressource zurückgezogen</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_reinstated">Ressource wieder frei gegeben</message>
         
     <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportUpload -->
     <message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_add">Hinzufügen: </message>
@@ -1399,6 +1431,9 @@
     <message key="xmlui.administrative.metadataimport.MetadataImportUpload.changes_pending">Anstehenden Änderungen für das Dokument</message>
     <message key="xmlui.administrative.metadataimport.MetadataImportUpload.submit_confirm">Änderungen durchführen</message>
     <message key="xmlui.administrative.metadataimport.MetadataImportUpload.hint">Die anstehenden Änderungen sind unten zur Kontrolle aufgeführt.</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_delete">Ressource löschen</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_withdraw">Ressource zurückziehen</message>
+    <message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_reinstate">Ressource wieder veröffentlichen</message>
 	
 	<!-- general mapper messages -->
 	<message key="xmlui.administrative.mapper.general.mapper_trail">Dokumente Spiegeln</message>
@@ -1676,9 +1711,18 @@
 	<message key="xmlui.administrative.ControlPanel.runtime_total">Zugeordneter Speicher</message>
 	<message key="xmlui.administrative.ControlPanel.runtime_used">Benutzer Speicher</message>
 	<message key="xmlui.administrative.ControlPanel.runtime_free">Freier Speicher</message>
+    <message key="xmlui.administrative.ControlPanel.cocoon_head">Cocoon Information</message>
+    <message key="xmlui.administrative.ControlPanel.cocoon_version">Cocoon Version</message>
+    <message key="xmlui.administrative.ControlPanel.cocoon_cache_dir">Cocoon Cache Verzeichnis</message>
+    <message key="xmlui.administrative.ControlPanel.cocoon_work_dir">Cocoon Arbeitsverzeichnis</message>
+    <message key="xmlui.administrative.ControlPanel.cocoon_main_cache_size">Hauptcache Größe: ({0})</message>
+    <message key="xmlui.administrative.ControlPanel.cocoon_cache_clear">(Cache sofort löschen)</message>
+    <message key="xmlui.administrative.ControlPanel.cocoon_persistent_cache_size">Persistente Cache Größe ({0})</message>
+    <message key="xmlui.administrative.ControlPanel.cocoon_transient_cache_size">Flüchtige Cache Größe ({0})</message>	
 	<message key="xmlui.administrative.ControlPanel.dspace_head">DSpace Einstellungen</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_dir">DSpace Installationsverzeichnis</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_url">DSpace Basis-URL</message>
+	<message key="xmlui.administrative.ControlPanel.dspace_version">DSpace Version</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_hostname">DSpace Name des Hosts</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_name">Name der Seite</message>
 	<message key="xmlui.administrative.ControlPanel.db_name">Datenbank Name</message>
@@ -1735,6 +1779,15 @@
 	<message key="xmlui.administrative.NotAuthorized.para1b">Systemadministratoren</message>
 	<message key="xmlui.administrative.NotAuthorized.para1c">.</message>
 	<message key="xmlui.administrative.NotAuthorized.para2">Als anderer Benutzer einloggen.</message>
+
+    <!-- System-wide Curation Tasks form (org.dspace.app.xmlui.aspect.administrative.CurateForm) -->
+    <message key="xmlui.administrative.CurateForm.title">Datenpflege</message>
+    <message key="xmlui.administrative.CurateForm.trail">Datenpflege - Aufgaben</message>
+    <message key="xmlui.administrative.CurateForm.object_label_name">Handle eines DSpace Objektes</message>
+    <message key="xmlui.administrative.CurateForm.object_hint">Hinweis: Geben Sie [ihr-handle-prefix]/0 ein um ein Aufgabe systemweit durchzuführen (nicht alle Aufgaben können auf allen Objekten ausgeführt werden).</message>
+    <message key="xmlui.administrative.CurateForm.task_label_name">Aufgabe</message>
+    <!-- Used by Curate<DSO>Form classes also -->
+    <message key="xmlui.administrative.CurateForm.taskgroup_label_name">Wählen Sie aus den folgenden Gruppen</message>	
 	
 	
 	    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1839,7 +1892,8 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.size-gigabytes">Gb</message>
 	
 	<message key="xmlui.dri2xhtml.METS-1.0.license-text">Die folgenden Lizenzbestimmungen sind mit dieser Ressource verbunden:</message>
-		
+	<message key="xmlui.dri2xhtml.METS-1.0.cc-license-text">Solange nicht anders angezeigt, wird die Lizenz wie folgt beschrieben: </message>	
+	
 	<message key="xmlui.dri2xhtml.METS-1.0.collection-not-implemented">
 		Die zusammenfassende Darstellung einer Sammlung ist noch nicht implementiert. Sie können dies tun, 
 		indem Sie das dri2xhtml template "collectionSummaryView" überschreiben.
