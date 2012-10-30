@@ -247,6 +247,7 @@
 	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Das Dokument erscheint in:</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Zur Kurzanzeige</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Zur Langanzeige</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">Diese Dokument wurde zurückgezogen und steht nicht mehr zur Verfügung.</message>
 	
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
 	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">Stöbern</message>
@@ -270,7 +271,7 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.RestrictedItem.java -->
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.title">Dieses Dokument ist nur eingeschränkt zugänglich.</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.trail">Zugangsbeschränkung</message>
-		<message key="xmlui.ArtifactBrowser.RestrictedItem.head_resource">Diese Ressource ist nur eingeschränkt zugänglich.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_resource">Diese Ressource ist nur eingeschränkt zugänglich.</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_community">Dieser Bereich ist nur eingeschränkt zugänglich.</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_collection">Diese Sammlung ist nur eingeschränkt zugänglich.</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_item">Dieses Dokument ist nur eingeschränkt zugänglich.</message>
@@ -286,6 +287,13 @@
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_item">Dokument</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_resource">Ressource</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.unknown">unbekannt</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.login">Weiter zur Anmeldung</message>    
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">Diese Dokument wurde zurückgezogen</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">Das ausgewählte Dokument wurde zurückgezogen und steht nicht länger zur Verfügung.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">Das ausgewählte Dokument ist nur für bestimmte Benutzergruppen zugänglich. Bitte melden Sie sich an, wenn Sie zu einer entsprechenden Gruppe gehören.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Ihr Benutzerkonto verfügt nicht über die Rechte, auf dieses Dokument zuzugreifen. Bei Fragen wenden Sie sich bitte an den Administrator..</message>
+            
+	
 
 	
 	
@@ -600,6 +608,7 @@
 	<!-- submission progress bar messages -->
 	<message key="xmlui.Submission.submit.progressbar.initial-questions">Einleitende Fragen</message>
 	<message key="xmlui.Submission.submit.progressbar.describe">Beschreiben</message>
+    <message key="xmlui.Submission.submit.progressbar.access">Zugriffsrechte</message>	
 	<message key="xmlui.Submission.submit.progressbar.upload">Hochladen</message>
 	<message key="xmlui.Submission.submit.progressbar.verify">Überprüfen</message>
 	<message key="xmlui.Submission.submit.progressbar.creative-commons">Creative Commons Lizenz</message>
@@ -652,6 +661,42 @@
 	<message key="xmlui.Submission.submit.DescribeStep.day">Tag</message>
 	<message key="xmlui.Submission.submit.DescribeStep.series_name">Serie</message>
 	<message key="xmlui.Submission.submit.DescribeStep.report_no">Zählung</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.link">Schlagwort Kategorien</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.title">Schlagwort Kategorien</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.label">Nach Schlagworten filtern</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.button">Filtern</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.loading">Bitte warten Sie, der Thesaurus wird geladen.</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.error">Beim Laden des Thesaurus ist ein Fehler aufgetreten. Bitte versuchen Sie es später nochmal.</message>
+
+
+    <!-- org.dspace.app.xmlui.Submission.submit.AccessStep -->
+    <message key="xmlui.Submission.submit.AccessStep.head">Zugriffsberechtigungen</message>
+    <message key="xmlui.Submission.submit.AccessStep.access_settings">Für eine Gruppe von ausgewählten Benutzern sichtbar. Für anonymen Zugang ist keine Auswahl notwendig.</message>
+    <message key="xmlui.Submission.submit.AccessStep.open_access">Das Dokument wird sichtbar, sobald es ins Archiv aufgenommen wird.</message>
+    <message key="xmlui.Submission.submit.AccessStep.embargo">Zugriff bis zu einem bestimmten Datum unter Embargo.</message>
+    <message key="xmlui.Submission.submit.AccessStep.embargo_visible">Sichtbar/Unter Embargo</message>
+    <message key="xmlui.Submission.submit.AccessStep.name">Name</message>
+    <message key="xmlui.Submission.submit.AccessStep.description">Beschreibung</message>
+    <message key="xmlui.Submission.submit.AccessStep.reason">Begründung</message>
+    <message key="xmlui.Submission.submit.AccessStep.submit_add_policy">Zugriffsberechtigung bestätigen &amp; eine weitere hinzufügen</message>
+    <message key="xmlui.Submission.submit.AccessStep.list_assigned_groups">Gruppen</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_format_date">Ungültiges Datumsformat</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_missing_date">Wenn Embargo ausgwählt wurde, dann ist ein Datum erforderlich.</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_duplicated_policy">Es gibt bereits eine identische Zugriffsberechtigung für diese Gruppe und diese Aktion.</message>
+    <message key="xmlui.Submission.submit.AccessStep.table_policies">Liste der Zugriffsberechtigungen</message>
+    <message key="xmlui.Submission.submit.AccessStep.private_settings">Dokument im privaten Modus</message>
+    <message key="xmlui.Submission.submit.AccessStep.private_settings_help">Wenn ausgewählt, ist das Dokument nicht suchbar.</message>
+    <message key="xmlui.Submission.submit.AccessStep.column0">Name</message>
+    <message key="xmlui.Submission.submit.AccessStep.column1">Aktion</message>
+    <message key="xmlui.Submission.submit.AccessStep.column2">Gruppe</message>
+    <message key="xmlui.Submission.submit.AccessStep.column3">Datum für den Beginn</message>
+    <message key="xmlui.Submission.submit.AccessStep.column4">Datum für das Beenden</message>
+    <message key="xmlui.Submission.submit.AccessStep.table_edit_button">Bearbeiten</message>
+    <message key="xmlui.Submission.submit.AccessStep.table_delete_button">Entfernen</message>
+    <message key="xmlui.administrative.authorization.AccessStep.label_date_help">Zulässige Formate: jjjj, jjjj-mm, jjjj-mm-tt</message>
+
+    <!-- org.dspace.app.xmlui.Submission.submit.EditPolicyStep -->
+    <message key="xmlui.Submission.submit.EditPolicyStep.head">Zugriffsrechte bearbeiten</message>    	
 
 	<!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
 	<message key="xmlui.Submission.submit.UploadStep.head">Datei(en) hochladen</message>
@@ -680,7 +725,35 @@
 	<message key="xmlui.Submission.submit.UploadStep.submit_edit">Bearbeiten</message>
 	<message key="xmlui.Submission.submit.UploadStep.checksum">Prüfsumme:</message>
 	<message key="xmlui.Submission.submit.UploadStep.submit_remove">Ausgewählte Datei(en) entfernen</message>
-	
+
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head">Datei(en) hochladen</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file">Datei</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_help">Bitte geben Sie den vollständigen Dateipfad an.Wenn Sie auf "Durchsuchen" klicken, öffnet sich ein neues Fenster, in dem Sie die Datei aussuchen können.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_error">Das Dokument muss mindestens eine Datei enthalten.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.upload_error">Während des Hochladens Ihrer Datei ist ein Fehler aufgetreten. Entweder war der Dateiname nicht korrekt oder es gab ein Netzwerkproblem, so dass die Datei nicht korrekt übertragen wurde, oder Sie haben versucht ein unzulässiges Dateiformat hochzuladen.Bitte versuchen Sie es noch einmal.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_error">Die Datei wurde nicht hochgeladen, da sie einen Virus zu enthalten scheint. Bitte wenden Sie sich an den Systemadministrator.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_checker_error">Bei dem Versuch die Datei auf Viren zu überprüfen ist ein Fehler aufgetreten. Bitte wenden Sie sich an den Systemadministrator.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description">Beschreibung der Datei</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">Bei Bedarf können Sie ein kurze Beschreibung der Datei eingeben.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_upload">Datei Hochladen &amp; und eine weitere hinzufügen</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head2">Hochgeladene Dateien</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column0">Primärdatei</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column1">  </message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column2">Datei</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column3">Größe</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column4">Beschreibung</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column5">Format</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"></message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_name">Unbekannt</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_format">Unbekanntes Format</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.supported">(Unterstützt)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.known">(Bekannt)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unsupported">(Nicht unterstützt)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_edit">Bearbeiten</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.checksum">Prüfsumme:</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_remove">Ausgewählte Datei(en) löschen</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_policy">Zugriffsrechte</message>
+    	
 	<!-- org.dspace.app.xmlui.Submission.submit.EditFileStep -->
 	<message key="xmlui.Submission.submit.EditFileStep.head">Datei bearbeiten</message>
 	<message key="xmlui.Submission.submit.EditFileStep.file">Datei</message>
@@ -694,7 +767,9 @@
 	<message key="xmlui.Submission.submit.EditFileStep.format_user">Sonstiges Format</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_user_help">Die Anwendung inkl. Versionsnummer mit der die Datei erstellt wurde z. B. "<i>ACMESoft SuperApp version 1.5</i>".</message>
 
-
+    <!-- org.dspace.app.xmlui.Submission.submit.EditBitstreamPolicies -->
+    <message key="xmlui.Submission.submit.EditBitstreamPolicies.head">Zugriffsrechte für Datei bearbeiten</message>
+    
 	<!-- org.dspace.app.xmlui.Submission.submit.ReviewStep -->
 	<message key="xmlui.Submission.submit.ReviewStep.head">Veröffentlichung überprüfen</message>
 	<message key="xmlui.Submission.submit.ReviewStep.yes">Ja</message>
@@ -712,6 +787,7 @@
 	<message key="xmlui.Submission.submit.ReviewStep.supported">unterstützt</message>
 	
 	<!-- org.dspace.app.xmlui.Submission.submit.CCLicenseStep -->
+	<message key="xmlui.Submission.submit.CCLicenseStep.ccws_error">Ein Fehler ist aufgetreten ... {0}</message>	
 	<message key="xmlui.Submission.submit.CCLicenseStep.head">Creative Commons Lizenz</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.info1">Wenn Sie eine  <a href="http://creativecommons.org/">Creative Commons</a> Lizenz zu Ihrem Dokument hinzufügen: <strong>Creative Commons Lizenzen legen fest, wie ihr Werk genutzt werden kann.</strong> Wenn Sie eine Creative Commons Lizenz hinzufügen möchten, klicken sie auf die untere Schaltfläche. Sie werden dann zur Creative Commons Seite weitergeleite, wo Sie aus verschiedenen Lizenzmodellen auswählen können.  Nachdem Sie eine Lizenz ausgewählt haben, kehren Sie zu dieser Seite zurück.</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.submit_choose_creative_commons">Wählen Sie eine Lizenz</message>
@@ -835,6 +911,7 @@
 	<message key="xmlui.administrative.Navigation.administrative_format">Formate</message>
 	<message key="xmlui.administrative.Navigation.administrative_items">Dokumente</message>
     <message key="xmlui.administrative.Navigation.administrative_withdrawn">Verworfene Dokumente</message>
+    <message key="xmlui.administrative.Navigation.administrative_private">Nicht sichtbare Dokumente</message>    
 	<message key="xmlui.administrative.Navigation.administrative_control_panel">Systemdaten</message>
 	<message key="xmlui.administrative.Navigation.statistics">Statistiken</message>
 	<message key="xmlui.administrative.Navigation.administrative_import_metadata">Metadaten Importieren</message>
@@ -1162,8 +1239,11 @@
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_add_link">Klicken Sie hier, um eine neue Autorisierung anzulegen. </message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.submit_add">Hinzufügen</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_id">ID</message>
+    <message key="xmlui.administrative.authorization.EditContainerPolicies.head_name">Name</message>	
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_action">Aktion</message>
+	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_end_date">Enddatum</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_group">Gruppe</message>
+    <message key="xmlui.administrative.authorization.EditContainerPolicies.head_start_date">Anfangsdatum</message>	
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.submit_delete">Auswahl löschen</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.group_edit">Bearbeiten</message>
 	
@@ -1205,6 +1285,14 @@
     <message key="xmlui.administrative.authorization.EditPolicyForm.submit_search_groups">Suche</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_action">Aktion wählen</message>
     
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_name">Name</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_description">Beschreibung</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_end_date">Enddatum</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_start_date">Anfangsdatum</message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.error_date_format">Ungültiges Datum</message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.error_duplicated_policy">Es existiert bereits ein identisches Zugriffsrecht für diese Gruppe und diese Aktion.</message>	
+    <message key="xmlui.administrative.authorization.EditPolicyForm.error_start_date_greater_than_end_date">Das Startdatum liegt nach dem Enddatum.</message>	      
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_date_help">Zulässige Formate: jjjj, jjjj-mm, jjjj-mm-tt</message>    
 	
 	<!-- org.dspace.app.xmlui.administrative.authorization.AdvacedAuthorizationsForm -->
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.title">Erweiterte Rechtevergabe</message>
@@ -1221,6 +1309,16 @@
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_policyCollections">Sammlung</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.submit_add">Rechte hinzufügen</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.submit_remove_all">Rechte löschen</message>
+	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.label_date_help">Zulässige Formate: JJJJ, JJJJ-MM, JJJJ-MM-TT</message>
+
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_name">Name</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_description">Beschreibung</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_start_date">Anfangsdatum</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_end_date">Enddatum</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_date_format">Ungültiges Datum</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_start_date_greater_than_end_date">Anfangsdatum ist später als das Enddatum</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_groupIds">Bitte wählen Sie mindestens eine Gruppe aus.</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_collectionIds">Bitte wählen Sie mindestens eine Sammlung aus.</message>	
 	
 	<!-- org.dspace.app.xmlui.administrative.authorization.DeletePoliciesConfirm -->
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.title">Löschung der Autorisierung bestätigen</message>
@@ -1280,6 +1378,8 @@
 	<message key="xmlui.administrative.item.ConfirmItemForm.column3">Sprache</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_withdraw">Verwerfen</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_reinstate">Wieder aktivieren</message>
+    <message key="xmlui.administrative.item.ConfirmItemForm.submit_private">Nicht sichtbar machen</message>
+    <message key="xmlui.administrative.item.ConfirmItemForm.submit_public">Sichtbar machen</message>	
 	
 	<!-- org.dspace.app.xmlui.aspect.administrative.item.MoveItemForm -->
 	<message key="xmlui.administrative.item.MoveItemForm.title">Verschieben</message>
@@ -1372,7 +1472,11 @@
 	<message key="xmlui.administrative.item.EditItemStatusForm.sysadmins_only">(nur für Systemadministratoren)</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.collection_admins_only">(nur für Sammlungsadministratoren)</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.not_allowed">(Sie haben nicht die notwendigen Rechte, um diese Aktion auszuführen)</message>
-	
+    <message key="xmlui.administrative.item.EditItemStatusForm.label_private">Unsichtbar machen</message>
+    <message key="xmlui.administrative.item.EditItemStatusForm.label_public">Sichtbar machen</message>
+    <message key="xmlui.administrative.item.EditItemStatusForm.submit_private">Unsichtbar machen...</message>
+    <message key="xmlui.administrative.item.EditItemStatusForm.submit_public">Sichtbar machen...</message>
+    	
 	<!-- org.dspace.app.xmlui.administrative.item.ViewItem -->
 	<message key="xmlui.administrative.item.ViewItem.title">Dokumentanzeige</message>
 	<message key="xmlui.administrative.item.ViewItem.trail">Dokumentanzeige</message>
@@ -1498,13 +1602,14 @@
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.role_group">Zugehörige Gruppe</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.role_buttons">  </message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_admins">Administratoren</message>
-		<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf">Bearbeitungsschritte im Geschäftsgang</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf">Bearbeitungsschritte im Geschäftsgang</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step1">Annehmen/Ablehnen Schritt</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step2">Annehmen/Ablehnen/Bearbeiten Schritt</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step3">Bearbeiten Schritt</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_submitters">Veröffentlichungsberechtigte</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_default_read">Standard lesender Zugriff</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.sysadmins_only"><nobr>(nur für Systemadministratoren)</nobr></message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.repository_role"><br/>(Gruppe auf Repositoriumsebene, nur für Systemadministratoren)</message>	
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>(Sie haben nicht die Berechtigung dies zu konfigurieren)</nobr></message>
 
     <!-- org.dspace.app.xmlui.administrative.collection.CurateCollectionForm.java -->
@@ -1796,15 +1901,68 @@
 
         !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
     <message key="xmlui.statistics.title">Statistik</message>
-    <message key="xmlui.statistics.visits.total">Gesamtzahl der Zugriffe</message>
-    <message key="xmlui.statistics.visits.month">Gesamtzahl der Zugriffe pro Monat</message>
+    <message key="xmlui.statistics.search.title">Suchstatistik</message>
+    <message key="xmlui.statistics.search.head">Suchstatistik</message>
+    <message key="xmlui.statistics.search.head-dso">Suchstatistik für: {0}</message>
+    <message key="xmlui.statistics.search.error">Bei der Erstellung der Statistik ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.</message>
+    <message key="xmlui.statistics.search.no-results">Für den ausgewählten Zeitraum gibt es keine Suchstatistiken.</message>
+    <message key="xmlui.statistics.workflow.title">Geschäftsgangstatistik</message>
+    <message key="xmlui.statistics.visits.total">Gesamtzugriffe</message>
+    <message key="xmlui.statistics.visits.month">Gesamtzugriffe pro Monat</message>
     <message key="xmlui.statistics.visits.views">Zugriffe</message>
     <message key="xmlui.statistics.visits.countries">Zugriffe nach Ländern</message>
     <message key="xmlui.statistics.visits.cities">Zugriffe nach Städten</message>
-    <message key="xmlui.statistics.visits.bitstreams">Zugriffe auf Dateien</message>
+    <message key="xmlui.statistics.visits.bitstreams">Dateiabrufe</message>
     <message key="xmlui.statistics.Navigation.title">Statistik</message>
-    <message key="xmlui.statistics.Navigation.view">Zugriffsstatistik</message>
+    <message key="xmlui.statistics.Navigation.usage.view">Benutzungsstatistik</message>
+    <message key="xmlui.statistics.Navigation.search.view">Suchstatistik</message>
+    <message key="xmlui.statistics.Navigation.workflow.view">Geschäftsgangstatistik</message>
     <message key="xmlui.statistics.trail">Statistik</message>
+    <message key="xmlui.statistics.trail-search">Suchstatistik</message>
+    <message key="xmlui.statistics.trail-workflow">Geschäftsgangstatistik</message>
+    <message key="xmlui.statistics.workflow.no-results">Für diesen Zeitraum gibt es keine Geschäftsgangstatistik.</message>
+    <message key="xmlui.statistics.workflow.error">Bei der Erstellung der Geschäftsgangstatistik ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.</message>
+    <message key="xmlui.statistics.workflow.head">Geschäftsgangstatistik</message>
+    <message key="xmlui.statistics.workflow.head-dso">Geschäftsgangstatistik für: {0}</message>
+
+
+    <message key="xmlui.statistics.StatisticsSearchTransformer.search-terms.head">Die häufigsten Suchbegriffe</message>
+    <message key="xmlui.statistics.StatisticsSearchTransformer.search-total.head">Gesamt</message>
+    <message key="xmlui.statistics.StatisticsSearchTransformer.time-filter.last-month">Letzer Monat</message>
+    <message key="xmlui.statistics.StatisticsSearchTransformer.time-filter.last-6-months">Letzten 6 Monate</message>
+    <message key="xmlui.statistics.StatisticsSearchTransformer.time-filter.last-year">Letztes Jahr</message>
+    <message key="xmlui.statistics.StatisticsSearchTransformer.time-filter.overall">Gesamter Zeitraum</message>
+
+
+    <message key="xmlui.statistics.display.table.column-label.search-terms">Suchbegriffe</message>
+    <message key="xmlui.statistics.display.table.column-label.searches">Suchen</message>
+    <message key="xmlui.statistics.display.table.column-label.percent-total">% der Gesamtzahl</message>
+    <message key="xmlui.statistics.display.table.column-label.views-search">Seitenzugriffe / Search</message>
+    <message key="xmlui.statistics.display.table.column-label.step">Schritt</message>
+    <message key="xmlui.statistics.display.table.column-label.performed">Durchgeführt</message>
+    <message key="xmlui.statistics.display.table.column-label.average">Durchschnitt</message>
+    <message key="xmlui.statistics.display.table.workflow.step.STEP1POOL">Annehmen/Ablehnen Schritt Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.STEP1">Annehmen/Ablehnen Schritt</message>
+    <message key="xmlui.statistics.display.table.workflow.step.STEP2POOL">Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.STEP2">Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt</message>
+    <message key="xmlui.statistics.display.table.workflow.step.STEP3POOL">Metadaten Bearbeiten Schritt Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.STEP3">Metadaten Bearbeiten Schritt</message>
+    <message key="xmlui.statistics.display.table.workflow.step.default.reviewstep.claimaction">Annehmen/Ablehnen Schritt Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.default.reviewstep.reviewaction">Annehmen/Ablehnen Schritt</message>
+    <message key="xmlui.statistics.display.table.workflow.step.default.editstep.claimaction">Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.default.editstep.editaction">Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt</message>
+    <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.claimaction">Metadaten Bearbeiten Schritt Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Metadaten Bearbeiten Schritt</message>
+    <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Metadaten Bearbeiten Schritt</message>
+    <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.claimaction">Ergebnis Begutachtungspool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.scorereviewaction">Ergebnis Begutachtung</message>
+    <message key="xmlui.statistics.display.table.workflow.step.scoreReview.evaluationStep.evaluationaction">Ergebnis Begutachtung Evaluation</message>
+    <message key="xmlui.statistics.display.table.workflow.step.scoreReview.evaluationStep.noUserSelectionAction">Ergebnis Begutachtung Evaluation Konfiguration</message>
+    <message key="xmlui.statistics.display.table.workflow.step.selectSingleReviewer.selectReviewerStep.claimaction">Einzelnutzer Begutachtungspool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.selectSingleReviewer.singleUserReviewStep.autoassignAction">Einzelnutzer automatische Zuweisung Aktion</message>
+    <message key="xmlui.statistics.display.table.workflow.step.selectSingleReviewer.singleUserReviewStep.singleuserreviewaction">Einzelnutzer Begutsachtung Aktion</message>
+
+
 	
 	
 	
@@ -2036,6 +2194,18 @@
   <!-- Params are: search-value -->
   <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.nonauthority">Nicht-Referenzwert: @1@</message>
 
+  <!-- mobile theme -->
+  <message key="xmlui.mobile.home_mobile">DSpace Mobil</message>
+  <message key="xmlui.mobile.search_all">Suche</message>
+  <message key="xmlui.mobile.browse_all">Stöbern nach:</message>
+  <message key="xmlui.mobile.browse_date">Datum</message>
+  <message key="xmlui.mobile.browse_author">Autor</message>
+  <message key="xmlui.mobile.browse_title">Titel</message>
+  <message key="xmlui.mobile.browse_subject">Schlagwort</message>
+  <message key="xmlui.mobile.related_google_scholar">verwandt</message>
+  <message key="xmlui.mobile.items_in_google_scholar">Dokumente in Google Scholar</message>
+  <message key="xmlui.mobile.download">Download</message>
+  
   <!-- Choice Lookup - sample config for dc.contributor.author field -->
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help">Name in der Form "Nachname, Vorname"</message>
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help.last">Nachname, z. B. "Müller"</message>
@@ -2043,4 +2213,64 @@
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.title">LC Personennamenreferenzdatenbank</message>
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.nonauthority">Lokaler Wert "@1@" (nicht in Referenzdatenbank)</message>
 
+  <!-- Versioning -->
+  <message key="xmlui.aspect.versioning.VersioningNavigation.context_create_version">Eine neue Version dieses Dokumentes anlegen</message>
+  <message key="xmlui.aspect.versioning.VersioningNavigation.context_show_version_history">Versionsgeschichte anzeigen</message>
+
+  <message key="xmlui.aspect.versioning.VersionItemForm.title">Neue Version anlegen</message>
+  <message key="xmlui.aspect.versioning.VersionItemForm.trail">Version</message>
+  <message key="xmlui.aspect.versioning.VersionItemForm.head1">Neue Version des Dokumentes: {0} anlegen</message>
+  <message key="xmlui.aspect.versioning.VersionItemForm.submit_version">Version</message>
+  <message key="xmlui.aspect.versioning.VersionItemForm.submit_update_version">Version aktualisieren</message>
+  <message key="xmlui.aspect.versioning.VersionItemForm.summary">Grund für die neue Version</message>
+
+  <message key="xmlui.aspect.versioning.VersionUpdateForm.title">Version aktualisieren</message>
+  <message key="xmlui.aspect.versioning.VersionUpdateForm.trail">Version</message>
+  <message key="xmlui.aspect.versioning.VersionUpdateForm.head1">Version des Dokumentes: {0} aktualisieren</message>
+  <message key="xmlui.aspect.versioning.VersionUpdateForm.submit_version">Version</message>
+  <message key="xmlui.aspect.versioning.VersionUpdateForm.submit_update_version">Version aktualisieren</message>
+  <message key="xmlui.aspect.versioning.VersionUpdateForm.summary">Zusammenfassung</message>
+
+
+  <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.title">Löschen bestätigen</message>
+  <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.trail">Löschen bestätigen</message>
+  <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.head1">Löschen bestätigen</message>
+  <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.para1">Sind Sie sicher, dass dieser Version(en) gelöscht werden sollen? </message>
+  <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.para2">Bitte Beachten: gelöschte Versionen werden nicht länger zugänglich sein.</message>
+  <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column1">Version</message>
+  <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column2">Dokument</message>
+  <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column3">Bearbeiter</message>
+  <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column4">Datum</message>
+  <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column5">Zusammenfassung</message>
+
+
+  <message key="xmlui.aspect.versioning.RestoreVersionForm.title">Version wiederherstellen</message>
+  <message key="xmlui.aspect.versioning.RestoreVersionForm.trail">Version wiederherstellen</message>
+  <message key="xmlui.aspect.versioning.RestoreVersionForm.head1">Version wiederherstellen</message>
+  <message key="xmlui.aspect.versioning.RestoreVersionForm.para1">Sind Sie sicher, dass Sie diese Version wiederherstellen möchten:</message>
+  <message key="xmlui.aspect.versioning.RestoreVersionForm.column1">Version</message>
+  <message key="xmlui.aspect.versioning.RestoreVersionForm.column2">Bearbeiter</message>
+  <message key="xmlui.aspect.versioning.RestoreVersionForm.column3">Datum</message>
+  <message key="xmlui.aspect.versioning.RestoreVersionForm.column4">Zusammenfassung</message>
+  <message key="xmlui.aspect.versioning.RestoreVersionForm.restore">Wiederherstellen</message>
+
+  <message key="xmlui.aspect.versioning.VersionHistoryForm.head2">Versionsgeschichte</message>
+  <message key="xmlui.aspect.versioning.VersionHistoryForm.column1">Version</message>
+  <message key="xmlui.aspect.versioning.VersionHistoryForm.column2">Dokument</message>
+  <message key="xmlui.aspect.versioning.VersionHistoryForm.column3">Bearbeiter</message>
+  <message key="xmlui.aspect.versioning.VersionHistoryForm.column4">Datum</message>
+  <message key="xmlui.aspect.versioning.VersionHistoryForm.column5">Zusammenfassung</message>
+  <message key="xmlui.aspect.versioning.VersionHistoryForm.column6">Aktionen</message>
+  <message key="xmlui.aspect.versioning.VersionHistoryForm.restore">Wiederherstellen</message>
+  <message key="xmlui.aspect.versioning.VersionHistoryForm.update">Aktualisieren</message>
+  <message key="xmlui.aspect.versioning.VersionHistoryForm.legend">* Ausgewählte Version(en)</message>
+  <message key="xmlui.aspect.versioning.VersionHistoryForm.delete">Version(en) löschen</message>
+  <message key="xmlui.aspect.versioning.VersionHistoryForm.return">Zurück</message>
+  <message key="xmlui.aspect.versioning.VersionHistoryForm.collection_admins_only">(nur für Sammlungsadministratoren)</message>
+  <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.new_version_head">Hinweis</message>
+  <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.new_version_help">Dies ist nicht die aktuellste Version von diesem Dokument. Die aktuellste Version finden Sie unter: </message>
+  <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_head">Hinweis</message>
+  <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">Eine neuere Fassung von diesem Dokument befindet sich zur Zeit im Geschäftsgang.</message>
+  <!-- End Versioning -->
+  
 </catalogue>
