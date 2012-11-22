@@ -903,6 +903,7 @@
 	<message key="xmlui.administrative.Navigation.administrative_format">Formato</message>
 	<message key="xmlui.administrative.Navigation.administrative_items">Itens</message>
     <message key="xmlui.administrative.Navigation.administrative_withdrawn">Itens removidos</message>
+    <message key="xmlui.administrative.Navigation.administrative_private">Itens restritos</message>
 	<message key="xmlui.administrative.Navigation.administrative_control_panel">Painel de controle</message>
     <message key="xmlui.administrative.Navigation.statistics">Estatísticas</message>
         <message key="xmlui.administrative.Navigation.administrative_import_metadata">Importar metadado</message>
