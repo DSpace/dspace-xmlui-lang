@@ -1107,7 +1107,7 @@
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.title">Smazat schéma</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.trail">Smazat schéma</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.head">Potvrdit smazání</message>
-	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">Jste si <b>definitivně</b> jisti, že chcete smazat toto schéma? Pokud existují záznamy obsahující metadata pro pole obsažené v tomto schématu, schéma nebude možné smazat. Musíte se ujistit, že žádné záznamy nepoužívají metadata z tohoto schématu.</message>
+	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">Jste si <b>definitivně</b> jistý, že chcete smazat toto schéma? Pokud existují záznamy obsahující metadata pro pole obsažené v tomto schématu, schéma nebude možné smazat. Musíte se ujistit, že žádné záznamy nepoužívají metadata z tohoto schématu.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.warning">UPOZORNĚNÍ:</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para2">To bude mít za následek chybu v případě, že existují záznamy s vyplněnou hodnotou v rámci tohoto schématu.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column1">ID</message>
@@ -1361,7 +1361,7 @@
 	<message key="xmlui.administrative.item.DeleteBitstreamConfirm.title">Potvrdit smazání</message>
 	<message key="xmlui.administrative.item.DeleteBitstreamConfirm.trail">Potvrďte odstranění</message>
 	<message key="xmlui.administrative.item.DeleteBitstreamConfirm.head1">Potvrďte odstranění</message>
-	<message key="xmlui.administrative.item.DeleteBitstreamConfirm.para1">Jste si jisti, že chcete smazat tyto bitové toky?</message>
+	<message key="xmlui.administrative.item.DeleteBitstreamConfirm.para1">Jste si jistý, že chcete smazat tyto bitové toky?</message>
 	<message key="xmlui.administrative.item.DeleteBitstreamConfirm.column1">Jméno</message>
 	<message key="xmlui.administrative.item.DeleteBitstreamConfirm.column2">Popis</message>
 	<message key="xmlui.administrative.item.DeleteBitstreamConfirm.column3">Formát</message>
@@ -1370,9 +1370,9 @@
 	<message key="xmlui.administrative.item.ConfirmItemForm.title">Potvrzení</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.trail">Potvrzení</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.head1">Změnit záznam: {0}</message>
-	<message key="xmlui.administrative.item.ConfirmItemForm.para_delete">Jste si jisti, že chcete úplně vymazat tento záznam? Upozornění: V té chvíli by nezůstal žádný náhrobek.</message>
-	<message key="xmlui.administrative.item.ConfirmItemForm.para_withdraw">Jste si jisti, že chcete záznam vyřadit z archivu?</message>
-	<message key="xmlui.administrative.item.ConfirmItemForm.para_reinstate">Jste si jisti, že chcete tento záznam znovu zařadit do archivu?</message>
+	<message key="xmlui.administrative.item.ConfirmItemForm.para_delete">Jste si jistý, že chcete úplně vymazat tento záznam? Upozornění: V té chvíli by nezůstal žádný náhrobek.</message>
+	<message key="xmlui.administrative.item.ConfirmItemForm.para_withdraw">Jste si jistý, že chcete záznam vyřadit z archivu?</message>
+	<message key="xmlui.administrative.item.ConfirmItemForm.para_reinstate">Jste si jistý, že chcete tento záznam znovu zařadit do archivu?</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.column1">Pole</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.column2">Hodnota</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.column3">Jazyk</message>
@@ -1443,7 +1443,7 @@
 	<message key="xmlui.administrative.item.EditItemMetadataForm.value_label">Hodnota</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.lang_label">Jazyk</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.submit_add">Přidat nová metadata</message>
-	<message key="xmlui.administrative.item.EditItemMetadataForm.para1">PAMATUJTE PROSÍM: Tyto změny nejsou žádným způsobem ověřovány. Zodpovídáte za vložení dat ve správném formátu. Jestliže si nejste jisti, o jaký formát se jedná, prosím NEPROVÁDĚJTE změny.</message>
+	<message key="xmlui.administrative.item.EditItemMetadataForm.para1">PAMATUJTE PROSÍM: Tyto změny nejsou žádným způsobem ověřovány. Zodpovídáte za vložení dat ve správném formátu. Jestliže si nejste jistý, o jaký formát se jedná, prosím NEPROVÁDĚJTE změny.</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.head2">Metadata</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.column1">Odstranit</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.column2">Jméno</message>
@@ -1622,7 +1622,7 @@
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.title">Potvrdit smazání</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.trail">Potvrzení</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.main_head">Potvrďte smazání kolekce {0}</message>
-	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.main_para">Jste si jisti, že chcete smazat kolekci {0}? Tím se smaže:</message>
+	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.main_para">Jste si jistý, že chcete smazat kolekci {0}? Tím se smaže:</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.confirm_item1">Všechny záznamy a nekompletní zadání v této kolekci, které nejsou obsaženy v jiných kolekcích</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.confirm_item2">Obsah těchto záznamů</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.confirm_item3">Všechny související autorizační politiky</message>
@@ -1631,8 +1631,8 @@
 	<message key="xmlui.administrative.collection.DeleteCollectionRoleConfirm.title">Potvrdit smazání role</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionRoleConfirm.trail">Potvrzení</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionRoleConfirm.main_head">Potvrdit smazání role {0}</message>
-	<message key="xmlui.administrative.collection.DeleteCollectionRoleConfirm.main_para_read">Jste si jisti, že chcete smazat tuto roli? Smazání této skupiny přidělí přístup READ všem uživatelům pro všechny záznamy zaslané do kolekce od tohoto okamžiku. Prosím, pamatujte, že tato změna není retroaktivní. Stávající záznamy v systému budou stále omezeny na členy definované rolí, kterou se chystáte smazat.</message>
-	<message key="xmlui.administrative.collection.DeleteCollectionRoleConfirm.main_para">Jste si jisti, že chcete smazat tuto roli? Všechny dosud provedené změny a úpravy skupiny {0} budou ztraceny a bylo by je třeba vytvořit od začátku.</message>
+	<message key="xmlui.administrative.collection.DeleteCollectionRoleConfirm.main_para_read">Jste si jistý, že chcete smazat tuto roli? Smazání této skupiny přidělí přístup READ všem uživatelům pro všechny záznamy zaslané do kolekce od tohoto okamžiku. Prosím, pamatujte, že tato změna není retroaktivní. Stávající záznamy v systému budou stále omezeny na členy definované rolí, kterou se chystáte smazat.</message>
+	<message key="xmlui.administrative.collection.DeleteCollectionRoleConfirm.main_para">Jste si jistý, že chcete smazat tuto roli? Všechny dosud provedené změny a úpravy skupiny {0} budou ztraceny a bylo by je třeba vytvořit od začátku.</message>
 	
 	<!-- org.dspace.app.xmlui.administrative.collection.EditCollectionMetadataForm.java -->
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.title">Editace metadat kolekce</message>
@@ -1760,7 +1760,7 @@
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.title">Potvrdit smazání</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.trail">Potvrzení</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.main_head">Potvrďte smazání komunity {0}</message>
-	<message key="xmlui.administrative.community.DeleteCommunityConfirm.main_para">Jste si jisti, že chcete smazat komunitu <strong>{0}</strong>? Tím se smaže:</message>
+	<message key="xmlui.administrative.community.DeleteCommunityConfirm.main_para">Jste si jistý, že chcete smazat komunitu <strong>{0}</strong>? Tím se smaže:</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item1">Všechny kolekce v komunitě, které nejsou obsaženy v jiných komunitách</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item2">Všechny záznamy a nekompletní příspěvky v této komunitě, které nejsou obsaženy v jiných komunitách</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item3">Obsah těchto záznamů</message>
