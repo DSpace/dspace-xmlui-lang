@@ -2273,4 +2273,246 @@
   <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">Eine neuere Fassung von diesem Dokument befindet sich zur Zeit im Geschäftsgang.</message>
   <!-- End Versioning -->
   
+  <!-- Start Discovery -->
+
+  <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.contributor.author_filter">Autor</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">Schlagwort</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">Typ</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">Erscheinungsdatum</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">Erscheinungsdatum</message>
+
+  <!-- Site Leve Recently Added Content -->
+  <message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">Neuzugänge</message>
+
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type_filter">Kind</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_publisher_filter">Verlag</message>
+
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.ispartof">Überordnung</message>
+
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by">Ergebnisse gruppieren nach</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.none">Nichts</message>
+
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.publication_grp">Veröffentlichung</message>
+
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.comm">Bereich</message>
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.coll">Sammlung</message>
+
+  <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.relation.ispartofseries_filter">Serie</message>
+
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.contributor.author_browse">Auflistung nach: Autor</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.title_browse">Auflistung nach: Titel</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.subject_browse">Auflistung nach: Schlagwort</message>
+        
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">Auflistung nach: Kurzfassung</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">Auflistung nach: Serie</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">Auflistung nach: Sponsor</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">Auflistung nach: Kennung</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">Auflistung nach: Sprache (ISO)</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">Auflistung nach: Stichwort</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">Auflistung nach: Kategorie</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_contributor_browse">Auflistung nach: Mitarbeiter</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_creator_browse">Auflistung nach: Urheber</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_subject_browse">Auflistung nach: Schlagwort</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_description_browse">Auflistung nach: Beschreibung</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_relation_browse">Auflistung nach: Beziehung</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_mime_browse">Auflistung nach: Mime-Typ</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_other_browse">Auflistung nach: Sonstige Beteiligte</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_advisor_browse">Auflistung nach: Betreuer</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">Auflistung nach: Abteilung</message>
+  <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">Auflistung nach: Erscheinungsdatum</message>
+
+  <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Autor</message>
+  <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">Titel</message>
+  <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Schlagwort</message>
+  <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">Erscheinungsdatum</message>
+
+  <message key="xmlui.dri2xhtml.structural.pagination-info.nototal">Anzeige der Dokumente {0}-{1}</message>
+
+  <message key="xmlui.Discovery.AbstractSearch.type_author">Filtern nach: Autor</message>
+  <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Autor</message>
+  <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author_filter">Autor</message>
+  <message key="xmlui.Discovery.AbstractSearch.type_subject">Filtern nach: Schlagwort</message>
+  <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Schlagwort</message>
+  <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject_filter">Schlagwort</message>
+  <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued.year">Erscheinungsdatum</message>
+
+  <message key="xmlui.Discovery.AbstractSearch.startswith">Anfang</message>
+  <message key="xmlui.Discovery.AbstractSearch.startswith.help">oder geben Sie die ersten Zeichen ein:</message>
+
+  <message key="xmlui.Discovery.AbstractSearch.sort_by.head">Sortiermöglichkeiten:</message>
+  <message key="xmlui.Discovery.AbstractSearch.sort_by.relevance">Relevanz</message>
+  <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_desc">Titel absteigend</message>
+  <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_desc">Erscheinungsdatum absteigend</message>
+
+  <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_asc">Titel aufsteigend</message>
+  <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_asc">Erscheinungsdatum aufsteigend</message>
+
+  <message key="xmlui.Discovery.AbstractSearch.rpp">Ergebnisse pro Seite:</message>
+
+  <message key="xmlui.Discovery.AbstractSearch.filters.controls.add-filter">Filter hinzufügen</message>
+  <message key="xmlui.Discovery.AbstractSearch.filters.controls.apply-filters">Anwenden</message>
+  <message key="xmlui.Discovery.AbstractSearch.filters.controls.remove-filter">Entfernen</message>
+  <message key="xmlui.Discovery.AbstractSearch.filters.controls.new-filters.head">Neue Filter:</message>
+  <message key="xmlui.Discovery.AbstractSearch.filters.controls.current-filters.head">Aktuelle Filter:</message>
+  <message key="xmlui.Discovery.AbstractSearch.filters.display">Filter hinzufügen</message>
+
+  <message key="xmlui.discovery.SearchFacetFilter.no-results">Keine Filterwerte gefunden</message>
+
+  <message key="xmlui.discovery.AbstractFiltersTransformer.filters.head">Entdecke</message>
+  <message key="xmlui.discovery.AbstractFiltersTransformer.filters.view-more">... mehr</message>
+
+  <message key="xmlui.Discovery.SimpleSearch.search_scope">Suche</message>
+  <message key="xmlui.discovery.SimpleSearch.search_label">Suche</message>
+  <message key="xmlui.Discovery.SimpleSearch.filter_head">Filter</message>
+  <message key="xmlui.Discovery.SimpleSearch.filter_help">Verwenden Sie Filter, um die Suchergebnisse zu verfeinern.</message>
+
+  <message key="xmlui.Discovery.SimpleSearch.filter.contains">Enthält</message>
+  <message key="xmlui.Discovery.SimpleSearch.filter.equals">Entspricht</message>
+  <message key="xmlui.Discovery.SimpleSearch.filter.authority">Kennung</message>
+  <message key="xmlui.Discovery.SimpleSearch.filter.notcontains">enthält nicht</message>
+  <message key="xmlui.Discovery.SimpleSearch.filter.notequals">entspricht nicht</message>
+  <message key="xmlui.Discovery.SimpleSearch.filter.notauthority">Keine Kennung</message>
+    
+  <message key="xmlui.Discovery.RelatedItems.head">Verwandte Dokumente</message>
+  <message key="xmlui.Discovery.RelatedItems.help">Anzeige der Dokumente mit ähnlichem Titel, Autor, Urheber und Thema.</message>
+
+  <message key="xmlui.Discovery.AbstractSearch.head1_community">Anzeige von {0} der {1} Treffer für den Bereich: {2}. <span class="searchTime">({3} Sekunden)</span></message>
+  <message key="xmlui.Discovery.AbstractSearch.head1_collection">Anzeige von {0} der {1} Treffer für die Sammlung: {2}. <span class="searchTime">({3} Sekunden)</span></message>
+  <message key="xmlui.Discovery.AbstractSearch.head1_none">Anzeige von {0} der {1} Treffer. <span class="searchTime">({2} Sekunden)</span></message>
+
+  <message key="xmlui.Discovery.AbstractSearch.head2">Bereiche und Sammlungen, die Ihrer Suche entsprechen.</message>
+  <message key="xmlui.Discovery.AbstractSearch.head3">Dokumente, die Ihrer Suche entsprechen.</message>
+  <!-- End Discovery -->
+
+  <!--   Start Sword Client  -->
+  <message key="xmlui.swordclient.Navigation.context_head">Sword Kopie</message>
+  <message key="xmlui.swordclient.Navigation.context_copy">Dokument in ein anderes Repositorium kopieren</message>
+  <message key="xmlui.swordclient.general.SwordCopy_trail">Sword Kopie</message>
+  <message key="xmlui.swordclient.general.main_head">Kopie von Dokument: {0}</message>
+
+  <message key="xmlui.swordclient.SelectTarget.title">Sword Kopie - Ziel</message>
+  <message key="xmlui.swordclient.SelectTarget.trail">Ziel auswählen</message>
+  <message key="xmlui.swordclient.SelectTarget.url">URL</message>
+  <message key="xmlui.swordclient.SelectTarget.other_url">Alternative URL</message>
+  <message key="xmlui.swordclient.SelectTarget.username">Benutzername</message>
+  <message key="xmlui.swordclient.SelectTarget.password">Passwort</message>
+  <message key="xmlui.swordclient.SelectTarget.on_behalf_of">Im Auftrag von</message>
+
+  <message key="xmlui.swordclient.SelectTargetAction.url_error">Ungültige URL</message>
+  <message key="xmlui.swordclient.SelectTargetAction.username_error">Ungültiger Benutzername</message>
+  <message key="xmlui.swordclient.SelectTargetAction.password_error">Ungültiges Passwort</message>
+  <message key="xmlui.swordclient.SelectTargetAction.serviceDoc_error">Beim Anforden des Sword Servicedokuments ist ein Fehler aufgetreten: {0}</message>
+
+  <message key="xmlui.swordclient.SelectCollection.title">Sword Zielsammlungen</message>
+  <message key="xmlui.swordclient.SelectCollection.trail">Sammlung(en) auswählen</message>
+  <message key="xmlui.swordclient.SelectCollection.collection_head">Sammlung: {0}</message>
+  <message key="xmlui.swordclient.SelectCollection.collection_title">Titel: {0} </message>
+  <message key="xmlui.swordclient.SelectCollection.collection policy">Policy: {0}</message>
+  <message key="xmlui.swordclient.SelectCollection.collection_mediation">Mediation: {0}</message>
+  <message key="xmlui.swordclient.SelectCollection.collection_file_types">Dateitypen: {0}</message>
+  <message key="xmlui.swordclient.SelectCollection.collection_package_formats">Paketformate: {0}</message>
+  <message key="xmlui.swordclient.SelectCollection.collection_deposit_button">Hier veröffentlichen</message>
+
+  <message key="xmlui.swordclient.SelectCollection.sub_service_target">Ziel des untergeordneten Dienstes</message>
+  <message key="xmlui.swordclient.SelectCollection.sub_service_target_button">Servicedokument des untergeordneten Dienstes</message>
+
+  <message key="xmlui.swordclient.SelectPackagingAction.head">Sammlung:{0}</message>
+  <message key="xmlui.swordclient.SelectPackagingAction.title">Titel: {0}</message>
+  <message key="xmlui.swordclient.SelectPackagingAction.policy">Policy: {0} </message>
+  <message key="xmlui.swordclient.SelectPackagingAction.mediation">Mediation:{0} </message>
+  <message key="xmlui.swordclient.SelectPackagingAction.file_types">Dateityp</message>
+  <message key="xmlui.swordclient.SelectPackagingAction.package_formats">Paketformat</message>
+  <message key="xmlui.swordclient.SelectPackagingAction.packageFormat_error">Das gewählte Paketformat wird nicht unterstützt</message>
+
+  <message key="xmlui.swordclient.DepositAction.success">Dokument erfolgreich kopiert</message>
+  <message key="xmlui.swordclient.DepositAction.package_error">Paketformatfehler</message>
+  <message key="xmlui.swordclient.DepositAction.invalid_handle">Ungültiges Handle</message>
+  <message key="xmlui.swordclient.DepositAction.package_error">Bei Erstellung des Paketobjektes ist ein Fehler aufgetreten.</message>
+  <message key="xmlui.swordclient.DepositAction.error">Beim Deposit ist ein Fehler aufgetreten: {0}</message>
+
+  <message key="xmlui.swordclient.SwordResponse.title">Sword Antwort</message>
+  <message key="xmlui.swordclient.SwordResponse.trail">Sword Antwor</message>
+  <!--   End Sword Client  -->
+
+  <!-- Start XMLWorkflow -->
+  <message key="xmlui.XMLWorkflow.workflow.ClaimAction.info1">Aktionen, die Sie durchführen können:</message>
+  <message key="xmlui.XMLWorkflow.workflow.ClaimAction.take_help">Aufgabe sich selbst zuordnen.</message>
+  <message key="xmlui.XMLWorkflow.workflow.ClaimAction.take_submit">Aufgabe übernehmen</message>
+  <message key="xmlui.XMLWorkflow.workflow.ClaimAction.leave_help">Aufgabe im Aufgabenpool belassen.</message>
+  <message key="xmlui.XMLWorkflow.workflow.ClaimAction.leave_submit">Aufgabe nicht übernehmen</message>
+  <message key="xmlui.XMLWorkflow.workflow.ClaimAction.back">Zurück zur Übersicht</message>
+  <message key="xmlui.XMLWorkflow.workflow.ClaimAction.title">Annehmen/Ablehnen Schritt</message>
+
+  <message key="xmlui.XMLWorkflow.workflow.AcceptAction.head">Aufgabe durchführen: Annehmen/Ablehnen des Dokumentes</message>
+  <message key="xmlui.XMLWorkflow.workflow.AcceptAction.info1">Aktionen, die Sie durchführen können:</message>
+  <message key="xmlui.XMLWorkflow.workflow.AcceptAction.reject_help">Wenn Sie das Dokument begutachtet haben und es <strong>not</strong> nicht angenommen werden kann, wählen Sie "Ablehnen".  Sie haben dann die Möglichkeit, den Grund anzugeben und mögliche Verbesserungen aufzuzeigen.</message>
+  <message key="xmlui.XMLWorkflow.workflow.AcceptAction.reject_submit">Dokument ablehnen</message>
+  <message key="xmlui.XMLWorkflow.workflow.AcceptAction.approve_help">Wenn Sie das Dokument begutachtet haben und es in die Sammlung aufgenommen werden soll, wählen Sie "Annehmen".</message>
+  <message key="xmlui.XMLWorkflow.workflow.AcceptAction.approve_submit">Dokument annehmen</message>
+
+  <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.head">Aufgabe durchführen: Dokument Annehmen/Ablehnen/Bearbeiten</message>
+  <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.info1">Aktionen, die Sie durchführen können:</message>
+  <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.reject_help">Wenn Sie das Dokument begutachtet haben und es <strong>not</strong> nicht angenommen werden kann, wählen Sie "Ablehnen".  Sie haben dann die Möglichkeit, den Grund anzugeben und mögliche Verbesserungen aufzuzeigen, so dass das Dokument ggf. neu eingereicht werden kann.</message>
+  <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.reject_submit">Dokument ablehnen</message>
+  <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.approve_help">Wenn Sie das Dokument begutachtet haben und es in die Sammlung aufgenommen werden soll, wählen Sie "Annehmen".</message>
+  <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.approve_submit">Dokument annehmen</message>
+  <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.edit_help">Wählen Sie dies aus, um das Dokument zu bearbeiten.</message>
+  <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.edit_submit">Metadaten bearbeiten</message>
+
+  <message key="xmlui.XMLWorkflow.step.unknown">Unknown state</message>
+
+  <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.head">Aufgabe durchführen: Gutachter zuordnen</message>
+  <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.help">Verwenden Sie das Suchfeld, um eine Person als Gutachter auszusuchen.</message>
+  <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.search.label">Suche nach Gutachter</message>
+  <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.search.button">Suche nach Person</message>
+  <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.select-reviewer.button">Als Gutachter auswählen</message>
+
+  <message key="xmlui.XMLWorkflow.workflow.SingleUserReviewAction.decline.help">Wenn Sie nicht für die Begutachtung zuständig sind, so können Sie die Aufgabe ablehnen, indem Sie auf "Aufgabe ablehnen" klicken.</message>
+  <message key="xmlui.XMLWorkflow.workflow.SingleUserReviewAction.decline.button">Aufgabe ablehnen</message>
+
+  <message key="xmlui.XMLWorkflow.workflow.ScoreReviewAction.head">Eingereichtes Dokument begutachten</message>
+  <message key="xmlui.XMLWorkflow.workflow.ScoreReviewAction.score.button">Eingereichtes Dokument begutachten</message>
+  <message key="xmlui.XMLWorkflow.workflow.ScoreReviewAction.help">Geben Sie das Ergebnis für das eingereichte Dokument ein.</message>
+
+  <message key="xmlui.XMLWorkflow.Navigation.xmlworkflow_overview">Geschäftsgang Übersicht</message>
+  <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.trail">Geschäftsgang Übersicht</message>
+  <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.title">Geschäftsgang Übersicht</message>
+  <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column1"> </message>
+  <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column2">Schritt</message>
+  <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column3">Dokument</message>
+  <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column4">Sammlung</message>
+  <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column5">Eingereicht von</message>
+  <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.submit_submitter">Dokument an den Einreichenden zurücksenden</message>
+  <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.submit_delete">Dokumente löschen</message>
+  <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.no_results">Keine Treffer</message>
+
+  <message key="xmlui.XMLWorkflow.WorkflowItemTransformer.title">Anzeige Dokument im Geschäftsgang: {0}</message>
+  <message key="xmlui.XMLWorkflow.WorkflowItemTransformer.trail">Dokument im Geschäftsgang anzeigen</message>
+
+  <message key="xmlui.XMLWorkflow.default.reviewstep">Annehmen/Ablehnen</message>
+  <message key="xmlui.XMLWorkflow.default.reviewstep.claimaction">Annehmen/Ablehnen</message>
+  <message key="xmlui.XMLWorkflow.default.reviewstep.reviewaction">Annehmen/Ablehnen</message>
+
+  <message key="xmlui.XMLWorkflow.default.editstep">Annehmen/Bearbeiten/Ablehnen Schritt</message>
+  <message key="xmlui.XMLWorkflow.default.editstep.claimaction">Annehmen/Bearbeiten/Ablehnen</message>
+  <message key="xmlui.XMLWorkflow.default.editstep.editaction">Annehmen/Bearbeiten/Ablehnen</message>
+
+  <message key="xmlui.XMLWorkflow.default.finaleditstep">Abschließend Annehmen/Bearbeiten</message>
+  <message key="xmlui.XMLWorkflow.default.finaleditstep.claimaction">Abschließend Annehmen/Bearbeiten</message>
+  <message key="xmlui.XMLWorkflow.default.finaleditstep.finaleditaction">Abschließend Annehmen/Bearbeiten</message>
+
+  <message key="xmlui.XMLWorkflow.selectSingleReviewer.selectReviewerStep.claimaction">Gutachter zuordnen</message>
+  <message key="xmlui.XMLWorkflow.selectSingleReviewer.selectReviewerStep.selectrevieweraction">Gutachter zuordnen</message>
+
+  <message key="xmlui.XMLWorkflow.selectSingleReviewer.singleUserReviewStep">Begutachtung durch eine einzelne Person</message>
+  <message key="xmlui.XMLWorkflow.selectSingleReviewer.singleUserReviewStep.singleuserreviewaction">Eingereichtes Dokument begutachten</message>
+
+  <message key="xmlui.XMLWorkflow.scoreReview.scoreReviewStep.claimaction">Score review</message>
+  <message key="xmlui.XMLWorkflow.scoreReview.scoreReviewStep.scorereviewaction">Score review</message>
+  <message key="xmlui.XMLWorkflow.scoreReview.scoreReviewStep">Score review</message>
+  <!-- End XMLWorkflow -->  
+  
+  
+  
 </catalogue>
