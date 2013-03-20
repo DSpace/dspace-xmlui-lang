@@ -817,7 +817,7 @@
 	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_help">Se você tiver revisado o item e ele é adequado para a inclusão na coleção, selecione "Aprovar".</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_submit">Aprovar item</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_help">Uma vez editado o item, utilize esta opção para enviá-lo para o arquivo.</message>
-	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_submit">Comprometer-se a arquivar</message>
+	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_submit">Publicar</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">Se você revisou o item e não estiver <strong>not</strong> adequado para a inclusão na Coleção, selecione "Rejeitar". Em seguida, será solicitado que digite uma mensagem indicando o motivo do item não ser adequado, e se o solicitante deve mudar alguma coisa e que reenvie.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_submit">Rejeitar o item</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.edit_help">Selecione esta opção para alterar os metadados do item.</message>
@@ -2216,7 +2216,7 @@
 
 
     <!-- Versioning -->
-    <message key="xmlui.aspect.versioning.VersioningNavigation.context_create_version">Cirar versão deste item</message>
+    <message key="xmlui.aspect.versioning.VersioningNavigation.context_create_version">Criar versão deste item</message>
     <message key="xmlui.aspect.versioning.VersioningNavigation.context_show_version_history">Apresentar histórico de versionamento</message>
 
     <message key="xmlui.aspect.versioning.VersionItemForm.title">Criar versão</message>
