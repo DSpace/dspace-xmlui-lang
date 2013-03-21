@@ -2511,8 +2511,8 @@
     <message key="xmlui.XMLWorkflow.WorkflowItemTransformer.trail">Apresentar item no fluxo de trabalho</message>
     
     <message key="xmlui.XMLWorkflow.default.reviewstep">Aceitar/Rejeitar</message>
-    <message key="xmlui.XMLWorkflow.default.reviewstep.claimaction">ceitar/Rejeitar</message>
-    <message key="xmlui.XMLWorkflow.default.reviewstep.reviewaction">ceitar/Rejeitar</message>
+    <message key="xmlui.XMLWorkflow.default.reviewstep.claimaction">Aceitar/Rejeitar</message>
+    <message key="xmlui.XMLWorkflow.default.reviewstep.reviewaction">Aceitar/Rejeitar</message>
     
     <message key="xmlui.XMLWorkflow.default.editstep">Aceitar/Rejeitar/Editar passo</message>
     <message key="xmlui.XMLWorkflow.default.editstep.claimaction">Aceitar/Rejeitar/Editar</message>
@@ -2520,7 +2520,7 @@
     
     <message key="xmlui.XMLWorkflow.default.finaleditstep">Aceitar/Editar passo final</message>
     <message key="xmlui.XMLWorkflow.default.finaleditstep.claimaction">Aceitar/Editar passo fina</message>
-    <message key="xmlui.XMLWorkflow.default.finaleditstep.finaleditaction">Aceitar/Editar passo fina</message>
+    <message key="xmlui.XMLWorkflow.default.finaleditstep.finaleditaction">Aceitar/Editar passo final</message>
     
     
     <message key="xmlui.XMLWorkflow.selectSingleReviewer.selectReviewerStep.claimaction">Passo de atribuir avaliador</message>
