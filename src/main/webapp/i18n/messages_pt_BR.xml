@@ -23,22 +23,33 @@
 		   particular java class.
 		-->
 
-<!-- TRADUÇÃO IBICT O formato usado para todas as chave é como se segue xmlui.<Aspect>.<Java Class>.<name> Existem poucas exceções para este formato de nomeação, 1) Algumas chaves gerais estão em xmlui.general namespace porque são usadas muito frequentemente. 2) Algumas chaves gerais que são específicas para um aspecto particular podem ser encontradas em xmlui.<Aspect> sem especificar uma classe java particular. -->
+	<!-- TRADUÇÃO IBICT 
+		O formato usado para todas as chave é como se segue 
+		
+		xmlui.<Aspect>.<Java Class>.<name> 
+		
+		Existem poucas exceções para este formato de nomeação, 
+		1) Algumas chaves gerais estão em xmlui.general namespace 
+		   porque são usadas muito frequentemente. 
+		2) Algumas chaves gerais que são específicas para um aspecto particular 
+		   podem ser encontradas em xmlui.	<Aspect> sem especificar uma 
+		   classe java particular. 
+		-->
 
 	<!-- General keys -->
 	<message key="xmlui.general.dspace_home">Página inicial</message>
-	<message key="xmlui.general.search">Busca</message>
+	<message key="xmlui.general.search">Pesquisar</message>
 	<message key="xmlui.general.go">Ir</message>
 	<message key="xmlui.general.go_home">Ir para a página inicial</message>
 	<message key="xmlui.general.save">Salvar</message>
 	<message key="xmlui.general.cancel">Cancelar</message>
 	<message key="xmlui.general.return">Voltar</message>
-	<message key="xmlui.general.update">Atualizar</message>
+	<message key="xmlui.general.update">Alterar</message>
 	<message key="xmlui.general.delete">Excluir</message>
 	<message key="xmlui.general.next">Próximo</message>
 	<message key="xmlui.general.untitled">Sem título</message>
-        <message key="xmlui.general.perform">Perform</message>
-        <message key="xmlui.general.queue">Queue</message>
+    <message key="xmlui.general.perform">Executar</message>
+    <message key="xmlui.general.queue">Fila</message>
 
 	<!--
 		Page not found keys
@@ -48,24 +59,24 @@
 		-->
 	<message key="xmlui.PageNotFound.title">Página não encontrada</message>
 	<message key="xmlui.PageNotFound.head">Página não encontrada</message>
-	<message key="xmlui.PageNotFound.para1">Nós não podemos encontrar a página que você solicitou.</message>
+	<message key="xmlui.PageNotFound.para1">Não foi possível encontrar a página solicitada</message>
 
 
 	<!--
 	   The "utils" non-aspect
        -->
-    <message key="xmlui.utils.AuthenticationUtil.onlyAdmins">Somente os administradores do site podem assumir o login para outros usuários.</message>
-    <message key="xmlui.utils.AuthenticationUtil.onlyAuthenticatedAdmins">Somente os usuários autenticados que são administradores podem assumir o login para outros usuários.</message>
-    <message key="xmlui.utils.AuthenticationUtil.notAnotherAdmin">Você não pode assumir o login como outro administrador.</message>
+    <message key="xmlui.utils.AuthenticationUtil.onlyAdmins">Somente administradorees do site podem assumir login como outro usuário</message>
+    <message key="xmlui.utils.AuthenticationUtil.onlyAuthenticatedAdmins">Somente usuários autenticados que são administradores podem assumir login como outro usuário</message>
+    <message key="xmlui.utils.AuthenticationUtil.notAnotherAdmin">Você não possui direitos para logar-se como administrador</message>
 
 
 	<!--
 		This section is for feed syndications (RSS, atom, etc)
 	-->
-	<message key="xmlui.feed.general_description">O sistema DSpace de repositório captura, armazena, indexa, preserva e distribui material de pesquisa digital.</message>
+	<message key="xmlui.feed.general_description">O Repositório captura, armazena, indexa, preserva e distibui material de pesquisa em formato digital.</message>
     <message key="xmlui.feed.header">RSS Feeds</message>
-	<message key="xmlui.feed.logo_title">The Channel Image</message>
-	<message key="xmlui.feed.untitled">Sem título</message>
+	<message key="xmlui.feed.logo_title">O canal de imagem</message>
+	<message key="xmlui.feed.untitled">Sem Título</message>	
 
 	<!--
 		Default notice header
@@ -93,7 +104,7 @@
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.result_query">Sua consulta "{0}" produziu {1} resultado(s).</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head2">Comunidades ou Coleções correspondentes a sua consulta</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head3">Resultados para a sua consulta</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">A busca não teve resultados.</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">A busca não retornou resultados.</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">Tudo sobre o DSpace</message>
 	
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.title">Título</message>
@@ -120,9 +131,9 @@
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Assunto</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_abstract">Resumo</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_series">Série</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_sponsor">Financiador</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_sponsor">Patrocinador</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">Identificador</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">Idioma (ISO)</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">Idioma/Língua (ISO)</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">Palavra-chave</message>
 
    <!--  some common other possibilities for Advanced Search Fields -->
@@ -137,10 +148,9 @@
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_department">Departamento</message>
 
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_ANY">Texto completo</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.and">AND</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.or">OR</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.not">NOT</message>
-
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.and">AND (e)</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.or">OR (ou)</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.not">NOT (não)</message>      
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ConfigureableBrowse.java -->
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with">Ou digite as primeiras letras:</message>
@@ -150,13 +160,13 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">(Escolha o ano)</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year">Ou digite um ano: </message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year_help">Navegue pelos itens de um determinado ano.</message>
-  <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.no_results">Desculpe, não há nenhum resultado para essa busca.</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.sort_by"> Classificar por: </message>
+    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.no_results">Desculpe, não há nenhum resultado para essa busca.</message>
+ 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.sort_by"> Classificar por: </message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.order"> Ordenar: </message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.rpp"> Resultados: </message><!-- /Page -->
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.etal"> Autores/Item: </message>
 
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.etal.all">Tudo</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.etal.all">Todos</message>
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.title">título</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateissued">data do documento</message>
@@ -186,7 +196,7 @@
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.search_scope">Escopo da busca</message>
-	<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">Tudo sobre o DSpace</message>
+	<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">Todo o repositório</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.full_text_search">Buscar nesta coleção:</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_browse">Navegar por</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_titles">Títulos</message>
@@ -203,7 +213,7 @@
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.search_scope">Escopo da busca</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.all_of_dspace">Tudo sobre o DSpace</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.all_of_dspace">Todo o repositório</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">Pesquisar nesta comunidade e nas suas coleções:</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_browse">Navegar por</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_titles">Títulos</message>
@@ -220,19 +230,19 @@
 	<message key="xmlui.ArtifactBrowser.Contact.trail">Fale conosco</message>
 	<message key="xmlui.ArtifactBrowser.Contact.head">Fale conosco</message>
 	<message key="xmlui.ArtifactBrowser.Contact.para1">{0} Administradores podem ser contatados por:</message>
-	<message key="xmlui.ArtifactBrowser.Contact.feedback_label">Forma online</message>
-	<message key="xmlui.ArtifactBrowser.Contact.feedback_link">Opinião</message>
+	<message key="xmlui.ArtifactBrowser.Contact.feedback_label">Formulário de contato</message>
+	<message key="xmlui.ArtifactBrowser.Contact.feedback_link">Fale conosco</message>
 	<message key="xmlui.ArtifactBrowser.Contact.email">E-mail</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackForm.java -->
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.title">Dê a sua opinião</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.trail">Dê a sua opinião</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.head">Dê a sua opinião</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Obrigado por compartilhar sua opinião sobre o sistema DSpace! Seus comentários são bem-vindos!</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Obrigado por compartilhar sua opinião sobre o repositório! Seus comentários são bem-vindos!</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.email">Seu email</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackForm.email_help">Este endereço será usado para que acompanhe a sua opinão.</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackForm.email_help">Este endereço será utilizado para acompanhamento dos seus comentários.</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.comments">Comentários</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackForm.submit">Envie sua opinião</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackForm.submit">Enviar comentários</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackSent.java -->
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.title">Dê a sua opinião</message>
@@ -253,7 +263,7 @@
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
 	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">Navegar</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">Tudo sobre o DSpace</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">Todo o repositório</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Comunidades e Coleções</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_title">Títulos</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_author">Autores</message>
@@ -272,29 +282,29 @@
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.RestrictedItem.java -->
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.title">Este recurso é restrito</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.trail">Restringido</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.trail">Restrito</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_resource">Este recurso é restrito</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_community">Esta comunidade é restrita</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_collection">Esta coleção é restrita</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_item">Este item é restrito</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_bitstream">Este bitstream é restrito</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_resource">Você não possui as permissões para acessar este recurso restrito.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_community">Você não possui as permissões para acessar esta comunidade restrita <b>{0}</b>.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_collection">Você não possui as permissões para acessar esta coleção restrita <b>{0}</b>.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item">Você não possui as permissões para acessar este item restrito <b>{0}</b>.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_bitstream">Você não possui as permissões para acessar este bitstream restrito <b>{0}</b>.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_resource">Você não possui as permissões para acessar este recurso.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_community">Você não possui as permissões para acessar esta comunidade <b>{0}</b>.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_collection">Você não possui as permissões para acessar esta coleção <b>{0}</b>.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item">Você não possui as permissões para acessar este item <b>{0}</b>.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_bitstream">Você não possui as permissões para acessar este bitstream <b>{0}</b>.</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_collection">coleção</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_community">communidade</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_bitstream">bitstream</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_item">item</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_resource">recurso</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.unknown">desconhecido</message>
-        <message key="xmlui.ArtifactBrowser.RestrictedItem.login">Ir para a tela de login</message>
+    <message key="xmlui.ArtifactBrowser.RestrictedItem.login">Ir para a tela de login</message>
 
-        <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">Este item foi removido</message>
-        <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">O item selecionado foi removido e não está mais disponível.</message>
-        <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">O item selecionado é de acesso restrito e requer permissão para ser visto. Por favor, faça o login para acessar o item.</message>
-        <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Sua conta de usuário não permite visualizar este item. Por favor, entre em contato com o administrador do sistema caso tenha alguma dúvida.</message>
+    <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">Este item foi removido</message>
+    <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">O item selecionado foi removido e não está mais disponível.</message>
+    <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">O item selecionado é restrito e requer permissão para ser visto. Por favor, faça o login para acessar o item.</message>
+    <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Você não possui direitos de acesso para visualizar este item. Por favor contate o administrador do sistema.</message>	
         
 	<!-- Authentication messages used at the top of the login page:  -->
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_header">Este item é restrito</message>
@@ -327,13 +337,13 @@
 
 
 	<!-- General keys used by the EPerson aspect -->
-	<message key="xmlui.EPerson.trail_new_registration">Cadastro de novo usuário</message>
-	<message key="xmlui.EPerson.trail_forgot_password">Esqueceu a senha?</message>
+	<message key="xmlui.EPerson.trail_new_registration">Cadastro de usuário</message>
+	<message key="xmlui.EPerson.trail_forgot_password">Esqueceu sua senha?</message>
 
 	<!-- org.dspace.app.xmlui.eperson.CannotRegister.java -->
 	<message key="xmlui.EPerson.CannotRegister.title">Cadastro indisponível</message>
 	<message key="xmlui.EPerson.CannotRegister.head">Cadastro indisponível</message>
-	<message key="xmlui.EPerson.CannotRegister.para1">A configuração deste repositório DSpace não permite o cadastro neste contexto. Por favor, entre em contato com o <a href="../contact">administrador do site</a> para questões e comentários.</message>
+	<message key="xmlui.EPerson.CannotRegister.para1">A configuração deste repositório não permite o registo neste contexto. Por favor, entre em contato com o <a href="../contact">administrador do site</a> para questões e comentários.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.EditProfile.java -->
 	<message key="xmlui.EPerson.EditProfile.title_update">Atualizar perfil</message>
@@ -342,9 +352,9 @@
 	<message key="xmlui.EPerson.EditProfile.head_update">Criar perfil</message>
 	<message key="xmlui.EPerson.EditProfile.head_create">Criar perfil</message>
 	<message key="xmlui.EPerson.EditProfile.email_address">Endereço de e-mail</message>
-	<message key="xmlui.EPerson.EditProfile.first_name">Primeiro nome</message>
-	<message key="xmlui.EPerson.EditProfile.last_name">último nome</message>
-	<message key="xmlui.EPerson.EditProfile.telephone">Telefone de contato</message>
+	<message key="xmlui.EPerson.EditProfile.first_name">Nome</message>
+	<message key="xmlui.EPerson.EditProfile.last_name">Sobrenome</message>
+	<message key="xmlui.EPerson.EditProfile.telephone">Telefone</message>
         <message key="xmlui.EPerson.EditProfile.Language">Idioma</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions">Assinaturas</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions_help">Você pode assinar coleções para receber alerta de e-mails diários sobre os novos itens adicionados. Você pode assinar quantas coleções desejar. Outra alternativa para receber alerta de e-mails diários é usar os RSS feeds disponíveis para todas as coleções.</message>
@@ -353,12 +363,12 @@
 	<message key="xmlui.EPerson.EditProfile.update_password_instructions">Opcionalmente, você pode digitar uma nova senha na caixa abaixo e confirme digitando-a novamente na segunda caixa. A senha deve conter, no mínimo, seis caracteres.</message>
 	<message key="xmlui.EPerson.EditProfile.create_password_instructions">Por favor, digite uma senha na caixa abaixo, e confirme digitando-a novamente na segunda caixa. A senha deve conter, no mínimo, seis caracteres.</message>
 	<message key="xmlui.EPerson.EditProfile.password">Senha</message>
-	<message key="xmlui.EPerson.EditProfile.confirm_password">Digite novamente para confirmar</message>
+	<message key="xmlui.EPerson.EditProfile.confirm_password">Redigite a senha</message>
 	<message key="xmlui.EPerson.EditProfile.submit_update">Cadastro completo</message>
 	<message key="xmlui.EPerson.EditProfile.submit_create">Atualizar perfil</message>
-	<message key="xmlui.EPerson.EditProfile.error_required">Este campo é necessário</message>
+	<message key="xmlui.EPerson.EditProfile.error_required">Campo é obrigatório</message>
 	<message key="xmlui.EPerson.EditProfile.error_invalid_password">Escolha uma senha com pelo menos 6 caracteres</message>
-	<message key="xmlui.EPerson.EditProfile.error_unconfirmed_password">Por favor, digite novamente sua senha para confirmar</message>
+	<message key="xmlui.EPerson.EditProfile.error_unconfirmed_password">Por favor confirme a senha digitada</message>
 	<message key="xmlui.EPerson.EditProfile.head_auth">Grupos autorizados a que pertence</message>
 	<message key="xmlui.EPerson.EditProfile.head_identify">Identificar</message>
 	<message key="xmlui.EPerson.EditProfile.head_security">Segurança</message>
@@ -366,15 +376,15 @@
 	<!-- org.dspace.app.xmlui.eperson.EPersonUtils.java -->
 	<message key="xmlui.EPerson.EPersonUtils.register_verify_email">Verificar e-mail</message>
 	<message key="xmlui.EPerson.EPersonUtils.register_create_profile">Criar perfil</message>
-	<message key="xmlui.EPerson.EPersonUtils.register_finished">Finalizado</message>
+	<message key="xmlui.EPerson.EPersonUtils.register_finished">Concluído</message>
 	<message key="xmlui.EPerson.EPersonUtils.forgot_verify_email">Verificar e-mail</message>
-	<message key="xmlui.EPerson.EPersonUtils.forgot_reset_password">Redefinir senha</message>
-	<message key="xmlui.EPerson.EPersonUtils.forgot_finished">Finalizado</message>
+	<message key="xmlui.EPerson.EPersonUtils.forgot_reset_password">Alterar senha</message>
+	<message key="xmlui.EPerson.EPersonUtils.forgot_finished">Concluído</message>
 
 	<!-- org.dspace.app.xmlui.eperson.ForgotPasswordFinished.java -->
-	<message key="xmlui.EPerson.ForgotPasswordFinished.title">Redefinir senha</message>
-	<message key="xmlui.EPerson.ForgotPasswordFinished.head">Redefinir senha</message>
-	<message key="xmlui.EPerson.ForgotPasswordFinished.para1">Sua senha foi redefinida.</message>
+	<message key="xmlui.EPerson.ForgotPasswordFinished.title">Alterar senha</message>
+	<message key="xmlui.EPerson.ForgotPasswordFinished.head">Alterar senha</message>
+	<message key="xmlui.EPerson.ForgotPasswordFinished.para1">Sua senha foi alterada.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.InvalidToken.java -->
 	<message key="xmlui.EPerson.InvalidToken.title">Token inválido</message>
@@ -396,7 +406,7 @@
 	<message key="xmlui.EPerson.PasswordLogin.head1">Entrar no DSpace</message>
 	<message key="xmlui.EPerson.PasswordLogin.title">Entrar</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">Endereço de e-mail</message>
-	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">O e-mail e/ou senha não são válidos.</message>
+	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">O e-mail e/ou senha são inválidos.</message>
 	<message key="xmlui.EPerson.PasswordLogin.password">Senha</message>
 	<message key="xmlui.EPerson.PasswordLogin.forgot_link"> Esqueceu a senha?</message>
 	<message key="xmlui.EPerson.PasswordLogin.submit">Entrar</message>
@@ -419,22 +429,22 @@
 	<message key="xmlui.EPerson.LoginChooser.trail">Escolha um login</message>
 	<message key="xmlui.EPerson.LoginChooser.head1">Escolha um modo de login</message>
 	<message key="xmlui.EPerson.LoginChooser.para1">Entrar via:</message>
-	<message key="org.dspace.authenticate.ShibAuthentication.title">Autentificação Shibboleth</message>
-	<message key="org.dspace.eperson.LDAPAuthentication.title">Autentificação LDAP</message>
-	<message key="org.dspace.eperson.PasswordAuthentication.title">Autentificação de senha</message>
-	<message key="org.dspace.eperson.X509Authentication.title">Autentificação de certificado da web</message>
+	<message key="org.dspace.authenticate.ShibAuthentication.title">autenticação Shibboleth</message>
+	<message key="org.dspace.eperson.LDAPAuthentication.title">autenticação LDAP</message>
+	<message key="org.dspace.eperson.PasswordAuthentication.title">autenticação de senha</message>
+	<message key="org.dspace.eperson.X509Authentication.title">autenticação de certificado da web</message>
 
 	<!-- org.dspace.app.xmlui.eperson.FailedAuthentication -->
 	<message key="xmlui.EPerson.FailedAuthentication.BadCreds">As permissões fornecidas são inválidas.</message>
-	<message key="xmlui.EPerson.FailedAuthentication.BadArgs">Não é possível autenticar devido a argumentos inválidos recebidos.</message>
-	<message key="xmlui.EPerson.FailedAuthentication.NoSuchUser">Um usuário não foi encontrado com as permissões fornecidas.</message>
-	<message key="xmlui.EPerson.FailedAuthentication.title">Falha na autentificação</message>
-    <message key="xmlui.EPerson.FailedAuthentication.trail">Falha na autentificação</message>
-    <message key="xmlui.EPerson.FailedAuthentication.h1">Falha na autentificação</message>
+	<message key="xmlui.EPerson.FailedAuthentication.BadArgs">Não é possível autenticar. Argumentos inválidos.</message>
+	<message key="xmlui.EPerson.FailedAuthentication.NoSuchUser">Usuário não encontrado.</message>
+	<message key="xmlui.EPerson.FailedAuthentication.title">Falha na autenticação</message>
+    <message key="xmlui.EPerson.FailedAuthentication.trail">Falha na autenticação</message>
+    <message key="xmlui.EPerson.FailedAuthentication.h1">Falha na autenticação</message>
 
 	<!-- Login xml files -->
-	<message key="xmlui.eperson.noAuthMethod.head">Nenhum modo de autentificação encontrado</message>
-	<message key="xmlui.eperson.noAuthMethod.p1">Nenhum modo de autentificação foi encontrado. Por favor, entre em contato com o administrador do site.</message>
+	<message key="xmlui.eperson.noAuthMethod.head">Nenhum modo de autenticação encontrado</message>
+	<message key="xmlui.eperson.noAuthMethod.p1">Nenhum modo de autenticação foi encontrado. Por favor, entre em contato com o administrador do site.</message>
 	<message key="xmlui.eperson.shibbLoginFailure.head">Shibboleth Falha no login</message>
 	<message key="xmlui.eperson.shibbLoginFailure.p1">Shibboleth autenticação não disponível no momento. Por favor, entre em contato com o administrador do site.</message>
 
@@ -450,31 +460,31 @@
 	<message key="xmlui.EPerson.RegistrationFinished.para1">Você está agora cadastro para usar o sistema DSpace. Você pode se inscrever nas coleções para receber e-mails sobre novos itens cadastrados.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.ResetPassword.java -->
-	<message key="xmlui.EPerson.ResetPassword.title">Redefinir senha</message>
-	<message key="xmlui.EPerson.ResetPassword.head">Redefinir senha</message>
+	<message key="xmlui.EPerson.ResetPassword.title">Alterar senha</message>
+	<message key="xmlui.EPerson.ResetPassword.head">Alterar senha</message>
 	<message key="xmlui.EPerson.ResetPassword.para1">Por favor, digite uma senha na caixa abaixo e confirme digitando-a novamente na segunda caixa. A senha deve conter, no mínimo, seis caracteres.</message>
 	<message key="xmlui.EPerson.ResetPassword.email_address">Endereço de e-mail</message>
 	<message key="xmlui.EPerson.ResetPassword.new_password">Nova senha</message>
 	<message key="xmlui.EPerson.ResetPassword.confirm_password">Digite novamente para confirmar</message>
-	<message key="xmlui.EPerson.ResetPassword.submit">Redefinir senha</message>
+	<message key="xmlui.EPerson.ResetPassword.submit">Alterar senha</message>
 	<message key="xmlui.EPerson.ResetPassword.error_invalid_password">Escolha uma senha com pelo menos 6 caracteres</message>
 	<message key="xmlui.EPerson.ResetPassword.error_unconfirmed_password">Por favor, digite novamente a sua senha para confirmar</message>
 
 	<!-- org.dspace.app.xmlui.eperson.StartForgotPassword.java -->
 	<message key="xmlui.EPerson.StartForgotPassword.title">Esqueceu a senha?</message>
 	<message key="xmlui.EPerson.StartForgotPassword.head">Esqueceu a senha?</message>
-	<message key="xmlui.EPerson.StartForgotPassword.para1">Digite o mesmo endereço de e-mail que você forneceu no cadastro do DSpace. Uma mensagem será enviada ao seu e-mail com mais informações.</message>
+	<message key="xmlui.EPerson.StartForgotPassword.para1">Digite o endereço de e-mail que você utilizou para se cadastrar no DSpace. Um e-mail será enviado ao endereço com instruções.</message>
 	<message key="xmlui.EPerson.StartForgotPassword.email_address">Endereço de e-mail</message>
 	<message key="xmlui.EPerson.StartForgotPassword.email_address_help">Digite o mesmo endereço de e-mail utilizado durante o cadastro.</message>
 	<message key="xmlui.EPerson.StartForgotPassword.error_not_found">Endereço de e-mail não encontrado.</message>
-	<message key="xmlui.EPerson.StartForgotPassword.submit">Enviar informações</message>
+	<message key="xmlui.EPerson.StartForgotPassword.submit">Enviar</message>
 
 	<!-- org.dspace.app.xmlui.eperson.StartRegistration.java -->
 	<message key="xmlui.EPerson.StartRegistration.title">Cadastro de novo usuário</message>
 	<message key="xmlui.EPerson.StartRegistration.head1">E-mail já utilizado</message>
-	<message key="xmlui.EPerson.StartRegistration.para1">Este endereço de e-mail já está sendo utilizado em outra conta. Se você desejar redefinir a senha para esta conta, clique em Redefinir senha no botão abaixo.</message>
-	<message key="xmlui.EPerson.StartRegistration.reset_password_for">Redefinir senha para</message>
-	<message key="xmlui.EPerson.StartRegistration.submit_reset">Redefinir senha</message>
+	<message key="xmlui.EPerson.StartRegistration.para1">Este endereço de e-mail já está sendo utilizado em outra conta. Se você desejar redefinir a senha para esta conta, clique em Alterar senha no botão abaixo.</message>
+	<message key="xmlui.EPerson.StartRegistration.reset_password_for">Alterar senha para</message>
+	<message key="xmlui.EPerson.StartRegistration.submit_reset">Alterar senha</message>
 	<message key="xmlui.EPerson.StartRegistration.head2">Cadastro de novo usuário</message>
 	<message key="xmlui.EPerson.StartRegistration.para2">Cadastre uma conta para para se inscrever nas coleções e receber atualizações por e-mail e enviar novos itens para o DSpace.</message>
 	<message key="xmlui.EPerson.StartRegistration.email_address">Endereço de e-mail</message>
@@ -528,13 +538,13 @@
 	<!-- org.dspace.app.xmlui.submission.Navigation -->
 	<message key="xmlui.Submission.Navigation.submissions">Submissões</message>
 
-
 	<!-- org.dspace.app.xmlui.Submission.submissions -->
 	<message key="xmlui.Submission.Submissions.title">Submissões e Fluxo de submissões</message>
 	<message key="xmlui.Submission.Submissions.trail">Submissões</message>
 	<message key="xmlui.Submission.Submissions.head">Submissões e Tarefas do fluxo de submissões</message>
 	<message key="xmlui.Submission.Submissions.untitled"><i>Sem título</i></message>
 	<message key="xmlui.Submission.Submissions.email">e-mail: </message>
+	
 	<!-- Same transformer, workflow section -->
 	<message key="xmlui.Submission.Submissions.workflow_head1">Tarefas do fluxo de submissões</message>
 	<message key="xmlui.Submission.Submissions.workflow_info1">Estas tarefas são itens que estão aguardando aprovação antes de serem adicionados ao repositório. Existem duas listas de tarefas, uma com as tarefas que você escolheu para fazer e outra para as tarefas que ainda ninguém está trabalhando.</message>
@@ -582,14 +592,14 @@
 	<message key="xmlui.Submission.Submissions.status_6">Submissão sendo editada</message>
 	<message key="xmlui.Submission.Submissions.status_7">Submissão foi arquivada</message>
 	<message key="xmlui.Submission.Submissions.status_unknown">Status desconhecido</message>
-        <!-- Same transformer, completed submissions section -->
-        <message key="xmlui.Submission.Submissions.completed.head">Submissões arquivadas</message>
-        <message key="xmlui.Submission.Submissions.completed.info">Estas são as submissões completas que foram aceitas para o DSpace.</message>
-        <message key="xmlui.Submission.Submissions.completed.column1">Data de aceitação</message>
-        <message key="xmlui.Submission.Submissions.completed.column2">Título</message>
-        <message key="xmlui.Submission.Submissions.completed.column3">Coleção</message>
-        <message key="xmlui.Submission.Submissions.completed.limit">Nós temos listadas acima apenas 50 das suas submissões arquivadas. </message>
-        <message key="xmlui.Submission.Submissions.completed.displayall">Exibir todas as minhas submissões arquivadas.</message>
+    <!-- Same transformer, completed submissions section -->
+    <message key="xmlui.Submission.Submissions.completed.head">Submissões arquivadas</message>
+    <message key="xmlui.Submission.Submissions.completed.info">Estas são as submissões completas que foram aceitas para o DSpace.</message>
+    <message key="xmlui.Submission.Submissions.completed.column1">Data de aceitação</message>
+    <message key="xmlui.Submission.Submissions.completed.column2">Título</message>
+    <message key="xmlui.Submission.Submissions.completed.column3">Coleção</message>
+    <message key="xmlui.Submission.Submissions.completed.limit">Nós temos listadas acima apenas 50 das suas submissões arquivadas. </message>
+    <message key="xmlui.Submission.Submissions.completed.displayall">Exibir todas as minhas submissões arquivadas.</message>
 
 	<!-- submission progress bar messages -->
 	<message key="xmlui.Submission.submit.progressbar.initial-questions">Questões iniciais</message>
@@ -648,11 +658,11 @@
 	<message key="xmlui.Submission.submit.DescribeStep.series_name">Nome da série</message>
 	<message key="xmlui.Submission.submit.DescribeStep.report_no">Relatório ou número do trabalho.</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.link">Categorias de assunto</message>
-<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.title">Categorias de assunto</message>
-<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.label">Filtro de assuntos</message>
-<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.button">Filtro</message>
-<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.loading">Por favor, espere enquanto o vocabulário controlado é carregado.</message>
-<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.error">Ocorreu um problema na carga do vocabulário controlado, por favor, tente mais tarde.</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.title">Categorias de assunto</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.label">Filtro de assuntos</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.button">Filtro</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.loading">Por favor, espere enquanto o vocabulário controlado é carregado.</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.error">Ocorreu um problema na carga do vocabulário controlado, por favor, tente mais tarde.</message>
 
 
     <!-- org.dspace.app.xmlui.Submission.submit.AccessStep -->
@@ -816,7 +826,7 @@
 	<message key="xmlui.Submission.workflow.PerformTaskStep.leave_submit">Fazer a tarefa</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_help">Se você tiver revisado o item e ele é adequado para a inclusão na coleção, selecione "Aprovar".</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_submit">Aprovar item</message>
-	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_help">Uma vez editado o item, utilize esta opção para enviá-lo para o arquivo.</message>
+	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_help">Uma vez editado o item, utilize esta opção para publicá-lo.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_submit">Publicar</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">Se você revisou o item e não estiver <strong>not</strong> adequado para a inclusão na Coleção, selecione "Rejeitar". Em seguida, será solicitado que digite uma mensagem indicando o motivo do item não ser adequado, e se o solicitante deve mudar alguma coisa e que reenvie.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_submit">Rejeitar o item</message>
@@ -828,7 +838,7 @@
 	<!-- org.dspace.app.xmlui.Submission.workflow.RejectTaskStep -->
 	<message key="xmlui.Submission.workflow.RejectTaskStep.info1">Por favor, digite o motivo da rejeição da submissão na caixa abaixo, indicando se o submetedor pode corrigir um problema e que reenvie.</message>
 	<message key="xmlui.Submission.workflow.RejectTaskStep.reason">Motivo</message>
-	<message key="xmlui.Submission.workflow.RejectTaskStep.reason_required">O campo motivo é necessário </message>
+	<message key="xmlui.Submission.workflow.RejectTaskStep.reason_required">O campo motivo é obrigatório </message>
 	<message key="xmlui.Submission.workflow.RejectTaskStep.submit_reject">Rejeitar item</message>
 
 
@@ -974,7 +984,7 @@
 	<message key="xmlui.administrative.eperson.EditEPersonForm.error_lname">último nome é necessário</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.req_certs">Requer certificado</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.can_log_in">Pode entrar</message>
-	<message key="xmlui.administrative.eperson.EditEPersonForm.submit_reset_password">Redefinir senha</message>
+	<message key="xmlui.administrative.eperson.EditEPersonForm.submit_reset_password">Alterar senha</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.special_help">Você também pode excluir permanentemente esta e-person do sistema ou redefinir sua senha. Ao redefinir a senha do usuário será enviado um e-mail contendo um link especial para escolher uma nova senha.</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.submit_delete">Excluir e-person</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.submit_login_as">Entrar como e-person</message>
@@ -1094,7 +1104,7 @@
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.head">Confirmar exclusão</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para1">Você tem <b>absoluta</b> certeza que deseja excluir estes campos? Se algum desses itens contém metadados para esses campos, o(s) campo(s) não poderá ser excluído. Você deve ter certeza que nenhum desses itens utiliza esses campos.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.warning">ATENçãO: </message>
-	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para2">Isto causará um erro se qualquer item contém metadados para esses campos.</message>
+	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para2">Isto causará um erro se qualquer item tiver metadados para esses campos.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.column1">ID</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.column2">Nome</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.column3">Nota de escopo</message>
@@ -1102,10 +1112,10 @@
 	<!-- org.dspace.app.xmlui.administrative.registries.DeleteMetadataSchemaConfirm.java-->
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.title">Excluir esquema</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.trail">Excluir esquema</message>
-	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.head">Confrimar exclusão</message>
+	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.head">Confirmar exclusão</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">Você tem <b>absoluta</b> certeza que deseja excluir este esquema? Se algum desses itens contém metadados para esses campos deste esquema, este não pode ser excluído. Você deve ter certeza que nenhum desses itens contém metadados neste esquema.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.warning">ATENÇãO: </message>
-	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para2">Isto causará um erro se qualquer item contém metadados para este esquema.</message>
+	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para2">Isto causará um erro se qualquer item tiver metadados para esse esquema.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column1">ID</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column2">Namespace</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column3">Nome</message>
@@ -2234,10 +2244,10 @@
     <message key="xmlui.aspect.versioning.VersionUpdateForm.summary">Sumário</message>
 
 
-    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.title">Confirmar deleção</message>
-    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.trail">Confirmar deleção</message>
-    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.head1">Confirmar deleção(ões)</message>
-    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.para1">Tem certeza que deseja deletar estas verões. </message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.title">Confirmar exclusão</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.trail">Confirmar exclusão</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.head1">Confirmar exclusão(ões)</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.para1">Tem certeza que deseja remover estas versões? </message>
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.para2">IMPORTANTE: deletando estas versões, os itens associados não estarão mais acessíveis.</message>
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column1">Versão</message>
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column2">Item</message>
@@ -2249,7 +2259,7 @@
     <message key="xmlui.aspect.versioning.RestoreVersionForm.title">Recuperar versão</message>
     <message key="xmlui.aspect.versioning.RestoreVersionForm.trail">Recuperar versão</message>
     <message key="xmlui.aspect.versioning.RestoreVersionForm.head1">Recuperar versão</message>
-    <message key="xmlui.aspect.versioning.RestoreVersionForm.para1">Tem certeza que deseja recuperar esta versão:</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.para1">Tem certeza que deseja recuperar esta versão?</message>
     <message key="xmlui.aspect.versioning.RestoreVersionForm.column1">Versão</message>
     <message key="xmlui.aspect.versioning.RestoreVersionForm.column2">Editor</message>
     <message key="xmlui.aspect.versioning.RestoreVersionForm.column3">Data</message>
@@ -2282,7 +2292,7 @@
 
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.contributor.author_filter">Autor</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">Assunto</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">Tipo de  conteúdo</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">Tipo de conteúdo</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">Data de publicação</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">Data de publicação</message>
 
@@ -2308,27 +2318,27 @@
 
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.relation.ispartofseries_filter">Séries</message>
 
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.contributor.author_browse">navegar por: Autor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.contributor.author_browse">Navegar por: Autor</message>
     <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.title_browse">Navegar por: Título</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.subject_browse">navegar por: Assunto</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.subject_browse">Navegar por: Assunto</message>
         
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">navegar por: Resumo</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">navegar por: Séries</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">navegar por: fomentador</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">navegar por: Identificador</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">navegar por: Idioma (ISO)</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">navegar por: Palavra-chave</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">navegar por: Nome científico</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_contributor_browse">navegar por: Contribuidor</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_creator_browse">navegar por: Autor</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_subject_browse">navegar por: Assunto</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_description_browse">navegar por: Descrição</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_relation_browse">navegar por: Relação</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_mime_browse">navegar por: Mime-Type</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_other_browse">navegar por: Outros contribuidores</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_advisor_browse">navegar por: Orientador</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">navegar por: Departamento</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">navegar por: Data de publicação</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">Navegar por: Resumo</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">Navegar por: Séries</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">Navegar por: Patrocinador</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">Navegar por: Identificador</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">Navegar por: Idioma (ISO)</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">Navegar por: Palavra-chave</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">Navegar por: Nome científico</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_contributor_browse">Navegar por: Contribuidor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_creator_browse">Navegar por: Autor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_subject_browse">Navegar por: Assunto</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_description_browse">Navegar por: Descrição</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_relation_browse">Navegar por: Relação</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_mime_browse">Navegar por: Mime-Type</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_other_browse">Navegar por: Outros contribuidores</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_advisor_browse">Navegar por: Orientador</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">Navegar por: Departamento</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">Navegar por: Data de publicação</message>
 
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Autor</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">Título</message>
@@ -2349,7 +2359,7 @@
 
 
     <message key="xmlui.Discovery.AbstractSearch.startswith">Iniciar com</message>
-    <message key="xmlui.Discovery.AbstractSearch.startswith.help">Ou entre coma as primeiras letras:</message>
+    <message key="xmlui.Discovery.AbstractSearch.startswith.help">Ou entre com as primeiras letras:</message>
 
     <message key="xmlui.Discovery.AbstractSearch.sort_by.head">Opção de ordenação:</message>
     <message key="xmlui.Discovery.AbstractSearch.sort_by.relevance">Relevância</message>
@@ -2380,10 +2390,10 @@
     <message key="xmlui.Discovery.SimpleSearch.filter_head">Filtros</message>
     <message key="xmlui.Discovery.SimpleSearch.filter_help">Utilize filtros para refinar o resultado de busca.</message>
 
-    <message key="xmlui.Discovery.SimpleSearch.filter.contains">Contêm</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.contains">Contém</message>
     <message key="xmlui.Discovery.SimpleSearch.filter.equals">Igual</message>
     <message key="xmlui.Discovery.SimpleSearch.filter.authority">ID</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.notcontains">Não contêm</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.notcontains">Não contém</message>
     <message key="xmlui.Discovery.SimpleSearch.filter.notequals">Diferentes</message>
     <message key="xmlui.Discovery.SimpleSearch.filter.notauthority">sem ID</message>
     
@@ -2474,13 +2484,13 @@
     <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.reject_submit">Rejeitar item</message>
     <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.approve_help">Caso tenha avaliado o item e concluído pela inclusão na coleção, selecione "Aprovar".</message>
     <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.approve_submit">Rejeitar item</message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.edit_help">Selecione esta opção para altgerar os metadados do item.</message>
+    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.edit_help">Selecione esta opção para alterar os metadados do item.</message>
     <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.edit_submit">Editar metadado</message>
     
     <message key="xmlui.XMLWorkflow.step.unknown">Estado desconhecido</message>
     
     <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.head">Executar tarefa: atribuir avaliador</message>
-    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.help">Utilize a caixa abaixo para buscar por um usuário a ser indicador como revisro da tarefa.</message>
+    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.help">Utilize a caixa abaixo para buscar por um usuário a ser indicador como revisor da tarefa.</message>
     <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.search.label">Buscar por avaliador</message>
     <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.search.button">Buscar por usuário</message>
     <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.select-reviewer.button">Selecionar como avaliador</message>
@@ -2511,16 +2521,16 @@
     <message key="xmlui.XMLWorkflow.WorkflowItemTransformer.trail">Apresentar item no fluxo de trabalho</message>
     
     <message key="xmlui.XMLWorkflow.default.reviewstep">Aceitar/Rejeitar</message>
-    <message key="xmlui.XMLWorkflow.default.reviewstep.claimaction">ceitar/Rejeitar</message>
-    <message key="xmlui.XMLWorkflow.default.reviewstep.reviewaction">ceitar/Rejeitar</message>
+    <message key="xmlui.XMLWorkflow.default.reviewstep.claimaction">Aceitar/Rejeitar</message>
+    <message key="xmlui.XMLWorkflow.default.reviewstep.reviewaction">Aceitar/Rejeitar</message>
     
     <message key="xmlui.XMLWorkflow.default.editstep">Aceitar/Rejeitar/Editar passo</message>
     <message key="xmlui.XMLWorkflow.default.editstep.claimaction">Aceitar/Rejeitar/Editar</message>
     <message key="xmlui.XMLWorkflow.default.editstep.editaction">Aceitar/Rejeitar/Editar</message>
     
     <message key="xmlui.XMLWorkflow.default.finaleditstep">Aceitar/Editar passo final</message>
-    <message key="xmlui.XMLWorkflow.default.finaleditstep.claimaction">Aceitar/Editar passo fina</message>
-    <message key="xmlui.XMLWorkflow.default.finaleditstep.finaleditaction">Aceitar/Editar passo fina</message>
+    <message key="xmlui.XMLWorkflow.default.finaleditstep.claimaction">Aceitar/Editar passo final</message>
+    <message key="xmlui.XMLWorkflow.default.finaleditstep.finaleditaction">Aceitar/Editar passo final</message>
     
     
     <message key="xmlui.XMLWorkflow.selectSingleReviewer.selectReviewerStep.claimaction">Passo de atribuir avaliador</message>
