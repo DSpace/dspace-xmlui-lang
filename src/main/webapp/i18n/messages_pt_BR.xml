@@ -1948,7 +1948,7 @@
     <message key="xmlui.statistics.display.table.column-label.views-search">Páginas vista / busca</message>
     <message key="xmlui.statistics.display.table.column-label.step">Etapa</message>
     <message key="xmlui.statistics.display.table.column-label.performed">Executado</message>
-    <message key="xmlui.statistics.display.table.column-label.average">Total</message>
+    <message key="xmlui.statistics.display.table.column-label.average">Média</message>
     <message key="xmlui.statistics.display.table.workflow.step.STEP1POOL">Conjunto de etapas aceitas/Rejeitadas</message>
     <message key="xmlui.statistics.display.table.workflow.step.STEP1">Etapas aceitas/Rejeitadas</message>
     <message key="xmlui.statistics.display.table.workflow.step.STEP2POOL">Conjunto de metadados de etapas aceitas/rejeitadas/editadas</message>
