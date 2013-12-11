@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!--
-    translation: Ivan Masár, 2008-2012.
+    translation: Ivan Masár, 2008-2013.
     review: Dana Kovářová, 2008-2012.
 
     The contents of this file are subject to the license and copyright
@@ -316,6 +316,79 @@
 	<!-- Export Archive download messages -->
 	<message key="xmlui.ItemExportDownloadReader.auth_header">Toto je exportní archiv s omezeným přístupem</message>
 	<message key="xmlui.ItemExportDownloadReader.auth_message">Exportní archiv, ke kterému se pokoušíte přistupovat, je zdroj s omezeným přístupem a jeho zobrazení vyžaduje oprávnění. Prosím, přihlaste se pro získání přístupu k exportnímu archivu.</message>
+
+
+	<!-- REQUEST COPY -->
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.title">Vyžádání kopie dokumentu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.trail">Vyžádání kopie dokumentu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.head">Vyžádání kopie dokumentu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.para1">Pro vyžádání kopie dokumentu od odpovědné osoby vyplňte následující informace</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail">Vaše emailová adresa</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail_help">Tato emailová adresa se použije pro zaslání dokumentu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail.error">Adresu je nutné vyplnit</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message">Zpráva</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message.error">Zprávu je nutné vyplnit</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.files">Soubory</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.allFiles">Všechny soubory (tohoto záznamu) s omezeným přístupem.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.notAllFiles">Pouze požadovaný soubor.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName">Jméno</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName.error">Jméno je nutné vyplnit</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.submit">Vyžádat kopii</message>
+
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestSent.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.title">Váš požadavek byl odeslán.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.trail">Váš požadavek byl odeslán.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.head">Váš požadavek byl odeslán.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.para1">Váš požadavek byl odeslán autorovi nebo odpovědné osobě.</message>
+
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseDecisionForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.title">Žádost o kopii dokumentu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.trail">Žádost o kopii dokumentu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.head">Žádost o kopii dokumentu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para1">POKUD JSTE AUTOREM (NEBO JEDNÍM Z AUTORŮ) DOKUMENTU „{0}“, odpovězte na tento požadavek uživatele pomocí tlačítek.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para2">Tento repozitář nabídne vhodnou modelovou odpověď, kterou můžete upravit.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Poslat kopii</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.dontSend">Neposlat kopii</message>
+
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseTrueForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.title">Žádost o kopii dokumentu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.trail">Žádost o kopii dokumentu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.head">Žádost o kopii dokumentu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.para1">Toto je text, který se pošle žadateli.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.message">Zpráva</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.subject">Předmět</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.mail">Poslat</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.back">Zpět</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseFalseForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.title">Žádost o kopii dokumentu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.trail">Žádost o kopii dokumentu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.head">Žádost o kopii dokumentu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.para1">Toto je text, který se pošle žadateli (spolu s dokumentem).</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.message">Zpráva</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.subject">Předmět</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.mail">Poslat</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.back">Zpět</message>
+	
+	 <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestChangeStatusForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.title">Požadavek na změnu oprávnění</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.trail">Požadavek na změnu oprávnění</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.head">Požadavek na změnu oprávnění</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.para1">Můžete využít tuto příležitost na opětovné zvážení omezení tohoto dokumentu (aby jste nemuseli odpovídat na tyto požadavky), pokud není důvod pro zachovíní omezení dokumentu. Pokud tak chcete učinit, po vložení vašeho jména a emailu (pro ověření) klikněte na tlačítko „Změnit na Open Access“.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name">Jméno</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email">Email</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name.error">Jméno je nutné vyplnit</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email.error">Emailovou adresu je nutné vyplnit</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.changeToOpen">Změnit na Open Access</message>
+	        
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseFalseForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.title">Požadavek byl odeslán</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.trail">Požadavek byl odeslán</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.head">Váš požadavek na změnu oprávnění byl odeslán</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para1">Váš požadavek byl odeslán správci</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para2">Děkujeme</message>
+	
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		
@@ -666,16 +739,22 @@
         <message key="xmlui.Submission.submit.AccessStep.embargo">Embargo na přístup do určeného data</message>
         <message key="xmlui.Submission.submit.AccessStep.embargo_visible">Viditelný/embargo</message>
         <message key="xmlui.Submission.submit.AccessStep.name">Název</message>
+        <message key="xmlui.Submission.submit.AccessStep.name_help">Krátký, popisní název politiky (do 30 znaků). Může se zobrazit koncovému uživateli. Např. „Pouze pro změstnance“. Nepovinný, ale doporučuje se vyplnit.</message>
         <message key="xmlui.Submission.submit.AccessStep.description">Popis</message>
         <message key="xmlui.Submission.submit.AccessStep.reason">Důvod</message>
+        <message key="xmlui.Submission.submit.AccessStep.reason_help">Důvod embarga. Typicky pouze pro interní využití. Nepovinný.</message>
         <message key="xmlui.Submission.submit.AccessStep.submit_add_policy">Potvrďte politiku a přidejte další</message>
         <message key="xmlui.Submission.submit.AccessStep.list_assigned_groups">Skupiny</message>
         <message key="xmlui.Submission.submit.AccessStep.error_format_date">Chyba formátu datumu</message>
         <message key="xmlui.Submission.submit.AccessStep.error_missing_date">Když je zvoleno embargo, vyžaduje se datum</message>
         <message key="xmlui.Submission.submit.AccessStep.error_duplicated_policy">Identická politika pro tuto skupinu a tuto operaci již existuje.</message>
         <message key="xmlui.Submission.submit.AccessStep.table_policies">Seznam politik</message>
+        <message key="xmlui.Submission.submit.AccessStep.policies_help">Politiky uvedené v této sekci mají pripritu před jakýmikoliv výchozími politikami kolekcí, do kterých přidáváte záznam. Pokud si přejete nastavit embargo, ale cílová kolekce umožňuje přístup pro libovolného uživatele, musíte nastavit politiku, která povoluje přístup pro skupinu Anonymous pouze od určitého data dále.</message>
+        <message key="xmlui.Submission.submit.AccessStep.no_policies">Pro tento záznam nebyli nastaveny žádné skupinové politiky.</message>
+        <message key="xmlui.Submission.submit.AccessStep.new_policy_head">Embargo</message>
         <message key="xmlui.Submission.submit.AccessStep.private_settings">Soukromý záznam</message>
         <message key="xmlui.Submission.submit.AccessStep.private_settings_help">Pokud je volba vybrána, záznam se nebude prohledávat</message>
+        <message key="xmlui.Submission.submit.AccessStep.private_settings_label">Soukromý</message>
         <message key="xmlui.Submission.submit.AccessStep.column0">Název</message>
         <message key="xmlui.Submission.submit.AccessStep.column1">Operace</message>
         <message key="xmlui.Submission.submit.AccessStep.column2">Skupina</message>
@@ -683,7 +762,13 @@
         <message key="xmlui.Submission.submit.AccessStep.column4">Datum konce</message>
         <message key="xmlui.Submission.submit.AccessStep.table_edit_button">Upravit</message>
         <message key="xmlui.Submission.submit.AccessStep.table_delete_button">Odstranit</message>
-        <message key="xmlui.administrative.authorization.AccessStep.label_date_help">Akceptovaný formát: yyyy, yyyy-mm, yyyy-mm-dd</message>
+        <message key="xmlui.administrative.authorization.AccessStep.label_date_help">První den, od kterého je povolen přístup. Akceptovaný formát: yyyy, yyyy-mm, yyyy-mm-dd</message>
+        <message key="xmlui.Submission.submit.AccessStep.review_policy_line">Název: {0}; operace: {1}, skupina: {2}, platí od: {3}, platí do: {4}</message>
+        <message key="xmlui.Submission.submit.AccessStep.review_public_item">Záznam bude možné vyhledat</message>
+        <message key="xmlui.Submission.submit.AccessStep.review_private_item">Záznam nebude možné vyhledat</message>
+
+
+
 
 
         <!-- org.dspace.app.xmlui.Submission.submit.EditPolicyStep -->
@@ -2075,6 +2160,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.header-qdc-elements">Prvky Dublin Core</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.header-qdc-terms">Termíny Dublin Core</message>
 	
+        <message key="xmlui.dri2xhtml.METS-1.0.blocked">Zablokované</message>
 	
 	<!-- Special pioneer model related text, wherever it might end up -->
 	<message key="xmlui.dri2xhtml.pioneer.preview">Náhled</message>
