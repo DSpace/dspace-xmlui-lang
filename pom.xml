@@ -7,7 +7,7 @@
     <description>
       DSpace Language Packs to support multiple languages in XMLUI.
     </description>
-    <version>4.0.1</version>
+    <version>4.0.2-SNAPSHOT</version>
 
     <organization>
         <name>DuraSpace</name>
@@ -39,7 +39,7 @@
         <connection>scm:git:git@github.com:DSpace/dspace-xmlui-lang.git</connection>
         <developerConnection>scm:git:git@github.com:DSpace/dspace-xmlui-lang.git</developerConnection>
         <url>git@github.com:DSpace/dspace-xmlui-lang.git</url>
-        <tag>dspace-xmlui-lang-4.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
    
 </project>
