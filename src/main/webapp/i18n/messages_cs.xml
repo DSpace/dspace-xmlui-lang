@@ -2125,6 +2125,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Zobrazit</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-description">Popis</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Zobrazit/<wbr/>otevřít</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-access-rights">Přístup na čtení dostupný pro</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">K tomuto záznamu nejsou připojeny žádné soubory.</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.size-bytes">{0} bajtů</message>
