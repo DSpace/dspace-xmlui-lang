@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!--
-    translation: Ivan Masár, 2008-2013.
+    translation: Ivan Masár, 2008-2014.
     review: Dana Kovářová, 2008-2012.
 
     The contents of this file are subject to the license and copyright
@@ -119,7 +119,7 @@
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_for">Hledat</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_author">Autor</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_title">Název</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Předmět</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Klíčové slovo</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_abstract">Abstrakt</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_series">Řada</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_sponsor">Sponzor</message>
@@ -130,7 +130,7 @@
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Přispěvatel</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Tvůrce</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Předmět</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Klíčové slovo</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Popis</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Vztah</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Typ MIME</message>
@@ -168,7 +168,7 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.order.desc">sestupně</message>
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.author.column_heading">Jméno autora</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.subject.column_heading">Předmět</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.subject.column_heading">Klíčové slovo</message>
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.author">Prohlížení {0} dle autora {1}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.author">Prohlížení {0} dle autora</message>
@@ -260,7 +260,7 @@
 	<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Komunity a kolekce</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_title">Názvy</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_author">Autoři</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.browse_subject">Předměty</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_subject">Klíčová slova</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateissued">Dle data publikování</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateaccessioned">Dle data zaslání</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_this_collection">Tato kolekce</message>
@@ -357,7 +357,7 @@
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.head">Žádost o kopii dokumentu</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.para1">Toto je text, který se pošle žadateli.</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.message">Zpráva</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.subject">Předmět</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.subject">Klíčové slovo</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.mail">Poslat</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.back">Zpět</message>
 
@@ -367,7 +367,7 @@
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.head">Žádost o kopii dokumentu</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.para1">Toto je text, který se pošle žadateli (spolu s dokumentem).</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.message">Zpráva</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.subject">Předmět</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.subject">Klíčové slovo</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.mail">Poslat</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.back">Zpět</message>
 	
@@ -2115,7 +2115,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-uri">URI</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-date">Datum</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-publisher">Nakladatel</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-subject">Předmět</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-subject">Klíčové slovo</message>
 	
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-head">Soubory tohoto záznamu</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-file">Soubory</message>
@@ -2293,7 +2293,7 @@
   <message key="xmlui.mobile.browse_date">Data</message>
   <message key="xmlui.mobile.browse_author">Autora</message>
   <message key="xmlui.mobile.browse_title">Názvu</message>
-  <message key="xmlui.mobile.browse_subject">Předmětu</message>
+  <message key="xmlui.mobile.browse_subject">Klíčového slova</message>
   <message key="xmlui.mobile.related_google_scholar">Související</message>
   <message key="xmlui.mobile.items_in_google_scholar">Záznamy v Google Scholar</message>
   <message key="xmlui.mobile.download">Stáhnout</message>
