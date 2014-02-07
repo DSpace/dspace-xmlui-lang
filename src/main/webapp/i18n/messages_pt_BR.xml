@@ -2052,6 +2052,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Visualização</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-description">Descrição</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Visualizar/<wbr/>Abrir</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-access-rights">Acesso de leitura liberado para</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">Não existem arquivos associados a este item.</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.size-bytes">bytes</message>
