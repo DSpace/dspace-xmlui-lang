@@ -1913,8 +1913,7 @@
     <message key="xmlui.statistics.visits.bitstreams">Dosya Ziyaretleri</message>
     <message key="xmlui.statistics.Navigation.title">İstatistikler</message>
     <message key="xmlui.statistics.Navigation.usage.view">Kullanım İstatistiklerini Göster</message>
-	<message key="xmlui.statistics.Navigation.view">İstatistikleri Göster</message>
-    <message key="xmlui.statistics.Navigation.search.view">Arama İstatistiklerini Göster</message>
+	<message key="xmlui.statistics.Navigation.search.view">Arama İstatistiklerini Göster</message>
     <message key="xmlui.statistics.Navigation.workflow.view">İş Akışı İstatistiklerini Göster</message>
     <message key="xmlui.statistics.trail">İstatistikler</message>
     <message key="xmlui.statistics.trail-search">Arama İstatistikleri</message>
