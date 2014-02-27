@@ -2117,6 +2117,7 @@
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Просмотр</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-description">Описание</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Открыть</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-access-rights">Read access available for</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-no-files">В этом документе нет ни одного файла.</message>
 
 <message key="xmlui.dri2xhtml.METS-1.0.size-bytes">bytes</message>
