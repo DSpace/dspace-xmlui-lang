@@ -9,7 +9,7 @@
 
 
 -->
-<catalogue xml:lang="es" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<catalogue xml:lang="ru" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
 
 	<!--
 		The format used by all keys is as follows xmlui.<Aspect>.<Java Class>.<name>
@@ -19,11 +19,11 @@
 		2) Some general keys which are specific to a particular aspect
 		   may be found at xmlui.<Aspect> without specifying a
 		   particular java class.    		-->
-  <!--messages from V1.5 Translated by Francisco Javier Herrero Vicente (fherrero@uji.es) at Universitat Jaume I de Castellon (http://www.uji.es/)-->    
-    <!--minor modifications to V1.5 and V1.6 and V1.7 by Alvaro López (alopez@arvo.es) at Arvo Consultores (http://www.arvo.es/)   -->
-    <!--  V1.8 messages   by Emilio Lorenzo (elorenzo@arvo.es) at Arvo Consultores (http://www.arvo.es/dspace) --> 
-    <!--  V3.0 messages  by Emilio Lorenzo (elorenzo@arvo.es) at Arvo Consultores (http://www.arvo.es/dspace) -->
+<!--
+messages_ru.xml copied from messages_es.xml on 2014-12-21
 
+Translated by Ekaterina Chubich
+-->
 	<!-- General keys -->
 <message key="xmlui.general.dspace_home">Главная</message>
 <message key="xmlui.general.search">Поиск</message>
