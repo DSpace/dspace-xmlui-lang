@@ -35,8 +35,8 @@
 	<message key="xmlui.general.delete">Sil</message>
 	<message key="xmlui.general.next">Sonraki</message>
 	<message key="xmlui.general.untitled">Başlıksız</message>
-        <message key="xmlui.general.perform">Gerçekleştir</message>
-        <message key="xmlui.general.queue">Kuyruk</message>
+    <message key="xmlui.general.perform">Gerçekleştir</message>
+    <message key="xmlui.general.queue">Kuyruk</message>
 
 	<!--
 		Page not found keys
@@ -94,9 +94,9 @@
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">Sonuç bulunamadı.</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">Tüm DSpace</message>
 
-   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.title">başlık</message>
-   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateissued">yayın tarihi</message>
-   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateaccessioned">gönderi tarihi</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.title">başlık</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateissued">yayın tarihi</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateaccessioned">gönderi tarihi</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.relevance">ilgi</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by">Sırala</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.order">sıra ile</message>
@@ -238,10 +238,6 @@
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.head">Gönder</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.para1">Yorumlarınız tarafımıza ulaşmıştır.</message>
 
-	<!-- org.dspace.app.xmlui.artifactbrowser.FrontPageSearch.java -->
-	<message key="xmlui.ArtifactBrowser.FrontPageSearch.head">DSpace'de Ara</message>
-	<message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">DSpace'de arama yapmak için aşağıdaki kutuya metin girin.</message>
-
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
 	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">Öğe Göster</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Bu öğe aşağıdaki koleksiyon(lar)da görünmektedir.</message>
@@ -313,6 +309,78 @@
 	<message key="xmlui.ItemExportDownloadReader.auth_header">Bu arşiv ihraç için kısıtlanmıştır.</message>
 	<message key="xmlui.ItemExportDownloadReader.auth_message">İhraç etmeye çalıştığınız arşiv kısıtlanmıştır ve ihraç için yetki gerekiyor. Arşiv ihracı için lütfen giriş yapınız.</message>
 
+	<!-- REQUEST COPY -->
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.title">Belgenin bir kopyasını isteyin</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.trail">Belgenin bir kopyasını isteyin</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.head">Belgenin bir kopyasını isteyin</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.para1">Sorumlu personelden belgenin bir kopyasını istemek için aşağıdaki bilgileri girin.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail">e-posta adresiniz</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail_help">Bu e-posta adresi belgeyi göndermek için kullanılır.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail.error">Adres gerekli</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message">Mesaj</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message.error">Mesaj gerekli</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.files">Dosyalar</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.allFiles">Tüm dosyalara (bu doküman için) sınırlı erişim.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.notAllFiles">Sadece istenen dosya.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName">İsim</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName.error">İsim Gerekli</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.submit">Kopya isteği</message>
+
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestSent.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.title">İsteğiniz gönderildi.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.trail">İsteğiniz gönderildi.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.head">İsteğiniz gönderildi.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.para1">İsteğiniz yazara veya sorumlu kişiye gönderildi.</message>
+
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseDecisionForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.title">Doküman kopya isteği</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.trail">Doküman kopya isteği</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.head">Doküman kopya isteği</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para1">EĞER DOKÜMANIN YAZARIYSANIZ (VEYA YAZARSANIZ) kullanıcının isteğine cevap vermek için "{0}" butonuna basınız.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para2">Düzenleyebileceğiniz bu kurumsal arşiv uygun bir modele cevap olarak önerilir.</message>
+ 
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Kopya gönder</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.dontSend">Kopyayı gönderme</message>
+
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseTrueForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.title">Doküman kopya isteği</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.trail">Doküman kopya isteği</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.head">Doküman kopya isteği</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.para1">Bu metin başvuru sahibine gönderilecek.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.message">Mesaj</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.subject">Konu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.mail">Gönder</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.back">Geri</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseFalseForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.title">Doküman kopya isteği</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.trail">Doküman kopya isteği</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.head">Doküman kopya isteği</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.para1">Bu metin başvuru sahibine gönderilecek (doküman ile birlikte).</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.message">Mesaj</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.subject">Konu</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.mail">Gönder</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.back">Geri</message>
+
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestChangeStatusForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.title">Yetki değişim isteği</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.trail">Yetki değişim isteği</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.head">Yetki değişim isteği</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.para1">You may use this occasion to reconsider the access restrictions on the document (to avoid having to respond to these requests), if there is no reason to keep it restricted. To do so, after inserting your name and e-mail (for authentication), click the button "Change to Open Access".</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name">İsim</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email">e-posta</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name.error">İsim gerekli</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email.error">e-posta adresi gerekli</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.changeToOpen">Açık erişim için değişim</message>
+
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseFalseForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.title">İstek gönderildi</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.trail">İstek gönderildi</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.head">Yetki değiştirme isteğiniz gönderildi</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para1">İsteğiniz yöneticiye gönderildi</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para2">Teşekkürler</message>
+	
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 		                EPerson Aspect
@@ -653,7 +721,7 @@
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.loading">Kontrollü kelime listesi yüklenirken lütfen bekleyiniz.</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.error">Kontrollü kelime listesi çağırılırken bir hata oluştu, lütfen tekrar deneyiniz.</message>
 
-
+	
     <!-- org.dspace.app.xmlui.Submission.submit.AccessStep -->
     <message key="xmlui.Submission.submit.AccessStep.head">Erişim Ayarları</message>
     <message key="xmlui.Submission.submit.AccessStep.access_settings">Seçilen kullanıcı grubu için görünür (anonim kullanıcılar için gerekli seçim yoktur)</message>
@@ -661,16 +729,22 @@
     <message key="xmlui.Submission.submit.AccessStep.embargo">Özel Tarihe kadar Ambargolu Erişim</message>
     <message key="xmlui.Submission.submit.AccessStep.embargo_visible">Görünür/Ambargolu</message>
     <message key="xmlui.Submission.submit.AccessStep.name">Ad</message>
+	<message key="xmlui.Submission.submit.AccessStep.name_help">Politika için açıklayıcı, kısa bir isim (en fazla 30 karakter). Son kullanıcılara gösterilebilir. Örneğin: "Yalnızca-Çalışanlar". İsteğe bağlıdır, ancak önerilir.</message>
     <message key="xmlui.Submission.submit.AccessStep.description">Açıklama</message>
     <message key="xmlui.Submission.submit.AccessStep.reason">Neden</message>
+	<message key="xmlui.Submission.submit.AccessStep.reason_help">Genellikle sadece dahili kullanımda olan öğeler için ambargo nedeni. Opsiyonel.</message>
     <message key="xmlui.Submission.submit.AccessStep.submit_add_policy">Politika Onayla &amp; başka ekle</message>
     <message key="xmlui.Submission.submit.AccessStep.list_assigned_groups">Gruplar</message>
     <message key="xmlui.Submission.submit.AccessStep.error_format_date">Hatalı tarih biçimi</message>
     <message key="xmlui.Submission.submit.AccessStep.error_missing_date">Ambargo seçildiğinde tarih belirleme gereklidir</message>
     <message key="xmlui.Submission.submit.AccessStep.error_duplicated_policy">Bu grup ve bu eylem için geçerli olan aynı politika zaten mevcut.</message>
     <message key="xmlui.Submission.submit.AccessStep.table_policies">Politikalar Listesi</message>
+	<message key="xmlui.Submission.submit.AccessStep.policies_help">Bu bölümde listelenen politikalar, gönderi yaptığınız koleksiyon için varsayılan herhangi bir politikayı geçersiz kılar. Bir ambargo düzenlemek istiyorsunuz fakat hedef koleksiyon herhangi bir kullanıcı için erişime izin veriyor, o halde spesifik bir veriden sonra Anonim gruplar için erişime izin veen bir politika düzenlemelisiniz.</message>
+	<message key="xmlui.Submission.submit.AccessStep.no_policies">Bu öğe için herhangi bir grup politikası seçilmedi.</message>
+	<message key="xmlui.Submission.submit.AccessStep.new_policy_head">Ambargo</message>
     <message key="xmlui.Submission.submit.AccessStep.private_settings">Özel Öğe</message>
     <message key="xmlui.Submission.submit.AccessStep.private_settings_help">Seçim yapılırsa, öğe aramaya kapanır.</message>
+	<message key="xmlui.Submission.submit.AccessStep.private_settings_label">Özel</message>
     <message key="xmlui.Submission.submit.AccessStep.column0">Ad</message>
     <message key="xmlui.Submission.submit.AccessStep.column1">Eylem</message>
     <message key="xmlui.Submission.submit.AccessStep.column2">Grup</message>
@@ -679,8 +753,12 @@
     <message key="xmlui.Submission.submit.AccessStep.table_edit_button">Düzenle</message>
     <message key="xmlui.Submission.submit.AccessStep.table_delete_button">Sil</message>
     <message key="xmlui.administrative.authorization.AccessStep.label_date_help">Kabul edilen biçimler: yyyy, yyyy-aa, yyyy-aa-gg</message>
+	<message key="xmlui.Submission.submit.AccessStep.review_policy_line">İsim: {0}; eylem: {1}, grup: {2}, başlama tarihi: {3}, bitiş tarihi: {4}</message>
+	<message key="xmlui.Submission.submit.AccessStep.review_public_item">Öğe aranabilir olacak</message>
+	<message key="xmlui.Submission.submit.AccessStep.review_private_item">Öğe aranabilir olmayacak</message>
 
 
+	
     <!-- org.dspace.app.xmlui.Submission.submit.EditPolicyStep -->
     <message key="xmlui.Submission.submit.EditPolicyStep.head">Politika Düzenle</message>
 
@@ -714,7 +792,7 @@
 
 
 
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head">Dpsya Yükle</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head">Dosya Yükle</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file">Dosya</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_help">Bilgisayarınızdaki öğenin tam yolunu girin. Eğer "Göz at..." butonuna tıklarsanız açılacak yeni bir pencere bilgisayarınızdaki dosyayı seçmenize aracılık edecektir.</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_error">Öğe en az bir dosya içermelidir.</message>
@@ -894,7 +972,7 @@
 	<!-- Site administrator options -->
 	<message key="xmlui.administrative.Navigation.administrative_head">Yönetim</message>
 	<message key="xmlui.administrative.Navigation.administrative_access_control">Erişim Kontrolü</message>
-	<message key="xmlui.administrative.Navigation.administrative_people">Kişiler</message>
+	<message key="xmlui.administrative.Navigation.administrative_people">e-Kişiler</message>
 	<message key="xmlui.administrative.Navigation.administrative_groups">Gruplar</message>
 	<message key="xmlui.administrative.Navigation.administrative_authorizations">Yetkiler</message>
 	<message key="xmlui.administrative.Navigation.administrative_registries">Kayıtlar</message>
@@ -1736,8 +1814,7 @@
 	<message key="xmlui.administrative.community.AssignCommunityRoles.main_head">Bölüm Düzenle: {0}</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.no_role">hiçbiri</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.create">Oluştur...</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.help_admins">Bölüm yöneticileri alt-bölümler veya koleksiyonlar oluşturabilir. Bölüm böneticileri alt-bölüm ve koleksiyonları yönetebilir veya yönetici atayabilir. Ayrıca, kimin alt koleksiyonlara öğe gönderisi yapabileceğine, öğe üst verisini düzenleyebileceğine (gönderiden sonra) ve 
-	diğer koleksiyonlarda var olan öğelere eşleme ekleyebileceğine karar verebilir (ilgili koleksiyon için yetkilendirme konusudur).</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.help_admins">Bölüm yöneticileri alt-bölümler veya koleksiyonlar oluşturabilir. Bölüm böneticileri alt-bölüm ve koleksiyonları yönetebilir veya yönetici atayabilir. Ayrıca, kimin alt koleksiyonlara öğe gönderisi yapabileceğine, öğe üst verisini düzenleyebileceğine (gönderiden sonra) ve diğer koleksiyonlarda var olan öğelere eşleme ekleyebileceğine karar verebilir (ilgili koleksiyon için yetkilendirme konusudur).</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.default_read_custom">Bu topluluk özel varsayılan erişim ayarlarını kullanır.</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.default_read_anonymous">Gelen öğe ve veri akışları için okuma varsayılan olarak Anonim seçeneğiyle düzenlenmiştir.</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.edit_authorizations">Doğrudan yetkilendirme politikası düzenleme.</message>
@@ -1913,7 +1990,7 @@
     <message key="xmlui.statistics.visits.bitstreams">Dosya Ziyaretleri</message>
     <message key="xmlui.statistics.Navigation.title">İstatistikler</message>
     <message key="xmlui.statistics.Navigation.usage.view">Kullanım İstatistiklerini Göster</message>
-	<message key="xmlui.statistics.Navigation.search.view">Arama İstatistiklerini Göster</message>
+    <message key="xmlui.statistics.Navigation.search.view">Arama İstatistiklerini Göster</message>
     <message key="xmlui.statistics.Navigation.workflow.view">İş Akışı İstatistiklerini Göster</message>
     <message key="xmlui.statistics.trail">İstatistikler</message>
     <message key="xmlui.statistics.trail-search">Arama İstatistikleri</message>
@@ -1993,7 +2070,7 @@
 	<message key="xmlui.dri2xhtml.structural.contact-link">İletişim</message>
 	<message key="xmlui.dri2xhtml.structural.feedback-link">Geri Bildirim</message>
 
-	<message key="xmlui.dri2xhtml.structural.head-subtitle">... Dijital Arşiv Sistemi</message>
+	<message key="xmlui.dri2xhtml.structural.head-subtitle">DSpace Kurumsal Arşivi</message>
 
 	<message key="xmlui.dri2xhtml.structural.profile">Profil: </message>
 	<message key="xmlui.dri2xhtml.structural.logout">Çıkış</message>
@@ -2043,6 +2120,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Göster</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-description">Açıklama</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Göster/<wbr/>Aç</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-access-rights">Mevcut okuma erişimi için</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">Bu öğe ile ilişkili dosya yok.</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.size-bytes">bytes</message>
@@ -2077,6 +2155,7 @@
 
 	<message key="xmlui.dri2xhtml.METS-1.0.header-qdc-elements">Dublin Core öğeleri</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.header-qdc-terms">Dublin Core terimleri</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.blocked">Engellendi</message>
 
 
 	<!-- Special pioneer model related text, wherever it might end up -->
@@ -2276,6 +2355,5 @@
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_head">Uyarı</message>
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">İş Akışında bu ürünün daha yeni bir sürümü  bulunmaktadır.</message>
 	
-
     <!-- End Versioning -->
 </catalogue>
