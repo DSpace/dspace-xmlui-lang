@@ -132,7 +132,6 @@
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Дарител</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Създател</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Тема</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Описание</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Връзка</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Mime-Type</message>
@@ -399,7 +398,6 @@
 	<message key="xmlui.EPerson.PasswordLogin.title">Идентифициране</message>
 	<message key="xmlui.EPerson.PasswordLogin.trail">Идентифициране</message>
 	<message key="xmlui.EPerson.PasswordLogin.head1">Идентифициране в DSpace</message>
-	<message key="xmlui.EPerson.PasswordLogin.title">Идентифициране</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">Емейл адрес</message>
 	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">Въведените емейл адрес и/или парола са невалидни.</message>
 	<message key="xmlui.EPerson.PasswordLogin.password">Парола</message>
@@ -413,7 +411,6 @@
 	<message key="xmlui.EPerson.LDAPLogin.title">Идентифициране</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">Идентифициране</message>
 	<message key="xmlui.EPerson.LDAPLogin.head1">Идентифициране в DSpace</message>
-	<message key="xmlui.EPerson.LDAPLogin.title">Идентифициране</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">Потребителско име</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">Въведените емейл адрес и/или парола са невалидни.</message>
 	<message key="xmlui.EPerson.LDAPLogin.password">Парола</message>
@@ -1683,7 +1680,6 @@
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">Постоянният идентификатор, използван от OAI доставчика за обозначаване на целевата колекция</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">Вие трябва да зададете идентификатор на множество на целевата колекция.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Съдържанието е ожънато</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Съдържанието е ожънато</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">Ожънване само на метаданни.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">Ожънване на метаданни и препратки към битови потоци (изисква ORE поддръжка).</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_bs">Ожънване на метаданни и битови потоци (изисква ORE поддръжка).</message>
@@ -1955,7 +1951,6 @@
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.claimaction">Приемане/Отхвърляне/Редактиране на Метаданни на Пул на Стъпка</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.editaction">Приемане/Отхвърляне/Редактиране на Метаданни на Стъпка</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.claimaction">Редактиране на Метаданни на Пул на Стъпка</message>
-    <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Редактиране на Метаданни на Стъпка</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Редактиране на Метаданни на Стъпка</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.claimaction">Пул с Рецензия на Резултати</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.scorereviewaction">Рецензия на Резултати</message>

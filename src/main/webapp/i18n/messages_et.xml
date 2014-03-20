@@ -126,7 +126,6 @@
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Toetaja</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Looja</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Märksõna</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Kirjeldus</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Seos</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Mime tüüp</message>
@@ -393,7 +392,6 @@
 	<message key="xmlui.EPerson.PasswordLogin.title">Logi sisse</message>
 	<message key="xmlui.EPerson.PasswordLogin.trail">Logi sisse</message>
 	<message key="xmlui.EPerson.PasswordLogin.head1">Logi TÜ DSpace'i</message>
-	<message key="xmlui.EPerson.PasswordLogin.title">Logi sisse</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">E-post</message>
 	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">Sisestatud e-posti aadressi ja/või salasõna ei kehti. </message>
 	<message key="xmlui.EPerson.PasswordLogin.password">Salasõna</message>
@@ -1677,7 +1675,6 @@
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">Sisesta OAI pakkuja püsiv identifikaator</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">Sisesta sihtkollektsiooni sätestatud id.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Sisu korjatakse</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Sisu korjatakse</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">Korja ainult metaandmeid.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">Korja metaandmeid ja viiteid bitivoogudele  (nõuab ORE tuge).</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_bs">Korja metaandmeid ja bitivoogusid (nõuab ORE tuge).</message>
@@ -1949,7 +1946,6 @@
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.claimaction">Aktseptitud/tagasi lükatud/muudetud metaandmeid, samme. Kokku</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.editaction">Aktseptitud/tagasi lükatud/muudetud metaandmeid samm</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.claimaction">Muudetud, samme. Kokku</message>
-    <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Muudetud, samme</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Muudetud, samme</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.claimaction">Ülevaated. Kokku</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.scorereviewaction">Ülevaateid</message>

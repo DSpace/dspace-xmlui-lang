@@ -126,7 +126,6 @@
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Yazar</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Yazar</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Konu</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Açıklama</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">İlgi</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Tür (MIME)</message>
@@ -461,7 +460,6 @@
 	<message key="xmlui.EPerson.PasswordLogin.title">Giriş</message>
 	<message key="xmlui.EPerson.PasswordLogin.trail">Giriş</message>
 	<message key="xmlui.EPerson.PasswordLogin.head1">DSpace'e Giriş</message>
-	<message key="xmlui.EPerson.PasswordLogin.title">Giriş</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">E-Posta Adresi</message>
 	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">Girilen e-posta adresi ve/veya şifre geçerli değildir.</message>
 	<message key="xmlui.EPerson.PasswordLogin.password">Şifre</message>
@@ -475,7 +473,6 @@
 	<message key="xmlui.EPerson.LDAPLogin.title">Giriş</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">Giriş</message>
 	<message key="xmlui.EPerson.LDAPLogin.head1">DSpace'e Giriş</message>
-	<message key="xmlui.EPerson.LDAPLogin.title">Giriş</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">Kullanıcı Adı</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">Girilen e-posta adresi ve/veya şifre geçerli değildir.</message>
 	<message key="xmlui.EPerson.LDAPLogin.password">Şifre</message>
@@ -1755,7 +1752,6 @@
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">Hedef koleksiyonu belirtmek için OAI sağlayıcı tarafından kullanılan kalıcı tanımlayıcı</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">Hedef koleksiyon için bir ayar kimliği (ID) vermelisiniz.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">İçerik Harmanlanıyor</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">İçerik harmanlanıyor</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">Sadece üst veri harmanla.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">Üst veri ve veri akışı için referansları harmanla (ORE desteği gereklidir).</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_bs">Üstveri ve veri akışlarını harmanla (ORE desteği gereklidir).</message>
@@ -2027,7 +2023,6 @@
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.claimaction">Kabul/Ret/Düzenleme Üst Veri Adımı Havuzu</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.editaction">Kabul/Ret/Düzenleme Üst Veri Adımı</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.claimaction">Üst Veri Adım Havuzu Düzenleme</message>
-    <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Üst Veri Adımı Düzenleme</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Üst Veri Adımı Düzenleme</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.claimaction">Puan Değerlendirme Havuzu</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.scorereviewaction">Puan Değerlendirme</message>

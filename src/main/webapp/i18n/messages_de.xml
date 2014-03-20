@@ -126,7 +126,6 @@
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Beteiligte Person</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Urheber</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Schlagwort</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Abstract</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Beziehung</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Mime-Typ</message>
@@ -407,7 +406,6 @@
 	<message key="xmlui.EPerson.PasswordLogin.title">Einloggen</message>
 	<message key="xmlui.EPerson.PasswordLogin.trail">Einloggen</message>
 	<message key="xmlui.EPerson.PasswordLogin.head1">In DSpace Einloggen</message>
-	<message key="xmlui.EPerson.PasswordLogin.title">Einloggen</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">E-Mail-Addresse</message>
 	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">Die angegebene E-Mail-Adresse und/oder das Passwort sind ungültig.</message>
 	<message key="xmlui.EPerson.PasswordLogin.password">Passwort</message>
@@ -421,7 +419,6 @@
 	<message key="xmlui.EPerson.LDAPLogin.title">Einloggen</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">Einloggen</message>
 	<message key="xmlui.EPerson.LDAPLogin.head1">In DSpace einloggen</message>
-	<message key="xmlui.EPerson.LDAPLogin.title">Einloggen</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">Benutzername</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">Der Benutzername und/oder Passwort sind ungültig.</message>
 	<message key="xmlui.EPerson.LDAPLogin.password">Passwort</message>
@@ -1680,7 +1677,6 @@
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">Der Persistent Identifier, der vom OAI Provider für die Zielsammlung verwendet wird.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">Sie müssen eine Set ID der Zielsammlung angeben.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Inhalt wird über Harvesting bezogen</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Inhalt wird über Harvesting bezogen</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">Nur die Metadaten über Harvesting beziehen.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">Beziehe die Metadaten über Harvesting und referenziere die Dateien (hierfür ist ORE Unterstützung Voraussetzung).</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_bs">Beziehe sowohl die Metadaten alsauch die Dateien über Harvesting (hierfür ist ORE Unterstützung Voraussetzung).</message>
@@ -1952,7 +1948,6 @@
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.claimaction">Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt Pool</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.editaction">Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.claimaction">Metadaten Bearbeiten Schritt Pool</message>
-    <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Metadaten Bearbeiten Schritt</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Metadaten Bearbeiten Schritt</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.claimaction">Ergebnis Begutachtungspool</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.scorereviewaction">Ergebnis Begutachtung</message>

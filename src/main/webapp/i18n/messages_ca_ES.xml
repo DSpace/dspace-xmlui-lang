@@ -99,7 +99,6 @@
     <!--  some common other possibilities for Advanced Search Fields -->
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Col•laborador</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Autor</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Matèria</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Descripció</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Relació</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Tipus Mime</message>
@@ -348,7 +347,6 @@
     <message key="xmlui.EPerson.PasswordLogin.title">Registreu-vos</message>
     <message key="xmlui.EPerson.PasswordLogin.trail">Registreu-vos</message>
     <message key="xmlui.EPerson.PasswordLogin.head1">Registreu-vos al DSpace</message>
-    <message key="xmlui.EPerson.PasswordLogin.title">Registreu-vos</message>
     <message key="xmlui.EPerson.PasswordLogin.email_address">Adreça electrònica</message>
     <message key="xmlui.EPerson.PasswordLogin.error_bad_login">L&apos;adreça electrònica i/o la contrasenya que heu indicat no són vàlides.</message>
     <message key="xmlui.EPerson.PasswordLogin.password">Contrasenya</message>
@@ -362,7 +360,6 @@
     <message key="xmlui.EPerson.LDAPLogin.title">Registreu-vos</message>
     <message key="xmlui.EPerson.LDAPLogin.trail">Registreu-vos</message>
     <message key="xmlui.EPerson.LDAPLogin.head1">Registreu-vos al DSpace</message>
-    <message key="xmlui.EPerson.LDAPLogin.title">Registreu-vos</message>
     <message key="xmlui.EPerson.LDAPLogin.username">Nom d&apos;usuari</message>
     <message key="xmlui.EPerson.LDAPLogin.error_bad_login">El nom d&apos;usuari i/o la contrasenya que heu indicat no són vàlids.</message>
     <message key="xmlui.EPerson.LDAPLogin.password">Contrasenya</message>

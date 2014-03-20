@@ -126,7 +126,6 @@
    <!--  some common other possibilities for Advanced Search Fields -->
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Contribuidor/a</message>
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Creador/a</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Materia</message>
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Descripción</message>
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Relación</message>
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Tipo MIME</message>
@@ -393,7 +392,6 @@
 <message key="xmlui.EPerson.PasswordLogin.title">Acceder</message>
 <message key="xmlui.EPerson.PasswordLogin.trail">Acceder</message>
 <message key="xmlui.EPerson.PasswordLogin.head1">Acceder a DSpace</message>
-<message key="xmlui.EPerson.PasswordLogin.title">Acceder</message>
 <message key="xmlui.EPerson.PasswordLogin.email_address">Correo electrónico</message>
 <message key="xmlui.EPerson.PasswordLogin.error_bad_login">La dirección de correo electrónico introducida y/o la contraseña no son válidas.</message>
 <message key="xmlui.EPerson.PasswordLogin.password">Contraseña</message>
@@ -407,7 +405,6 @@
 <message key="xmlui.EPerson.LDAPLogin.title">Acceder</message>
 <message key="xmlui.EPerson.LDAPLogin.trail">Acceder</message>
 <message key="xmlui.EPerson.LDAPLogin.head1">Acceder a DSpace</message>
-<message key="xmlui.EPerson.LDAPLogin.title">Acceder</message>
 <message key="xmlui.EPerson.LDAPLogin.username">Nombre de usuario</message>
 <message key="xmlui.EPerson.LDAPLogin.error_bad_login">El nombre de usuario o la contraseña no son validos</message>
 <message key="xmlui.EPerson.LDAPLogin.password">Contraseña</message>
@@ -1657,7 +1654,6 @@
 <message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">El identificador persistente usado por el proveedor OAI para designar la colección objetivo</message>
 <message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">Debe proporcionar el set id de la colección objetivo.</message>
 <message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Contenido recolectándose</message>
-<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Contenido recolectándose</message>
 <message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">Recolectar solo metadatos.</message>
 <message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">Recolectar metadatos y referencias a los ficheros (requiere soporte ORE).</message>
 <message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_bs">Recolectar metadatos y ficheros (requiere soporte ORE).</message>
@@ -1926,7 +1922,6 @@
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.claimaction">Pool de Etapa Aceptar/Rechazar/Editar metadatos</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.editaction">Etapa Aceptar/Rechazar/Editar metadatos</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.claimaction">Grupo de Paso de Editar Metadatos</message>
-    <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Paso de Editar Metadatos</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Paso de Editar Metadatos</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.claimaction">Pool de revisión con puntuación</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.scorereviewaction">Revisión con puntuación</message>

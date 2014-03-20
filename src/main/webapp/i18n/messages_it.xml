@@ -115,7 +115,6 @@
     <!--  some common other possibilities for Advanced Search Fields -->
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Autore</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Ideatore</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Soggetto</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Descrizione</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Correlato</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Mime-Type</message>
@@ -374,7 +373,6 @@
 	<message key="xmlui.EPerson.PasswordLogin.title">Registrati</message>
 	<message key="xmlui.EPerson.PasswordLogin.trail">Registrati</message>
 	<message key="xmlui.EPerson.PasswordLogin.head1">Registrati su DSpace</message>
-	<message key="xmlui.EPerson.PasswordLogin.title">Registrati</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">Indirizzo E-Mail</message>
 	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">L'indirizzo email e/o la password fornita sono errati.</message>
 	<message key="xmlui.EPerson.PasswordLogin.password">Password</message>
@@ -388,7 +386,6 @@
 	<message key="xmlui.EPerson.LDAPLogin.title">Registrati</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">Registrati</message>
 	<message key="xmlui.EPerson.LDAPLogin.head1">Registrati in DSpace</message>
-	<message key="xmlui.EPerson.LDAPLogin.title">Registrati</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">Nome Utente</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">Il nome utente e/o la password non sono validi.</message>
 	<message key="xmlui.EPerson.LDAPLogin.password">Password</message>

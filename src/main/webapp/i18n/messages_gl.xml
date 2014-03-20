@@ -384,7 +384,6 @@ EPerson Aspect
 <message key="xmlui.EPerson.PasswordLogin.title">Entrar</message>
 <message key="xmlui.EPerson.PasswordLogin.trail">Acceder</message>
 <message key="xmlui.EPerson.PasswordLogin.head1">Acceder a DSpace</message>
-<message key="xmlui.EPerson.PasswordLogin.title">Acceder</message>
 <message key="xmlui.EPerson.PasswordLogin.email_address">Enderezo electrónico</message>
 <message key="xmlui.EPerson.PasswordLogin.error_bad_login">O enderezo de correo electrónico introducido e/ou o contrasinal non son válidos.</message>
 <message key="xmlui.EPerson.PasswordLogin.password">Contrasinal</message>

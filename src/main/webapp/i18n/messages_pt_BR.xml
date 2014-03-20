@@ -139,7 +139,6 @@
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Contribuidor</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Autor</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Assunto</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Descrição</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Relação</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Mime Type</message>
@@ -404,7 +403,6 @@
 	<message key="xmlui.EPerson.PasswordLogin.title">Entrar</message>
 	<message key="xmlui.EPerson.PasswordLogin.trail">Entrar</message>
 	<message key="xmlui.EPerson.PasswordLogin.head1">Entrar no DSpace</message>
-	<message key="xmlui.EPerson.PasswordLogin.title">Entrar</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">Endereço de e-mail</message>
 	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">O e-mail e/ou senha são inválidos.</message>
 	<message key="xmlui.EPerson.PasswordLogin.password">Senha</message>
@@ -418,7 +416,6 @@
 	<message key="xmlui.EPerson.LDAPLogin.title">Entrar</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">Entrar</message>
 	<message key="xmlui.EPerson.LDAPLogin.head1">Entrar no DSpace</message>
-	<message key="xmlui.EPerson.LDAPLogin.title">Entrar</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">Nome de usuário</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">O nome de usuário e/ou senha não são válidos.</message>
 	<message key="xmlui.EPerson.LDAPLogin.password">Senha</message>
@@ -1687,7 +1684,6 @@
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaiurl">Você deve fornecer um ID do conjunto da coleção de destino.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">O identificador persistente usado pelo provedor OAI para designar a coleção de destino</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">Você deve fornecer um ID do conjunto da coleção de destino.</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Conteúdo sendo harvested</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Conteúdo sendo harvested</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">Harvest só de metadado.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">Harvest de metadado e referência para bitstreams (requer suporte ORE).</message>

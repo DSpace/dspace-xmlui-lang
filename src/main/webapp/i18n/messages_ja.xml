@@ -115,7 +115,6 @@
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">貢献者</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">作者</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">主題</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">記述</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">関連</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Mimeタイプ</message>
@@ -372,7 +371,6 @@
 	<message key="xmlui.EPerson.PasswordLogin.title">ログイン</message>
 	<message key="xmlui.EPerson.PasswordLogin.trail">ログイン</message>
 	<message key="xmlui.EPerson.PasswordLogin.head1">リポジトリにログイン</message>
-	<message key="xmlui.EPerson.PasswordLogin.title">ログイン</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">メールアドレス</message>
 	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">メールアドレスまたはパスワードが間違っています。</message>
 	<message key="xmlui.EPerson.PasswordLogin.password">パスワード</message>
@@ -386,7 +384,6 @@
 	<message key="xmlui.EPerson.LDAPLogin.title">ログイン</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">ログイン</message>
 	<message key="xmlui.EPerson.LDAPLogin.head1">リポジトリにログイン</message>
-	<message key="xmlui.EPerson.LDAPLogin.title">ログイン</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">ユーザ名</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">ユーザ名またはパスワードが間違っています。</message>
 	<message key="xmlui.EPerson.LDAPLogin.password">パスワード</message>

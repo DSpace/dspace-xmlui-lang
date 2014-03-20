@@ -116,7 +116,6 @@
 	<!--  some common other possibilities for Advanced Search Fields -->
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Συντελεστής</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Δημιουργός</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Λέξη κλειδί</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Περιγραφή</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Σχεση</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Τύπος Mime</message>
@@ -373,7 +372,6 @@
 	<message key="xmlui.EPerson.PasswordLogin.title">Σύνδεση</message>
 	<message key="xmlui.EPerson.PasswordLogin.trail">Σύνδεση</message>
 	<message key="xmlui.EPerson.PasswordLogin.head1">Σύνδεση στο DSpace</message>
-	<message key="xmlui.EPerson.PasswordLogin.title">Σύνδεση</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">Σύνδεση E-Mail</message>
 	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">Η διεύθυνση email ή/και ο κωδικός που εισάγατε δεν ισχύουν.</message>
 	<message key="xmlui.EPerson.PasswordLogin.password">Κωδικός</message>
@@ -387,7 +385,6 @@
 	<message key="xmlui.EPerson.LDAPLogin.title">Σύνδεση</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">Σύνδεση</message>
 	<message key="xmlui.EPerson.LDAPLogin.head1">Σύνδεση στο DSpace</message>
-	<message key="xmlui.EPerson.LDAPLogin.title">Σύνδεση</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">Όνομα χρήστη</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">Το όνομα χρήστη ή/και ο κωδικός που εισάγατε δεν ισχύουν.</message>
 	<message key="xmlui.EPerson.LDAPLogin.password">Κωδικός</message>

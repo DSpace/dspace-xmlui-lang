@@ -130,7 +130,6 @@
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Přispěvatel</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Tvůrce</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Klíčové slovo</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Popis</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Vztah</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Typ MIME</message>
@@ -470,7 +469,6 @@
 	<message key="xmlui.EPerson.PasswordLogin.title">Přihlášení</message>
 	<message key="xmlui.EPerson.PasswordLogin.trail">Přihlášení</message>
 	<message key="xmlui.EPerson.PasswordLogin.head1">Přihlášení do DSpace</message>
-	<message key="xmlui.EPerson.PasswordLogin.title">Přihlášení</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">E-mailová adresa</message>
 	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">Emailová adresa nebo heslo, které jste zadali, nebyly správné.</message>
 	<message key="xmlui.EPerson.PasswordLogin.password">Heslo</message>
@@ -484,7 +482,6 @@
 	<message key="xmlui.EPerson.LDAPLogin.title">Přihlášení</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">Přihlášení</message>
 	<message key="xmlui.EPerson.LDAPLogin.head1">Přihlášení do DSpace</message>
-	<message key="xmlui.EPerson.LDAPLogin.title">Přihlášení</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">Uživatelské jméno</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">Zadané uživatelské jméno nebo heslo, které jste zadali, nebylo správné.</message>
 	<message key="xmlui.EPerson.LDAPLogin.password">Heslo</message>
@@ -1765,7 +1762,6 @@
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaiurl">Musíte zadat ID množniny cílové kolekce</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">Perzistentní identifikátor, který používá poskytovatel OAI na určení cílové kolekce</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">Musíte zadat ID množniny cílové kolekce</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Sklízený obsah</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Sklízený obsah</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">Sklízet pouze metadata.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">Sklízet metadata a odkazy na bitové toky (vyžaduje podporu ORE).</message>

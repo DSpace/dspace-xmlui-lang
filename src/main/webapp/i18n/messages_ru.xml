@@ -127,7 +127,6 @@ Translated by Ekaterina Chubich
    <!--  some common other possibilities for Advanced Search Fields -->
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Спонсору</message>
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Автору</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Теме</message>
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Описанию</message>
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Отсылкам</message>
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Типу MIME</message>
@@ -462,7 +461,6 @@ Translated by Ekaterina Chubich
 <message key="xmlui.EPerson.PasswordLogin.title">Войти</message>
 <message key="xmlui.EPerson.PasswordLogin.trail">Войти</message>
 <message key="xmlui.EPerson.PasswordLogin.head1">Войти в DSpace</message>
-<message key="xmlui.EPerson.PasswordLogin.title">Войти</message>
 <message key="xmlui.EPerson.PasswordLogin.email_address">Адрес электронной почты</message>
 <message key="xmlui.EPerson.PasswordLogin.error_bad_login">Введенные Вами адрес электронной почты и/или пароль недействительны.</message>
 <message key="xmlui.EPerson.PasswordLogin.password">Пароль</message>
@@ -476,7 +474,6 @@ Translated by Ekaterina Chubich
 <message key="xmlui.EPerson.LDAPLogin.title">Войти</message>
 <message key="xmlui.EPerson.LDAPLogin.trail">Войти</message>
 <message key="xmlui.EPerson.LDAPLogin.head1">Войти в DSpace</message>
-<message key="xmlui.EPerson.LDAPLogin.title">Войти</message>
 <message key="xmlui.EPerson.LDAPLogin.username">Имя пользователя</message>
 <message key="xmlui.EPerson.LDAPLogin.error_bad_login">Неверные имя и/или пароль</message>
 <message key="xmlui.EPerson.LDAPLogin.password">Пароль</message>
@@ -1753,7 +1750,6 @@ Translated by Ekaterina Chubich
 <message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">Постоянный идентификатор, используемый поставщиком OAI для обозначения целевой коллекции</message>
 <message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">Вы должны предоставить набор идентификатор целевой коллекции.</message>
 <message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Собирается контент</message>
-<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Собирается контент</message>
 <message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">Собирать только метаданные.</message>
 <message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">Собирать метаданные и ссылки на файлы (необходима поддержка ORE).</message>
 <message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_bs">Собирать метаданные и файлы (необходима поддержка ORE).</message>
@@ -2024,7 +2020,6 @@ Translated by Ekaterina Chubich
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.claimaction">Accept/Reject/Edit Metadata Step Pool</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.editaction">Accept/Reject/Edit Metadata Step</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.claimaction">Edit Metadata Step Pool</message>
-    <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Edit Metadata Step</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Edit Metadata Step</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.claimaction">Score Review Pool</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.scorereviewaction">Score Review</message>
