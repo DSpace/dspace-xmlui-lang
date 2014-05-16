@@ -1664,4 +1664,135 @@
     <message key="xmlui.dri2xhtml.mimetype.video/mp4">MPEG-4</message>
     <message key="xmlui.dri2xhtml.mimetype.video/quicktime">QuickTime</message>
 
+    <!-- org.dspace.app.xmlui.artifactbrowser.AbstractSearch.java -->
+
+
+
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.contributor.author_filter">Autor</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">Matèria</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">Tipus de contingut</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">Data d'edició</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">Data d'edició</message>
+
+
+    <!-- Site Leve Recently Added Content -->
+    <message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">Enviaments recents</message>
+
+    <message key="xmlui.ArtifactBrowser.AbstractRecentSubmissionTransformer.recent_submissions_more">Mostra'n més</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.head">{0}: Enviaments recents</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.trail">Enviaments recents</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.recent.head">Enviaments recents</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type_filter">Tipus</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_publisher_filter">Editor</message>
+
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.ispartof">Parent</message>
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by">Agrupa els resultats per</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.none">Cap</message>
+
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.publication_grp">Publicació</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.comm">Comunitat</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.coll">Col·lecció</message>
+
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.relation.ispartofseries_filter">Sèrie</message>
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.contributor.author_browse">Exploració per: Autor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.title_browse">Exploració per: Títol</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.subject_browse">Exploració per: Matèria</message>
+        
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">Exploració per: Resum</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">Exploració per: Sèrie</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">Exploració per: Patrocinador</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">Exploració per: Identificador</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">Exploració per: Llengua (ISO)</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">Exploració per: Paraula clau</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">Exploració per: Nom científic</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_contributor_browse">Exploració per: Col·laborador</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_creator_browse">Exploració per: Autor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_subject_browse">Exploració per: Matèria</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_description_browse">Exploració per: Descripció</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_relation_browse">Exploració per: Relació</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_mime_browse">Exploració per: Tipus Mime</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_other_browse">Exploració per: Un altre col·laborador</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_advisor_browse">Exploració per: Assessor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">Exploració per: Departament</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">Exploració per: Data d'edició</message>
+
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Autor</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">Títol</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Matèria</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">Data d'edició</message>
+
+
+
+    <message key="xmlui.dri2xhtml.structural.pagination-info.nototal">Ara es mostren els elements {0}-{1}</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.type_author">Filtre per: Autor</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Autor</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author_filter">Autor</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_subject">Filtre per: Matèria</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Matèria</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject_filter">Matèria</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued.year">Data d'edició</message>
+
+
+    <message key="xmlui.Discovery.AbstractSearch.startswith">Comença per</message>
+    <message key="xmlui.Discovery.AbstractSearch.startswith.help">O introduïu-ne les primeres lletres:</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.head">Opcions d'ordenació:</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.relevance">Rellevància</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_desc">Títol desc.</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_desc">Data d'edició desc.</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_asc">Títol asc.</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_asc">Data d'edició asc.</message>
+
+	 <message key="xmlui.Discovery.AbstractSearch.rpp">Resultats per pàgina:</message>
+
+
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.add-filter">Afegeix filtre</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.apply-filters">Aplica</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.remove-filter">Suprimeix</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.new-filters.head">Filtres nous:</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.current-filters.head">Filtres actuals:</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.display">Afegeix filtres</message>
+
+    <message key="xmlui.discovery.SearchFacetFilter.no-results">No s'han trobat valors per al filtre</message>
+
+    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.head">Filtra</message>
+    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.view-more">... Mostra'n més</message>
+
+
+    <message key="xmlui.Discovery.SimpleSearch.search_scope">Cerca</message>
+    <message key="xmlui.discovery.SimpleSearch.search_label">Cerca</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter_head">Filtres</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter_help">Utilitzeu els filtres per refinar els resultats de la cerca.</message>
+
+    <message key="xmlui.Discovery.SimpleSearch.filter.contains">Conté</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.equals">És igual a</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.authority">ID</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.notcontains">No conté</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.notequals">No és igual a</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.notauthority">No ID</message>
+    
+    <message key="xmlui.Discovery.RelatedItems.head">Elements relacionats</message>
+    <message key="xmlui.Discovery.RelatedItems.help">Mostrant elements relacionats per títol, autor i matèria.</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.head1_community">Mostrant {0} d'un total de {1} resultats per la comunitat: {2}. <span class="searchTime">({3} segons)</span></message>
+    <message key="xmlui.Discovery.AbstractSearch.head1_collection">Mostrant {0} d'un total de {1} resultats per la col·lecció: {2}. <span class="searchTime">({3} segons)</span></message>
+    <message key="xmlui.Discovery.AbstractSearch.head1_none">Mostrant {0} d'un total de {1} resultats. <span class="searchTime">({2} segons)</span></message>
+
+    <message key="xmlui.Discovery.AbstractSearch.head2">Comunitats o col·leccions que coincideixen amb la consulta</message>
+    <message key="xmlui.Discovery.AbstractSearch.head3">Elements que coincideixen amb la consulta</message>
+
+    <message key="xmlui.Discovery.SimpleSearch.did_you_mean">Volíeu dir: </message>
+
 </catalogue>
