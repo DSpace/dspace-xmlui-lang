@@ -1339,7 +1339,7 @@
 	<message key="xmlui.administrative.item.general.option_status">Estado do item</message>
 	<message key="xmlui.administrative.item.general.option_bitstreams">Item Bitstreams</message>
 	<message key="xmlui.administrative.item.general.option_metadata">Metadado do item</message>
-	<message key="xmlui.administrative.item.general.option_view">Vizualização do item</message>
+	<message key="xmlui.administrative.item.general.option_view">Visualização do item</message>
         <message key="xmlui.administrative.item.general.option_curate">Atual</message>
         <message key="xmlui.administrative.item.general.option_queue">Queue</message>
 
@@ -1422,7 +1422,7 @@
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column2">Nome</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column3">Descrição</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column4">Formato</message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column5">Vizualização</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column5">Visualização</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column6">Ordem</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column7"> </message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.bundle_label"><strong>Bundle: {0}</strong></message>
