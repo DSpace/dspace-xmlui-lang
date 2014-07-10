@@ -323,6 +323,9 @@
 	<message key="xmlui.ItemExportDownloadReader.auth_header">Este arquivo exportado é restrito.</message>
 	<message key="xmlui.ItemExportDownloadReader.auth_message">O arquivo exportado que você está tentando acessar é de acesso restrito e requer permissão para ser visto. Por favor, faça o login abaixo para acessar o arquivo exportado. </message>
 
+    <!-- Recent submission to Discovery -->
+    <message key="xmlui.ArtifactBrowser.AbstractRecentSubmissionTransformer.recent_submissions_more">Ver mais</message>
+
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 		                EPerson Aspect
