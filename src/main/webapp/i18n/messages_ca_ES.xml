@@ -1866,4 +1866,32 @@
 
     <message key="xmlui.Discovery.SimpleSearch.did_you_mean">Volíeu dir: </message>
 
+
+    <message key="xmlui.mirage2.itemSummaryView.MetaData">Metadades</message>
+    <message key="xmlui.mirage2.itemSummaryView.Collections">Col·leccions</message>
+
+    <message key="xmlui.mirage2.discovery.reset">Restableix</message>
+    <message key="xmlui.mirage2.discovery.newFilter">Afegeix un nou filtre</message>
+    <message key="xmlui.mirage2.discovery.showAdvancedFilters">Mostra els filtres avançats</message>
+    <message key="xmlui.mirage2.discovery.hideAdvancedFilters">Amaga els filtres avançats</message>
+
+
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.add">Afegeix</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.remove">Suprimeix</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.noSuggestionError">ERROR: El camp d'entrada amb "suggerències" (autocompleció) no està implementat per camps Composite (p. ex. "nom").</message>
+    <message key="xmlui.mirage2.forms.nonInstancedCompositeFields.noSuggestionError">ERROR: El camp d'entrada amb "suggerències" (autocompleció) no està implementat per camps Composite (p. ex. "nom").</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.add">Afegeix</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.remove">Suprimeix</message>
+
+    <message key="xmlui.mirage2.page-structure.aboutThisRepository">Quant al repositori</message>
+    <message key="xmlui.mirage2.page-structure.toggleNavigation">Activa/desactiva la navegació</message>
+
+    <message key="xmlui.mirage2.page-structure.heroUnit.title">Quant al repositori</message>
+
+    <message key="xmlui.mirage2.navigation.rss.feed">Canals de difusió</message>
+
+    <message key="xmlui.mirage2.choice-authority-control.loading">Carregant...</message>
+
+    <message key="xmlui.mirage2.item-list.thumbnail">Miniatura</message>
+	 
 </catalogue>
