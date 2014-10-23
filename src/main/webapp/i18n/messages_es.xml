@@ -2236,4 +2236,33 @@ Cuando se usa QDC para los elementos de DSpace se recomienda el uso de crosswalk
 
     <!-- End Versioning -->     
 
+
+    <message key="xmlui.mirage2.itemSummaryView.MetaData">Metadatos</message>
+    <message key="xmlui.mirage2.itemSummaryView.Collections">Colecciones</message>
+
+    <message key="xmlui.mirage2.discovery.reset">Restablecer</message>
+    <message key="xmlui.mirage2.discovery.newFilter">Añadir nuevo filtro</message>
+    <message key="xmlui.mirage2.discovery.showAdvancedFilters">Mostrar filtros avanzados</message>
+    <message key="xmlui.mirage2.discovery.hideAdvancedFilters">Ocultar filtros avanzados</message>
+
+
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.add">Añadir</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.remove">Eliminar</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.noSuggestionError">ERROR: Campo de entrada con "sugerencias" (autocompletado) no implementado para campos Composite (p. ej. "nombre").</message>
+    <message key="xmlui.mirage2.forms.nonInstancedCompositeFields.noSuggestionError">ERROR: Campo de entrada con "sugerencias" (autocompletado) no implementado para campos Composite (p. ej. "nombre").</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.add">Añadir</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.remove">Eliminar</message>
+
+    <message key="xmlui.mirage2.page-structure.aboutThisRepository">Sobre este repositorio</message>
+    <message key="xmlui.mirage2.page-structure.toggleNavigation">Mostrar/ocultar la navegación</message>
+
+    <message key="xmlui.mirage2.page-structure.heroUnit.title">Sobre este repositorio</message>
+
+
+    <message key="xmlui.mirage2.choice-authority-control.loading">Cargando...</message>
+
+    <message key="xmlui.mirage2.item-list.thumbnail">Miniatura</message>
+
+    <message key="xmlui.mirage2.itemSummaryView.ShareSection">Compartir</message>
+    <message key="xmlui.mirage2.itemSummaryView.non-ore-files-link">Acceder a los documentos</message>
 </catalogue>
