@@ -277,6 +277,77 @@
     <message key="xmlui.ItemExportDownloadReader.auth_header">L&apos;arxiu d&apos;exportació està restringit.</message>
     <message key="xmlui.ItemExportDownloadReader.auth_message">L&apos;arxiu d&apos;exportació al qual intenteu accedir és un recurs restringit i calen credencials per visualitzar-lo. Inicieu la sessió a sota per accedir a l&apos;arxiu d&apos;exportació.</message>
 
+    <!-- REQUEST COPY -->
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestForm.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.title">Sol·liciteu una còpia del document</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.trail">Sol·liciteu una còpia del document</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.head">Sol·liciteu una còpia del document</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.para1">Introduïu la següent informació per demanar una còpia del document a la persona responsable</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail">Adreça electrònica</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail_help">Aquesta adreça electrònica s'utilitzarà per enviar el document.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail.error">S'ha d'introduir una adreça</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.message">Missatge</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.message.error">S'ha d'introduir un missatge</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.files">Fitxers</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.allFiles">Tots els fitxers (d'aquest document) en accés restringit.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.notAllFiles">Només el fitxer seleccionat.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName">Nom</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName.error">S'ha d'introduir un nom</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.submit">Sol·licita una còpia</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestSent.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestSent.title">S'ha enviat la vostra sol·licitud.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestSent.trail">S'ha enviat la vostra sol·licitud.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestSent.head">S'ha enviat la vostra sol·licitud.</message>
+	 <message key="xmlui.ArtifactBrowser.ItemRequestSent.para1">S'ha enviat la vostra sol·licitud a l'autor/a o persona responsable.</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseDecisionForm.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.title">Sol·licitud de còpia d'un document</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.trail">Sol·licitud de còpia d'un document</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.head">Sol·licitud de còpia d'un document</message>
+	 <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para1">SI SOU L'AUTOR/A (O UN DELS AUTORS) DEL DOCUMENT «{0}» respongueu a la sol·licitud a través dels botons.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para2">Aquest repositori us proposarà una resposta model apropiada que podreu editar.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Envia la còpia</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.dontSend">No enviïs la còpia</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseTrueForm.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.title">Sol·licitud de còpia d'un document</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.trail">Sol·licitud de còpia d'un document</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.head">Sol·licitud de còpia d'un document</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.para1">Aquest és el text que s'enviarà al sol·licitant.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.message">Missatge</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.subject">Assumpte</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.mail">Envia</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.back">Enrere</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseFalseForm.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.title">Sol·licitud de còpia d'un document</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.trail">Sol·licitud de còpia d'un document</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.head">Sol·licitud de còpia d'un document</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.para1">Aquest és el text que s'enviarà al sol·licitant (juntament amb el document).</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.message">Missatge</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.subject">Assumpte</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.mail">Envia</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.back">Enrere</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestChangeStatusForm.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.title">Sol·licitud de canvi de permisos</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.trail">Sol·licitud de canvi de permisos</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.head">Sol·licitud de canvi de permisos</message>
+	 <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.para1">Podeu aprofitar per reconsiderar les restriccions d'accés a aquest document (per evitar haver de respondre a aquestes sol·licituds), si no hi ha cap raó per mantindre'l restringit. Per fer-ho, després d'introduir el vostre nom i adreça electrònica (per autenticar-vos), feu clic al botó «Canvia a accés obert».</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name">Nom</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email">Adreça electrònica</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name.error">S'ha d'introduir el nom</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email.error">S'ha d'introduir l'adreça electrònica</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.changeToOpen">Canvia a accés obert</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseFalseForm.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.title">S'ha enviat la sol·licitud</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.trail">S'ha enviat la sol·licitud</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.head">S'ha enviat la vostra sol·licitud de canvi de permisos</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para1">S'ha enviat la vostra sol·licitud a l'administrador</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para2">Gràcies</message>
+
  	<!--
  	 EPerson Aspect
 	-->
@@ -1795,4 +1866,32 @@
 
     <message key="xmlui.Discovery.SimpleSearch.did_you_mean">Volíeu dir: </message>
 
+
+    <message key="xmlui.mirage2.itemSummaryView.MetaData">Metadades</message>
+    <message key="xmlui.mirage2.itemSummaryView.Collections">Col·leccions</message>
+
+    <message key="xmlui.mirage2.discovery.reset">Restableix</message>
+    <message key="xmlui.mirage2.discovery.newFilter">Afegeix un nou filtre</message>
+    <message key="xmlui.mirage2.discovery.showAdvancedFilters">Mostra els filtres avançats</message>
+    <message key="xmlui.mirage2.discovery.hideAdvancedFilters">Amaga els filtres avançats</message>
+
+
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.add">Afegeix</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.remove">Suprimeix</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.noSuggestionError">ERROR: El camp d'entrada amb "suggerències" (autocompleció) no està implementat per camps Composite (p. ex. "nom").</message>
+    <message key="xmlui.mirage2.forms.nonInstancedCompositeFields.noSuggestionError">ERROR: El camp d'entrada amb "suggerències" (autocompleció) no està implementat per camps Composite (p. ex. "nom").</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.add">Afegeix</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.remove">Suprimeix</message>
+
+    <message key="xmlui.mirage2.page-structure.aboutThisRepository">Quant al repositori</message>
+    <message key="xmlui.mirage2.page-structure.toggleNavigation">Activa/desactiva la navegació</message>
+
+    <message key="xmlui.mirage2.page-structure.heroUnit.title">Quant al repositori</message>
+
+    <message key="xmlui.mirage2.navigation.rss.feed">Canals de difusió</message>
+
+    <message key="xmlui.mirage2.choice-authority-control.loading">Carregant...</message>
+
+    <message key="xmlui.mirage2.item-list.thumbnail">Miniatura</message>
+	 
 </catalogue>
