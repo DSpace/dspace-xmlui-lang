@@ -42,6 +42,11 @@
 	<message key="xmlui.general.perform">Vykonat</message>
 	<message key="xmlui.general.queue">Fronta</message>
 	
+        <!-- Keys which are used by exception2dri.xsl on error pages -->
+        <message key="xmlui.error.contact_msg">Pokud chcete nahlásit tuto chybu, prosím kontaktujte správce. Pokud je to možné, uveďte prosím podrobnosti o tom, co jste dělali v době, kdy k této chybě došlo.</message>
+        <message key="xmlui.error.contact">Kontaktovat správce</message>
+        <message key="xmlui.error.show_stack">Zobrazit podrobnosti této chyby</message>
+
 	<!-- 
 		Page not found keys 
 		
@@ -2269,6 +2274,7 @@
   <!-- params are: start, end, total-count, search-value -->
   <message key="xmlui.ChoiceLookupTransformer.results">Výsledky @1@ až @2@ z @3@ hledání „@4@“</message>
   <message key="xmlui.ChoiceLookupTransformer.fail">Nepodařilo se načíst možnosti výběru: </message>
+  <message key="xmlui.ChoiceLookupTransformer.lookup">Vyhledat</message>
 
   <!-- Choice Lookup - sample config for dc.publisher field -->
   <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.help">Název vydavatele</message>
@@ -2356,129 +2362,177 @@
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_head">Oznámení</message>
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">Novější verze tohoto záznamu se nachází ve workflow.</message>
 
+    <message key="xmlui.aspect.sherpa.submission.consult">Prosím, navštivte <a href="http://www.sherpa.ac.uk/">SHERPA/RoMEO</a> pro získání informací o autorských právách a zásadách autoarchivace jednotlivých časopisů nebo vydavatelů.</message>
+    <message key="xmlui.aspect.sherpa.submission.title">Informace o vydavateli</message>
+    <message key="xmlui.aspect.sherpa.submission.journal">Časopis: </message>
+    <message key="xmlui.aspect.sherpa.submission.publisher">Informace o vydavateli: </message>
+    <message key="xmlui.aspect.sherpa.submission.colour">Barva RoMEO: </message>
+    <message key="xmlui.aspect.sherpa.submission.more">(Další informace)</message>
+    <message key="xmlui.aspect.sherpa.submission.green">zelená</message>
+    <message key="xmlui.aspect.sherpa.submission.blue">modrá</message>
+    <message key="xmlui.aspect.sherpa.submission.white">bílá</message>
+    <message key="xmlui.aspect.sherpa.submission.yellow">žlutá</message>
     <!-- End Versioning -->
+
+
+    <message key="xmlui.mirage2.itemSummaryView.MetaData">Metadata</message>
+    <message key="xmlui.mirage2.itemSummaryView.Collections">Kolekce</message>
+
+    <message key="xmlui.mirage2.discovery.reset">Obnovit</message>
+    <message key="xmlui.mirage2.discovery.newFilter">Přidat nový filtr</message>
+    <message key="xmlui.mirage2.discovery.showAdvancedFilters">Zobrazit pokročilé filtry</message>
+    <message key="xmlui.mirage2.discovery.hideAdvancedFilters">Skrýt pokročilé filtry</message>
+
+
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.add">Přidat</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.remove">Odstranit</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.noSuggestionError">CHYBA: Vstupní pole se zapnutou funkcí „návrhů“ (automatické doplňování) není implementováno pro kompozitní pole (např „jméno“).</message>
+    <message key="xmlui.mirage2.forms.nonInstancedCompositeFields.noSuggestionError">CHYBA: Vstupní pole se zapnutou funkcí „návrhů“ (automatické doplňování) není implementováno pro kompozitní pole (např „jméno“).</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.add">Přidat</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.remove">Odstranit</message>
+
+    <message key="xmlui.mirage2.page-structure.aboutThisRepository">O tomto repozitáři</message>
+    <message key="xmlui.mirage2.page-structure.toggleNavigation">Přepnout navigaci</message>
+
+    <message key="xmlui.mirage2.page-structure.heroUnit.title">O tomto repozitáři</message>
+    <message key="xmlui.mirage2.page-structure.heroUnit.content">Pokud chcete na tuto stránku přidat váš vlastní obsah, upravte soubor webapps/xmlui/themes/Mirage2/lib/xsl/core/page-structure.xsl a přidejte vlastní obsah do částí title, trail a body. Pokud si přejete přidat další stránky, budete muset vytvořit další blok xsl:when s příslušnou adresou URI stránku, kterou přidáváte. V současné době, jsou statické stránky vytvořené pomocí úprav XSL k dispozici pouze pod prefixem URI page/.</message>
+
+    <message key="xmlui.mirage2.navigation.rss.feed">kanál</message>
+
+    <message key="xmlui.mirage2.choice-authority-control.loading">Načítá se...</message>
+
+    <message key="xmlui.mirage2.item-list.thumbnail">Náhled</message>
+
+
 
   <!-- Discovery -->
 
 
     <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.contributor.author_filter">Author</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.contributor.author_filter">Autor</message>
 
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">Subject</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">Content Type</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">Date Issued</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">Date Issued</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">Předmět</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">Typ obsahu</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">Datum publikování</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">Datum publikování</message>
 
 
     <!-- Site Leve Recently Added Content -->
-    <message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">Recently Added</message>
+    <message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">Nedávno přidané</message>
 
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type_filter">Kind</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_publisher_filter">Publisher</message>
+    <message key="xmlui.ArtifactBrowser.AbstractRecentSubmissionTransformer.recent_submissions_more">Zobrazit další</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.head">{0}: Poslední příspěvky</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.trail">Poslední příspěvky</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.recent.head">Nedávno přidané</message>
 
-
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.ispartof">Parent</message>
-
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by">Group Results By</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.none">None</message>
-
-
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.publication_grp">Publication</message>
-
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.comm">Community</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.coll">Collection</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type_filter">Druh</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_publisher_filter">Vydavatel</message>
 
 
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.relation.ispartofseries_filter">Series</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.ispartof">Je součástí</message>
 
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.contributor.author_browse">Browsing by: Author</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.title_browse">Browsing by: Title</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.subject_browse">Browsing by: Subject</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by">Seskupit výsledky dle</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.none">Neseskupovat</message>
+
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.publication_grp">Publikace</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.comm">Komunita</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.coll">Kolekce</message>
+
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.relation.ispartofseries_filter">Série</message>
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.contributor.author_browse">Prohlížení dle autora</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.title_browse">Prohlížení dle názvu</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.subject_browse">Prohlížení dle předmětu</message>
         
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">Browsing by: Abstract</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">Browsing by: Series</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">Browsing by: Sponsor</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">Browsing by: Identifier</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">Browsing by: Language (ISO)</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">Browsing by: Keyword</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">Browsing by: Scientific Name</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_contributor_browse">Browsing by: Contributor</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_creator_browse">Browsing by: Creator</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_subject_browse">Browsing by: Subject</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_description_browse">Browsing by: Description</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_relation_browse">Browsing by: Relation</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_mime_browse">Browsing by: Mime-Type</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_other_browse">Browsing by: Other Contributor</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_advisor_browse">Browsing by: Advisor</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">Browsing by: Department</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">Browsing by: Issue date</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">Prohlížení dle abstraktu</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">Prohlížení dle série</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">Prohlížení dle sponzora</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">Prohlížení dle identifikátora</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">Prohlížení dle jazyka (ISO)</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">Prohlížení dle klíčového slova</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">Prohlížení dle taxonu</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_contributor_browse">Prohlížení dle přispěvatele</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_creator_browse">Prohlížení dle tvůrce</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_subject_browse">Prohlížení dle předmětu</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_description_browse">Prohlížení dle popisu</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_relation_browse">Prohlížení dle vztahu </message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_mime_browse">Prohlížení dle Mime-Type</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_other_browse">Prohlížení dle dalšího přispěvatele</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_advisor_browse">Prohlížení dle vedoucího</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">Prohlížení dle oddělení</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">Prohlížení dle data publikování</message>
 
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Author</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">Title</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Subject</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">Date issued</message>
-
-
-
-    <message key="xmlui.dri2xhtml.structural.pagination-info.nototal">Now showing items {0}-{1}</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.type_author">Filter by: Author</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Author</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author_filter">Author</message>
-    <message key="xmlui.Discovery.AbstractSearch.type_subject">Filter by: Subject</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Subject</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject_filter">Subject</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued.year">Date Issued</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Autor</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">Název</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Předmět</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">Datum publikování</message>
 
 
-    <message key="xmlui.Discovery.AbstractSearch.startswith">Starts with</message>
-    <message key="xmlui.Discovery.AbstractSearch.startswith.help">Or enter first few letters:</message>
 
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.head">Sort Options:</message>
+    <message key="xmlui.dri2xhtml.structural.pagination-info.nototal">Zobrazují se položky {0}-{1}</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.type_author">Filtrovat dle: Autora</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Autor</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author_filter">Autor</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_subject">Filtrovat dle předmětu</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Předmět</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject_filter">Předmět</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued.year">Datum publikování</message>
+
+
+    <message key="xmlui.Discovery.AbstractSearch.startswith">Začíná písmeny</message>
+    <message key="xmlui.Discovery.AbstractSearch.startswith.help">Nebo zadejte několik prvních písmen:</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.head">Možnosti řazení:</message>
     <message key="xmlui.Discovery.AbstractSearch.sort_by.relevance">Relevance</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_desc">Title Desc</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_desc">Issue Date Desc</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_desc">Název sestupně</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_desc">Datum publikování sestupně</message>
 
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_asc">Title Asc</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_asc">Issue Date Asc</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_asc">Název vzestupně</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_asc">Datum publikování vzestupně</message>
 
-    <message key="xmlui.Discovery.AbstractSearch.rpp">Results Per Page:</message>
-
-
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.add-filter">Add Filter</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.apply-filters">Apply</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.remove-filter">Remove</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.new-filters.head">New Filters:</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.current-filters.head">Current Filters:</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.display">Add filters</message>
-
-    <message key="xmlui.discovery.SearchFacetFilter.no-results">No filter values found</message>
-
-    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.head">Discover</message>
-    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.view-more">... View More</message>
+    <message key="xmlui.Discovery.AbstractSearch.rpp">Výsledků na stránku:</message>
 
 
-    <message key="xmlui.Discovery.SimpleSearch.search_scope">Search</message>
-    <message key="xmlui.discovery.SimpleSearch.search_label">Search</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter_head">Filters</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter_help">Use filters to refine the search results.</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.add-filter">Přidat filtr</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.apply-filters">Použít</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.remove-filter">Odstranit</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.new-filters.head">Nové filtry:</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.current-filters.head">Aktuální filtry:</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.display">Přidat filtry</message>
 
-    <message key="xmlui.Discovery.SimpleSearch.filter.contains">Contains</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.equals">Equals</message>
+    <message key="xmlui.discovery.SearchFacetFilter.no-results">Nebyly nalezeny žádné hodnoty filtrů</message>
+
+    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.head">Prohlížení</message>
+    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.view-more">... zobrazit další</message>
+
+
+    <message key="xmlui.Discovery.SimpleSearch.search_scope">Hledat</message>
+    <message key="xmlui.discovery.SimpleSearch.search_label">Hledat</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter_head">Filtry</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter_help">Filtry použijte na upřesnění výsledků vyhledávání.</message>
+
+    <message key="xmlui.Discovery.SimpleSearch.filter.contains">obsahuje</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.equals">rovná se</message>
     <message key="xmlui.Discovery.SimpleSearch.filter.authority">ID</message>
-	<message key="xmlui.Discovery.SimpleSearch.filter.notcontains">Not Contains</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.notequals">Not Equals</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.notauthority">Not ID</message>
+	<message key="xmlui.Discovery.SimpleSearch.filter.notcontains">neobsahuje</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.notequals">nerovná se</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.notauthority">nemá ID</message>
     
-    <message key="xmlui.Discovery.RelatedItems.head">Related items</message>
-    <message key="xmlui.Discovery.RelatedItems.help">Showing items related by title, author, creator and subject.</message>
+    <message key="xmlui.Discovery.RelatedItems.head">Související položky</message>
+    <message key="xmlui.Discovery.RelatedItems.help">Zobrazují se položky příbuzné na základě názvu, autora a předmětu.</message>
 
-    <message key="xmlui.Discovery.AbstractSearch.head1_community">Showing {0} out of a total of {1} results for community: {2}. <span class="searchTime">({3} seconds)</span></message>
-   	<message key="xmlui.Discovery.AbstractSearch.head1_collection">Showing {0} out of a total of {1} results for collection: {2}. <span class="searchTime">({3} seconds)</span></message>
-   	<message key="xmlui.Discovery.AbstractSearch.head1_none">Showing {0} out of a total of {1} results. <span class="searchTime">({2} seconds)</span></message>
+    <message key="xmlui.Discovery.AbstractSearch.head1_community">Zobrazuje se {0} z celkem {1} záznamů komunity: {2}. <span class="searchTime">({3} vteřiny)</span></message>
+   	<message key="xmlui.Discovery.AbstractSearch.head1_collection">Zobrazuje se {0} z celkem {1} záznamů kolekce: {2}. <span class="searchTime">({3} vteřiny)</span></message>
+   	<message key="xmlui.Discovery.AbstractSearch.head1_none">Zobrazuje se {0} z celkem {1} záznamů. <span class="searchTime">({2} vteřiny)</span></message>
 
-    <message key="xmlui.Discovery.AbstractSearch.head2">Communities or Collections matching your query</message>
-   	<message key="xmlui.Discovery.AbstractSearch.head3">Items matching your query</message>
+    <message key="xmlui.Discovery.AbstractSearch.head2">Komunity nebo kolekce odpovídající vašemu dotazu</message>
+   	<message key="xmlui.Discovery.AbstractSearch.head3">Položky odpovídající vašemu dotazu</message>
+
+   	<message key="xmlui.Discovery.SimpleSearch.did_you_mean">Měli jste na mysli: </message>
 
 
   <!-- XMLWorkflow -->
