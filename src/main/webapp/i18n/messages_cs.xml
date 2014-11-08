@@ -327,7 +327,9 @@
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.title">Vyžádání kopie dokumentu</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.trail">Vyžádání kopie dokumentu</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.head">Vyžádání kopie dokumentu</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.para1">Pro vyžádání kopie dokumentu od odpovědné osoby vyplňte následující informace</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.login_para">Uživatelé tohoto systému se mohou přihlásit pro zobrazení tohoto dokumentu.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.login">Přihlásit se</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.para1">Pro vyžádání kopie dokumentu od odpovědné osoby vyplňte následující informace.</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail">Vaše emailová adresa</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail_help">Tato emailová adresa se použije pro zaslání dokumentu</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail.error">Adresu je nutné vyplnit</message>
@@ -353,6 +355,9 @@
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para1">POKUD JSTE AUTOREM (NEBO JEDNÍM Z AUTORŮ) DOKUMENTU „{0}“, odpovězte na tento požadavek uživatele pomocí tlačítek.</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para2">Tento repozitář nabídne vhodnou modelovou odpověď, kterou můžete upravit.</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Poslat kopii</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactRequester">Počáteční odpověď žadateli</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactAuthor"> Požádat autora o povolení</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Poslat kopii</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.dontSend">Neposlat kopii</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseTrueForm.java -->
@@ -393,6 +398,35 @@
 	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para1">Váš požadavek byl odeslán správci</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para2">Děkujeme</message>
 	
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestContactRequester.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.title">Žádost o kopii dokumentu</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.trail">Žádost o kopii dokumentu</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.head">Žádost o kopii dokumentu</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.para1">Počáteční komunikace se žadatelem oznamující mu, že se jeho žádost zpracovává.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.toEmail">Komu</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.subject">Předmět</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.message">Zpráva</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.mail">Odeslat</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.back">Zpět</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestContactAuthor.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.title">Žádost o kopii dokumentu</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.trail">Žádost o kopii dokumentu</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.head">Žádost o kopii dokumentu</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.para1">Tento text bude odeslán žadateli (spolu s dokumentem).</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.toEmail">Komu</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.subject">Předmět</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.message">Zpráva</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.mail">Odeslat</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.back">Zpět</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseSent.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.title">Vaše odpověď byla odeslána.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.trail">Vaše odpověď byla odeslána.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.head">Vaše odpověď byla odeslána.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.para1">Vaše odpověď byla odeslána.</message>
+
+
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		
@@ -992,11 +1026,13 @@
 	<message key="xmlui.administrative.Navigation.administrative_registries">Registry</message>
 	<message key="xmlui.administrative.Navigation.administrative_metadata">Metadata</message>
 	<message key="xmlui.administrative.Navigation.administrative_format">Formát</message>
+    <message key="xmlui.administrative.Navigation.administrative_content">Správa obsahu</message>
 	<message key="xmlui.administrative.Navigation.administrative_items">Záznamy</message>
     <message key="xmlui.administrative.Navigation.administrative_withdrawn">Vyřazené záznamy</message>
     <message key="xmlui.administrative.Navigation.administrative_private">Soukromé záznamy</message>
 	<message key="xmlui.administrative.Navigation.administrative_control_panel">Ovládací panel</message>
     <message key="xmlui.administrative.Navigation.statistics">Statistiky</message>
+    <message key="xmlui.administrative.Navigation.administrative_batch_import">Dávkový import (ZIP)</message>
 	<message key="xmlui.administrative.Navigation.administrative_import_metadata">Importovat metadata</message>
 	<message key="xmlui.administrative.Navigation.administrative_curation">Úlohy správy</message>
 
@@ -1415,7 +1451,42 @@
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_id">ID</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_action">Operace</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_group">Skupina</message>
-	
+
+
+    <!-- Batch Import Tool -->
+    <!-- org.dspace.app.xmlui.administrative.batchimport -->
+    <message key="xmlui.administrative.batchimport.general.select_collection">Vyberte kolekci</message>
+    <message key="xmlui.administrative.batchimport.general.collection">Kolekce</message>
+    <message key="xmlui.administrative.batchimport.general.collection_help">Vyberte kolekci, do které chcete poslat položku.</message>
+    <message key="xmlui.administrative.batchimport.general.collection_default">Vyberte kolekci...</message>
+
+    <message key="xmlui.administrative.batchimport.general.title">Dávkový import (ZIP)</message>
+    <message key="xmlui.administrative.batchimport.general.head1">Dávkový import (ZIP)</message>
+    <message key="xmlui.administrative.batchimport.general.trail">Dávkový import (ZIP)</message>
+    <message key="xmlui.administrative.batchimport.general.changes">změny</message>
+    <message key="xmlui.administrative.batchimport.general.no_changes">Nebyly zjištěny žádné změny</message>
+    <message key="xmlui.administrative.batchimport.general.new_item">Nová položka</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_successful">Soubor byl úspěšně nahrán</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_failed">nahrávání selhalo nebo nebyl vybrán soubor</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_badschema">Neznámý jmenný prostor metadat v záhlaví</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_badelement">Neznámý metadatový prvek v záhlaví</message>
+    <message key="xmlui.administrative.batchimport.flow.import_successful">Import proběhl úspěšně</message>
+    <message key="xmlui.administrative.batchimport.flow.import_failed">Import selhal</message>
+    <message key="xmlui.administrative.batchimport.flow.failed_no_collection">Nebyla zadána cílová kolekce</message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
+    <message key="xmlui.administrative.batchimport.BatchmportMain.submit_upload">Nahrát SimpleArchiveFormat ZIP</message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.success">Úspěšně zpracováno</message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.changes_committed">Změny položky byli použity</message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_added">Přidáno: </message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_removed">Odstraněno: </message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportUpload -->
+    <message key="xmlui.administrative.batchimport.BatchImportUpload.item_add">Přidat: </message>
+    <message key="xmlui.administrative.batchimport.BatchImportUpload.item_remove">Odstranit: </message>
+
 	<!-- general edit item messages -->
 	<message key="xmlui.administrative.item.general.item_trail">Záznamy</message>
 	<message key="xmlui.administrative.item.general.template_head">Editovat šablonu záznamu kolekce: {0}</message>
@@ -2047,9 +2118,27 @@
         <message key="xmlui.statistics.display.table.workflow.step.selectSingleReviewer.selectReviewerStep.claimaction">Kontrola jedním uživatelem z fondu</message>
         <message key="xmlui.statistics.display.table.workflow.step.selectSingleReviewer.singleUserReviewStep.autoassignAction">Operace automatického přiřazení jednomu uživateli</message>
         <message key="xmlui.statistics.display.table.workflow.step.selectSingleReviewer.singleUserReviewStep.singleuserreviewaction">Operace kontroly jedním uživatelem</message>
-	
-	
-	
+
+
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     Google Analytics Statistics Aspect
+
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+    <message key="xmlui.statisticsGoogleAnalytics.Navigation.title">Statistiky</message>
+    <message key="xmlui.statisticsGoogleAnalytics.Navigation.usage.view">Zobrazit statistiky Google Analytics</message>
+    <message key="xmlui.statisticsGoogleAnalytics.trail">Statistiky</message>
+    <message key="xmlui.statisticsGoogleAnalytics.title">Statistiky Google Analytics</message>
+
+    <message key="xmlui.statisticsGoogleAnalytics.dates.startDate">Datum začátku</message>
+    <message key="xmlui.statisticsGoogleAnalytics.dates.endDate">Datum konce</message>
+    <message key="xmlui.statisticsGoogleAnalytics.dates.refresh">Obnovit</message>
+
+    <message key="xmlui.statisticsGoogleAnalytics.pageViews.title">Zobrazení stránek</message>
+    <message key="xmlui.statisticsGoogleAnalytics.downloads.title">Stažení souborů</message>
+
+
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		
 		                  dri2xhtml
