@@ -38,6 +38,11 @@
 <message key="xmlui.general.perform">Realizar</message>
 <message key="xmlui.general.queue">Encolar</message>
 
+        <!-- Keys which are used by exception2dri.xsl on error pages -->
+<message key="xmlui.error.contact_msg">Por favor, contacte con el administrador si quiere informar de este error. Si es posible, proporcione detalles adicionales de lo que estaba haciendo cuando ocurrió el error.</message>
+<message key="xmlui.error.contact">Contactar con el administrador</message>
+<message key="xmlui.error.show_stack">Mostrar la pila de errores asociada</message>
+
 	<!--
 		Page not found keys
 
@@ -1009,11 +1014,13 @@
 <message key="xmlui.administrative.Navigation.administrative_registries">Registros</message>
 <message key="xmlui.administrative.Navigation.administrative_metadata">Metadatos</message>
 <message key="xmlui.administrative.Navigation.administrative_format">Formato</message>
+<message key="xmlui.administrative.Navigation.administrative_content">Administración de contenidos</message>
 <message key="xmlui.administrative.Navigation.administrative_items">Ítems</message>
 <message key="xmlui.administrative.Navigation.administrative_withdrawn">Ítems eliminados</message>
 <message key="xmlui.administrative.Navigation.administrative_private">Ítems Privados</message>
 <message key="xmlui.administrative.Navigation.administrative_control_panel">Panel de control</message>
 <message key="xmlui.administrative.Navigation.statistics">Estadísticas</message>
+<message key="xmlui.administrative.Navigation.administrative_batch_import">Importación Batch (ZIP)</message>
 <message key="xmlui.administrative.Navigation.administrative_import_metadata">Importar Metadatos</message>
 <message key="xmlui.administrative.Navigation.administrative_curation">Tareas de Curación</message>
 
@@ -1432,6 +1439,41 @@
 <message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_id">ID</message>
 <message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_action">Acción</message>
 <message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_group">Grupo</message>
+
+
+    <!-- Batch Import Tool -->
+    <!-- org.dspace.app.xmlui.administrative.batchimport -->
+<message key="xmlui.administrative.batchimport.general.select_collection">Seleccione un colección..</message>
+<message key="xmlui.administrative.batchimport.general.collection">Colección</message>
+<message key="xmlui.administrative.batchimport.general.collection_help">Seleccione la colección a la que desea enviar un ítem.</message>
+<message key="xmlui.administrative.batchimport.general.collection_default">Seleccione un colección..</message>
+
+<message key="xmlui.administrative.batchimport.general.title">Importar carga Batch (ZIP)</message>
+<message key="xmlui.administrative.batchimport.general.head1">Importar carga Batch (ZIP)</message>
+<message key="xmlui.administrative.batchimport.general.trail">Importar carga Batch (ZIP)</message>
+<message key="xmlui.administrative.batchimport.general.changes">cambios</message>
+<message key="xmlui.administrative.batchimport.general.no_changes">No se detectaron cambios</message>
+<message key="xmlui.administrative.batchimport.general.new_item">Nuevo ítem</message>
+<message key="xmlui.administrative.batchimport.flow.upload_successful">Subida exitosa</message>
+<message key="xmlui.administrative.batchimport.flow.upload_failed">Subida fallida o no se seleccionó fichero</message>
+<message key="xmlui.administrative.batchimport.flow.upload_badschema">Esquema de metadatos desconocido en la cabecera</message>
+<message key="xmlui.administrative.batchimport.flow.upload_badelement">Opcionalmente, proporcione una breve descripción del fichero, por ejemplo "<i>Artículo principal</i>", o "<i>Datos experimentales leídos</i>".</message>
+<message key="xmlui.administrative.batchimport.flow.import_successful">Importación exitosa</message>
+<message key="xmlui.administrative.batchimport.flow.import_failed">Importación fallida</message>
+<message key="xmlui.administrative.batchimport.flow.failed_no_collection">No se ha especificado la Colección de destino</message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
+<message key="xmlui.administrative.batchimport.BatchmportMain.submit_upload">Subir un ZIP SimpleArchiveFormat </message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
+<message key="xmlui.administrative.batchimport.BatchImportConfirm.success">Procesado exitosamente</message>
+<message key="xmlui.administrative.batchimport.BatchImportConfirm.changes_committed">Cambios aplicados al ítem</message>
+<message key="xmlui.administrative.batchimport.BatchImportConfirm.item_added">Añadido: </message>
+<message key="xmlui.administrative.batchimport.BatchImportConfirm.item_removed">Retirado:</message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportUpload -->
+<message key="xmlui.administrative.batchimport.BatchImportUpload.item_add">Añadir: </message>
+<message key="xmlui.administrative.batchimport.BatchImportUpload.item_remove">Retirar:</message>
 
 	<!-- general edit item messages -->
 <message key="xmlui.administrative.item.general.item_trail">Ítems</message>
@@ -2067,10 +2109,23 @@
     <message key="xmlui.statistics.display.table.workflow.step.selectSingleReviewer.singleUserReviewStep.singleuserreviewaction">Single User Review Action</message>
 
 
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+                     Google Analytics Statistics Aspect
 
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
-
+<message key="xmlui.statisticsGoogleAnalytics.Navigation.title">Estadísticas</message>
+<message key="xmlui.statisticsGoogleAnalytics.Navigation.usage.view">Ver estadísticas Google Analytics</message>
+<message key="xmlui.statisticsGoogleAnalytics.trail">Estadísticas</message>
+<message key="xmlui.statisticsGoogleAnalytics.title">Estadísticas Google Analytics</message>
+        
+<message key="xmlui.statisticsGoogleAnalytics.dates.startDate">Fecha de comienzo</message>
+<message key="xmlui.statisticsGoogleAnalytics.dates.endDate">Fecha de finalización</message>
+<message key="xmlui.statisticsGoogleAnalytics.dates.refresh">Renovar</message>
+        
+<message key="xmlui.statisticsGoogleAnalytics.pageViews.title">Páginas vistas</message>
+<message key="xmlui.statisticsGoogleAnalytics.downloads.title">Descargas de fichero</message>
 
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -2298,6 +2353,7 @@ Cuando se usa QDC para los elementos de DSpace se recomienda el uso de crosswalk
   <!-- params are: start, end, total-count, search-value -->
 <message key="xmlui.ChoiceLookupTransformer.results">Resultados @1@ a @2@ de @3@ para "@4@"</message>
 <message key="xmlui.ChoiceLookupTransformer.fail">No se pudieron cargar los datos de la elección: </message>
+<message key="xmlui.ChoiceLookupTransformer.lookup">Búsqueda</message>
 
   <!-- Choice Lookup - sample config for dc.publisher field -->
 <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.help">Nombre del Editor</message>
@@ -2384,6 +2440,17 @@ Cuando se usa QDC para los elementos de DSpace se recomienda el uso de crosswalk
 <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.new_version_help">Esta no es la última versión de este ítem. La última versión se encuentra en: </message>
 <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_head">Nota</message>
 <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">Una versión más reciente de este ítem está en el flujo de trabajo.</message>
+
+<message key="xmlui.aspect.sherpa.submission.consult">Para comprobar los derechos de copia y las políticas de autoarchivo por revista o editor, por favor, consulte </message>
+<message key="xmlui.aspect.sherpa.submission.title">Información del editor</message>
+<message key="xmlui.aspect.sherpa.submission.journal">Revista:</message>
+<message key="xmlui.aspect.sherpa.submission.publisher">Información del editor:</message>
+<message key="xmlui.aspect.sherpa.submission.colour">Color ROMEO:</message>
+<message key="xmlui.aspect.sherpa.submission.more">(Más información)</message>
+<message key="xmlui.aspect.sherpa.submission.green">verde</message>
+<message key="xmlui.aspect.sherpa.submission.blue">azul</message>
+<message key="xmlui.aspect.sherpa.submission.white">blanco</message>
+<message key="xmlui.aspect.sherpa.submission.yellow">amarillo</message>
 
     <!-- End Versioning -->
 
@@ -2683,6 +2750,7 @@ Cuando se usa QDC para los elementos de DSpace se recomienda el uso de crosswalk
 
     <message key="xmlui.swordclient.SwordResponse.title">Respuesta Sword</message>
     <message key="xmlui.swordclient.SwordResponse.trail">Respuesta Sword</message>
+
 
 
 </catalogue>
