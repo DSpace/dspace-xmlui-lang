@@ -191,24 +191,24 @@
 
 	
 	<!-- org.dspace.app.xmlui.administrative.WithdrawnItems.java -->
-	<message key="xmlui.Administrative.WithdrawnItems.title.item.title">Stažené položky dle názvu</message>
-	<message key="xmlui.Administrative.WithdrawnItems.trail.item.title">Stažené položky dle názvu</message>
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.title">Stažené záznamy dle názvu</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.title">Stažené záznamy dle názvu</message>
 
-	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateissued">Stažené položky dle názvu data publikování</message>
-	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateissued">Stažené položky dle názvu data publikování</message>
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateissued">Stažené záznamy dle názvu data publikování</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateissued">Stažené záznamy dle názvu data publikování</message>
 
-	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateaccessioned">Stažené položky dle názvu data zaslání</message>
-	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateaccessioned">Stažené položky dle názvu data zaslání</message>
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateaccessioned">Stažené záznamy dle názvu data zaslání</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateaccessioned">Stažené záznamy dle názvu data zaslání</message>
 
 	<!-- org.dspace.app.xmlui.administrative.PrivateItems.java -->
-	<message key="xmlui.Administrative.PrivateItems.title.item.title">Soukromé položky dle názvu</message>
-	<message key="xmlui.Administrative.PrivateItems.trail.item.title">Soukromé položky dle názvu</message>
+	<message key="xmlui.Administrative.PrivateItems.title.item.title">Soukromé záznamy dle názvu</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.title">Soukromé záznamy dle názvu</message>
 
-	<message key="xmlui.Administrative.PrivateItems.title.item.dateissued">Soukromé položky dle data publikování</message>
-	<message key="xmlui.Administrative.PrivateItems.trail.item.dateissued">Soukromé položky dle data publikování</message>
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateissued">Soukromé záznamy dle data publikování</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateissued">Soukromé záznamy dle data publikování</message>
 
-	<message key="xmlui.Administrative.PrivateItems.title.item.dateaccessioned">Soukromé položky dle data zaslání</message>
-	<message key="xmlui.Administrative.PrivateItems.trail.item.dateaccessioned">Soukromé položky dle data zaslání</message>
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateaccessioned">Soukromé záznamy dle data zaslání</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateaccessioned">Soukromé záznamy dle data zaslání</message>
 
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
@@ -273,7 +273,7 @@
 	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Zobrazit minimální záznam</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Zobrazit celý záznam</message>
 	
-	<message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">Tato položka byla vyřazena a není nadále dostupná.</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">Tento záznam byl vyřazen a není nadále dostupný.</message>
 	
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
 	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">Procházet</message>
@@ -315,10 +315,10 @@
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.unknown">neznámý</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.login">Pokračujte na přihlašovací obrazovku.</message>
 	
-        <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">Tato položka byla vyřazena</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">Vybraná položka byla vyřazena a není nadále dostupná.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">Vybraná položka je položka s omezeným přístupem a pro její zobrazení musíte mít potřebná oprávnění. Prosím, pro zobrazení této položky se přihlašte.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Váš účet nemá potřebná oprávnění pro zobrazení této položky. Jestli máte jakékoliv nejasnosti, obraťte se na správce systému.</message>
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">Tento záznam byla vyřazena</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">Vybraný záznam byl vyřazen a není nadále dostupný.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">Vybraný záznam je záznam s omezeným přístupem a pro jeho zobrazení musíte mít potřebná oprávnění. Prosím, pro zobrazení tohoto záznamu se přihlaste.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Váš účet nemá potřebná oprávnění pro zobrazení ttohoto záznamu. Jestli máte jakékoliv nejasnosti, obraťte se na správce systému.</message>
 	
 	<!-- Authentication messages used at the top of the login page:  -->
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_header">Toto je záznam s omezeným přístupem</message>	
@@ -1474,7 +1474,7 @@
     <!-- org.dspace.app.xmlui.administrative.batchimport -->
     <message key="xmlui.administrative.batchimport.general.select_collection">Vyberte kolekci</message>
     <message key="xmlui.administrative.batchimport.general.collection">Kolekce</message>
-    <message key="xmlui.administrative.batchimport.general.collection_help">Vyberte kolekci, do které chcete poslat položku.</message>
+    <message key="xmlui.administrative.batchimport.general.collection_help">Vyberte kolekci, do které chcete poslat záznam.</message>
     <message key="xmlui.administrative.batchimport.general.collection_default">Vyberte kolekci...</message>
 
     <message key="xmlui.administrative.batchimport.general.title">Dávkový import (ZIP)</message>
@@ -1482,7 +1482,7 @@
     <message key="xmlui.administrative.batchimport.general.trail">Dávkový import (ZIP)</message>
     <message key="xmlui.administrative.batchimport.general.changes">změny</message>
     <message key="xmlui.administrative.batchimport.general.no_changes">Nebyly zjištěny žádné změny</message>
-    <message key="xmlui.administrative.batchimport.general.new_item">Nová položka</message>
+    <message key="xmlui.administrative.batchimport.general.new_item">Nový záznam</message>
     <message key="xmlui.administrative.batchimport.flow.upload_successful">Soubor byl úspěšně nahrán</message>
     <message key="xmlui.administrative.batchimport.flow.upload_failed">nahrávání selhalo nebo nebyl vybrán soubor</message>
     <message key="xmlui.administrative.batchimport.flow.upload_badschema">Neznámý jmenný prostor metadat v záhlaví</message>
@@ -1496,7 +1496,7 @@
 
     <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
     <message key="xmlui.administrative.batchimport.BatchImportConfirm.success">Úspěšně zpracováno</message>
-    <message key="xmlui.administrative.batchimport.BatchImportConfirm.changes_committed">Změny položky byli použity</message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.changes_committed">Změny záznamu byly použity</message>
     <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_added">Přidáno: </message>
     <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_removed">Odstraněno: </message>
 
@@ -1657,8 +1657,8 @@
 	<message key="xmlui.administrative.item.ViewItem.title">Zobrazit záznam</message>
 	<message key="xmlui.administrative.item.ViewItem.trail">Zobrazit záznam</message>
 	<!-- org.dspace.app.xmlui.administrative.item.CurateItemForm.java -->
-	<message key="xmlui.administrative.item.CurateItemForm.main_head">Spravovat položku: {0}</message>
-	<message key="xmlui.administrative.item.CurateItemForm.title">Spravovat položku</message>
+	<message key="xmlui.administrative.item.CurateItemForm.main_head">Spravovat záznam: {0}</message>
+	<message key="xmlui.administrative.item.CurateItemForm.title">Spravovat záznam</message>
 	<message key="xmlui.administrative.item.CurateItemForm.trail">Kurátor</message>
 	<message key="xmlui.administrative.item.CurateItemForm.label_name">Úloha</message>
 	
@@ -1675,7 +1675,7 @@
 	<message key="xmlui.administrative.metadataimport.general.trail">Importovat Metadata</message>
 	<message key="xmlui.administrative.metadataimport.general.changes">změny</message>
 	<message key="xmlui.administrative.metadataimport.general.no_changes">Nebyly zjištěny změny</message>
-	<message key="xmlui.administrative.metadataimport.general.new_item">Nová položka</message>
+	<message key="xmlui.administrative.metadataimport.general.new_item">Nový záznam</message>
 	<message key="xmlui.administrative.metadataimport.flow.upload_successful">Nahrání přeběhlo úspěšně</message>
 	<message key="xmlui.administrative.metadataimport.flow.upload_failed">Nahrání selhalo</message>
 	<message key="xmlui.administrative.metadataimport.flow.upload_badschema">Neznámé schéma metadat v hlavičce</message>
@@ -1710,9 +1710,9 @@
 	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.changes_pending">Čekající změny záznamu</message>
 	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.submit_confirm">Použít změny</message>
 	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.hint">Změny záznamu čekající na kontrolu jsou uvedeny níže</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_delete">Smazat položku</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_withdraw">Vyřadit položku</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_reinstate">Znovu zařadit položku</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_delete">Smazat záznam</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_withdraw">Vyřadit záznam</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_reinstate">Znovu zařadit záznam</message>
 	
 	<!-- general mapper messages -->
 	<message key="xmlui.administrative.mapper.general.mapper_trail">Mapování záznamů</message>
@@ -1914,7 +1914,7 @@
 	<message key="xmlui.administrative.community.AssignCommunityRoles.main_head">Upravit komunitu: {0}</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.no_role">žádná</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.create">Vytvořit...</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.help_admins">Správci komunity mohou vytvářet podkomunity nebo kolekce a přidělovat správu těchto podkomunit nebo kolekcí. Navíc rozhodují, kdo může zasílat záznamy do kterékoliv subkolekce, upravovat metadata záznamů (po zaslání) a přidávat (mapovat) stávající položky z jiných kolekcí (to je předmětem autorizace).</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.help_admins">Správci komunity mohou vytvářet podkomunity nebo kolekce a přidělovat správu těchto podkomunit nebo kolekcí. Navíc rozhodují, kdo může zasílat záznamy do kterékoliv subkolekce, upravovat metadata záznamů (po zaslání) a přidávat (mapovat) stávající záznamy z jiných kolekcí (to je předmětem autorizace).</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.default_read_custom">Tato komunita umožňuje úpravy výchozího přístupu.</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.default_read_anonymous">Výchozí čtení příchozích záznamů a bitových toků je momentálně nastaveno na Anonymní.</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.edit_authorizations">Upravovat autorizační politiky přímo.</message>
@@ -2242,7 +2242,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.size-gigabytes">Gb</message>
 	
 	<message key="xmlui.dri2xhtml.METS-1.0.license-text">K tomuto záznamu jsou přiřazeny následující licenční soubory:</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.cc-license-text">Kromě případů, kde je uvedeno jinak, licence této položky je </message>
+	<message key="xmlui.dri2xhtml.METS-1.0.cc-license-text">Kromě případů, kde je uvedeno jinak, licence tohoto záznamu je </message>
 		
 	<message key="xmlui.dri2xhtml.METS-1.0.collection-not-implemented">
 		Sumární zobrazení (summaryView) kolekce není momentálně použité nebo implementované.
@@ -2579,7 +2579,7 @@
 
 
 
-    <message key="xmlui.dri2xhtml.structural.pagination-info.nototal">Zobrazují se položky {0}-{1}</message>
+    <message key="xmlui.dri2xhtml.structural.pagination-info.nototal">Zobrazují se záznamy {0}-{1}</message>
 
     <message key="xmlui.Discovery.AbstractSearch.type_author">Filtrovat dle: Autora</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Autor</message>
@@ -2629,8 +2629,8 @@
     <message key="xmlui.Discovery.SimpleSearch.filter.notequals">nerovná se</message>
     <message key="xmlui.Discovery.SimpleSearch.filter.notauthority">nemá ID</message>
     
-    <message key="xmlui.Discovery.RelatedItems.head">Související položky</message>
-    <message key="xmlui.Discovery.RelatedItems.help">Zobrazují se položky příbuzné na základě názvu, autora a předmětu.</message>
+    <message key="xmlui.Discovery.RelatedItems.head">Související záznamy</message>
+    <message key="xmlui.Discovery.RelatedItems.help">Zobrazují se záznamy příbuzné na základě názvu, autora a předmětu.</message>
 
     <message key="xmlui.Discovery.AbstractSearch.head1_community">Zobrazuje se {0} z celkem {1} záznamů komunity: {2}. <span class="searchTime">({3} vteřiny)</span></message>
    	<message key="xmlui.Discovery.AbstractSearch.head1_collection">Zobrazuje se {0} z celkem {1} záznamů kolekce: {2}. <span class="searchTime">({3} vteřiny)</span></message>
