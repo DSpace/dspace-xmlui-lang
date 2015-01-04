@@ -190,6 +190,27 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Procházení {0} dle data zaslání</message>
 
 	
+	<!-- org.dspace.app.xmlui.administrative.WithdrawnItems.java -->
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.title">Stažené položky dle názvu</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.title">Stažené položky dle názvu</message>
+
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateissued">Stažené položky dle názvu data publikování</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateissued">Stažené položky dle názvu data publikování</message>
+
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateaccessioned">Stažené položky dle názvu data zaslání</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateaccessioned">Stažené položky dle názvu data zaslání</message>
+
+	<!-- org.dspace.app.xmlui.administrative.PrivateItems.java -->
+	<message key="xmlui.Administrative.PrivateItems.title.item.title">Soukromé položky dle názvu</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.title">Soukromé položky dle názvu</message>
+
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateissued">Soukromé položky dle data publikování</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateissued">Soukromé položky dle data publikování</message>
+
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateaccessioned">Soukromé položky dle data zaslání</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateaccessioned">Soukromé položky dle data zaslání</message>
+
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.search_scope">Rozsah vyhledávání</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">Vše v DSpace</message>
@@ -245,10 +266,6 @@
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.trail">Vyjádření názoru</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.head">Vyjádření názoru odesláno</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.para1">Vaše poznámky byly přijaty.</message>
-	
-	<!-- org.dspace.app.xmlui.artifactbrowser.FrontPageSearch.java -->
-	<message key="xmlui.ArtifactBrowser.FrontPageSearch.head">Prohledat DSpace</message>
-	<message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">Vložte libovolný text pro hledání v DSpace.</message>
 	
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
 	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">Zobrazit záznam</message>
@@ -2073,6 +2090,7 @@
 	<message key="xmlui.statistics.visits.bitstreams">Stažení souborů</message>
 	<message key="xmlui.statistics.Navigation.title">Statistiky</message>
         <message key="xmlui.statistics.Navigation.usage.view">Zobrazit statistiky využívání</message>
+        <message key="xmlui.statistics.Navigation.usage-Elasticsearch.view">Zobrazit statistiky využívání</message>
         <message key="xmlui.statistics.Navigation.search.view">Zobrazit statistiky vyhledávání</message>
         <message key="xmlui.statistics.Navigation.workflow.view">Zobrazit statistiky workflow</message>
 	<message key="xmlui.statistics.trail">Statistiky</message>
