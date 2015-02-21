@@ -897,7 +897,7 @@
 	<message key="xmlui.administrative.Navigation.context_create_collection">Criar coleção</message>
 	<message key="xmlui.administrative.Navigation.context_create_subcommunity">Criar subcomunidade</message>
 	<message key="xmlui.administrative.Navigation.context_create_community">Criar comunidade</message>
-	<message key="xmlui.administrative.Navigation.context_export_item">Item exportado</message>
+	<message key="xmlui.administrative.Navigation.context_export_item">Exportar item</message>
         <message key="xmlui.administrative.Navigation.context_export_collection">Exportar coleção</message>
         <message key="xmlui.administrative.Navigation.context_export_community">Exportar comunidade</message>
         <message key="xmlui.administrative.Navigation.context_export_metadata">Exportar metadado</message>
