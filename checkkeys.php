@@ -10,6 +10,10 @@
 ###########################################################################
 #
 # checkkeys.php
+# Author Rodrigo Prado de Jesus - royopa@gmail.com
+#
+# Usage:
+#    $ php checkkeys.php path_to_messages_master path_to_messages_to_check
 #
 ###########################################################################
 
@@ -23,9 +27,6 @@ if ($argc != 3) {
 
 $masterKeys  = getKeys($argv[1]);
 $toCheckKeys = getKeys($argv[2]);
-
-//var_dump($masterKeys);
-//var_dump($toCheckKeys);
 
 print "IN $argv[1] BUT NOT IN $argv[2]:\n\n";
 printMissing($masterKeys, $toCheckKeys);
