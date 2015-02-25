@@ -1232,7 +1232,7 @@
 	<message key="xmlui.administrative.authorization.AuthorizationMain.submit_find">Encontrar</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.actions_advanced">Ferramenta para autorizações avançadas</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.actions_advanced_link">Clique aqui para ir para a ferramenta de administração de política universal do item</message>
-	<message key="xmlui.administrative.authorization.AuthorizationMain.containerList_head">Altorizações de comunidade / coleção</message>
+	<message key="xmlui.administrative.authorization.AuthorizationMain.containerList_head">Autorizações de comunidade / coleção</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.containerList_para">Clique em uma comunidade ou coleção para editar as suas políticas.</message>
 
 
