@@ -1037,8 +1037,8 @@
 	<!-- org.dspace.app.xmlui.administrative.group.EditGroupForm -->
 	<message key="xmlui.administrative.group.EditGroupForm.title">Grupo Editor</message>
 	<message key="xmlui.administrative.group.EditGroupForm.trail">Editar grupo</message>
-	<message key="xmlui.administrative.group.EditGroupForm.main_head">Grupo editor: {0} (id: {1})</message>
-	<message key="xmlui.administrative.group.EditGroupForm.main_head_new">Grupo Editor: novo grupo</message>
+	<message key="xmlui.administrative.group.EditGroupForm.main_head">Editor de Grupo: {0} (id: {1})</message>
+	<message key="xmlui.administrative.group.EditGroupForm.main_head_new">Editor de Grupo: novo grupo</message>
 	<message key="xmlui.administrative.group.EditGroupForm.submit_clear">Limpar busca</message>
 	<message key="xmlui.administrative.group.EditGroupForm.member">Membro</message>
 	<message key="xmlui.administrative.group.EditGroupForm.cycle">Ciclo</message>
