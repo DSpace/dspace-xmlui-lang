@@ -1016,7 +1016,7 @@
 
 	<!-- org.dspace.app.xmlui.administrative.group.ManageGroupsMain -->
 	<message key="xmlui.administrative.group.ManageGroupsMain.title">Gerenciar grupos</message>
-	<message key="xmlui.administrative.group.ManageGroupsMain.main_head">Grupo gerenciado</message>
+	<message key="xmlui.administrative.group.ManageGroupsMain.main_head">Gerenciador de grupos</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.actions_head">Ações</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.actions_create">Criar um novo grupo</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.actions_create_link">Clique aqui para adicionar um novo grupo.</message>
