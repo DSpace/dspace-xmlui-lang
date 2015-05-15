@@ -1478,7 +1478,7 @@
 	<message key="xmlui.administrative.item.EditBitstreamForm.para2">Eğer biçim yukarıdaki listede yoksa, <strong>"biçim listede yoktur"</strong> seçeneğini seçiniz ve aşağıdaki kutuda dosyanın biçimini tanımlayınız.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_label">Diğer Biçim</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">Dosyayı oluşturmak için kullanılan uygulama ve sürüm numarası (Örneğin, "<i>ACMESoft SuperApp sürüm 1.5</i>").</message>
-    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Dosya Adı:</message>
+    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Dosya Adı</message>
     <message key="xmlui.administrative.item.EditBitstreamForm.name_help">Bu veri akışı için dosya adını değiştir. Bu ekranda veri akış URL'sini değiştirebileceğinizi unutmayın, ancak eski bağlantıların sıra kimliği değişmeyecektir.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->

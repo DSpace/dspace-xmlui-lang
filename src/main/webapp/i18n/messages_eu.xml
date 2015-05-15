@@ -1414,7 +1414,7 @@
 <message key="xmlui.administrative.item.EditBitstreamForm.para2">Formatua ez badago zerrendan, aukeratu “Formatua ez dago zerrendan” eta deskriba ezazu azpiko laukitxoan</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.user_label">Beste formatu bat</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.user_help">Sartu fitxategia sortzeko erabili duzun programaren izena eta programaren bertsio-zenbakia (adibidez, "ACMESoft SuperApp version 1.5")</message>
-<message key="xmlui.administrative.item.EditBitstreamForm.name_label">Fitxategiaren izena:</message>
+<message key="xmlui.administrative.item.EditBitstreamForm.name_label">Fitxategiaren izena</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.name_help">Ezarri berriro fitxategiaren izena. Ikusiko duzu URLa aldatuko dela, baina lotura zaharrak baliogarriak izan go dira IDa aldatzen ez den bitartean.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->

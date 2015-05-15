@@ -1849,7 +1849,7 @@
 	<message key="xmlui.administrative.item.EditBitstreamForm.para2">اذا كان التنسيق غير موجود في القائمة أعلاه <strong>حدد "التنسيق ليس في القائمة" أعلاه</strong> ثم قم بوصفه في الحقل أدناه.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_label">تنسيق آخر</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">التطبيق المستخدم في انشاء الملف ورقم الاصدار (على سبيل المثال, "<i>ACMESoft SuperApp version 1.5</i>").</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.name_label">اسم الملف:</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.name_label">اسم الملف</message>
     <message key="xmlui.administrative.item.EditBitstreamForm.name_help">تغيير اسم الملف لهذا ال bitstream. لاحظ أن ذلك سيغير عرض ال bitstream URL, ولكن ستظل الروابط القديمة طالما لم يتم تغيير المعرّف التابع.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->

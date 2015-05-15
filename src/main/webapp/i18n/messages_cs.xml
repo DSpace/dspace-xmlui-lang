@@ -1583,7 +1583,7 @@
 	<message key="xmlui.administrative.item.EditBitstreamForm.para2">Není-li formát uveden na seznamu výše, <strong>vyberte „Formát není v seznamu“ výše</strong> popište ho v poli níže.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_label">Jiný formát</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">Aplikace, kterou jste použili na vytvoření souboru a číslo verze (např. „<i>ACMESoft SuperApp verze 1.5</i>“).</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.name_label">Název souboru:</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.name_label">Název souboru</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.name_help">Změna názvu soubory tohoto bitového toku. Tímto se změní zobrazený URL bitového toku, ale staré odkazy budou pořád fungovat dokud se nezmění číslo sekvence.</message>
 
 	

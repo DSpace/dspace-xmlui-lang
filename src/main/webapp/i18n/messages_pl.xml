@@ -1402,7 +1402,7 @@
     <message key="xmlui.administrative.item.EditBitstreamForm.para2">Jeśeli format pliku nie znajduje się na powyższej liście, <strong>wybierz opcję „format nie znajduje się na liście” powyżej</strong> i opisz format pliku poniżej.</message>
     <message key="xmlui.administrative.item.EditBitstreamForm.user_label">Inny format</message>
     <message key="xmlui.administrative.item.EditBitstreamForm.user_help">Nazwa aplikacji użytej przy tworzeniu pliku i numer wersji (na przykład „<i>ACMESoft SuperApp werjsa 1.5</i>”).</message>
-    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Nazwa pliku:</message>
+    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Nazwa pliku</message>
     <message key="xmlui.administrative.item.EditBitstreamForm.name_help">Zmiana nazwy pliku.  Zmieni się URL tego pliku, ale stare odnośniki będą działały.</message>
 
     <!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->

@@ -1414,7 +1414,7 @@
 	<message key="xmlui.administrative.item.EditBitstreamForm.para2">Se o formato não está na lista acima, <strong>selecione "Formato não consta na lista" acima</strong> e descreva-o no campo abaixo.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_label">Outro formato</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">O aplicativo usado para criar o arquivo, e o número da versão (por exemplo, "<i>ACMESoft SuperApp version 1.5</i>").</message>
-    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Nome do arquivo:</message>
+    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Nome do arquivo</message>
     <message key="xmlui.administrative.item.EditBitstreamForm.name_help">Renomeie o arquivo para o bitstream. Note que isto irá mudar a exibição da URL bistream , mas links antigos ainda serão usados enquanto a sequencia ID não muda.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->

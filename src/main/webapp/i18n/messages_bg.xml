@@ -1406,7 +1406,7 @@
 	<message key="xmlui.administrative.item.EditBitstreamForm.para2">Ако форматът не е в горния списък, <strong>изберете "Форматът не е в списъка" горе</strong> и го опишете в долното поле.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_label">Друг формат</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">Приложението, използвано за създаване на файла и номерът на версията (например, "<i>ACMESoft SuperApp version 1.5</i>").</message>
-    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Име на файл:</message>
+    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Име на файл</message>
     <message key="xmlui.administrative.item.EditBitstreamForm.name_help">Сменете името на файла за този битов поток. Забележете, че това ще промени показвания URL на битовия поток, но старите връзки все още ще разрешават намирането, докато не се промени идентификатора.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->

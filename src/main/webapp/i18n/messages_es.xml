@@ -1554,7 +1554,7 @@
 <message key="xmlui.administrative.item.EditBitstreamForm.para2">Si el formato no está en la lista, <strong>seleccione "El formato no está en la lista" </strong> y descríbalo en la casilla inferior.</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.user_label">Otro formato</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.user_help">El nombre y versión de la aplicación que utilizó para crear el fichero (por ejemplo, "<i>ACMESoft SuperApp versión 1.5</i>").</message>
-<message key="xmlui.administrative.item.EditBitstreamForm.name_label">Nombre del fichero:</message>
+<message key="xmlui.administrative.item.EditBitstreamForm.name_label">Nombre del fichero</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.name_help">Renombrar este fichero. Nótese que se cambiará la URL mostrada, pero los enlaces antiguos se seguirán resolviendo mientras no cambie el ID.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->

@@ -1277,7 +1277,7 @@ Administrative Aspect
 <message key="xmlui.administrative.item.EditBitstreamForm.para2">Se o formato non está na listaxe, </message>
 <message key="xmlui.administrative.item.EditBitstreamForm.user_label">Outro formato</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.user_help">O nome e versión da aplicación que empregou para crear o ficheiro (por exemplo, "</message>
-<message key="xmlui.administrative.item.EditBitstreamForm.name_label">Nome do ficheiro:</message>
+<message key="xmlui.administrative.item.EditBitstreamForm.name_label">Nome do ficheiro</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.name_help">Renomear este ficheiro. Nótese que a URL que se mostra cambiará, pero as ligazóns antigas seguiranse resolvendo mentres non cambie o ID.</message>
 
 <!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->
