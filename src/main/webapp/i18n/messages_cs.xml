@@ -315,7 +315,7 @@
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.unknown">neznámý</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.login">Pokračujte na přihlašovací obrazovku.</message>
 	
-        <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">Tento záznam byla vyřazena</message>
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">Tento záznam byl vyřazen</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">Vybraný záznam byl vyřazen a není nadále dostupný.</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">Vybraný záznam je záznam s omezeným přístupem a pro jeho zobrazení musíte mít potřebná oprávnění. Prosím, pro zobrazení tohoto záznamu se přihlaste.</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Váš účet nemá potřebná oprávnění pro zobrazení ttohoto záznamu. Jestli máte jakékoliv nejasnosti, obraťte se na správce systému.</message>
@@ -1065,10 +1065,10 @@
 	<message key="xmlui.administrative.ItemExport.item.not.found">Požadovaný záznam nebyl nalezen.</message>
 	<message key="xmlui.administrative.ItemExport.collection.not.found">Požadovaná kolekce nebyla nalezena.</message>
 	<message key="xmlui.administrative.ItemExport.community.not.found">Požadovaná komunita nebyla nalezena.</message>
-	<message key="xmlui.administrative.ItemExport.item.success">Záznam byl úspěšně exportován. Měli byste obdržet e-mail, jakmile bude archiv připraven na stažení. Můžete také použít odkaz „Moje exporty“ k zobrazení seznamu archivů, které jsou pro vás dostupné.</message>
-	<message key="xmlui.administrative.ItemExport.collection.success">Kolekce byla úspěšně exportována. Měli byste obdržet e-mail, jakmile bude archiv připraven na stažení. Můžete také použít odkaz „Moje exporty“ k zobrazení seznamu archivů, které jsou pro vás dostupné.</message>
-	<message key="xmlui.administrative.ItemExport.community.success">Komunita byla úspěšně exportována. Měli byste obdržet e-mail, jakmile bude archiv připraven na stažení. Můžete také použít odkaz „Moje exporty“ k zobrazení seznamu archivů, které jsou pro vás dostupné.</message>
-	<message key="xmlui.administrative.ItemExport.available.head">Exportní archivy dostupné na stažení:</message>
+	<message key="xmlui.administrative.ItemExport.item.success">Záznam byl úspěšně exportován. Měli byste obdržet e-mail, jakmile bude archiv připraven ke stažení. Můžete také použít odkaz „Moje exporty“ k zobrazení seznamu archivů, které jsou pro vás dostupné.</message>
+	<message key="xmlui.administrative.ItemExport.collection.success">Kolekce byla úspěšně exportována. Měli byste obdržet e-mail, jakmile bude archiv připraven ke stažení. Můžete také použít odkaz „Moje exporty“ k zobrazení seznamu archivů, které jsou pro vás dostupné.</message>
+	<message key="xmlui.administrative.ItemExport.community.success">Komunita byla úspěšně exportována. Měli byste obdržet e-mail, jakmile bude archiv připraven ke stažení. Můžete také použít odkaz „Moje exporty“ k zobrazení seznamu archivů, které jsou pro vás dostupné.</message>
+	<message key="xmlui.administrative.ItemExport.available.head">Exportní archivy dostupné ke stažení:</message>
 	
 
 
@@ -1628,7 +1628,7 @@
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemStatusForm -->
 	<message key="xmlui.administrative.item.EditItemStatusForm.title">Stav záznamu</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.trail">Stav záznamu</message>
-	<message key="xmlui.administrative.item.EditItemStatusForm.para1">Vítejte na stránce správy záznamů. Odsud můžete vyřadit, znovu zařadit, přesunout nebo smazat záznam. Na dalších záložkách můžete také aktualizovat nebo přidávat nová metadata a bitové toky.</message>
+	<message key="xmlui.administrative.item.EditItemStatusForm.para1">Vítejte na stránce správy záznamů. Odsud můžete vyřadit, znovu zařadit, přesunout nebo smazat záznam. Na dalších kartách můžete také aktualizovat nebo přidávat nová metadata a bitové toky.</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.label_id">Interní ID záznamu</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.label_handle">Handle</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.label_modified">Poslední změna</message>
@@ -1696,9 +1696,9 @@
 	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_oldowner">Odstraněné z vlastnící kolekce</message>
 	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_mapped">Namapované do kolekce</message>
 	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_unmapped">Odmapované z kolekce</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_deleted">Položka smazána</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_withdrawn">Položka vyřazena</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_reinstated">Položka znovu zařazena</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_deleted">Záznam smazán</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_withdrawn">Záznam vyřazen</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_reinstated">Záznam znovu zařazen</message>
 
 	<!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportUpload -->
 	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_add">Přidat: </message>
@@ -2637,7 +2637,7 @@
    	<message key="xmlui.Discovery.AbstractSearch.head1_none">Zobrazuje se {0} z celkem {1} záznamů. <span class="searchTime">({2} vteřiny)</span></message>
 
     <message key="xmlui.Discovery.AbstractSearch.head2">Komunity nebo kolekce odpovídající vašemu dotazu</message>
-   	<message key="xmlui.Discovery.AbstractSearch.head3">Položky odpovídající vašemu dotazu</message>
+   	<message key="xmlui.Discovery.AbstractSearch.head3">Záznamy odpovídající vašemu dotazu</message>
 
    	<message key="xmlui.Discovery.SimpleSearch.did_you_mean">Měli jste na mysli: </message>
 
