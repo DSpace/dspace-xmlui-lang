@@ -81,7 +81,7 @@
 	<!--
 		Default notice header
 	 	-->
-	<message key="xmlui.general.notice.default_head">Noticiar</message>
+	<message key="xmlui.general.notice.default_head">Mensagem do sistema</message>
 
 
 
@@ -1646,7 +1646,7 @@
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.trail">Metadado</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.main_head">Editar coleção: {0}</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.label_name">Nome</message>
-	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.label_short_description">Pequena descrição</message>
+	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.label_short_description">Descrição curta</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.label_introductory_text">Texto introdutório (HTML)</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.label_copyright_text">Texto sobre os direitos autorais (HTML)</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.label_side_bar_text">Notícias (HTML)</message>
@@ -1666,7 +1666,7 @@
 	<message key="xmlui.administrative.collection.CreateCollectionForm.title">Criação de coleção</message>
 	<message key="xmlui.administrative.collection.CreateCollectionForm.trail">Criação de coleção</message>
 	<message key="xmlui.administrative.collection.CreateCollectionForm.main_head">Informar metadado para uma nova coleção {0}</message>
-	<message key="xmlui.administrative.collection.CreateCollectionForm.submit_save">Criar</message>
+	<message key="xmlui.administrative.collection.CreateCollectionForm.submit_save">Salvar dados</message>
 
 	<!-- General to the harvesting options under collection -->
 	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.title">Configurações da coleção de Harvesting </message>
@@ -1784,7 +1784,7 @@
 	<message key="xmlui.administrative.community.EditCommunityMetadataForm.main_head">Edição de metadado para a comunidade {0}</message>
 	<message key="xmlui.administrative.community.EditCommunityMetadataForm.edit_authorizations">Edição de políticas de autorização</message>
 	<message key="xmlui.administrative.community.EditCommunityMetadataForm.label_name">Nome</message>
-	<message key="xmlui.administrative.community.EditCommunityMetadataForm.label_short_description">Pequena descrição</message>
+	<message key="xmlui.administrative.community.EditCommunityMetadataForm.label_short_description">Descrição curta</message>
 	<message key="xmlui.administrative.community.EditCommunityMetadataForm.label_introductory_text">Texto introdutório (HTML)</message>
 	<message key="xmlui.administrative.community.EditCommunityMetadataForm.label_copyright_text">Texto sobre os direitos autorais (HTML)</message>
 	<message key="xmlui.administrative.community.EditCommunityMetadataForm.label_side_bar_text">Notícias (HTML)</message>
@@ -1798,7 +1798,7 @@
 	<message key="xmlui.administrative.community.CreateCommunityForm.trail">Criação de comunidade</message>
 	<message key="xmlui.administrative.community.CreateCommunityForm.main_head_sub">Informe os metadados para a nova subcomunidade {0}</message>
 	<message key="xmlui.administrative.community.CreateCommunityForm.main_head_top">Edite os metadados para o novo nível acima da comunidade</message>
-	<message key="xmlui.administrative.community.CreateCommunityForm.submit_save">Criação</message>
+	<message key="xmlui.administrative.community.CreateCommunityForm.submit_save">Salvar dados</message>
 
 
 	<!-- org.dspace.app.xmlui.administrative.ControlPanel.java -->
@@ -1850,7 +1850,7 @@
 	<message key="xmlui.administrative.ControlPanel.alerts_head">Sistema de alerta</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_warning"><strong>Aviso para o sistema de balanceamento de capacidade</strong>: Sistema de alerta são efetivos para o nóque é ativado. Você precisa garantir que cada nóno conjunto recebe o comando de alerta para ativação.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_message_label">Mensagem de alerta</message>
-	<message key="xmlui.administrative.ControlPanel.alerts_message_default">O sistema irá para a manutenção regular. Por favor, salve o seu trabalho e desconecte sua conta.</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_message_default">O sistema irá para a manutenção programada. Por favor, salve o seu trabalho e desconecte sua conta.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_label">Contagem regressiva</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_none">Sem contagem regressiva</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_5">5 minutos</message>
