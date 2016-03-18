@@ -1673,7 +1673,7 @@
 	<message key="xmlui.administrative.metadataimport.general.title">Importovat Metadata</message>
 	<message key="xmlui.administrative.metadataimport.general.head1">Importovat Metadata</message>
 	<message key="xmlui.administrative.metadataimport.general.trail">Importovat Metadata</message>
-	<message key="xmlui.administrative.metadataimport.general.changes">změny</message>
+	<message key="xmlui.administrative.metadataimport.general.changes">změn</message>
 	<message key="xmlui.administrative.metadataimport.general.no_changes">Nebyly zjištěny změny</message>
 	<message key="xmlui.administrative.metadataimport.general.new_item">Nový záznam</message>
 	<message key="xmlui.administrative.metadataimport.flow.upload_successful">Nahrání přeběhlo úspěšně</message>
@@ -1688,7 +1688,7 @@
 	<message key="xmlui.administrative.metadataimport.MetadataImportMain.submit_upload">Nahrát CSV</message>
 
 	<!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportConfirm -->
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.success">=Uspěšně zpracováno</message>
+	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.success">Úspěšně zpracováno</message>
 	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.changes_committed">Změny byly aplikovány v záznamu</message>
 	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_added">Přidané: </message>
 	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_removed">Odstraněné: </message>
