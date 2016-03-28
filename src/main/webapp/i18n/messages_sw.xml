@@ -1141,12 +1141,12 @@
 	<!-- org.dspace.app.xmlui.administrative.group.DeleteGroupsConfirm -->
 	<message key="xmlui.administrative.group.DeleteGroupsConfirm.title">Tibitisha kufuta kundi</message>
 	<message key="xmlui.administrative.group.DeleteGroupsConfirm.trail">Thibitisha kufuta</message>
-	<message key="xmlui.administrative.group.DeleteGroupsConfirm.head">Confirm Deletion</message>
-	<message key="xmlui.administrative.group.DeleteGroupsConfirm.para">The following Groups will be deleted:</message>
+	<message key="xmlui.administrative.group.DeleteGroupsConfirm.head">Thibitisha Kufuta</message>
+	<message key="xmlui.administrative.group.DeleteGroupsConfirm.para">Makundi yafuatayo yatafutwa:</message>
 	<message key="xmlui.administrative.group.DeleteGroupsConfirm.column1">ID</message>
-	<message key="xmlui.administrative.group.DeleteGroupsConfirm.column2">Name</message>
-	<message key="xmlui.administrative.group.DeleteGroupsConfirm.column3">E-People</message>
-	<message key="xmlui.administrative.group.DeleteGroupsConfirm.column4">Groups</message>
+	<message key="xmlui.administrative.group.DeleteGroupsConfirm.column2">Jina</message>
+	<message key="xmlui.administrative.group.DeleteGroupsConfirm.column3">Elektronic-Mtu</message>
+	<message key="xmlui.administrative.group.DeleteGroupsConfirm.column4">Makundi</message>
 
 	<!-- general items for all of the registries classes -->
 	<message key="xmlui.administrative.registries.general.format_registry_trail">Format registry</message>
