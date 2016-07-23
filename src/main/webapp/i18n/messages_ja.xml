@@ -733,12 +733,12 @@
 	<message key="xmlui.administrative.FlowEPersonUtils.reset_password_success_notice">新パスワードの選択に使用されるトークンを含むメールがユーザに送信されました。</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.delete_eperson_success_notice">ユーザの削除に成功しました。</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.delete_eperson_failed_notice">下のユーザは削除されませんでした。削除を防止する制約があったためです。詳しくはeパーソンの詳細ページを参照してください。</message>
-	<message key="xmlui.administrative.FlowGroupUtils.edit_group_success_notice">グループの削除に成功しました。</message>
+	<message key="xmlui.administrative.FlowGroupUtils.edit_group_success_notice">グループの保存に成功しました。</message>
 	<message key="xmlui.administrative.FlowGroupUtils.delete_group_success_notice">選択したグループの削除に成功しました。</message>
 	<message key="xmlui.administrative.FlowRegistryUtils.add_metadata_schema_success_notice">新しいスキーマの作成に成功しました。</message>
 	<message key="xmlui.administrative.FlowRegistryUtils.delete_metadata_schema_success_notice">スキーマの削除に成功しました。</message>
 	<message key="xmlui.administrative.FlowRegistryUtils.add_metadata_field_success_notice">メタデータフィールドの追加に成功しました。</message>
-	<message key="xmlui.administrative.FlowRegistryUtils.edit_metadata_field_success_notice">メタデータフィーづの編集に成功しました。</message>
+	<message key="xmlui.administrative.FlowRegistryUtils.edit_metadata_field_success_notice">メタデータフィールドの編集に成功しました。</message>
 	<message key="xmlui.administrative.FlowRegistryUtils.move_metadata_field_success_notice">フィールドの移動に成功しました。</message>
 	<message key="xmlui.administrative.FlowRegistryUtils.delete_metadata_field_success_notice">フィールドの削除に成功しました。</message>
 	<message key="xmlui.administrative.FlowRegistryUtils.edit_bitstream_format_success_notice">フォーマットの保存に成功しました。</message>
@@ -781,7 +781,7 @@
 	<message key="xmlui.administrative.Navigation.administrative_metadata">メタデータ</message>
 	<message key="xmlui.administrative.Navigation.administrative_format">フォーマット</message>
 	<message key="xmlui.administrative.Navigation.administrative_items">アイテム</message>
-    <message key="xmlui.administrative.Navigation.administrative_withdrawn">アイテム取下げ</message>
+    <message key="xmlui.administrative.Navigation.administrative_withdrawn">取り下げアイテム</message>
 	<message key="xmlui.administrative.Navigation.administrative_control_panel">コントロールパネル</message>
     <message key="xmlui.administrative.Navigation.statistics">統計</message>
 
@@ -797,8 +797,8 @@
 	<message key="xmlui.administrative.ItemExport.item.not.found">リクエストされたアイテムは見つかりませんでした。</message>
 	<message key="xmlui.administrative.ItemExport.collection.not.found">リクエストされたコレクションは見つかりませんでした。</message>
 	<message key="xmlui.administrative.ItemExport.community.not.found">リクエストされたコミュニティは見つかりませんでした。</message>
-	<message key="xmlui.administrative.ItemExport.collection.success">コレクションのエクスポートに成功しました。アーカイブの弾ロードの準備ができたらメールで通知されるはずです。「マイ･エクスポート」リンクを使用することにより、利用可能なアーカイブのリストを閲覧することができます。</message>
-	<message key="xmlui.administrative.ItemExport.community.success">コミュニティのエクスポートに成功しました。アーカイブの弾ロードの準備ができたらメールで通知されるはずです。「マイ･エクスポート」リンクを使用することにより、利用可能なアーカイブのリストを閲覧することができます</message>
+	<message key="xmlui.administrative.ItemExport.collection.success">コレクションのエクスポートに成功しました。アーカイブのダウンロードの準備ができたらメールで通知されるはずです。「マイ･エクスポート」リンクを使用することにより、利用可能なアーカイブのリストを閲覧することができます。</message>
+	<message key="xmlui.administrative.ItemExport.community.success">コミュニティのエクスポートに成功しました。アーカイブのダウンロードの準備ができたらメールで通知されるはずです。「マイ･エクスポート」リンクを使用することにより、利用可能なアーカイブのリストを閲覧することができます</message>
 	<message key="xmlui.administrative.ItemExport.available.head">ダウンロード可能なエクスポートアーカイブ:</message>
 	
 
