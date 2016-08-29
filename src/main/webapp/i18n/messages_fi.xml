@@ -23,7 +23,7 @@
 		-->
 
 	<!-- General keys -->
-	<message key="xmlui.general.dspace_home">DSpace-pääsivu</message>
+	<message key="xmlui.general.dspace_home">Etusivu</message>
 	<message key="xmlui.general.search">Haku</message>
 	<message key="xmlui.general.go">Siirry</message>
 	<message key="xmlui.general.go_home">Siirry etusivulle</message>
@@ -471,15 +471,15 @@
 	<message key="xmlui.EPerson.EditProfile.telephone">Puhelin</message>
         <message key="xmlui.EPerson.EditProfile.Language">Kieli</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions">Tilaukset</message>
-	<message key="xmlui.EPerson.EditProfile.subscriptions_help">Voit tilata sähköpostiisi päivittäisen ilmoituksen, kun kokoelmiin lisätään uusia nimekkeitä. Voit valita vapaasti, mitä kokoelmia haluat tarkkailla. Sähköpostin vaihtoehtona on seurata kokoelmien RSS-syötettä, jonne ilmoitukset uusista nimekkeistä myös tulevat.</message>
+	<message key="xmlui.EPerson.EditProfile.subscriptions_help">Voit tilata sähköpostiisi päivittäisen ilmoituksen, kun kokoelmiin lisätään uutta aineistoa. Voit valita, mitä kokoelmia haluat seurata. Voit myös seurata kokoelmien RSS-syötettä, jonne ilmoitukset uudesta aineistosta myös tulevat.</message>
 	<message key="xmlui.EPerson.EditProfile.email_subscriptions">Sähköpostitilaukset</message>
 	<message key="xmlui.EPerson.EditProfile.select_collection">( Valitse kokoelma )</message>
-	<message key="xmlui.EPerson.EditProfile.update_password_instructions">Voit halutessasi vaihtaa salasanasi kirjoittamalla uuden salasanan allaolevaan kenttään. Vahvista salasanasi kirjoittamalla se uudestaan jälkimmäiseen kenttään. Salasanan pitää olla vähintään kuusi merkkiä pitkä.</message>
-	<message key="xmlui.EPerson.EditProfile.create_password_instructions">Kirjoita salasana allaolevaan kenttään. Vahvista salasanasi kirjoittamalla se uudestaan jälkimmäiseen kenttään. Salasanan pitää olla vähintään kuusi merkkiä pitkä.</message>
+	<message key="xmlui.EPerson.EditProfile.update_password_instructions">Voit vaihtaa salasanasi kirjoittamalla uuden salasanan allaolevaan kenttään. Vahvista salasana kirjoittamalla se uudestaan jälkimmäiseen kenttään. Salasanan pitää olla vähintään kuusi merkkiä pitkä.</message>
+	<message key="xmlui.EPerson.EditProfile.create_password_instructions">Kirjoita salasana allaolevaan kenttään. Vahvista salasana kirjoittamalla se uudestaan jälkimmäiseen kenttään. Salasanan pitää olla vähintään kuusi merkkiä pitkä.</message>
 	<message key="xmlui.EPerson.EditProfile.password">Salasana</message>
 	<message key="xmlui.EPerson.EditProfile.confirm_password">Vahvista salasana</message>
 	<message key="xmlui.EPerson.EditProfile.submit_update">Valmis</message>
-	<message key="xmlui.EPerson.EditProfile.submit_create">Päivitä tietoja</message>
+	<message key="xmlui.EPerson.EditProfile.submit_create">Päivitä tiedot</message>
 	<message key="xmlui.EPerson.EditProfile.error_required">Pakollinen kenttä</message>
 	<message key="xmlui.EPerson.EditProfile.error_invalid_password">Salasanan pitää olla vähintään kuusi merkkiä pitkä</message>
 	<message key="xmlui.EPerson.EditProfile.error_unconfirmed_password">Vahvista salasana kirjoittamalla se uudestaan</message>
@@ -530,7 +530,7 @@
 	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java -->
 	<message key="xmlui.EPerson.LDAPLogin.title">Kirjaudu</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">Kirjaudu</message>
-	<message key="xmlui.EPerson.LDAPLogin.head1">Kirjaudu DSpaceen</message>
+	<message key="xmlui.EPerson.LDAPLogin.head1">Kirjaudu</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">Käyttäjätunnus</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">Käyttäjätunnus tai salasana ei ollut oikea.</message>
 	<message key="xmlui.EPerson.LDAPLogin.password">Salasana</message>
@@ -585,7 +585,7 @@
 	<!-- org.dspace.app.xmlui.eperson.StartForgotPassword.java -->
 	<message key="xmlui.EPerson.StartForgotPassword.title">Unohtunut salasana</message>
 	<message key="xmlui.EPerson.StartForgotPassword.head">Unohtunut salasana</message>
-	<message key="xmlui.EPerson.StartForgotPassword.para1">Anna sähköpostiosoite, jota käytit rekisteröityessäsi DSpaceen, niin saat ohjeet salasanan vaihtamiseen.</message>
+	<message key="xmlui.EPerson.StartForgotPassword.para1">Anna sähköpostiosoite, jota käytit rekisteröityessäsi, niin saat ohjeet salasanan vaihtamiseen.</message>
 	<message key="xmlui.EPerson.StartForgotPassword.email_address">Sähköpostiosoite</message>
 	<message key="xmlui.EPerson.StartForgotPassword.email_address_help">Anna sama sähköpostiosoite, jota käytit rekisteröityessäsi.</message>
 	<message key="xmlui.EPerson.StartForgotPassword.error_not_found">Sähköpostiosoitetta ei löytynyt.</message>
@@ -594,13 +594,13 @@
 	<!-- org.dspace.app.xmlui.eperson.StartRegistration.java -->
 	<message key="xmlui.EPerson.StartRegistration.title">Uuden käyttäjän rekisteröityminen</message>
 	<message key="xmlui.EPerson.StartRegistration.head1">Sähköpostiosoite on jo käytössä</message>
-	<message key="xmlui.EPerson.StartRegistration.para1">Tällä sähköpostiosoitteella on jo rekisteröity DSpacen käyttäjäksi. Jos haluat vaihtaa salasanan, paina alla olevaa nappia.</message>
+	<message key="xmlui.EPerson.StartRegistration.para1">Tällä sähköpostiosoitteella on jo rekisteröidytty. Jos haluat vaihtaa salasanan, paina alla olevaa nappia.</message>
 	<message key="xmlui.EPerson.StartRegistration.reset_password_for">Vaihda salasana</message>
 	<message key="xmlui.EPerson.StartRegistration.submit_reset">Vaihda salasana</message>
 	<message key="xmlui.EPerson.StartRegistration.head2">Uuden käyttäjän rekisteröityminen</message>
-	<message key="xmlui.EPerson.StartRegistration.para2">Rekisteröidy DSpacen käyttäjäksi saadaksesi sähköposti-ilmoituksia uusista nimekkeistä ja lisätäksesi uusia nimekkeitä kokoelmiin.</message>
+	<message key="xmlui.EPerson.StartRegistration.para2">Rekisteröidy DSpacen käyttäjäksi saadaksesi sähköposti-ilmoituksia uudesta aineistosta tai lisätäksesi uutta aineistoa.</message>
 	<message key="xmlui.EPerson.StartRegistration.email_address">Sähköpostiosoite</message>
-	<message key="xmlui.EPerson.StartRegistration.email_address_help">Sähköpostiosoite tarkastatetaan ja se on jatkossa myös käyttäjätunnuksesi.</message>
+	<message key="xmlui.EPerson.StartRegistration.email_address_help">Sähköpostiosoite tarkastetaan ja se on myös käyttäjätunnuksesi.</message>
 	<message key="xmlui.EPerson.StartRegistration.error_bad_email">Sähköpostin lähettäminen osoitteeseen epäonnistui.</message>
 	<message key="xmlui.EPerson.StartRegistration.submit_register">Rekisteröidy</message>
 
@@ -629,23 +629,23 @@
 	<!-- general submission aspect messages -->
 	<message key="xmlui.Submission.general.mydspace_home">Omat tiedot</message>
 	<message key="xmlui.Submission.general.go_mydspace">Omat tiedot</message>
-	<message key="xmlui.Submission.general.submission.title">Nimekkeen tallennus</message>
-	<message key="xmlui.Submission.general.submission.trail">Nimekkeen tallennus</message>
-	<message key="xmlui.Submission.general.submission.head">Nimekkeen tallennus</message>
+	<message key="xmlui.Submission.general.submission.title">Aineiston tallennus</message>
+	<message key="xmlui.Submission.general.submission.trail">Aineiston tallennus</message>
+	<message key="xmlui.Submission.general.submission.head">Aineiston tallennus</message>
 	<message key="xmlui.Submission.general.submission.previous">&lt; Edellinen</message>
 	<message key="xmlui.Submission.general.submission.save">Keskeytä väliaikaisesti &amp; poistu</message>
 	<message key="xmlui.Submission.general.submission.next">Seuraava &gt;</message>
 	<message key="xmlui.Submission.general.submission.complete">Tallenna</message>
-	<message key="xmlui.Submission.general.workflow.title">Nimekkeen tallennus</message>
-	<message key="xmlui.Submission.general.workflow.trail">Nimekkeen tallennus</message>
-	<message key="xmlui.Submission.general.workflow.head">Nimekkeen tallennus</message>
+	<message key="xmlui.Submission.general.workflow.title">Aineiston tallennus</message>
+	<message key="xmlui.Submission.general.workflow.trail">Aineiston tallennus</message>
+	<message key="xmlui.Submission.general.workflow.head">Aineiston tallennus</message>
 	<message key="xmlui.Submission.general.showfull">Näytä kaikki tiedot</message>
 	<message key="xmlui.Submission.general.showsimple">Näytä suppeat tiedot</message>
 	<message key="xmlui.Submission.general.default.title">Tallennus</message>
 	<message key="xmlui.Submission.general.default.trail">Tallennus</message>
 
 	<!-- org.dspace.app.xmlui.submission.CollectiovViewer -->
-	<message key="xmlui.Submission.CollectionViewer.link1">Tallenna uusi nimeke tähän kokoelmaan</message>
+	<message key="xmlui.Submission.CollectionViewer.link1">Tallenna uutta aineistoa tähän kokoelmaan</message>
 
 	<!-- org.dspace.app.xmlui.submission.Navigation -->
 	<message key="xmlui.Submission.Navigation.submissions">Tallennukset</message>
@@ -659,7 +659,7 @@
 	<message key="xmlui.Submission.Submissions.email">sähköposti: </message>
 	<!-- Same transformer, workflow section -->
 	<message key="xmlui.Submission.Submissions.workflow_head1">Tehtävät</message>
-	<message key="xmlui.Submission.Submissions.workflow_info1">Nimekkeet pitää hyväksyä ennenkuin ne liitetään kokoelmiin. Toisessa listassa näkyvät nimekkeet, jotka olet ottanut hyväksyttäviksi, toisessa listassa nimekkeet, joita kukaan ei ole vielä ottanut käsiteltäviksi.</message>
+	<message key="xmlui.Submission.Submissions.workflow_info1">Aineisto pitää hyväksyä ennenkuin se liitetään kokoelmiin. Toisessa listassa näkyy aineisto, jonka olet ottanut hyväksyttäviksi, toisessa listassa on aineisto, joita kukaan ei ole vielä ottanut käsiteltäviksi.</message>
 	<message key="xmlui.Submission.Submissions.workflow_head2">Omat tehtävät</message>
 	<message key="xmlui.Submission.Submissions.workflow_column1"></message>
 	<message key="xmlui.Submission.Submissions.workflow_column2">Tehtävä</message>
@@ -675,7 +675,7 @@
 	<message key="xmlui.Submission.Submissions.submit_head1">Tallennukset</message>
 	<message key="xmlui.Submission.Submissions.submit_info1a">Voit </message>
 	<message key="xmlui.Submission.Submissions.submit_info1b">aloittaa uuden tallennusprosessin.</message>
-	<message key="xmlui.Submission.Submissions.submit_info1c">Tallennusprosessiin kuuluu nimekkeen kuvailu ja siihen liittyvien tiedostojen lataaminen järjestelmään. Yhteisöt ja kokoelmat voivat määrittää omat erilliset tallennusperiaatteensa.</message>
+	<message key="xmlui.Submission.Submissions.submit_info1c">Tallennusprosessiin kuuluu aineiston kuvailu ja siihen liittyvien tiedostojen tallentaminen. Yhteisöt ja kokoelmat voivat määrittää omat erilliset tallennussääntönsä.</message>
 	<message key="xmlui.Submission.Submissions.submit_head2">Keskeneräiset tallennukset</message>
 	<message key="xmlui.Submission.Submissions.submit_info2a">Nämä ovat keskeneräisiä tallennuksia. Voit myös </message>
 	<message key="xmlui.Submission.Submissions.submit_info2b">aloittaa uuden nimekkeen tallennukset</message>
@@ -706,7 +706,7 @@
 	<message key="xmlui.Submission.Submissions.status_unknown">Ei tiedossa</message>
         <!-- Same transformer, completed submissions section -->
         <message key="xmlui.Submission.Submissions.completed.head">Valmiit tallennukset</message>
-        <message key="xmlui.Submission.Submissions.completed.info">Tekemäsi DSpaceen hyväksytyt valmiit tallennuksesi.</message>
+        <message key="xmlui.Submission.Submissions.completed.info">Tekemäsi hyväksytyt ja valmiit tallennukset.</message>
         <message key="xmlui.Submission.Submissions.completed.column1">Hyväksymispäivä</message>
         <message key="xmlui.Submission.Submissions.completed.column2">Nimeke</message>
         <message key="xmlui.Submission.Submissions.completed.column3">Kokoelma</message>
@@ -730,7 +730,7 @@
 	<!-- org.dspace.app.xmlui.Submission.submit.SelectCollection -->
 	<message key="xmlui.Submission.submit.SelectCollection.head">Valitse kokoelma</message>
 	<message key="xmlui.Submission.submit.SelectCollection.collection">Kokoelma</message>
-	<message key="xmlui.Submission.submit.SelectCollection.collection_help">Valitse kokoelma, johon haluat tallettaa nimekkeen.</message>
+	<message key="xmlui.Submission.submit.SelectCollection.collection_help">Valitse kokoelma, johon haluat tallettaa aineiston.</message>
 	<message key="xmlui.Submission.submit.SelectCollection.collection_default">Valitse kokoelma...</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.SaveOrRemoveStep -->
@@ -784,17 +784,17 @@
     <message key="xmlui.Submission.submit.AccessStep.embargo">Näkyvissä tietyn päivämäärän jälkeen (embargo)</message>
     <message key="xmlui.Submission.submit.AccessStep.embargo_visible">Pääsy sallittu tietylle ryhmälle</message>
     <message key="xmlui.Submission.submit.AccessStep.name">Pääsynhallintamääritys</message>
-    <message key="xmlui.Submission.submit.AccessStep.name_help">Lyhyt, kuvaileva nimi pääsynhallintamääritykselle (korkeintaan 30 merkkiä). Näkyvissä käyttäjille, esim. "Vain henkilökunnalle". Vapaaehtoinen (suositeltu) tieto.</message>
+    <message key="xmlui.Submission.submit.AccessStep.name_help">Lyhyt, kuvaileva nimi pääsynhallintamääritykselle (korkeintaan 30 merkkiä). Näkyvissä käyttäjille, esim. "Vain henkilökunnalle". Vapaaehtoinen (mutta suositeltu) tieto.</message>
     <message key="xmlui.Submission.submit.AccessStep.description">Kuvaus</message>
     <message key="xmlui.Submission.submit.AccessStep.reason">Syy pääsynrajoitukselle (embargolle)</message>
     <message key="xmlui.Submission.submit.AccessStep.reason_help">Pääsynhallintarajoituksen syy, yleensä sisäistä käyttöä varten. Vapaaehtoinen tieto.</message>
     <message key="xmlui.Submission.submit.AccessStep.submit_add_policy">Vahvista määritys &amp; lisää uusi määritys</message>
     <message key="xmlui.Submission.submit.AccessStep.list_assigned_groups">Ryhmä</message>
     <message key="xmlui.Submission.submit.AccessStep.error_format_date">Päivämäärävirhe</message>
-    <message key="xmlui.Submission.submit.AccessStep.error_missing_date">Embargo vaatii päättymispäivän</message>
-    <message key="xmlui.Submission.submit.AccessStep.error_duplicated_policy">Samansisältöinen määritys on jo olemassa.</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_missing_date">Embargolle pitää määrittää päättymispäivä</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_duplicated_policy">Samanlainen määritys on jo olemassa.</message>
     <message key="xmlui.Submission.submit.AccessStep.table_policies">Ryhmämääritys</message>
-    <message key="xmlui.Submission.submit.AccessStep.policies_help">Nämä määritykset ohittavat kokoelman oletusmääritykset. Jos haluat asettaa embargon, mutta kokoelma sallii pääsyn kaikille käyttäjille, sinun pitää tehdä määritys, joka sallii pääsyn nimettömien käyttäjien ryhmälle tietystä päivästä alkaen.</message>
+    <message key="xmlui.Submission.submit.AccessStep.policies_help">Nämä määritykset ohittavat kokoelman oletusmääritykset. Jos haluat asettaa embargon, mutta kokoelma sallii pääsyn kaikille käyttäjille, sinun pitää tehdä määritys, joka sallii pääsyn nimettömien (ANONYMOUS) käyttäjien ryhmälle tietystä päivästä alkaen.</message>
     <message key="xmlui.Submission.submit.AccessStep.no_policies">Aineistolle ei ole tehty ryhmämäärityksiä</message>
     <message key="xmlui.Submission.submit.AccessStep.new_policy_head">Embargo</message>
     <message key="xmlui.Submission.submit.AccessStep.private_settings">Yksityinen aineisto</message>
@@ -807,7 +807,7 @@
     <message key="xmlui.Submission.submit.AccessStep.column4">Loppupäivä</message>
     <message key="xmlui.Submission.submit.AccessStep.table_edit_button">Muokkaa</message>
     <message key="xmlui.Submission.submit.AccessStep.table_delete_button">Poista</message>
-    <message key="xmlui.administrative.authorization.AccessStep.label_date_help">Päivämäärä, jolloin pääsy sallitaan. Syötä päivämäärä joissain seuraavassa muodossa: vuosi (2015), vuosi-kk (2015-01) tai vuosi-kk-pp (2015-01-01)</message>
+    <message key="xmlui.administrative.authorization.AccessStep.label_date_help">Päivämäärä, jolloin pääsy sallitaan. Syötä päivämäärä joissain seuraavista muodoista: vuosi (2016), vuosi-kk (2016-01) tai vuosi-kk-pp (2016-01-01)</message>
     <message key="xmlui.Submission.submit.AccessStep.review_policy_line">Nimi: {0}; toimenpide: {1}, ryhmä: {2}, alkupäivä: {3}, loppupäivä: {4}</message>
     <message key="xmlui.Submission.submit.AccessStep.review_public_item">Aineistoon voi kohdistaa hakuja</message>
     <message key="xmlui.Submission.submit.AccessStep.review_private_item">Aineistoon ei voi kohdistaa hakuja</message>
@@ -823,7 +823,7 @@
 	<message key="xmlui.Submission.submit.UploadStep.file_help">Syötä tiedoston täydellinen polkunimi. Valitsemalla "Selaa..." voit valita tiedoston omalta tietokoneeltasi.</message>
 	<message key="xmlui.Submission.submit.UploadStep.file_error">Aineistoon täytyy liittyä ainakin yksi tiedosto.</message>
 	<message key="xmlui.Submission.submit.UploadStep.upload_error">Tiedoston lataaminen ei onnistunut. Joko tiedostonimi oli väärä, tiedonsiirrossa tapahtui virhe tai tiedostomuoto oli väärä. Voit yrittää uudestaan.</message>
-	<message key="xmlui.Submission.submit.UploadStep.virus_error">Tiedostoa ei ole ladattu, koska se näyttää sisältävän viruksen. Ota yhteyttä järjestelmänvalvojaan.</message>
+	<message key="xmlui.Submission.submit.UploadStep.virus_error">Tiedostoa ei ole ladattu, koska se näyttää olevan viruksen saastuttama. Ota yhteyttä järjestelmänvalvojaan.</message>
     <message key="xmlui.Submission.submit.UploadStep.virus_checker_error">Tiedoston virustarkastuksessa tapahtui virhe. Ota yhteyttä järjestelmänvalvojaan.</message>
     <message key="xmlui.Submission.submit.UploadStep.description">Tiedoston kuvaus</message>
 	<message key="xmlui.Submission.submit.UploadStep.description_help">Lyhyt kuvaus tiedoston sisällöstä. Esim. <i>"Pääartikkeli"</i>, <i>"Tutkimusdata"</i>. Vapaaehtoinen tieto.</message>
@@ -890,7 +890,7 @@
 	<message key="xmlui.Submission.submit.EditFileStep.format_user_help">Sovellus, jota on käytetty tiedoston luomiseen ja sovelluksen versionumero (esimerkiksi, "<i>ACMESoft SuperApp, versio 1.5</i>").</message>
 
     <!-- org.dspace.app.xmlui.Submission.submit.EditBitstreamPolicies -->
-    <message key="xmlui.Submission.submit.EditBitstreamPolicies.head">Pääsy bittivuohon</message>
+    <message key="xmlui.Submission.submit.EditBitstreamPolicies.head">Tiedostoon pääsy</message>
 
 
 	<!-- org.dspace.app.xmlui.Submission.submit.ReviewStep -->
@@ -922,7 +922,7 @@
 
 	<!-- org.dspace.app.xmlui.Submission.submit.LicenseStep -->
 	<message key="xmlui.Submission.submit.LicenseStep.head">Julkaisulisenssi</message>
-	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>Viimeinen askel:</strong> jotta aineisto voidaan tallentaa DSpaceen, sinun täytyy hyväksyä seuraavat ehdot.</message>
+	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>Viimeinen askel:</strong> jotta aineisto voidaan tallentaa, sinun täytyy hyväksyä seuraavat ehdot.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info2">Hyväksy julkaisulisenssi valitsemalla 'Hyväksyn lisenssin'; ja valitse sitten 'Valmis'.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info3">Jos sinulla on kysyttävää julkaisulisenssistä, ota yhteyttä ylläpitäjiin.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_label">Julkaisulisenssi</message>
@@ -931,14 +931,14 @@
 
 	<!-- org.dspace.app.xmlui.Submission.submit.RemovedStep -->
 	<message key="xmlui.Submission.submit.RemovedStep.head">Aineisto poistettu</message>
-	<message key="xmlui.Submission.submit.RemovedStep.info1">Tallennusprosessi on keskeytetty ja keskeneräiset tiedot on poistettu järjestelmästä.</message>
+	<message key="xmlui.Submission.submit.RemovedStep.info1">Tallennusprosessi on keskeytetty ja keskeneräiset tiedot on poistettu.</message>
 	<message key="xmlui.Submission.submit.RemovedStep.go_submission">Siirry Tallennukset-sivulle</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.CompletedStep -->
 	<message key="xmlui.Submission.submit.CompletedStep.head">Aineisto tallennettu</message>
 	<message key="xmlui.Submission.submit.CompletedStep.info1">Tallentamasi aineisto on siirretty tarkastettavaksi. Saat ilmoituksen sähköpostiin, kun aineisto on julkaistu kokoelmassa tai jos aineiston käsittelyssä ilmenee ongelmia. Voit seurata aineiston käsittelyä Tallenukset-sivulla.</message>
 	<message key="xmlui.Submission.submit.CompletedStep.go_submission">Siirry Tallennukset-sivulle</message>
-	<message key="xmlui.Submission.submit.CompletedStep.submit_again">Tallenna uusi aineisto</message>
+	<message key="xmlui.Submission.submit.CompletedStep.submit_again">Tallenna lisää aineistoa</message>
 
 	<!-- org.dspace.app.xmlui.Submission.workflow.PerformTaskStep -->
 	<message key="xmlui.Submission.workflow.PerformTaskStep.info1">Toimenpiteitä, joita voit suorittaa:</message>
@@ -946,9 +946,9 @@
 	<message key="xmlui.Submission.workflow.PerformTaskStep.take_submit">Ota tehtävä</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.leave_help">Jätä tehtävä jonoon muiden käsiteltäväksi.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.leave_submit">Jätä tehtävä</message>
-	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_help">Kun olet tarkastanut aineiston ja sen voi sisällyttää kokoelmiin, valitse "Hyväksy".</message>
+	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_help">Kun olet tarkastanut aineiston ja se on valmis sisällytettäväksi kokoelmiin, valitse "Hyväksy".</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_submit">Hyväksy</message>
-	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_help">Kun olet muokannut aineistoa, lisää se julkaisuarkistoon tällä toimenpiteellä.</message>
+	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_help">Kun olet muokannut aineistoa, lisää se julkaisuarkistoon tästä.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_submit">Lisää arkistoon</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">Kun olet tarkastanut aineiston, mutta sitä <strong>ei</strong> voi lisätä kokoelmiin, valitse "Hylkää". Tämän jälkeen voit kirjoittaa alkuperäiselle syöttäjälle viestin, jossa kerrotaan hylkäämisen syy ja mahdolliset korjauspyynnöt.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_submit">Hylkää</message>
@@ -975,9 +975,9 @@
 	<!-- action-generated messages. These are referenced from the sitemap rather than a transformer -->
 
         <message key="xmlui.administrative.FlowCurationUtils.curate_success_notice">Tehtävä suoritettu.</message>
-        <message key="xmlui.administrative.FlowCurationUtils.curate_failed_notice">Tehtävä epäonnistui. Lisätietoja järjestelmänvalvojalta tai järjestelmän lokitiedostoista.</message>
+        <message key="xmlui.administrative.FlowCurationUtils.curate_failed_notice">Tehtävä epäonnistui. Lisätietoja voi saada ylläpitäjältä tai järjestelmän lokitiedostoista.</message>
         <message key="xmlui.administrative.FlowCurationUtils.queue_success_notice">Tehtävä lisätty jonoon.</message>
-        <message key="xmlui.administrative.FlowCurationUtils.queue_failed_notice">Tehtävän lisäys jonoon ei onnistunut. Lisätietoja järjestelmänvalvojalta tai järjestelmän lokitiedostoista.</message>
+        <message key="xmlui.administrative.FlowCurationUtils.queue_failed_notice">Tehtävän lisäys jonoon ei onnistunut. Lisätietoja voi saada ylläpitäjältä tai järjestelmän lokitiedostoista.</message>
         <message key="xmlui.administrative.FlowEPersonUtils.add_eperson_success_notice">Käyttäjä lisätty.</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.edit_eperson_success_notice">Käyttäjän tietoja muokattu.</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.reset_password_success_notice">Käyttäjälle on lähetetty sähköpostilla salasananvaihtolinkki.</message>
@@ -999,12 +999,12 @@
 	<message key="xmlui.administrative.FlowItemUtils.item_reinstated">Aineisto palautettu käyttöön.</message>
 	<message key="xmlui.administrative.FlowItemUtils.item_moved">Aineisto siirretty.</message>
 	<message key="xmlui.administrative.FlowItemUtils.item_move_failed">Valittua kokoelmaa ei löydy.</message>
-	<message key="xmlui.administrative.FlowItemUtils.bitstream_added">Uusi bittivuo ladattu.</message>
+	<message key="xmlui.administrative.FlowItemUtils.bitstream_added">Uusi tiedosto ladattu.</message>
 	<message key="xmlui.administrative.FlowItemUtils.bitstream_failed">Virhe ladattaessa tiedostoa.</message>
-	<message key="xmlui.administrative.FlowItemUtils.bitstream_updated">Bittivuo päivitetty.</message>
-	<message key="xmlui.administrative.FlowItemUtils.bitstream_delete">Valitut bittivuot poistettu.</message>
-	<message key="xmlui.administrative.FlowMapperUtils.map_items">Aineistot kuvattu (TODO: mapped?)</message>
-	<message key="xmlui.administrative.FlowMapperUtils.unmaped_items">Aineistojen kuvaus on poistettu (TODO: mapped?)</message>
+	<message key="xmlui.administrative.FlowItemUtils.bitstream_updated">Tiedosto päivitetty.</message>
+	<message key="xmlui.administrative.FlowItemUtils.bitstream_delete">Valitut tiedostot on poistettu.</message>
+	<message key="xmlui.administrative.FlowMapperUtils.map_items">Aineistot on liitetty toisiinsa</message>
+	<message key="xmlui.administrative.FlowMapperUtils.unmaped_items">Aineistojen liitos on poistettu</message>
 
 	<!-- general items for all of the eperson classes -->
 	<message key="xmlui.administrative.eperson.general.epeople_trail">Käyttäjien hallinta</message>
@@ -1014,7 +1014,7 @@
 	<message key="xmlui.administrative.Navigation.context_head">Konteksti</message>
 	<message key="xmlui.administrative.Navigation.context_edit_item">Muokkaa aineistoa</message>
 	<message key="xmlui.administrative.Navigation.context_edit_collection">Muokkaa kokoelmaa</message>
-	<message key="xmlui.administrative.Navigation.context_item_mapper">Aineistojen kuvaaja (TODO: mapper?)</message>
+	<message key="xmlui.administrative.Navigation.context_item_mapper">Aineistojen liittäminen</message>
 	<message key="xmlui.administrative.Navigation.context_edit_community">Muokkaa yhteisöä</message>
 	<message key="xmlui.administrative.Navigation.context_create_collection">Luo kokoelma</message>
 	<message key="xmlui.administrative.Navigation.context_create_subcommunity">Luo alayhteisö</message>
@@ -1040,7 +1040,7 @@
     <message key="xmlui.administrative.Navigation.administrative_control_panel">Hallintanäkymä</message>
     <message key="xmlui.administrative.Navigation.statistics">Tilastot</message>
     <message key="xmlui.administrative.Navigation.administrative_batch_import">Tuo useita aineistoja (ZIP)</message>
-        <message key="xmlui.administrative.Navigation.administrative_import_metadata">Tuo metadata</message>
+        <message key="xmlui.administrative.Navigation.administrative_import_metadata">Tuo metadataa</message>
         <message key="xmlui.administrative.Navigation.administrative_curation">Kuratointitehtävät</message>
 
     <!-- my account items -->
@@ -1058,7 +1058,7 @@
 	<message key="xmlui.administrative.ItemExport.item.success">Aineiston vienti onnistui. Saat sähköposti-ilmoituksen, kun se on valmis ladattavaksi. Voit käydä katsomassa myös 'Omat viennit'-linkistä ladattavia vientiarkistojasi.</message>
 	<message key="xmlui.administrative.ItemExport.collection.success">Kokoelman vienti onnistui. Saat sähköposti-ilmoituksen, kun se on valmis ladattavaksi. Voit käydä katsomassa myös 'Omat viennit'-linkistä ladattavia vientiarkistojasi.</message>
 	<message key="xmlui.administrative.ItemExport.community.success">Yhteisön vienti onnistui. Saat sähköposti-ilmoituksen, kun se on valmis ladattavaksi. Voit käydä katsomassa myös 'Omat viennit'-linkistä ladattavia vientiarkistojasi.</message>
-	<message key="xmlui.administrative.ItemExport.available.head">Ladattavat vientiarkistot:</message>
+	<message key="xmlui.administrative.ItemExport.available.head">Ladattavat vientiarkistotiedostot:</message>
 
 
 
@@ -1217,7 +1217,7 @@
 	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.title">Poista tiedostomuotoja rekisteristä</message>
 	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.trail">Poista tiedostomuotoja rekisteristä</message>
 	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.head">Vahvista poisto</message>
-	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.para1">Oletko varma, että haluat poistaa tiedostomuodon rekisteristä? Kaikki tätä tiedostomuotoa käyttävät tiedostot (TODO: bitstream?) käyttävät jatkossa 'tunnistamatonta' tiedostomuotoa.</message>
+	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.para1">Oletko varma, että haluat poistaa tiedostomuodon rekisteristä? Kaikki tämän tiedostomuodon mukaiset tiedostot vaihtuvat käyttämään 'tunnistamaton'-tiedostomuotoa.</message>
 	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.column1">Id</message>
 	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.column2">MIME-tyyppi</message>
 	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.column3">Nimi</message>
@@ -1281,7 +1281,7 @@
 	<message key="xmlui.administrative.registries.EditMetadataSchema.submit_move">Siirrä kentät toiseen skeemaan</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head3">Lisää uusi kenttä</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.name">Kentän nimi</message>
-	<message key="xmlui.administrative.registries.EditMetadataSchema.note">Lisätietoja (TODO: Scope?)</message>
+	<message key="xmlui.administrative.registries.EditMetadataSchema.note">Lisätietoja</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.note_help">Lisätietoja metadatakentän sisällöstä.</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.submit_add">Lisää uusi kenttä</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head4">Päivitä kenttää: {0}</message>
@@ -1335,7 +1335,7 @@
 	<message key="xmlui.administrative.registries.MoveMetadataField.para1">Valitse kohdeskeema, mihin kentät siirretään. Jos kohdeskeemassa on jo samannimisiä kenttiä, siirtoa ei tehdä.</message>
 	<message key="xmlui.administrative.registries.MoveMetadataField.column1">Id</message>
 	<message key="xmlui.administrative.registries.MoveMetadataField.column2">Nimi</message>
-	<message key="xmlui.administrative.registries.MoveMetadataField.column3">Lisätietoja (TODO: Scope?)</message>
+	<message key="xmlui.administrative.registries.MoveMetadataField.column3">Lisätietoja</message>
 	<message key="xmlui.administrative.registries.MoveMetadataField.para2">Siirrä skeemaan: </message>
 	<message key="xmlui.administrative.registries.MoveMetadataField.submit_move">Siirrä kentät</message>
 
@@ -1344,11 +1344,11 @@
 
 	<!-- general authorization keywords -->
 	<message key="xmlui.administrative.authorization.general.authorize_trail">Käyttöoikeudet</message>
-	<message key="xmlui.administrative.authorization.general.policyList_trail">Käyttöoikeuskäytännöt</message>
+	<message key="xmlui.administrative.authorization.general.policyList_trail">Käyttöoikeudet</message>
 
 	<!-- org.dspace.app.xmlui.administrative.authorization.AuthorizationMain -->
-	<message key="xmlui.administrative.authorization.AuthorizationMain.title">Hallinnoi käyttöoikeuskäytäntöjä</message>
-	<message key="xmlui.administrative.authorization.AuthorizationMain.main_head">Hallinnoi käyttöoikeuskäytäntöjä</message>
+	<message key="xmlui.administrative.authorization.AuthorizationMain.title">Hallinnoi käyttöoikeuksia</message>
+	<message key="xmlui.administrative.authorization.AuthorizationMain.main_head">Hallinnoi käyttöoikeuksia</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.actions_head">Aineiston käyttöoikeudet</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.bad_name">Antamallasi Id:llä ei löytynyt aineistoa</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.actions_item_lookup">Etsi aineisto</message>
@@ -1362,11 +1362,11 @@
 
 
 	<!-- org.dspace.app.xmlui.administrative.authorization.EditContainerPolicies -->
-	<message key="xmlui.administrative.authorization.EditContainerPolicies.title">Muokkaa käyttöoikeuskäytöjä</message>
-	<message key="xmlui.administrative.authorization.EditContainerPolicies.trail">Käyttöoikeuskäytännöt</message>
-	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_head_collection">Käyttöoikeuskäytännöt kokoelmalle "{0}" ({1},Id: {2})</message>
-	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_head_community">Käyttöoikeuskäytännöt yhteisölle "{0}" ({1},ID: {2})</message>
-	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_add_link">Lisää uusi käytäntö. </message>
+	<message key="xmlui.administrative.authorization.EditContainerPolicies.title">Muokkaa käyttöoikeuksia</message>
+	<message key="xmlui.administrative.authorization.EditContainerPolicies.trail">Käyttöoikeudet</message>
+	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_head_collection">Kokoelman "{0}" käyttöoikeudet ({1},Id: {2})</message>
+	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_head_community">Yhteisön "{0}" käyttöoikeudet ({1},ID: {2})</message>
+	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_add_link">Lisää uusi oikeus. </message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.submit_add">Lisää</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_id">Id</message>
     <message key="xmlui.administrative.authorization.EditContainerPolicies.head_name">Nimi</message>
@@ -1380,26 +1380,26 @@
 
 
 	<!-- org.dspace.app.xmlui.administrative.authorization.EditItemPolicies -->
-	<message key="xmlui.administrative.authorization.EditItemPolicies.title">Muokkaa aineiston käyttöoikeuskäytöntöjä</message>
-	<message key="xmlui.administrative.authorization.EditItemPolicies.trail">Käyttöoikeuskäytännöt</message>
-	<message key="xmlui.administrative.authorization.EditItemPolicies.main_head">Aineiston {0} (Id={1}) käyttöoikeuskäytännöt</message>
-	<message key="xmlui.administrative.authorization.EditItemPolicies.main_para1">Tällä työkalulla voit katsella tai muuttaa aineiston tai sen osien käyttöoikeuksia. Aineisto koostuu nipuista ja niput koostuvat tiedostoista. Aineistoilla ja nipuilla on yleensä LISÄÄ/POISTA/LUE/KIRJOITA-käyttöoikeuskäytännöt, kun taas tiedostoilla on vain LUE/KIRJOITA-käyttöoikeuskäytännöt.</message>
-	<message key="xmlui.administrative.authorization.EditItemPolicies.main_para2">Jokaisella aineistolla on ylimääräinen nippu, jossa on aineistoa koskeva käyttöoikeuslisenssitiedosto.</message>
-	<message key="xmlui.administrative.authorization.EditItemPolicies.subhead_item">Aineiston käyttöoikeuskäytännöt</message>
-	<message key="xmlui.administrative.authorization.EditItemPolicies.subhead_bundle">Käytännöt nipulle {0} ({1})</message>
+	<message key="xmlui.administrative.authorization.EditItemPolicies.title">Muokkaa aineiston käyttöoikeuksia</message>
+	<message key="xmlui.administrative.authorization.EditItemPolicies.trail">Käyttöoikeudet</message>
+	<message key="xmlui.administrative.authorization.EditItemPolicies.main_head">Aineiston {0} (Id={1}) käyttöoikeudet</message>
+	<message key="xmlui.administrative.authorization.EditItemPolicies.main_para1">Tällä työkalulla voit katsella tai muuttaa aineiston tai sen osien käyttöoikeuksia. Aineisto koostuu nipuista ja niput koostuvat tiedostoista. Aineistoilla ja nipuilla on yleensä LISÄÄ/POISTA/LUE/KIRJOITA-käyttöoikeudet, kun taas tiedostoilla on vain LUE/KIRJOITA-käyttöoikeudet.</message>
+	<message key="xmlui.administrative.authorization.EditItemPolicies.main_para2">Jokaiseen aineistoon kuuluu ylimääräinen nippu, jossa on aineistoa koskeva lisenssitiedosto.</message>
+	<message key="xmlui.administrative.authorization.EditItemPolicies.subhead_item">Aineiston käyttöoikeudet</message>
+	<message key="xmlui.administrative.authorization.EditItemPolicies.subhead_bundle">Nipulle {0} käyttöoikeudet ({1})</message>
 	<message key="xmlui.administrative.authorization.EditItemPolicies.subhead_bitstream">Tiedosto {0} ({1})</message>
-	<message key="xmlui.administrative.authorization.EditItemPolicies.add_itemPolicy_link">Lisää aineistolle uusi käytäntö</message>
-	<message key="xmlui.administrative.authorization.EditItemPolicies.add_bundlePolicy_link">Lisää nipulle uusi käytäntö</message>
-	<message key="xmlui.administrative.authorization.EditItemPolicies.add_bitstreamPolicy_link">Lisää tiedostolle uusi käytäntö</message>
+	<message key="xmlui.administrative.authorization.EditItemPolicies.add_itemPolicy_link">Lisää aineistolle uusi oikeus</message>
+	<message key="xmlui.administrative.authorization.EditItemPolicies.add_bundlePolicy_link">Lisää nipulle uusi oikeus</message>
+	<message key="xmlui.administrative.authorization.EditItemPolicies.add_bitstreamPolicy_link">Lisää tiedostolle uusi oikeus</message>
 
-	<message key="xmlui.administrative.authorization.EditContainerPolicies.no_policies">Ei käyttöoikeuskäytäntöjä.</message>
+	<message key="xmlui.administrative.authorization.EditContainerPolicies.no_policies">Ei käyttöoikeuksia.</message>
 
 
 	<!-- org.dspace.app.xmlui.administrative.authorization.EditPolicyForm -->
-	<message key="xmlui.administrative.authorization.EditPolicyForm.title">Muokkaa käyttöoikeuskäytäntöjä</message>
-	<message key="xmlui.administrative.authorization.EditPolicyForm.trail">Muokkaa käyttöoikeuskäytäntöjä</message>
-	<message key="xmlui.administrative.authorization.EditPolicyForm.main_head_new">Luo uusi käytäntö {0} {1}</message>
-	<message key="xmlui.administrative.authorization.EditPolicyForm.main_head_edit">Muokkaa käytöntöä {0} {1}:lle {2}</message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.title">Muokkaa käyttöoikeuksia</message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.trail">Muokkaa käyttöoikeuksia</message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.main_head_new">Luo uusi käyttöoikeus {0} {1}</message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.main_head_edit">Muokkaa käyttöoikeutta {0} {1}:lle {2}</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_group">Ryhmää ei valittu</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_action">Toimintoa ei valittu</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column4"></message>
@@ -1420,14 +1420,14 @@
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_start_date">Alkupäivämäärä</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_end_date">Loppupäivämäärä</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.error_date_format">Väärä päivämäärämuoto</message>
-    <message key="xmlui.administrative.authorization.EditPolicyForm.error_duplicated_policy">Samansisältöinen käytäntö tälle ryhmälle ja toiminnolle on jo olemassa.</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.error_duplicated_policy">Tälle ryhmälle tai toiminnolle on jo olemassa samanlainen oikeus.</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.error_start_date_greater_than_end_date">Alkupäivämäärä on loppupäivämäärän jälkeen</message>
-    <message key="xmlui.administrative.authorization.EditPolicyForm.label_date_help">Hyväksytyt muodot: vvvv, vvvv-kk, vvvv-kk-pp</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_date_help">Anna päivämäärä jossain seuraavista muodoista: vvvv, vvvv-kk, vvvv-kk-pp</message>
 
     <!-- org.dspace.app.xmlui.administrative.authorization.AdvacedAuthorizationsForm -->
-	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.title">Käyttöoikeuskäytäntöjen lisämääritykset</message>
+	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.title">Käyttöoikeuksien lisämääritykset</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.trail">Lisämääritykset</message>
-	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.main_head">Käyttöoikeuskäytäntöjen lisämääritykset</message>
+	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.main_head">Käyttöoikeuksien lisämääritykset</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.main_para">Sallii jokerimerkkien käytön oikeuksien lisäämisessä ja poistamisessa tiettyjen kokoelmien sisältämille aineistoille tai tiedostoille. VAROITUS - LUKU-oikeuksien poistaminen aineistoista tekee niistä näkymättömiä.</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_groupSentence">Kaikille valituille ryhmille...</message>
     <message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_actionSentence">...salli seuraava toimenpide...</message>
@@ -1439,7 +1439,7 @@
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_policyCollections">Kokoelma</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.submit_add">Lisää käytäntö</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.submit_remove_all">Poista käytännöt</message>
-    <message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.label_date_help">Hyväksytyt muodot: vvvv, vvvv-pp, vvvv-kk-pp</message>
+    <message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.label_date_help">Anna päivämäärän jossain seuraavista muodoista: vvvv, vvvv-pp, vvvv-kk-pp</message>
 
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_name">Nimi</message>
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_description">Kuvaus</message>
@@ -1451,10 +1451,10 @@
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_collectionIds">Valitse vähintään yksi kokoelma</message>
 
 	<!-- org.dspace.app.xmlui.administrative.authorization.DeletePoliciesConfirm -->
-	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.title">Vahvista käytännön poisto</message>
+	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.title">Vahvista käyttöoikeuden poisto</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.trail">Vahvista poisto</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.confirm_head">Vahvista poisto</message>
-	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.confirm_para">Seuraavat käytännöt poistetaan: </message>
+	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.confirm_para">Seuraavat käyttöoikeudet poistetaan: </message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_id">Id</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_action">Toiminto</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_group">Ryhmä</message>
@@ -1486,7 +1486,7 @@
 
     <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
     <message key="xmlui.administrative.batchimport.BatchImportConfirm.success">Käsitelty onnistuneesti</message>
-    <message key="xmlui.administrative.batchimport.BatchImportConfirm.changes_committed">Muutokset aineistossa</message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.changes_committed">Muutokset</message>
     <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_added">Lisätty: </message>
     <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_removed">Poistettu: </message>
 
@@ -1607,7 +1607,7 @@
 	<message key="xmlui.administrative.item.EditItemMetadataForm.value_label">Arvo</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.lang_label">Kieli</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.submit_add">Lisää uutta metadataa</message>
-	<message key="xmlui.administrative.item.EditItemMetadataForm.para1">HUOMAA: Metadatan muutoksia ei validoida. Olet syöttäjänä itse vastuussa, että muutokset ovat oikeassa muodossa. Jos et ole varma metadatan oikeasta muodosta, älä tee muutoksia.</message>
+	<message key="xmlui.administrative.item.EditItemMetadataForm.para1">HUOMAA: Metadatan muutoksia ei tarkasteta. Olet syöttäjänä itse vastuussa, että muutokset ovat oikeassa muodossa. Jos et ole varma metadatan oikeasta muodosta, älä tee muutoksia.</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.head2">Metadata</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.column1">Poista</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.column2">Nimi</message>
@@ -1710,7 +1710,7 @@
 
 	<!-- org.dspace.app.xmlui.administrative.mapper.MapperMain -->
 	<message key="xmlui.administrative.mapper.MapperMain.title">Aineiston liitokset</message>
-	<message key="xmlui.administrative.mapper.MapperMain.head1">Aineiston liitokset - Liitä aineistoja toisista kokoelmista</message>
+	<message key="xmlui.administrative.mapper.MapperMain.head1">Aineiston liitokset - Liitä aineistoja toisista kokoelmista toisiinsa</message>
 	<message key="xmlui.administrative.mapper.MapperMain.para1">Kokoelma: "<strong>{0}</strong>"</message>
 	<message key="xmlui.administrative.mapper.MapperMain.para2">Tällä työkalulla kokoelmien ylläpitäjät pystyvät liittämään aineistoja toisista kokoelmista tähän kokoelmaan. Voit etsiä aineistoja toisista kokoelmista ja liittää ne tähän kokoelmaan tai selata luetteloa tähän kokoelmaan liitetyistä aineistoista.</message>
 	<message key="xmlui.administrative.mapper.MapperMain.stat_label">Tilastot</message>
@@ -1755,14 +1755,14 @@
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.no_role">ei mitään</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.create">Luo...</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.restrict">Rajoita...</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_admins">Kokoelmien ylläpitäjät voivat päättää, ketkä voivat tallentaa uusia aineistoja kokoelmiin, muokata aineistojen metadataa ja lisätä aineistojen liitoksista toisista kokoelmista.</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_admins">Kokoelmien ylläpitäjät voivat päättää, kuka voi tallentaa uusia aineistoja kokoelmiin, muokata aineistojen metadataa ja lisätä aineistoihin liitoksista toisista kokoelmista.</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_wf_step1">Nämä käyttäjät pystyvät hyväksymään tai hylkäämään syötetyt aineistot. He eivät voi muokata syötettyjen aineistojen metadataa.</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_wf_step2">Nämä käyttäjät pystyvät muokkaamaan syötettyjen aineistojen metadataa ja sen jälkeen hyväksymään tai hylkäämään syötetyt aineistot.</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_wf_step3">Nämä käyttäjät pystyvät muokkaamaan syötettyjen aineistojen metadataa, mutta eivät voi hylätä syötettyjä aineistoja.</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_submitters">Käyttäjät ja ryhmät jotka voivat syöttää uusia aineistoja tähän kokoelmaan.</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_default_read">Käyttäjät ja ryhmät jotka voivat nähdä tähän kokoelmaan syötetyt uudet aineistot. Muutokset roolissa eivät tule voimaan takautuvasti, järjestelmässä jo olevat aineistot eivät tule näkyviin sellaisille käyttäjille, joilla ei niiden syöttöhetkellä ollut oikeutta nähdä niitä.</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.default_read_custom">Kokoelmassa on käytössä muokatut oletuspääsyasetukset. </message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.default_read_anonymous">Oletuslukuoikeudet syötetyille aineistolle ja tiedostoille on tällä hetkellä nimettömien käyttäjien ryhmällä.</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.default_read_anonymous">Nimettömien käyttäjien (ANONYMOUS) ryhmällä on oletuslukuoikeudet syötetyihin aineistoihin ja tiedostoihin.</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.edit_authorization">Muokkaa pääsynhallintamäärityksiä suoraan.</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.role_name">Rooli</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.role_group">Rooliin liittyvä ryhmä</message>
@@ -1776,7 +1776,7 @@
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_default_read">Oletuslukuoikeudet</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.sysadmins_only"><nobr>(vain ylläpitäjät)</nobr></message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.repository_role"><br/>(koko arkiston tason ryhmä, vain ylläpitäjät)</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>(ei voi muuttaa tätä)</nobr></message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>(et voi muuttaa tätä)</nobr></message>
 
         <!-- org.dspace.app.xmlui.administrative.collection.CurateCollectionForm.java -->
         <message key="xmlui.administrative.collection.CurateCollectionForm.main_head">Kuratoi kokoelmaa: {0}</message>
@@ -1839,8 +1839,8 @@
 	<!-- org.dspace.app.xmlui.administrative.collection.SetupCollectionHarvestingForm.java -->
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.main_settings_head">Kerätyn kokoelman sijainti</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.options_head">Keräämisasetukset</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_oai_provider">OAI-tarjoaja (provider)r</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_setid">OAI-joukko-id (set id)</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_oai_provider">OAI-tarjoaja (OAI-provider)r</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_setid">OAI-joukko-id (OAI-set id)</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_metadata_format">Metadatan muoto</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaiurl">Kohdearkiston OAI-tarjoajan URL</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaiurl">Kohdearkiston OAI-tarjoajan URL on pakollinen tieto.</message>
@@ -1907,7 +1907,7 @@
 	<message key="xmlui.administrative.community.AssignCommunityRoles.create">Luo...</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.help_admins">Yhteisöjen ylläpitäjä voivat luoda alayhteisöjä tai kokoelmia ja hallita niiden oikeuksia. He voivat myös päättää kuka voi tallentaa aineistoja, muokata metadataa ja liittää aineistoija toisiin kokoelmiin.</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.default_read_custom">Yhteisössä on käytössä muokattut oletuspääsyasetuksia </message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.default_read_anonymous">Oletuslukuoikeudet syötetyille aineistolle ja tiedostoille on tällä hetkellä nimettömien käyttäjien ryhmällä.</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.default_read_anonymous">Nimettömien käyttäjien (ANONYMOUS) ryhmällä on oletuslukuoikeudet syötetyihin aineistoihin ja tiedostoihin.</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.edit_authorizations">Muokkaa käyttöoikeusmäärityksiä.</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.role_name">Rooli</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.role_group">Rooliin liittyvä ryhmä</message>
@@ -1994,7 +1994,7 @@
         <message key="xmlui.administrative.ControlPanel.dspace_version">DSpacen versio</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_dir">DSpacen asennushakemisto</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_url">DSpacen URL</message>
-	<message key="xmlui.administrative.ControlPanel.dspace_hostname">DSpacen hostname</message>
+	<message key="xmlui.administrative.ControlPanel.dspace_hostname">DSpacen palvelimen nimi (hostname)</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_name">Sivuston nimi</message>
 	<message key="xmlui.administrative.ControlPanel.db_name">Tietokannan nimi</message>
 	<message key="xmlui.administrative.ControlPanel.db_url">Tietokannan URL</message>
@@ -2007,7 +2007,7 @@
 	<message key="xmlui.administrative.ControlPanel.mail_feedback_recipient">Palautteen saaja</message>
 	<message key="xmlui.administrative.ControlPanel.mail_admin">Sivuston ylläpidon sähköpostiosoite</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_head">Järjestelmän hälytykset</message>
-	<message key="xmlui.administrative.ControlPanel.alerts_warning"><strong>Huomioi kuormantasatuissa järjestelmissä</strong>: Hälytykset ovat voimassa vain siinä palvelinsolmussa, jossa se on asetettu päälle. Hälytykset pitää aktivoida jokaisessa palvelinsolmussa erikseen.</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_warning"><strong>Huomio! Kuormantasatuissa järjestelmissä</strong>: Hälytykset ovat voimassa vain siinä palvelinsolmussa, jossa ne on asetettu päälle. Hälytykset pitää aktivoida jokaisessa palvelinsolmussa erikseen.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_message_label">Hälytysviesti</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_message_default">Järjestelmä sulkeutuu huoltotoimenpiteitä varten. Tallenna työsi ja kirjaudu ulos.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_label">Laskuri</message>
@@ -2024,11 +2024,11 @@
 	<message key="xmlui.administrative.ControlPanel.alerts_session_note"><strong>Huom:</strong> Istuntojen hallinta ei vaikuta järjestelmänvalvojan istuntoihin.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_activate">Aktivoi</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_deactivate">Deaktivoi</message>
-	<message key="xmlui.administrative.ControlPanel.activity_head">Nykyinen toiminto (TODO: sivunäyttö?) (korkeintaan {0} sivua)</message>
-	<message key="xmlui.administrative.ControlPanel.stop_anonymous">LOPETA nimettömän toimintojen (TODO: sivunäyttö?) tallennus.</message>
-	<message key="xmlui.administrative.ControlPanel.start_anonymous">ALOITA nimettömän toimintojen (TODO: sivunäyttö?) tallennus.</message>
-	<message key="xmlui.administrative.ControlPanel.stop_bot">LOPETA botin toimintojen (TODO: sivunäyttö?) tallennus.</message>
-	<message key="xmlui.administrative.ControlPanel.start_bot">ALOITA botin toimintojen (TODO: sivunäyttö?) tallennus.</message>
+	<message key="xmlui.administrative.ControlPanel.activity_head">Sivuston käyttö (korkeintaan {0} sivua)</message>
+	<message key="xmlui.administrative.ControlPanel.stop_anonymous">LOPETA kirjautumattomien sivunäyttöjen tallennus.</message>
+	<message key="xmlui.administrative.ControlPanel.start_anonymous">ALOITA kirjautumattomien sivunäyttöjen tallennus.</message>
+	<message key="xmlui.administrative.ControlPanel.stop_bot">LOPETA bottien sivunäyttöjen tallennus.</message>
+	<message key="xmlui.administrative.ControlPanel.start_bot">ALOITA bottien sivunäyttöjen tallennus.</message>
 	<message key="xmlui.administrative.ControlPanel.activity_sort_time">Aikaleima</message>
 	<message key="xmlui.administrative.ControlPanel.activity_sort_user">Käyttäjä</message>
 	<message key="xmlui.administrative.ControlPanel.activity_sort_ip">IP-osoite</message>
@@ -2052,7 +2052,7 @@
 	<message key="xmlui.administrative.NotAuthorized.para2">Kirjaudu toisena käyttäjänä</message>
         
         <!-- System-wide Curation Tasks form (org.dspace.app.xmlui.aspect.administrative.CurateForm) -->
-        <message key="xmlui.administrative.CurateForm.title">Järjestelmän kuratointi-tehtävät</message>
+        <message key="xmlui.administrative.CurateForm.title">Järjestelmän kuratointitehtävät</message>
         <message key="xmlui.administrative.CurateForm.trail">Kuratointitehtävät</message>
         <message key="xmlui.administrative.CurateForm.object_label_name">DSpace-objektin Handle-tunnus</message>
         <message key="xmlui.administrative.CurateForm.object_hint">Syötä [handle-etuliite]/0, niin tehtävät suoritetaan koko sivustolle (kaikki tehtävät eivät välttämättä tue tätä ominaisuutta)</message>
@@ -2251,10 +2251,9 @@
 	<!-- Internationalization elements specific to the Qualified Dublin Core metadata handler.
 		DS-METS-1.0-QDC.xsl -->
 	<message key="xmlui.dri2xhtml.METS-1.0.qdc-not-applicable">
-		(TODO: mitä suomeksi?)
-		Qualified Dublin Core (QDC) is not applicable to DSpace communities and collections at
-		this time. When using QDC, you should use the QDC crosswalk for DSpace items and either
-		DIM or MODS for processing of communities and collections.
+		Qualified Dublin Core (QDC) metadamääritys ei sovellu DSpacen yhteisöihin ja kokoelmiin
+		tällä hetkellä. Kun käytät QDC:ta, käytä QDC-crosswalkia DSpacen aineistoihin (item)
+		ja joko DIM:ä tai MODS:a yhteisöjen ja kokoelmien käsittelyyn.
 	</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.header-qdc-elements">Dublin Core -elementit</message>
@@ -2308,18 +2307,18 @@
   <message key="xmlui.dri2xhtml.mimetype.application/x-tex">TeX</message>
 
   <!-- Audio-based formats -->
-  <message key="xmlui.dri2xhtml.mimetype.audio/basic">Basic Audio</message>
-  <message key="xmlui.dri2xhtml.mimetype.audio/flac">FLAC Audio</message>
-  <message key="xmlui.dri2xhtml.mimetype.audio/m4a">AAC audio</message>
-  <message key="xmlui.dri2xhtml.mimetype.audio/m4a-latm">AAC audio</message>
-  <message key="xmlui.dri2xhtml.mimetype.audio/mpeg">mp3 audio</message>
-  <message key="xmlui.dri2xhtml.mimetype.audio/x-aiff">AIFF audio</message>
-  <message key="xmlui.dri2xhtml.mimetype.audio/x-mpeg">MPEG Audio</message>
-  <message key="xmlui.dri2xhtml.mimetype.audio/x-ms-wma">WMA Audio</message>
-  <message key="xmlui.dri2xhtml.mimetype.audio/x-ms-wmv">WMV Audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/basic">Basic-audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/flac">FLAC-audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/m4a">AAC-audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/m4a-latm">AAC-audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/mpeg">mp3-audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/x-aiff">AIFF-audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/x-mpeg">MPEG-Audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/x-ms-wma">WMA-Audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/x-ms-wmv">WMV-Audio</message>
   <message key="xmlui.dri2xhtml.mimetype.audio/x-ogg">Ogg Vorbis</message>
   <message key="xmlui.dri2xhtml.mimetype.audio/x-pn-realaudio">RealAudio</message>
-  <message key="xmlui.dri2xhtml.mimetype.audio/x-wav">WAV audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/x-wav">WAV-audio</message>
 
   <!-- Image-based formats -->
   <message key="xmlui.dri2xhtml.mimetype.image/gif">GIF-kuva</message>
@@ -2349,15 +2348,15 @@
 
   <!-- explanatory messages for choice authority confidence values -->
   <message key="xmlui.authority.confidence.description.cf_unset">Tälle arvolle ei ole vielä kirjattu luottamusväliä</message>
-  <message key="xmlui.authority.confidence.description.cf_novalue">Auktoritietokanta ei palauttanut järkevää luottamusväliä</message>
-  <message key="xmlui.authority.confidence.description.cf_rejected">Auktoriteettitietokanta suosittelee, että tämä tallennus hylätään</message>
-  <message key="xmlui.authority.confidence.description.cf_failed">Auktoriteettitietokantayhteydessä tapahtui virhe</message>
-  <message key="xmlui.authority.confidence.description.cf_notfound">Auktoriteettitietokannsta ei löytynyt tuloksia</message>
+  <message key="xmlui.authority.confidence.description.cf_novalue">Asiasanasto ei palauttanut järkevää luottamusväliä</message>
+  <message key="xmlui.authority.confidence.description.cf_rejected">Asiasanasto suosittelee, että tämä tallennus hylätään</message>
+  <message key="xmlui.authority.confidence.description.cf_failed">Yhteydessä asiasanastoon tapahtui virhe</message>
+  <message key="xmlui.authority.confidence.description.cf_notfound">Asiasanastosta ei löytynyt tuloksia</message>
   <message key="xmlui.authority.confidence.description.cf_ambiguous">Useita samanarvoisia vastauksia</message>
   <message key="xmlui.authority.confidence.description.cf_uncertain">Arvo vaikuttaa oikealta, mutta se ei ole vielä ihmisen tarkastama ja hyväksymä, ja on siten epävarma</message>
-  <message key="xmlui.authority.confidence.description.cf_accepted">Auktoriteettitietokannan arvo on ihmisen tarkastama</message>
+  <message key="xmlui.authority.confidence.description.cf_accepted">Asiasanaston arvo on ihmisen tarkastama</message>
   <!-- help message on "unlock" button in EditItemMetadata display -->
-  <message key="xmlui.authority.confidence.unlock.help">Avaa tai sulje auktoriteettitietokannan avaimen editointimahdollisuus</message>
+  <message key="xmlui.authority.confidence.unlock.help">Avaa tai sulje asiasanan editointimahdollisuus</message>
 
   <!-- Choice Lookup popup window -->
   <!-- NOTE: These messages necessarily use a *different* format for
@@ -2365,7 +2364,7 @@
      - JavaScript (AJAX) that completes the lookup popup window.
      - So, positional parameters are @1@, @2@, etc.
     -->
-  <message key="xmlui.ChoiceLookupTransformer.title">DSpace-arvohaku</message>
+  <message key="xmlui.ChoiceLookupTransformer.title">Haku</message>
   <message key="xmlui.ChoiceLookupTransformer.accept">Hyväksy</message>
   <message key="xmlui.ChoiceLookupTransformer.add">Lisää</message>
   <message key="xmlui.ChoiceLookupTransformer.cancel">Peruuta</message>
@@ -2379,17 +2378,17 @@
   <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.help">Julkaisijan nimi</message>
   <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.title">Hae julkaisijaa</message>
   <!-- Params are: search-value -->
-  <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.nonauthority">Ei-auktorisoitu arvo: @1@</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.nonauthority">Asiasanastoa ei määritelty: @1@</message>
 
   <!-- Choice Lookup - sample config for dc.contributor.author field -->
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help">Nimi "Sukunimi, Etunimi"-muodossa</message>
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help.last">Sukunimi, esim. "Kivi"</message>
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help.first">Etunimet esim. "Aleksis"</message>
-  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.title">Nimiauktoriteettihaku</message>
-  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.nonauthority">Paikallinen arvo "@1@" (ei auktoriteettitietokannassa)</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.title">LC tekijän nimen auktoriteettitiedosto</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.nonauthority">Paikallinen arvo "@1@" (ei auktoriteettisanastossa)</message>
 
   <!-- mobile theme -->
-  <message key="xmlui.mobile.home_mobile">DSpace-mobiili</message>
+  <message key="xmlui.mobile.home_mobile">Etusivu</message>
   <message key="xmlui.mobile.search_all">Hae KAIKISTA</message>
   <message key="xmlui.mobile.browse_all">Selaa KAIKKIA</message>
   <message key="xmlui.mobile.browse_date">Päivämäärä</message>
@@ -2424,7 +2423,7 @@
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.trail">Vahvista poisto</message>
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.head1">Vahvista poisto(t)</message>
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.para1">Oletko varma, että haluat poistaa nämä versiot? </message>
-    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.para2">HUOMAA: Poistamalla nämä versiot, niihin liittyvät aineistot eivät ole enää saatavilla.</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.para2">HUOMAA: Jos poistat versiot, niihin liittyvät aineistot eivät ole enää saatavilla.</message>
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column1">Versio</message>
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column2">Aineisto</message>
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column3">Muokkaaja</message>
