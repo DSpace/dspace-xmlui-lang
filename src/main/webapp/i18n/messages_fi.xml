@@ -77,56 +77,31 @@
 
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-		             ArtifactBrowser Aspect
-
-		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-
-
-
-
-
-
-
-	<!-- org.dspace.app.xmlui.artifactbrowser.AbstractSearch.java -->
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_community">Hakutulokset yhteisössä: {0}</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_collection">Hakutulokset kokoelmassa: {0}</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_none">Hakutulokset</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.result_query">Haulla "{0}" löytyi {1} osuma(a).</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.head2">Löydetyt yhteisöt ja kokoelmat</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.head3">Löydetyt aineistot</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">Ei tuloksia.</message>
+	          ArtifactBrowser Aspect
+        NOTE: As of DSpace 6.0, the ArtifactBrowser Aspect was removed (in favor
+        of the ViewArtifacts, BrowseArtifacts and SearchArtifacts aspects). 
+        However, many of its classes and corresponding i18n keys still exist as 
+        they are used by other aspects.
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        <!-- Note: As of DSpace 6.0, org.dspace.app.xmlui.aspect.artifactbrowser.AbstractSearch has been removed. -->
+        <!-- The following keys are still in use by Discovery's AbstractSearch -->
+	
+        <message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">Ei tuloksia.</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">Kaikki aineistot</message>
 
-   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.title">nimeke</message>
-   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateissued">julkaisupäivä</message>
-   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateaccessioned">syöttöpäivä</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.relevance">relevanssi</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by">Lajittele</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.order">järjestys</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.order.asc">nouseva</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.order.desc">laskeva</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.rpp">Tuloksia per sivu</message>
-
     <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.title">Tarkennettu haku</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.trail">Tarkennettu haku</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.head">Tarkennettu haku</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_scope">Haun kohde</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_scope_help">Voit rajoittaa haun tiettyyn yhteisöön tai kokoelmaan.</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.conjunction">Operaattori</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_type">Hakutapa</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_for">Hakusana</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_author">Tekijä</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_title">Nimeke</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Asiasana</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_abstract">Tiivistelmä</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_series">Sarja</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_sponsor">Rahoittaja</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">Tunniste</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">Kielikoodi (ISO)</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">Avainsana</message>
-
+    <!-- Note: As of DSpace 6.0, org.dspace.app.xmlui.aspect.artifactbrowser.AdvancedSearch has been removed. -->
+    <!-- The following "type_*" i18n keys will be left as is as they're referenced by the Discovery's SidebarFacetsTransformer
+         but in future, they should be refactored to a more relevant key prefix -->
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_author">Tekijä</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_title">Nimeke</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Asiasana</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_abstract">Abstrakti</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_series">Sarja</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_sponsor">Rahoittaja</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">Tunniste</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">Kielikoodi (ISO)</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">Avainsana</message>
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Avustaja</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Tekijä</message>
@@ -138,10 +113,6 @@
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_department">Laitos</message>
 
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_ANY">Kokoteksti</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.and">JA</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.or">TAI</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.not">EI</message>
-
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ConfigureableBrowse.java -->
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with">Tai anna muutama alkukirjain:</message>
@@ -270,6 +241,9 @@
         <message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">Aineisto on poistettu käytöstä eikä ole enää saatavissa.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
+        <!-- Note: As of DSpace 6.0, org.dspace.app.xmlui.aspect.artifactbrowser.Navigation has been removed. -->
+        <!-- The following i18n keys will be left as is as they're referenced by the Discovery's Navigation
+         but in future, they should be refactored to a more relevant key prefix -->
 	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">Selaa</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">Kaikki aineistot</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Yhteisöt ja kokoelmat</message>
@@ -282,6 +256,9 @@
 	<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">Tämä yhteisö</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.SimpleSearch.java -->
+        <!-- Note: As of DSpace 6.0, org.dspace.app.xmlui.aspect.artifactbrowser.SimpleSearch has been removed. -->
+        <!-- The following i18n keys will be left as is as they're referenced by the Discovery's SimpleSearch
+         but in future, they should be refactored to a more relevant key prefix -->
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.title">Haku</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.trail">Haku</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.head">Haku</message>
@@ -1023,6 +1000,7 @@
         <message key="xmlui.administrative.Navigation.context_export_collection">Vie kokoelma</message>
         <message key="xmlui.administrative.Navigation.context_export_community">Vie yhteisö</message>
         <message key="xmlui.administrative.Navigation.context_export_metadata">Vie metadataa</message>
+        <message key="xmlui.administrative.Navigation.context_search_export_metadata">Vie hakumetadataa</message>
 
 	<!-- Site administrator options -->
 	<message key="xmlui.administrative.Navigation.administrative_head">Hallinnointi</message>
@@ -1040,8 +1018,8 @@
     <message key="xmlui.administrative.Navigation.administrative_control_panel">Hallintanäkymä</message>
     <message key="xmlui.administrative.Navigation.statistics">Tilastot</message>
     <message key="xmlui.administrative.Navigation.administrative_batch_import">Tuo useita aineistoja (ZIP)</message>
-        <message key="xmlui.administrative.Navigation.administrative_import_metadata">Tuo metadataa</message>
-        <message key="xmlui.administrative.Navigation.administrative_curation">Kuratointitehtävät</message>
+    <message key="xmlui.administrative.Navigation.administrative_import_metadata">Tuo metadataa</message>
+    <message key="xmlui.administrative.Navigation.administrative_curation">Kuratointitehtävät</message>
 
     <!-- my account items -->
 	<message key="xmlui.administrative.Navigation.account_export">Omat viennit</message>
@@ -1876,6 +1854,7 @@
 	<message key="xmlui.administrative.ControlPanel.option_harvest">Kerääminen</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_scheduler_head">Keräämisen aikataulumääritykset</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_label_status">Tila</message>
+        <message key="xmlui.administrative.ControlPanel.harvest_status_refresh">(päivitä)</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_label_actions">Toiminnot</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_submit_start">Aloita kerääminen</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_submit_reset">Palauta keräämistila alkuasetuksiin</message>
@@ -2036,8 +2015,20 @@
 	<message key="xmlui.administrative.ControlPanel.activity_sort_Agent">Selain (User-Agent)</message>
 	<message key="xmlui.administrative.ControlPanel.activity_anonymous">Nimetön {0}</message>
 	<message key="xmlui.administrative.ControlPanel.activity_none">Sivunäyttöjä ei ole tallennettu.</message>
+        <message key="xmlui.administrative.ControlPanel.detail">Yksityiskohdat</message>
+	<message key="xmlui.administrative.ControlPanel.show_hide">piilota/näytä</message>
+	<message key="xmlui.administrative.ControlPanel.host">Palvelin: {0}</message>
+	<message key="xmlui.administrative.ControlPanel.puser">Pääasiallinen käyttäjä: {0}</message>
+	<message key="xmlui.administrative.ControlPanel.headers">Otsakkeet (headers): {0}</message>
+	<message key="xmlui.administrative.ControlPanel.cookies">Evästeet (cookies): {0}</message>
 
 	<message key="xmlui.administrative.ControlPanel.select_panel">Valitse välilehdiltä haluttu tieto</message>
+
+	<message key="xmlui.administrative.ControlPanel.tabs.Java Information">Tietoa Javasta</message>
+	<message key="xmlui.administrative.ControlPanel.tabs.Configuration">Asetukset</message>
+	<message key="xmlui.administrative.ControlPanel.tabs.SystemWide Alerts">Järjestelmän hälytykset</message>
+	<message key="xmlui.administrative.ControlPanel.tabs.Harvesting">Kerääminen</message>
+	<message key="xmlui.administrative.ControlPanel.tabs.Current Activity">Nykyinen käyttö</message>
 
 	<!-- org.dspace.app.xmlui.administrative.SystemwideAlerts -->
 	<message key="xmlui.administrative.SystemwideAlerts.countdown"><strong>{0} minuutin päästä</strong>: </message>
@@ -2223,7 +2214,6 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Katso</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-description">Kuvaus</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Katso/<wbr/>Avaa</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-access-rights">Lukuoikeudet:</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">Aineistoon ei liity tiedostoja.</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.size-bytes">tavua</message>
@@ -2470,6 +2460,7 @@
     <message key="xmlui.aspect.sherpa.submission.blue">sininen</message>
     <message key="xmlui.aspect.sherpa.submission.white">valkoinen</message>
     <message key="xmlui.aspect.sherpa.submission.yellow">keltainen</message>
+    <message key="xmlui.aspect.sherpa.submission.gray">harmaa</message>
     <!-- End Versioning -->
 
 
@@ -2500,4 +2491,13 @@
     <message key="xmlui.mirage2.choice-authority-control.loading">Lataa...</message>
 
     <message key="xmlui.mirage2.item-list.thumbnail">Pikkukuva</message>
+
+    <!-- org.dspace.app.xmlui.Submission.submit.StartSubmissionLookupStep -->
+    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.submit_lookup">Hae</message>
+    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.title">Julkaisuhaku</message>
+    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.lookup_help">Täytä julkaisun ID, DOI, nimeke tai tekijä ja paina 'Hae'. Saat luettelon hakuehdot täyttävistä julkaisuista ja voit jatkaa tallennusta.</message>
+    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.submit_publication_item">Haettu julkaisuhistoria</message>
+    <message key="xmlui.Submission.submit.progressbar.lookup">Hae</message>
+    <message key="xmlui.ChoiceLookupTransformer.lookup">Hae</message>
+
 </catalogue>
