@@ -2500,4 +2500,279 @@
     <message key="xmlui.Submission.submit.progressbar.lookup">Hae</message>
     <message key="xmlui.ChoiceLookupTransformer.lookup">Hae</message>
 
-</catalogue>
+    <!--
+	*** KEYS NOT ORIGINALLY IN THE messages.xml FILE ***
+	*** see ORIGINAL FILE for origin                 ***
+    -->
+	
+    <!-- *** ORIGINAL FILE DSpace/dspace-xmlui/src/main/resources/aspects/Discovery/i18n/messages.xml  -->
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.AbstractSearch.java -->
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
+    <!-- Note: As of DSpace 6.0, org.dspace.app.xmlui.aspect.artifactbrowser.AdvancedSearch has been removed.
+         The following i18n keys will be left as is as they're referenced by the Discovery SidebarFacetsTransformer
+         but in future, they should be refactored to a more relevant key prefix -->
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.contributor.author_filter">Tekijä</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">Asiasana</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">Sisällön tyyppi</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">Julkaisupäivä</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">Julkaisupäivä</message>
+    
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_has_content_in_original_bundle">Sisältää tiedosot</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.value_has_content_in_original_bundle_true">Kyllä</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.value_has_content_in_original_bundle_false">Ei</message>
+
+
+    <!-- Site Level Recently Added Content -->
+    <message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">Viimeksi lisätty</message>
+
+    <message key="xmlui.ArtifactBrowser.AbstractRecentSubmissionTransformer.recent_submissions_more">Näytä lisää</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.head">{0}: viimeistä lisäystä</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.trail">Viimeiset lisäykset</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.recent.head">Viimeksi lisätty</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type_filter">Tyyppi</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_publisher_filter">Julkaisija</message>
+
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.ispartof">Kuuluu</message>
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by">Tulosten järjestäminen</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.none">Ei järjestetty</message>
+
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.publication_grp">Julkaisu</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.comm">Yhteisö</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.coll">Kokoelma</message>
+
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.relation.ispartofseries_filter">Sarja</message>
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.contributor.author_browse">Selaus tekijän mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.title_browse">Selaus nimekkeen mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.subject_browse">Selaus asiasanan mukaan</message>
+        
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">Selaus yhteenvedon mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">Selaus sarjan mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">Selaus rahoittajan mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">Selaus tunnisteen mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">Selaus ISO-kielikoodin mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">Selaus avainsanan mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">Selaus tieteellisen nimen mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_contributor_browse">Selaus myötävaikuttajan mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_creator_browse">Selaus tekijän mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_subject_browse">Selaus asiasanan mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_description_browse">Selaus kuvauksen mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_relation_browse">Selaus suhteen mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_mime_browse">Selaus Mime-tyypin mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_other_browse">Selaus muun myötävaikuttajan mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_advisor_browse">Selaus ohjaajan mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">Selaus laitoksen mukaan</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">Selaus julkaisupäivän mukaan</message>
+
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">Nimeke</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">JulkaisupäiväDate issued</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.has_content_in_original_bundle">Sisältää tiedostot</message>
+
+
+    <message key="xmlui.dri2xhtml.structural.pagination-info.nototal">Näytetään aineistot {0}-{1}</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.type_author">Suodata tekijän mukaan</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Tekijä</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author_filter">Tekijä</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_subject">Suodata asiasanan mukaan</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Asiasana</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject_filter">Asiasana</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued.year">Julkaisupäivä</message>
+
+
+    <message key="xmlui.Discovery.AbstractSearch.startswith">Alkaa kirjaimilla</message>
+    <message key="xmlui.Discovery.AbstractSearch.startswith.help">Syötä muutama kirjain alusta:</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.head">Lajitteluvaihtoehdot:</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.relevance">Merkittävyys</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_desc">Nimeke (laskeva)</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_desc">Julkaisupäivä (laskeva)</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_asc">Nimeke (nouseva)</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_asc">Julkaisupäivä (nouseva)</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.rpp">Tuloksia per sivu:</message>
+
+
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.add-filter">Lisää suodatin</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.apply-filters">Ota käyttöön</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.remove-filter">Poista</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.new-filters.head">Uudet suodattimet:</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.current-filters.head">Nykyiset suodattimet:</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.display">Lisää suodatin</message>
+
+    <message key="xmlui.discovery.SearchFacetFilter.no-results">Arvoja ei löytynyt</message>
+
+    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.head">Löydä</message>
+    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.view-more">... Näytä lisää</message>
+
+
+    <message key="xmlui.Discovery.SimpleSearch.search_scope">Haku</message>
+    <message key="xmlui.discovery.SimpleSearch.search_label">Haku</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter_head">Suodattimet</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter_help">Käytä suodattimia tulosten karsintaan.</message>
+
+    <message key="xmlui.Discovery.SimpleSearch.filter.contains">sisältää</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.equals">on</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.authority">ID</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.notcontains">ei sisällä</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.notequals">ei ole</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.notauthority">ei-ID</message>
+    
+    <message key="xmlui.Discovery.RelatedItems.head">Samankaltainen aineisto</message>
+    <message key="xmlui.Discovery.RelatedItems.help">Näytetään aineistoa, joilla on samankaltaisia nimekkeitä, tekijöitä tai asiasanoija.</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.head1_community">Näytetään {0}/{1} tulosta yhteisöstä: {2}. <span class="searchTime">({3} sekuntia)</span></message>
+    <message key="xmlui.Discovery.AbstractSearch.head1_collection">Näytetään {0}/{1} tulosta kokoelmasta: {2}. <span class="searchTime">({3} sekuntia)</span></message>
+    <message key="xmlui.Discovery.AbstractSearch.head1_none">Näytetään {0}/{1} tulosta. <span class="searchTime">({2} sekuntia)</span></message>
+
+    <message key="xmlui.Discovery.AbstractSearch.head2">Yhteisöt ja kokoelmat, jotka täyttävät hakuehtosi</message>
+    <message key="xmlui.Discovery.AbstractSearch.head3">Aineistot, jotka täyttävät hakuehtosi</message>
+	
+    <message key="xmlui.Discovery.SimpleSearch.did_you_mean">Tarkoititko: </message>
+
+    <!-- *** ORIGINAL FILE DSpace/dspace-xmlui/src/main/resources/aspects/SwordClient/i18n/messages.xml -->
+	 
+    <!--   Sword Client  -->
+    <message key="xmlui.swordclient.Navigation.context_head">(Sword) Kopioi</message>
+    <message key="xmlui.swordclient.Navigation.context_copy">Kopioi aineisto toiseen julkaisuarkistoon</message>
+    <message key="xmlui.swordclient.general.SwordCopy_trail">(Sword) Kopioi</message>
+    <message key="xmlui.swordclient.general.main_head">Kopio aineisto: {0}</message>
+
+
+    <message key="xmlui.swordclient.SelectTarget.title">(Sword) Kohde</message>
+    <message key="xmlui.swordclient.SelectTarget.trail">Valitse kohde</message>
+    <message key="xmlui.swordclient.SelectTarget.url">URL</message>
+    <message key="xmlui.swordclient.SelectTarget.other_url">Vaihtoehtoinen URL</message>
+    <message key="xmlui.swordclient.SelectTarget.username">Käyttäjätunnus</message>
+    <message key="xmlui.swordclient.SelectTarget.password">Salasana</message>
+    <message key="xmlui.swordclient.SelectTarget.on_behalf_of">Toimeksiantaja</message>
+
+    <message key="xmlui.swordclient.SelectTargetAction.url_error">Väärä URL</message>
+    <message key="xmlui.swordclient.SelectTargetAction.username_error">Väärä käyttäjätunnus</message>
+    <message key="xmlui.swordclient.SelectTargetAction.password_error">Väärä salasana</message>
+    <message key="xmlui.swordclient.SelectTargetAction.serviceDoc_error">Palveludokumentin (Sword Service Document) haku epäonnistui: {0}</message>
+
+    <message key="xmlui.swordclient.SelectCollection.title">(Sword) Kohdekokoelmat</message>
+    <message key="xmlui.swordclient.SelectCollection.trail">Valitse kokoelmat</message>
+    <message key="xmlui.swordclient.SelectCollection.collection_head">Kokoelma: {0}</message>
+    <message key="xmlui.swordclient.SelectCollection.collection_title">Nimeke: {0} </message>
+    <message key="xmlui.swordclient.SelectCollection.collection policy">Oikeudet: {0}</message>
+    <message key="xmlui.swordclient.SelectCollection.collection_mediation">Välitystieto: {0}</message>
+    <message key="xmlui.swordclient.SelectCollection.collection_file_types">Tiedostotyypit: {0}</message>
+    <message key="xmlui.swordclient.SelectCollection.collection_package_formats">Pakkausformaatti: {0}</message>
+    <message key="xmlui.swordclient.SelectCollection.collection_deposit_button">Talleta tänne</message>
+
+    <message key="xmlui.swordclient.SelectCollection.sub_service_target">Alikohde</message>
+    <message key="xmlui.swordclient.SelectCollection.sub_service_target_button">Nouda alikohteen palveludokumentti (Sub Service Document)</message>
+
+    <message key="xmlui.swordclient.SelectPackagingAction.head">Kokoelma: {0}</message>
+    <message key="xmlui.swordclient.SelectPackagingAction.title">Nimeke: {0}</message>
+    <message key="xmlui.swordclient.SelectPackagingAction.policy">Oikeudet: {0} </message>
+    <message key="xmlui.swordclient.SelectPackagingAction.mediation">Välitystieto: {0} </message>
+    <message key="xmlui.swordclient.SelectPackagingAction.file_types">Tiedostotyypit</message>
+    <message key="xmlui.swordclient.SelectPackagingAction.package_formats">Pakkausformaatti</message>
+    <message key="xmlui.swordclient.SelectPackagingAction.packageFormat_error">Pakkausformaattia ei tueta</message>
+
+    <message key="xmlui.swordclient.DepositAction.success">Aineisto kopioitu</message>
+    <message key="xmlui.swordclient.DepositAction.package_error">Virhe pakkausformaatissa</message>
+    <message key="xmlui.swordclient.DepositAction.invalid_handle">Virheellinen handle-tunniste</message>
+    <message key="xmlui.swordclient.DepositAction.package_error">Aineiston pakkaamisessa tapahtui virhe</message>
+    <message key="xmlui.swordclient.DepositAction.error">Aineiston tallettamissa tapahtui virhe:: {0}</message>
+
+    <message key="xmlui.swordclient.SwordResponse.title">(Sword) Vastaus</message>
+    <message key="xmlui.swordclient.SwordResponse.trail">(Sword) vastaus</message>
+
+    <!-- *** ORIGINAL FILE: DSpace/dspace-xmlui/src/main/resources/aspects/XMLWorkflow/i18n/messages.xml -->
+    
+    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.info1">Voit valita seuraavista toiminnoista:</message>
+    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.take_help">Ota tehtävä itsellesi.</message>
+    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.take_submit">Ota tehtävä</message>
+    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.leave_help">Jätä tehtävä tehtäväjonoon.</message>
+    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.leave_submit">Jätä tehtävä</message>
+    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.back">Palaa</message>
+    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.title">Hyväksy tai hylkää tehtävä</message>
+
+    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.head">Suorita tehtävä: Hyväksy tai hylkää aineisto</message>
+    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.info1">Voit valita seuraavista toiminnoista:</message>
+    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.reject_help">Jos olet tarkastanut aineiston, eikä sitä voida sisällyttää kokoelmaan, valitse "Hylkää". Sinun pitää tällöin kirjoittaa viesti, jossa kerrot aineiston syöttäjälle miksi aineistoa ei voi sisällyttää kokoelmaan, ja voisiko aineiston tietoja korjata ja lähettää uudestaan hyväksyttäväksi.</message>
+    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.reject_submit">Hylkää</message>
+    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.approve_help">Jos olet tarkastanut aineiston ja se voidaan sisällyttää kokoelmaan, valitse "Hyväksy"</message>
+    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.approve_submit">Hyväksy</message>
+
+
+    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.head">Suorita tehtävä: Hyväksy tai hylkää ainesto; muokkaa ainestoa</message>
+    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.info1">Voit valita seuraavista toiminnoista:</message>
+    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.reject_help">Jos olet tarkastanut aineiston, eikä sitä voida sisällyttää kokoelmaan, valitse "Hylkää". Sinun pitää tällöin kirjoittaa viesti, jossa kerrot aineiston syöttäjälle miksi aineistoa ei voi sisällyttää kokoelmaan, ja voisiko aineiston tietoja korjata ja lähettää uudestaan hyväksyttäväksi.</message>
+    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.reject_submit">Hylkää</message>
+    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.approve_help">Jos olet tarkastanut aineiston ja se voidaan sisällyttää kokoelmaan, valitse "Hyväksy".</message>
+    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.approve_submit">Hyväksy</message>
+    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.edit_help">Valitse "Muokkaa metadataa" muokataksesi aineiston metadataa.</message>
+    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.edit_submit">Muokkaa metadataa</message>
+
+    <message key="xmlui.XMLWorkflow.step.unknown">Tuntematon tila</message>
+
+    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.head">Suorita tehtävä: Valitse tarkastaja</message>
+    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.help">Käytä allaolevaa hakulaatikkoa ja valitse käyttäjä, joka tarkastaa aineiston.</message>
+    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.search.label">Hae tarkastaja</message>
+    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.search.button">Hae käyttäjä</message>
+    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.select-reviewer.button">Valitse tarkastajaksi</message>
+
+    <message key="xmlui.XMLWorkflow.workflow.SingleUserReviewAction.decline.help">Jos et halua tarkastaa aineistoa, voit hylätä tehtävän valitsemalla "Hylkää tarkastuspyyntö".</message>
+    <message key="xmlui.XMLWorkflow.workflow.SingleUserReviewAction.decline.button">Hylkää tarkastuspyyntö</message>
+
+
+    <message key="xmlui.XMLWorkflow.workflow.ScoreReviewAction.head">Tarkasta syötetty aineisto</message>
+    <message key="xmlui.XMLWorkflow.workflow.ScoreReviewAction.score.button">Tarkasta syötetty aineisto</message>
+    <message key="xmlui.XMLWorkflow.workflow.ScoreReviewAction.help">Anna syötetylle aineistolle pisteet</message>
+
+
+    <message key="xmlui.XMLWorkflow.Navigation.xmlworkflow_overview">Työnkulun yleiskuva</message>
+    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.trail">Työnkulun yleiskuva</message>
+    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.title">Työnkulun yleiskuva</message>
+    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column1"> </message>
+    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column2">Vaihe</message>
+    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column3">Aineisto</message>
+    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column4">Kokoelma</message>
+    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column5">Lisääjä</message>
+    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.submit_submitter">Lähetä aineisto takaisin lisääjälle</message>
+    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.submit_delete">Poista aineisto</message>
+    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.no_results">Ei hakutuloksia</message>
+
+
+    <message key="xmlui.XMLWorkflow.WorkflowItemTransformer.title">Näytä aineisto: {0}</message>
+    <message key="xmlui.XMLWorkflow.WorkflowItemTransformer.trail">Näytä aineisto</message>
+
+    <message key="xmlui.XMLWorkflow.default.reviewstep">Hyväksymys- tai hylkäysvaihe</message>
+    <message key="xmlui.XMLWorkflow.default.reviewstep.claimaction">Hyväksy/Hylkää</message>
+    <message key="xmlui.XMLWorkflow.default.reviewstep.reviewaction">Hyväksy/Hylkää</message>
+
+    <message key="xmlui.XMLWorkflow.default.editstep">Hyväksymys-, hylkäys- tai muokkausvaihe</message>
+    <message key="xmlui.XMLWorkflow.default.editstep.claimaction">Hyväksy/Hylkää/Muokkaa</message>
+    <message key="xmlui.XMLWorkflow.default.editstep.editaction">Hyväksy/Hylkää/Muokkaa</message>
+
+    <message key="xmlui.XMLWorkflow.default.finaleditstep">Lopullinen hyväksymys- tai muokkausvaihe</message>
+    <message key="xmlui.XMLWorkflow.default.finaleditstep.claimaction">Lopullinen Hyväksy/Muokkaa</message>
+    <message key="xmlui.XMLWorkflow.default.finaleditstep.finaleditaction">Lopullinen Hyväksy/Muokkaa</message>
+
+
+    <message key="xmlui.XMLWorkflow.selectSingleReviewer.selectReviewerStep.claimaction">Tarkastajan valintavaihe</message>
+    <message key="xmlui.XMLWorkflow.selectSingleReviewer.selectReviewerStep.selectrevieweraction">Valitse tarkastaja</message>
+
+    <message key="xmlui.XMLWorkflow.selectSingleReviewer.singleUserReviewStep">Yhden käyttäjän tarkastusvaihe</message>
+    <message key="xmlui.XMLWorkflow.selectSingleReviewer.singleUserReviewStep.singleuserreviewaction">Tarkasta syötetty aineisto</message>
+
+    <message key="xmlui.XMLWorkflow.scoreReview.scoreReviewStep.claimaction">Pisteytä aineisto</message>
+    <message key="xmlui.XMLWorkflow.scoreReview.scoreReviewStep.scorereviewaction">Pisteytä aineisto</message>
+    <message key="xmlui.XMLWorkflow.scoreReview.scoreReviewStep">Pisteytä aineisto</message>
+    
+  </catalogue>
