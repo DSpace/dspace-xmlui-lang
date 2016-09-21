@@ -1,13 +1,4 @@
-<?xml version="1.0"?>
-<!--
-    The contents of this file are subject to the license and copyright
-    detailed in the LICENSE and NOTICE files at the root of the source
-    tree and available online at
-
-    http://www.dspace.org/license/
-
--->
-<catalogue xml:lang="fi" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<catalogue xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xml:lang="en">
 
 	<!--
 		The format used by all keys is as follows
@@ -77,31 +68,56 @@
 
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-	          ArtifactBrowser Aspect
-        NOTE: As of DSpace 6.0, the ArtifactBrowser Aspect was removed (in favor
-        of the ViewArtifacts, BrowseArtifacts and SearchArtifacts aspects). 
-        However, many of its classes and corresponding i18n keys still exist as 
-        they are used by other aspects.
-	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-        <!-- Note: As of DSpace 6.0, org.dspace.app.xmlui.aspect.artifactbrowser.AbstractSearch has been removed. -->
-        <!-- The following keys are still in use by Discovery's AbstractSearch -->
-	
-        <message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">Ei tuloksia.</message>
+
+		             ArtifactBrowser Aspect
+
+		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+
+
+
+
+
+
+	<!-- org.dspace.app.xmlui.artifactbrowser.AbstractSearch.java -->
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_community">Search Results for Community: {0}</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_collection">Search Results for Collection: {0}</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_none">Search Results</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.result_query">Your query "{0}" produced {1} result(s).</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.head2">Communities or Collections matching your query</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.head3">Items matching your query</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">Ei tuloksia.</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">Kaikki aineistot</message>
 
+   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.title">title</message>
+   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateissued">issue date</message>
+   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateaccessioned">submit date</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.relevance">relevance</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by">Sort items by</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.order">in order</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.order.asc">ascending</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.order.desc">descending</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.rpp">Results/page</message>
+
     <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
-    <!-- Note: As of DSpace 6.0, org.dspace.app.xmlui.aspect.artifactbrowser.AdvancedSearch has been removed. -->
-    <!-- The following "type_*" i18n keys will be left as is as they're referenced by the Discovery's SidebarFacetsTransformer
-         but in future, they should be refactored to a more relevant key prefix -->
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_author">Tekijä</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_title">Nimeke</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Asiasana</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_abstract">Abstrakti</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_series">Sarja</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_sponsor">Rahoittaja</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">Tunniste</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">Kielikoodi (ISO)</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">Avainsana</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.title">Advanced Search</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.trail">Advanced Search</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.head">Advanced Search</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_scope">Search scope</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_scope_help">Limit your search to a community or collection.</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.conjunction">Conjunction</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_type">Search type</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_for">Search for</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_author">Tekijä</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_title">Nimeke</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Asiasana</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_abstract">Abstrakti</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_series">Sarja</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_sponsor">Rahoittaja</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">Tunniste</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">Kielikoodi (ISO)</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">Avainsana</message>
+
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Avustaja</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Tekijä</message>
@@ -113,6 +129,10 @@
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_department">Laitos</message>
 
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_ANY">Kokoteksti</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.and">AND</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.or">OR</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.not">NOT</message>
+
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ConfigureableBrowse.java -->
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with">Tai anna muutama alkukirjain:</message>
@@ -241,9 +261,6 @@
         <message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">Aineisto on poistettu käytöstä eikä ole enää saatavissa.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
-        <!-- Note: As of DSpace 6.0, org.dspace.app.xmlui.aspect.artifactbrowser.Navigation has been removed. -->
-        <!-- The following i18n keys will be left as is as they're referenced by the Discovery's Navigation
-         but in future, they should be refactored to a more relevant key prefix -->
 	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">Selaa</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">Kaikki aineistot</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Yhteisöt ja kokoelmat</message>
@@ -256,9 +273,6 @@
 	<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">Tämä yhteisö</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.SimpleSearch.java -->
-        <!-- Note: As of DSpace 6.0, org.dspace.app.xmlui.aspect.artifactbrowser.SimpleSearch has been removed. -->
-        <!-- The following i18n keys will be left as is as they're referenced by the Discovery's SimpleSearch
-         but in future, they should be refactored to a more relevant key prefix -->
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.title">Haku</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.trail">Haku</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.head">Haku</message>
@@ -434,7 +448,7 @@
 	<!-- org.dspace.app.xmlui.eperson.CannotRegister.java -->
 	<message key="xmlui.EPerson.CannotRegister.title">Rekisteröityminen ei ole käytössä</message>
 	<message key="xmlui.EPerson.CannotRegister.head">Rekisteröityminen ei ole käytössä</message>
-	<message key="xmlui.EPerson.CannotRegister.para1">Rekisteröityminen ei ole käytössä tässä DSpace-julkaisuarkistossa. Jos sinulla on kysyttävää, ota yhteyttä sivuston <a href="../contact">ylläpitäjään</a>.</message>
+	<message key="xmlui.EPerson.CannotRegister.para1">Rekisteröityminen ei ole käytössä tässä DSpace-julkaisuarkistossa. Jos sinulla on kysyttävää, ota yhteyttä sivuston <a href="../contact">site administrator</a> with questions or comments.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.EditProfile.java -->
 	<message key="xmlui.EPerson.EditProfile.title_update">Päivitä tietoja</message>
@@ -632,13 +646,13 @@
 	<message key="xmlui.Submission.Submissions.title">Tallennus &amp; käsittely</message>
 	<message key="xmlui.Submission.Submissions.trail">Tallennukset</message>
 	<message key="xmlui.Submission.Submissions.head">Tallennukset &amp; käsittely</message>
-	<message key="xmlui.Submission.Submissions.untitled"><i>Nimetön</i></message>
+	<message key="xmlui.Submission.Submissions.untitled"><i>Untitled</i></message>
 	<message key="xmlui.Submission.Submissions.email">sähköposti: </message>
 	<!-- Same transformer, workflow section -->
 	<message key="xmlui.Submission.Submissions.workflow_head1">Tehtävät</message>
 	<message key="xmlui.Submission.Submissions.workflow_info1">Aineisto pitää hyväksyä ennenkuin se liitetään kokoelmiin. Toisessa listassa näkyy aineisto, jonka olet ottanut hyväksyttäviksi, toisessa listassa on aineisto, joita kukaan ei ole vielä ottanut käsiteltäviksi.</message>
 	<message key="xmlui.Submission.Submissions.workflow_head2">Omat tehtävät</message>
-	<message key="xmlui.Submission.Submissions.workflow_column1"></message>
+	<message key="xmlui.Submission.Submissions.workflow_column1"/>
 	<message key="xmlui.Submission.Submissions.workflow_column2">Tehtävä</message>
 	<message key="xmlui.Submission.Submissions.workflow_column3">Nimeke</message>
 	<message key="xmlui.Submission.Submissions.workflow_column4">Kokoelma</message>
@@ -657,7 +671,7 @@
 	<message key="xmlui.Submission.Submissions.submit_info2a">Nämä ovat keskeneräisiä tallennuksia. Voit myös </message>
 	<message key="xmlui.Submission.Submissions.submit_info2b">aloittaa uuden nimekkeen tallennukset</message>
 	<message key="xmlui.Submission.Submissions.submit_info2c">.</message>
-	<message key="xmlui.Submission.Submissions.submit_column1"></message>
+	<message key="xmlui.Submission.Submissions.submit_column1"/>
 	<message key="xmlui.Submission.Submissions.submit_column2">Nimeke</message>
 	<message key="xmlui.Submission.Submissions.submit_column3">Kokoelma</message>
 	<message key="xmlui.Submission.Submissions.submit_column4">Lähettäjä</message>
@@ -726,7 +740,7 @@
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.open_set"> (</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.close_set">)</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles">Useita nimekkeitä</message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_help">Aineistolla on useita nimekkeitä, <i>esim. eri kielisiä nimekkeitä</i></message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_help">Aineistolla on useita nimekkeitä, <i>e.g. a translated title</i></message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_note">Jos ylläolevaa valintaruutua ei ole valittu, niin seuraavia tietoja ei kysytä: </message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before">Julkaistu</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before_help">Aineisto on julkaistu aiemmin jossain muussa yhteydessä</message>
@@ -739,8 +753,8 @@
 	<message key="xmlui.Submission.submit.DescribeStep.head">Kuvaile aineisto</message>
 	<message key="xmlui.Submission.submit.DescribeStep.unknown_field">Virhe: tuntematon kenttätyyppi</message>
 	<message key="xmlui.Submission.submit.DescribeStep.required_field">Pakollinen kenttä</message>
-	<message key="xmlui.Submission.submit.DescribeStep.last_name_help">Sukunimi, <i>esim. Virtanen</i></message>
-	<message key="xmlui.Submission.submit.DescribeStep.first_name_help">Etunimet, <i>esim. Ville</i></message>
+	<message key="xmlui.Submission.submit.DescribeStep.last_name_help">Sukunimi, <i>e.g. Smith</i></message>
+	<message key="xmlui.Submission.submit.DescribeStep.first_name_help">Etunimet, <i>e.g. Donald Jr</i></message>
 	<message key="xmlui.Submission.submit.DescribeStep.year">Vuosi</message>
 	<message key="xmlui.Submission.submit.DescribeStep.month">Kuukausi</message>
 	<message key="xmlui.Submission.submit.DescribeStep.day">Päivä</message>
@@ -803,7 +817,7 @@
 	<message key="xmlui.Submission.submit.UploadStep.virus_error">Tiedostoa ei ole ladattu, koska se näyttää olevan viruksen saastuttama. Ota yhteyttä järjestelmänvalvojaan.</message>
     <message key="xmlui.Submission.submit.UploadStep.virus_checker_error">Tiedoston virustarkastuksessa tapahtui virhe. Ota yhteyttä järjestelmänvalvojaan.</message>
     <message key="xmlui.Submission.submit.UploadStep.description">Tiedoston kuvaus</message>
-	<message key="xmlui.Submission.submit.UploadStep.description_help">Lyhyt kuvaus tiedoston sisällöstä. Esim. <i>"Pääartikkeli"</i>, <i>"Tutkimusdata"</i>. Vapaaehtoinen tieto.</message>
+	<message key="xmlui.Submission.submit.UploadStep.description_help">Lyhyt kuvaus tiedoston sisällöstä. Esim. <i>Main article</i>", or "<i>Experiment data readings</i>".</message>
 	<message key="xmlui.Submission.submit.UploadStep.submit_upload">Lataa tiedosto &amp; lisää uusi tiedosto</message>
 	<message key="xmlui.Submission.submit.UploadStep.head2">Tiedostoja ladattu</message>
 	<message key="xmlui.Submission.submit.UploadStep.column0">Ensisijainen</message>
@@ -812,7 +826,7 @@
 	<message key="xmlui.Submission.submit.UploadStep.column3">Koko</message>
 	<message key="xmlui.Submission.submit.UploadStep.column4">Kuvaus</message>
 	<message key="xmlui.Submission.submit.UploadStep.column5">Tiedostomuoto</message>
-	<message key="xmlui.Submission.submit.UploadStep.column6"></message>
+	<message key="xmlui.Submission.submit.UploadStep.column6"/>
 	<message key="xmlui.Submission.submit.UploadStep.unknown_name">Tuntematon</message>
 	<message key="xmlui.Submission.submit.UploadStep.unknown_format">tuntematon tiedostomuoto</message>
 	<message key="xmlui.Submission.submit.UploadStep.supported">(Tuettu)</message>
@@ -832,7 +846,7 @@
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_error">Tiedostoa ei ole ladattu, koska se näyttää sisältävän viruksen. Ota yhteyttä järjestelmänvalvojaan.</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_checker_error">Tiedoston virustarkastuksessa tapahtui virhe. Ota yhteyttä järjestelmänvalvojaan.</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description">Tiedoston kuvaus</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">Lyhyt kuvaus tiedoston sisällöstä. Esim. <i>"Pääartikkeli"</i>, <i>"Tutkimusdata"</i>. Vapaaehtoinen tieto.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">Lyhyt kuvaus tiedoston sisällöstä. Esim. <i>Main article</i>", or "<i>Experiment data readings</i>".</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_upload">Lataa tiedosto &amp; lisää uusi tiedosto</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head2">Tiedostoja ladattu</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column0">Ensisijainen</message>
@@ -841,7 +855,7 @@
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column3">Koko</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column4">Kuvaus</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column5">Tiedostomuoto</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"></message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"/>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_name">Tuntematon</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_format">tuntematon tiedostomuoto</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.supported">(Tuettu)</message>
@@ -857,14 +871,14 @@
 	<message key="xmlui.Submission.submit.EditFileStep.head">Muokkaa tiedostoa</message>
 	<message key="xmlui.Submission.submit.EditFileStep.file">Tiedosto</message>
 	<message key="xmlui.Submission.submit.EditFileStep.description">Tiedoston kuvaus</message>
-	<message key="xmlui.Submission.submit.EditFileStep.description_help">Lyhyt kuvaus tiedoston sisällöstä. Esim. <i>"Pääartikkeli"</i>, <i>"Tutkimusdata"</i>. Vapaaehtoinen tieto.</message>
-	<message key="xmlui.Submission.submit.EditFileStep.info1">Valitse tiedostomuoto allaolevasta luettelosta. Esim. "<i>Adobe PDF</i>" tai "<i>Microsoft Word</i>." <strong>Jos tiedostomuotoa ei ole luettelossa</strong>, kuvaile se luettelon allaolevaan kenttään.</message>
+	<message key="xmlui.Submission.submit.EditFileStep.description_help">Lyhyt kuvaus tiedoston sisällöstä. Esim. <i>Main article</i>", or "<i>Experiment data readings</i>".</message>
+	<message key="xmlui.Submission.submit.EditFileStep.info1">Valitse tiedostomuoto allaolevasta luettelosta. Esim. "<i>Adobe PDF</i>" or "<i>Microsoft Word</i>." <strong>If the format is not in the list</strong>, please describe it in the input box below the list.</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_detected">Tunnistettu tiedostomuoto</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_selected">Valittu tiedostomuoto</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_default">Muu tiedostomuoto</message>
-	<message key="xmlui.Submission.submit.EditFileStep.info2">Jos tiedostomuoto ei ole ylläolevassa luettelossa, <strong>valitse "Muu tiedostomuoto"</strong> ja kuvaile tiedostomuoto allaolevaan kenttään.</message>
+	<message key="xmlui.Submission.submit.EditFileStep.info2">Jos tiedostomuoto ei ole ylläolevassa luettelossa, <strong>select "format not in list" above</strong> and describe the file's format in the box below.</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_user">Muu tiedostomuoto</message>
-	<message key="xmlui.Submission.submit.EditFileStep.format_user_help">Sovellus, jota on käytetty tiedoston luomiseen ja sovelluksen versionumero (esimerkiksi, "<i>ACMESoft SuperApp, versio 1.5</i>").</message>
+	<message key="xmlui.Submission.submit.EditFileStep.format_user_help">Sovellus, jota on käytetty tiedoston luomiseen ja sovelluksen versionumero (esimerkiksi, "<i>ACMESoft SuperApp version 1.5</i>").</message>
 
     <!-- org.dspace.app.xmlui.Submission.submit.EditBitstreamPolicies -->
     <message key="xmlui.Submission.submit.EditBitstreamPolicies.head">Tiedostoon pääsy</message>
@@ -889,7 +903,7 @@
 	<!-- org.dspace.app.xmlui.Submission.submit.CCLicenseStep -->
         <message key="xmlui.Submission.submit.CCLicenseStep.ccws_error">Tapahtui virhe ... {0}</message>
         <message key="xmlui.Submission.submit.CCLicenseStep.head">Lisensioi aineisto</message>
-        <message key="xmlui.Submission.submit.CCLicenseStep.info1">Voit halutessasi liittää aineistoon <a href="http://creativecommons.org/">Creative Commons</a>-lisenssin. <strong>Creative Commons-lisenssi määrittää miten aineistoa voi jatkokäyttää.</strong></message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.info1">Voit halutessasi liittää aineistoon <a href="http://creativecommons.org/">Creative Commons</a> License to your item. <strong>Creative Commons licenses govern what people who read your work may then do with it.</strong></message>
         <message key="xmlui.Submission.submit.CCLicenseStep.submit_choose_creative_commons">Valitse lisenssi</message>
         <message key="xmlui.Submission.submit.CCLicenseStep.submit_to_creative_commons">Siirry Creative Commons-sivustolle valitsemaan lisenssi</message>
         <message key="xmlui.Submission.submit.CCLicenseStep.license">Lisenssin tyyppi</message>
@@ -899,7 +913,7 @@
 
 	<!-- org.dspace.app.xmlui.Submission.submit.LicenseStep -->
 	<message key="xmlui.Submission.submit.LicenseStep.head">Julkaisulisenssi</message>
-	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>Viimeinen askel:</strong> jotta aineisto voidaan tallentaa, sinun täytyy hyväksyä seuraavat ehdot.</message>
+	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>There is one last step:</strong> In order for DSpace to reproduce, translate and distribute your submission worldwide, you must agree to the following terms.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info2">Hyväksy julkaisulisenssi valitsemalla 'Hyväksyn lisenssin'; ja valitse sitten 'Valmis'.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info3">Jos sinulla on kysyttävää julkaisulisenssistä, ota yhteyttä ylläpitäjiin.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_label">Julkaisulisenssi</message>
@@ -927,7 +941,7 @@
 	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_submit">Hyväksy</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_help">Kun olet muokannut aineistoa, lisää se julkaisuarkistoon tästä.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_submit">Lisää arkistoon</message>
-	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">Kun olet tarkastanut aineiston, mutta sitä <strong>ei</strong> voi lisätä kokoelmiin, valitse "Hylkää". Tämän jälkeen voit kirjoittaa alkuperäiselle syöttäjälle viestin, jossa kerrotaan hylkäämisen syy ja mahdolliset korjauspyynnöt.</message>
+	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">Kun olet tarkastanut aineiston, mutta sitä <strong>not</strong> suitable for inclusion in the collection, select "Reject".  You will then be asked to enter a message indicating why the item is unsuitable, and whether the submitter should change something and resubmit.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_submit">Hylkää</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.edit_help">Muokkaa aineiston metadataa.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.edit_submit">Muokkaa metadataa</message>
@@ -1000,7 +1014,6 @@
         <message key="xmlui.administrative.Navigation.context_export_collection">Vie kokoelma</message>
         <message key="xmlui.administrative.Navigation.context_export_community">Vie yhteisö</message>
         <message key="xmlui.administrative.Navigation.context_export_metadata">Vie metadataa</message>
-        <message key="xmlui.administrative.Navigation.context_search_export_metadata">Vie hakumetadataa</message>
 
 	<!-- Site administrator options -->
 	<message key="xmlui.administrative.Navigation.administrative_head">Hallinnointi</message>
@@ -1018,8 +1031,8 @@
     <message key="xmlui.administrative.Navigation.administrative_control_panel">Hallintanäkymä</message>
     <message key="xmlui.administrative.Navigation.statistics">Tilastot</message>
     <message key="xmlui.administrative.Navigation.administrative_batch_import">Tuo useita aineistoja (ZIP)</message>
-    <message key="xmlui.administrative.Navigation.administrative_import_metadata">Tuo metadataa</message>
-    <message key="xmlui.administrative.Navigation.administrative_curation">Kuratointitehtävät</message>
+        <message key="xmlui.administrative.Navigation.administrative_import_metadata">Tuo metadataa</message>
+        <message key="xmlui.administrative.Navigation.administrative_curation">Kuratointitehtävät</message>
 
     <!-- my account items -->
 	<message key="xmlui.administrative.Navigation.account_export">Omat viennit</message>
@@ -1052,7 +1065,7 @@
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_help">Käyttäjiä haetaan nimien tai sähköpostiosoitteiden perusteella</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_para1">Lista löydetyistä käyttäjistä. Jos haluat poistaa käyttäjän, valitse 'Poista käyttäjä'. Jos haluat muokata käyttäjää, valitse käyttäjän nimi tai sähköpostiosoite.</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_head">Hakutulokset</message>
-	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"></message>
+	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"/>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column2">Id</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column3">Nimi</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column4">Sähköposti</message>
@@ -1127,7 +1140,7 @@
 	<message key="xmlui.administrative.group.ManageGroupsMain.actions_search">Hae ryhmiä</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_help">Ryhmiä haetaan niiden nimien perusteella</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_head">Hakutulokset</message>
-	<message key="xmlui.administrative.group.ManageGroupsMain.search_column1"></message>
+	<message key="xmlui.administrative.group.ManageGroupsMain.search_column1"/>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column2">Id</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column3">Nimi</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column4">Jäsenet</message>
@@ -1159,18 +1172,18 @@
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column1">Id</message>
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column2">Nimi</message>
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column3">Sähköpostiosoite</message>
-	<message key="xmlui.administrative.group.EditGroupForm.epeople_column4"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.epeople_column4"/>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column1">Id</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column2">Nimi</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column3">Jäsenet</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column4">Kokoelma</message>
-	<message key="xmlui.administrative.group.EditGroupForm.groups_column5"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.groups_column5"/>
 	<message key="xmlui.administrative.group.ManageGroupsMain.groups_collection_link">katso</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_head">Jäsenet</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column1">Id</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column2">Nimi</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column3">Sähköpostiosoite</message>
-	<message key="xmlui.administrative.group.EditGroupForm.members_column4"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.members_column4"/>
 	<message key="xmlui.administrative.group.EditGroupForm.members_group_name">ryhmä: {0}</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_none">Ryhmässä ei ole jäseniä.</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_pending">[odottaa vahvistusta]</message>
@@ -1204,7 +1217,7 @@
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.title">Poista kenttiä</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.trail">Poista kenttiä</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.head">Vahvista poisto</message>
-	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para1">Oletko <b>täysin</b> varma, että haluat poistaa nämä kentät? Jos kyseiset kentät ovat käytössä yhdenkään aineiston metadatassa, ei kenttiä voi poistaa. Sinun täytyy itse varmistaa, että kentät eivät ole käytössä missään aineistossa.</message>
+	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para1">Oletko <b>absolutely</b> sure you want to delete these fields? If any items contain metadata for these fields, the field(s) cannot be deleted. You must ensure that no items use these fields.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.warning">VAROITUS: </message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para2">Poisto aiheuttaa virheen, jos jonkin aineiston metadata käyttää kyseisiä kenttiä.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.column1">Id</message>
@@ -1215,7 +1228,7 @@
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.title">Poista skeema</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.trail">Poista skeema</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.head">Vahvista poisto</message>
-	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">Oletko <b>täysin</b> varma, että haluat poistaa tämän skeeman? Jos kyseinen skeema sisältää metadatakenttiä, jotka ovat käytössä yhdenkin aineiston metadatassa, ei skeemaa vo poistaa. Sinun täytyy itse varmistaa, että skeeman metadatakentät eivät ole käytössä missään aineistossa.</message>
+	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">Oletko <b>absolutely</b> sure you want to delete this schema? If any items contain metadata for fields contained within this schema, the schema cannot be deleted. You must ensure that no items contain metadata in this schema.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.warning">VAROITUS: </message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para2">Poisto aiheuttaa virheen, jos jonkin aineiston metadata käyttää kyseisen skeeman metadatakenttiä.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column1">Id</message>
@@ -1250,7 +1263,7 @@
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head1">Metadataskeema: "{0}"</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.para1">Tämä on metadataskeema "{0}". Voit lisätä uusia tai päivittää olemassaolevia metadatakenttiä. Voit myös poistaa kenttiä tai siirtää niitä toiseen skeemaan. </message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head2">Skeeman metadatakentät</message>
-	<message key="xmlui.administrative.registries.EditMetadataSchema.column1"></message>
+	<message key="xmlui.administrative.registries.EditMetadataSchema.column1"/>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column2">Id</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column3">Kenttä</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column4">Lisätietoja (TODO: Scope?)</message>
@@ -1277,12 +1290,12 @@
 	<message key="xmlui.administrative.registries.FormatRegistryMain.head">Tiedostomuotorekisteri</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.para1">Tässä tiedostomuotorekisterissä on luettelo tiedostomuodoista ja niille tukitasoista. Voit lisätä tai muokata tiedostomuotoja tällä työkalulla. Sisäiseen käyttöön merkityt tiedostomuodot eivät näy käyttäjille, mutta niitä voidaan käyttää ylläpidon apuna.</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.new_link">Lisää uusi tiedostomuoto</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"></message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column2">Id</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column3">Nimi</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column4">MIME-tyyppi</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column5">Tukitaso</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.internal">(<i>sisäiseen käyttöön</i>)</message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.internal">(<i>internal</i>)</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.support_0">Tuntematon</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.support_1">Tunnettu</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.support_2">Tuettu</message>
@@ -1292,7 +1305,7 @@
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.title">Metadatarekisteri</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.head1">Metadatarekisteri</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.para1">Metadatarekisterissä on luettelo tässä julkaisuarkistossa käytössä olevista metadatakentistä. Kentät saattavat olla jaettuna eri skeemoihin. DSpace edellyttää hyväksytyn Dublin Core-skeeman käyttöä. Voit laajentaa Dublin Core-skeemaa lisäämällä yksittäisiä metadatakenttiä tai skeemoja rekisteriin.</message>
-	<message key="xmlui.administrative.registries.MetadataRegistryMain.column1"></message>
+	<message key="xmlui.administrative.registries.MetadataRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column2">Id</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column3">Nimiavaruus</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column4">Nimi</message>
@@ -1380,7 +1393,7 @@
 	<message key="xmlui.administrative.authorization.EditPolicyForm.main_head_edit">Muokkaa käyttöoikeutta {0} {1}:lle {2}</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_group">Ryhmää ei valittu</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_action">Toimintoa ei valittu</message>
-	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column4"></message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column4"/>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column1">Id</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column2">Nimi</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column3">Toiminnot</message>
@@ -1496,7 +1509,7 @@
 	<message key="xmlui.administrative.item.AddBitstreamForm.file_label">Tiedosto</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.file_help">Anna tiedostonimi. Jos valitset "Selaa", niin voit valita ladattavan tiedoston omalta tietokoneeltasi.</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.description_label">Kuvaus</message>
-	<message key="xmlui.administrative.item.AddBitstreamForm.description_help">Voit halutessasi antaa lyhyen kuvauksen tiedostosta, esimerkiksi <i>Pääartikkeli</i>, tai <i>Tutkimusdata</i></message>
+	<message key="xmlui.administrative.item.AddBitstreamForm.description_help">Voit halutessasi antaa lyhyen kuvauksen tiedostosta, esimerkiksi <i>Main article</i>", or "<i>Experiment data readings</i>".</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.submit_upload">Lataa</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.no_bundles">Tarvitset LISÄÄ ja KIRJOITA -käyttöoikeudet vähintään yhteen nippuun, jotta voit ladata uusia tiedostoja.</message>
 
@@ -1544,13 +1557,13 @@
 	<message key="xmlui.administrative.item.EditBitstreamForm.primary_option_yes">kyllä</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.primary_option_no">ei</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.description_label">Kuvaus</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.description_help">Voit halutessasi antaa lyhyen kuvauksen tiedostosta, esimerkiksi <i>Pääartikkeli</i>, tai <i>Tutkimusdata</i></message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.para1">Valitse tiedostomuoto allaolevasta luettelosta, esimerkiksi "<i>Adobe PDF</i>" tai "<i>Microsoft Word</i>", <b>TAI</b> jos tiedostomuotoa ei ole luettelossa, kuvaile se allaolevaan kenttään.</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.description_help">Voit halutessasi antaa lyhyen kuvauksen tiedostosta, esimerkiksi <i>Main article</i>", or "<i>Experiment data readings</i>"."</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.para1">Valitse tiedostomuoto allaolevasta luettelosta, esimerkiksi "<i>Adobe PDF</i>" or "<i>Microsoft Word</i>", <b>OR</b> if the format is not in the list, please describe it in the box below.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.format_label">Valittu tiedostomuoto</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.format_default">Tiedostomuoto ei ole luettelossa</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.para2">Jos tiedostomuoto ei ole ylläolevassa luettelossa, <strong>valitse "Tiedostomuoto ei ole luettelossa"</strong> ja kuvaile se allaolevaan kenttään.</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.para2">Jos tiedostomuoto ei ole ylläolevassa luettelossa, <strong>select "format not in list" above</strong> and describe it in the field below.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_label">Muu tiedostomuoto</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">Sovellus, jota tiedoston luomisessa on käytetty ja sovelluksen versionumero (esimerkiksi, "<i>ACMESoft SuperApp versio 1.5</i>").</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">Sovellus, jota tiedoston luomisessa on käytetty ja sovelluksen versionumero (esimerkiksi, "<i>ACMESoft SuperApp version 1.5</i>").</message>
     <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Tiedoston nimi</message>
     <message key="xmlui.administrative.item.EditBitstreamForm.name_help">Muuta tiedoston nimeä. Huomaa, että tämä muuttaa myös tiedostoon viittaavia URLeja, mutta myös vanhat URLit toimivat, jos tiedoston Id-numero ei muutu.</message>
 
@@ -1558,14 +1571,14 @@
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.title">Aineistoon kuuluvat tiedostot</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.trail">Aineistoon kuuluvat tiedostot</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.head1">Tiedostot</message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column1"></message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column1"/>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column2">Nimi</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column3">Kuvaus</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column4">Tiedostomuoto</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column5">Katso</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column6">Järjestys</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column7"> </message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.bundle_label"><strong>Nippu: {0}</strong></message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.bundle_label"><strong>Bundle: {0}</strong></message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.primary_label"> (ensisijainen) </message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.view_link">katso</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_add">Lataa uusi tiedosto</message>
@@ -1692,7 +1705,7 @@
 	<message key="xmlui.administrative.mapper.MapperMain.para1">Kokoelma: "<strong>{0}</strong>"</message>
 	<message key="xmlui.administrative.mapper.MapperMain.para2">Tällä työkalulla kokoelmien ylläpitäjät pystyvät liittämään aineistoja toisista kokoelmista tähän kokoelmaan. Voit etsiä aineistoja toisista kokoelmista ja liittää ne tähän kokoelmaan tai selata luetteloa tähän kokoelmaan liitetyistä aineistoista.</message>
 	<message key="xmlui.administrative.mapper.MapperMain.stat_label">Tilastot</message>
-	<message key="xmlui.administrative.mapper.MapperMain.stat_info"><strong>{0}/{1}</strong> aineistoa tässä kokoelmassa on liitetty tänne toisista kokoelmista</message>
+	<message key="xmlui.administrative.mapper.MapperMain.stat_info"><strong>{0} of {1}</strong> items in this collection are mapped in from other collections</message>
 	<message key="xmlui.administrative.mapper.MapperMain.search_label">Hae</message>
 	<message key="xmlui.administrative.mapper.MapperMain.submit_search">Hae aineistoja</message>
 	<message key="xmlui.administrative.mapper.MapperMain.submit_browse">Selaa liitettyjä aineistoja</message>
@@ -1703,7 +1716,7 @@
 	<message key="xmlui.administrative.mapper.SearchItemForm.trail">Hae aineistoja</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.head1">Hae aineistoja ehdolla: "{0}"</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.submit_map">Liitä valitut aineistot</message>
-	<message key="xmlui.administrative.mapper.SearchItemForm.column1"></message>
+	<message key="xmlui.administrative.mapper.SearchItemForm.column1"/>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column2">Kokoelma</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column3">Tekijä</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column4">Nimeke</message>
@@ -1713,7 +1726,7 @@
 	<message key="xmlui.administrative.mapper.BrowseItemForm.trail">Selaa liitettyjä aineistoja</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.head1">Selaa liitettyjä aineistoja</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.submit_unmap">Poista valittujen aineistojen liitokset</message>
-	<message key="xmlui.administrative.mapper.BrowseItemForm.column1"></message>
+	<message key="xmlui.administrative.mapper.BrowseItemForm.column1"/>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column2">Kokoelma</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column3">Tekijä</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column4">Nimeke</message>
@@ -1752,9 +1765,9 @@
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step3">Vaihe: Muokkaa metadataa</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_submitters">Syöttäjät</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_default_read">Oletuslukuoikeudet</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.sysadmins_only"><nobr>(vain ylläpitäjät)</nobr></message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.repository_role"><br/>(koko arkiston tason ryhmä, vain ylläpitäjät)</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>(et voi muuttaa tätä)</nobr></message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.sysadmins_only"><nobr>(system administrators only)</nobr></message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.repository_role"><br/>(Repository level group, system administrators only)</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>(you are not allowed to configure this)</nobr></message>
 
         <!-- org.dspace.app.xmlui.administrative.collection.CurateCollectionForm.java -->
         <message key="xmlui.administrative.collection.CurateCollectionForm.main_head">Kuratoi kokoelmaa: {0}</message>
@@ -1797,7 +1810,7 @@
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.submit_delete_logo">Poista logo</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.submit_delete">Poista kokoelma</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.submit_save">Tallenna muutokset</message>
-	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.sysadmins_only"><nobr>(vain järjestelmänvalvojat)</nobr></message>
+	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.sysadmins_only"><nobr>(system administrators only)</nobr></message>
 
 	<!-- org.dspace.app.xmlui.administrative.collection.CreateCollectionForm.java -->
 	<message key="xmlui.administrative.collection.CreateCollectionForm.title">Luo kokoelma</message>
@@ -1854,7 +1867,6 @@
 	<message key="xmlui.administrative.ControlPanel.option_harvest">Kerääminen</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_scheduler_head">Keräämisen aikataulumääritykset</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_label_status">Tila</message>
-        <message key="xmlui.administrative.ControlPanel.harvest_status_refresh">(päivitä)</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_label_actions">Toiminnot</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_submit_start">Aloita kerääminen</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_submit_reset">Palauta keräämistila alkuasetuksiin</message>
@@ -1892,7 +1904,7 @@
 	<message key="xmlui.administrative.community.AssignCommunityRoles.role_group">Rooliin liittyvä ryhmä</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.role_buttons">  </message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.label_admins">Ylläpitäjät</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.sysadmins_only"><nobr>(vain järjestelmänvalvojat)</nobr></message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.sysadmins_only"><nobr>(system administrators only)</nobr></message>
 
         <!-- org.dspace.app.xmlui.administrative.community.CurateCommunityForm.java -->
         <message key="xmlui.administrative.community.CurateCommunityForm.main_head">Kuratoi yhteisöä: {0}</message>
@@ -1986,7 +1998,7 @@
 	<message key="xmlui.administrative.ControlPanel.mail_feedback_recipient">Palautteen saaja</message>
 	<message key="xmlui.administrative.ControlPanel.mail_admin">Sivuston ylläpidon sähköpostiosoite</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_head">Järjestelmän hälytykset</message>
-	<message key="xmlui.administrative.ControlPanel.alerts_warning"><strong>Huomio! Kuormantasatuissa järjestelmissä</strong>: Hälytykset ovat voimassa vain siinä palvelinsolmussa, jossa ne on asetettu päälle. Hälytykset pitää aktivoida jokaisessa palvelinsolmussa erikseen.</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_warning"><strong>Warning for load balanced systems</strong>: System-wide alerts are only effective for the node on which it is activated. You need to ensure that each node in the set receives the activate alert command.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_message_label">Hälytysviesti</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_message_default">Järjestelmä sulkeutuu huoltotoimenpiteitä varten. Tallenna työsi ja kirjaudu ulos.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_label">Laskuri</message>
@@ -2000,7 +2012,7 @@
 	<message key="xmlui.administrative.ControlPanel.alerts_session_all_sessions">Salli edelleen kirjautuneet istunnot</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_session_current_sessions">Estä kirjautuminen, mutta nykyiset istunnot</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_session_only_administrative_sessions">Estä kirjautuminen ja lopeta nykyiset istunnot</message>
-	<message key="xmlui.administrative.ControlPanel.alerts_session_note"><strong>Huom:</strong> Istuntojen hallinta ei vaikuta järjestelmänvalvojan istuntoihin.</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_session_note"><strong>Note:</strong> Site administrators are exempt from session management.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_activate">Aktivoi</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_deactivate">Deaktivoi</message>
 	<message key="xmlui.administrative.ControlPanel.activity_head">Sivuston käyttö (korkeintaan {0} sivua)</message>
@@ -2015,23 +2027,11 @@
 	<message key="xmlui.administrative.ControlPanel.activity_sort_Agent">Selain (User-Agent)</message>
 	<message key="xmlui.administrative.ControlPanel.activity_anonymous">Nimetön {0}</message>
 	<message key="xmlui.administrative.ControlPanel.activity_none">Sivunäyttöjä ei ole tallennettu.</message>
-        <message key="xmlui.administrative.ControlPanel.detail">Yksityiskohdat</message>
-	<message key="xmlui.administrative.ControlPanel.show_hide">piilota/näytä</message>
-	<message key="xmlui.administrative.ControlPanel.host">Palvelin: {0}</message>
-	<message key="xmlui.administrative.ControlPanel.puser">Pääasiallinen käyttäjä: {0}</message>
-	<message key="xmlui.administrative.ControlPanel.headers">Otsakkeet (headers): {0}</message>
-	<message key="xmlui.administrative.ControlPanel.cookies">Evästeet (cookies): {0}</message>
 
 	<message key="xmlui.administrative.ControlPanel.select_panel">Valitse välilehdiltä haluttu tieto</message>
 
-	<message key="xmlui.administrative.ControlPanel.tabs.Java Information">Tietoa Javasta</message>
-	<message key="xmlui.administrative.ControlPanel.tabs.Configuration">Asetukset</message>
-	<message key="xmlui.administrative.ControlPanel.tabs.SystemWide Alerts">Järjestelmän hälytykset</message>
-	<message key="xmlui.administrative.ControlPanel.tabs.Harvesting">Kerääminen</message>
-	<message key="xmlui.administrative.ControlPanel.tabs.Current Activity">Nykyinen käyttö</message>
-
 	<!-- org.dspace.app.xmlui.administrative.SystemwideAlerts -->
-	<message key="xmlui.administrative.SystemwideAlerts.countdown"><strong>{0} minuutin päästä</strong>: </message>
+	<message key="xmlui.administrative.SystemwideAlerts.countdown"><strong>In {0} minutes</strong>: </message>
 
 	<!-- org.dspace.app.xmlui.administrative.NotAuthorized -->
 	<message key="xmlui.administrative.NotAuthorized.title">Ei pääsyä</message>
@@ -2152,13 +2152,13 @@
 	<!-- structural.xsl -->
 	<message key="xmlui.dri2xhtml.structural.footer-promotional">
 		<a href="http://di.tamu.edu" id="ds-logo-link">
-			<span id="ds-footer-logo">&#160;</span>
+			<span id="ds-footer-logo"> </span>
 		</a>
 		<p>
-			Tämä sivusto käyttää Manakinia, uutta DSpace-käyttöliittymää, jonka ovat tehneet Texas A&amp;M yliopiston
-			kirjastot. Käyttöliittymää voi muokata Manakinin näkymien XSL-teemojen avulla. 
-			Lisätietoja
-			<a href="http://di.tamu.edu">http://di.tamu.edu</a> ja
+			This website is using Manakin, a new front end for DSpace created by Texas A&amp;M University
+			Libraries. The interface can be extensively modified through Manakin Aspects and XSL based Themes.
+			For more information visit
+			<a href="http://di.tamu.edu">http://di.tamu.edu</a> and
 			<a href="http://dspace.org">http://dspace.org</a>
 		</p>
 	</message>
@@ -2213,7 +2213,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-format">Tiedostomuoto</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Katso</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-description">Kuvaus</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Katso/<wbr/>Avaa</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Katso/<wbr/>Open</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">Aineistoon ei liity tiedostoja.</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.size-bytes">tavua</message>
@@ -2362,7 +2362,7 @@
   <!-- params are: start, end, total-count, search-value -->
   <message key="xmlui.ChoiceLookupTransformer.results">Tulokset @1@ - @2@ / @3@ haulle "@4@"</message>
   <message key="xmlui.ChoiceLookupTransformer.fail">Valintojen lataaminen epäonnistui: </message>
-  <message key="xmlui.ChoiceLookupTransformer.lookup">Haku</message>
+  <message key="xmlui.ChoiceLookupTransformer.lookup">Hae</message>
 
   <!-- Choice Lookup - sample config for dc.publisher field -->
   <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.help">Julkaisijan nimi</message>
@@ -2450,7 +2450,7 @@
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_head">Huomautus</message>
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">Uudempi versio aineistosta on työnkulussa.</message>
 
-    <message key="xmlui.aspect.sherpa.submission.consult">Tarkasta julkaisijan tai julkaisun tekijänoikeus- ja rinnakkaistallennuspolitiikka <a href="http://www.sherpa.ac.uk/">SHERPA/RoMEO</a>sta.</message>
+    <message key="xmlui.aspect.sherpa.submission.consult">Tarkasta julkaisijan tai julkaisun tekijänoikeus- ja rinnakkaistallennuspolitiikka <a href="http://www.sherpa.ac.uk/">SHERPA/RoMEO</a>.</message>
     <message key="xmlui.aspect.sherpa.submission.title">Julkaisijan tiedot</message>
     <message key="xmlui.aspect.sherpa.submission.journal">Lehti: </message>
     <message key="xmlui.aspect.sherpa.submission.publisher">Julkaisijan tiedot: </message>
@@ -2491,288 +2491,4 @@
     <message key="xmlui.mirage2.choice-authority-control.loading">Lataa...</message>
 
     <message key="xmlui.mirage2.item-list.thumbnail">Pikkukuva</message>
-
-    <!-- org.dspace.app.xmlui.Submission.submit.StartSubmissionLookupStep -->
-    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.submit_lookup">Hae</message>
-    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.title">Julkaisuhaku</message>
-    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.lookup_help">Täytä julkaisun ID, DOI, nimeke tai tekijä ja paina 'Hae'. Saat luettelon hakuehdot täyttävistä julkaisuista ja voit jatkaa tallennusta.</message>
-    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.submit_publication_item">Haettu julkaisuhistoria</message>
-    <message key="xmlui.Submission.submit.progressbar.lookup">Hae</message>
-    <message key="xmlui.ChoiceLookupTransformer.lookup">Hae</message>
-
-    <!--
-	*** KEYS NOT ORIGINALLY IN THE messages.xml FILE ***
-	*** see ORIGINAL FILE for origin                 ***
-    -->
-	
-    <!-- *** ORIGINAL FILE DSpace/dspace-xmlui/src/main/resources/aspects/Discovery/i18n/messages.xml  -->
-
-    <!-- org.dspace.app.xmlui.artifactbrowser.AbstractSearch.java -->
-
-    <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
-    <!-- Note: As of DSpace 6.0, org.dspace.app.xmlui.aspect.artifactbrowser.AdvancedSearch has been removed.
-         The following i18n keys will be left as is as they're referenced by the Discovery SidebarFacetsTransformer
-         but in future, they should be refactored to a more relevant key prefix -->
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.contributor.author_filter">Tekijä</message>
-
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">Asiasana</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">Sisällön tyyppi</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">Julkaisupäivä</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">Julkaisupäivä</message>
-    
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_has_content_in_original_bundle">Sisältää tiedosot</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.value_has_content_in_original_bundle_true">Kyllä</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.value_has_content_in_original_bundle_false">Ei</message>
-
-
-    <!-- Site Level Recently Added Content -->
-    <message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">Viimeksi lisätty</message>
-
-    <message key="xmlui.ArtifactBrowser.AbstractRecentSubmissionTransformer.recent_submissions_more">Näytä lisää</message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.head">{0}: viimeistä lisäystä</message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.trail">Viimeiset lisäykset</message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.recent.head">Viimeksi lisätty</message>
-
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type_filter">Tyyppi</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_publisher_filter">Julkaisija</message>
-
-
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.ispartof">Kuuluu</message>
-
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by">Tulosten järjestäminen</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.none">Ei järjestetty</message>
-
-
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.publication_grp">Julkaisu</message>
-
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.comm">Yhteisö</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.coll">Kokoelma</message>
-
-
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.relation.ispartofseries_filter">Sarja</message>
-
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.contributor.author_browse">Selaus tekijän mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.title_browse">Selaus nimekkeen mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.subject_browse">Selaus asiasanan mukaan</message>
-        
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">Selaus yhteenvedon mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">Selaus sarjan mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">Selaus rahoittajan mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">Selaus tunnisteen mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">Selaus ISO-kielikoodin mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">Selaus avainsanan mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">Selaus tieteellisen nimen mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_contributor_browse">Selaus myötävaikuttajan mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_creator_browse">Selaus tekijän mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_subject_browse">Selaus asiasanan mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_description_browse">Selaus kuvauksen mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_relation_browse">Selaus suhteen mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_mime_browse">Selaus Mime-tyypin mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_other_browse">Selaus muun myötävaikuttajan mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_advisor_browse">Selaus ohjaajan mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">Selaus laitoksen mukaan</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">Selaus julkaisupäivän mukaan</message>
-
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">Nimeke</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">JulkaisupäiväDate issued</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.has_content_in_original_bundle">Sisältää tiedostot</message>
-
-
-    <message key="xmlui.dri2xhtml.structural.pagination-info.nototal">Näytetään aineistot {0}-{1}</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.type_author">Suodata tekijän mukaan</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Tekijä</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author_filter">Tekijä</message>
-    <message key="xmlui.Discovery.AbstractSearch.type_subject">Suodata asiasanan mukaan</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Asiasana</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject_filter">Asiasana</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued.year">Julkaisupäivä</message>
-
-
-    <message key="xmlui.Discovery.AbstractSearch.startswith">Alkaa kirjaimilla</message>
-    <message key="xmlui.Discovery.AbstractSearch.startswith.help">Syötä muutama kirjain alusta:</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.head">Lajitteluvaihtoehdot:</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.relevance">Merkittävyys</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_desc">Nimeke (laskeva)</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_desc">Julkaisupäivä (laskeva)</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_asc">Nimeke (nouseva)</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_asc">Julkaisupäivä (nouseva)</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.rpp">Tuloksia per sivu:</message>
-
-
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.add-filter">Lisää suodatin</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.apply-filters">Ota käyttöön</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.remove-filter">Poista</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.new-filters.head">Uudet suodattimet:</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.current-filters.head">Nykyiset suodattimet:</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.display">Lisää suodatin</message>
-
-    <message key="xmlui.discovery.SearchFacetFilter.no-results">Arvoja ei löytynyt</message>
-
-    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.head">Löydä</message>
-    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.view-more">... Näytä lisää</message>
-
-
-    <message key="xmlui.Discovery.SimpleSearch.search_scope">Haku</message>
-    <message key="xmlui.discovery.SimpleSearch.search_label">Haku</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter_head">Suodattimet</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter_help">Käytä suodattimia tulosten karsintaan.</message>
-
-    <message key="xmlui.Discovery.SimpleSearch.filter.contains">sisältää</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.equals">on</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.authority">ID</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.notcontains">ei sisällä</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.notequals">ei ole</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.notauthority">ei-ID</message>
-    
-    <message key="xmlui.Discovery.RelatedItems.head">Samankaltainen aineisto</message>
-    <message key="xmlui.Discovery.RelatedItems.help">Näytetään aineistoa, joilla on samankaltaisia nimekkeitä, tekijöitä tai asiasanoija.</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.head1_community">Näytetään {0}/{1} tulosta yhteisöstä: {2}. <span class="searchTime">({3} sekuntia)</span></message>
-    <message key="xmlui.Discovery.AbstractSearch.head1_collection">Näytetään {0}/{1} tulosta kokoelmasta: {2}. <span class="searchTime">({3} sekuntia)</span></message>
-    <message key="xmlui.Discovery.AbstractSearch.head1_none">Näytetään {0}/{1} tulosta. <span class="searchTime">({2} sekuntia)</span></message>
-
-    <message key="xmlui.Discovery.AbstractSearch.head2">Yhteisöt ja kokoelmat, jotka täyttävät hakuehtosi</message>
-    <message key="xmlui.Discovery.AbstractSearch.head3">Aineistot, jotka täyttävät hakuehtosi</message>
-	
-    <message key="xmlui.Discovery.SimpleSearch.did_you_mean">Tarkoititko: </message>
-
-    <!-- *** ORIGINAL FILE DSpace/dspace-xmlui/src/main/resources/aspects/SwordClient/i18n/messages.xml -->
-	 
-    <!--   Sword Client  -->
-    <message key="xmlui.swordclient.Navigation.context_head">(Sword) Kopioi</message>
-    <message key="xmlui.swordclient.Navigation.context_copy">Kopioi aineisto toiseen julkaisuarkistoon</message>
-    <message key="xmlui.swordclient.general.SwordCopy_trail">(Sword) Kopioi</message>
-    <message key="xmlui.swordclient.general.main_head">Kopio aineisto: {0}</message>
-
-
-    <message key="xmlui.swordclient.SelectTarget.title">(Sword) Kohde</message>
-    <message key="xmlui.swordclient.SelectTarget.trail">Valitse kohde</message>
-    <message key="xmlui.swordclient.SelectTarget.url">URL</message>
-    <message key="xmlui.swordclient.SelectTarget.other_url">Vaihtoehtoinen URL</message>
-    <message key="xmlui.swordclient.SelectTarget.username">Käyttäjätunnus</message>
-    <message key="xmlui.swordclient.SelectTarget.password">Salasana</message>
-    <message key="xmlui.swordclient.SelectTarget.on_behalf_of">Toimeksiantaja</message>
-
-    <message key="xmlui.swordclient.SelectTargetAction.url_error">Väärä URL</message>
-    <message key="xmlui.swordclient.SelectTargetAction.username_error">Väärä käyttäjätunnus</message>
-    <message key="xmlui.swordclient.SelectTargetAction.password_error">Väärä salasana</message>
-    <message key="xmlui.swordclient.SelectTargetAction.serviceDoc_error">Palveludokumentin (Sword Service Document) haku epäonnistui: {0}</message>
-
-    <message key="xmlui.swordclient.SelectCollection.title">(Sword) Kohdekokoelmat</message>
-    <message key="xmlui.swordclient.SelectCollection.trail">Valitse kokoelmat</message>
-    <message key="xmlui.swordclient.SelectCollection.collection_head">Kokoelma: {0}</message>
-    <message key="xmlui.swordclient.SelectCollection.collection_title">Nimeke: {0} </message>
-    <message key="xmlui.swordclient.SelectCollection.collection policy">Oikeudet: {0}</message>
-    <message key="xmlui.swordclient.SelectCollection.collection_mediation">Välitystieto: {0}</message>
-    <message key="xmlui.swordclient.SelectCollection.collection_file_types">Tiedostotyypit: {0}</message>
-    <message key="xmlui.swordclient.SelectCollection.collection_package_formats">Pakkausformaatti: {0}</message>
-    <message key="xmlui.swordclient.SelectCollection.collection_deposit_button">Talleta tänne</message>
-
-    <message key="xmlui.swordclient.SelectCollection.sub_service_target">Alikohde</message>
-    <message key="xmlui.swordclient.SelectCollection.sub_service_target_button">Nouda alikohteen palveludokumentti (Sub Service Document)</message>
-
-    <message key="xmlui.swordclient.SelectPackagingAction.head">Kokoelma: {0}</message>
-    <message key="xmlui.swordclient.SelectPackagingAction.title">Nimeke: {0}</message>
-    <message key="xmlui.swordclient.SelectPackagingAction.policy">Oikeudet: {0} </message>
-    <message key="xmlui.swordclient.SelectPackagingAction.mediation">Välitystieto: {0} </message>
-    <message key="xmlui.swordclient.SelectPackagingAction.file_types">Tiedostotyypit</message>
-    <message key="xmlui.swordclient.SelectPackagingAction.package_formats">Pakkausformaatti</message>
-    <message key="xmlui.swordclient.SelectPackagingAction.packageFormat_error">Pakkausformaattia ei tueta</message>
-
-    <message key="xmlui.swordclient.DepositAction.success">Aineisto kopioitu</message>
-    <message key="xmlui.swordclient.DepositAction.package_error">Virhe pakkausformaatissa</message>
-    <message key="xmlui.swordclient.DepositAction.invalid_handle">Virheellinen handle-tunniste</message>
-    <message key="xmlui.swordclient.DepositAction.package_error">Aineiston pakkaamisessa tapahtui virhe</message>
-    <message key="xmlui.swordclient.DepositAction.error">Aineiston tallettamissa tapahtui virhe:: {0}</message>
-
-    <message key="xmlui.swordclient.SwordResponse.title">(Sword) Vastaus</message>
-    <message key="xmlui.swordclient.SwordResponse.trail">(Sword) vastaus</message>
-
-    <!-- *** ORIGINAL FILE: DSpace/dspace-xmlui/src/main/resources/aspects/XMLWorkflow/i18n/messages.xml -->
-    
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.info1">Voit valita seuraavista toiminnoista:</message>
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.take_help">Ota tehtävä itsellesi.</message>
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.take_submit">Ota tehtävä</message>
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.leave_help">Jätä tehtävä tehtäväjonoon.</message>
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.leave_submit">Jätä tehtävä</message>
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.back">Palaa</message>
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.title">Hyväksy tai hylkää tehtävä</message>
-
-    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.head">Suorita tehtävä: Hyväksy tai hylkää aineisto</message>
-    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.info1">Voit valita seuraavista toiminnoista:</message>
-    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.reject_help">Jos olet tarkastanut aineiston, eikä sitä voida sisällyttää kokoelmaan, valitse "Hylkää". Sinun pitää tällöin kirjoittaa viesti, jossa kerrot aineiston syöttäjälle miksi aineistoa ei voi sisällyttää kokoelmaan, ja voisiko aineiston tietoja korjata ja lähettää uudestaan hyväksyttäväksi.</message>
-    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.reject_submit">Hylkää</message>
-    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.approve_help">Jos olet tarkastanut aineiston ja se voidaan sisällyttää kokoelmaan, valitse "Hyväksy"</message>
-    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.approve_submit">Hyväksy</message>
-
-
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.head">Suorita tehtävä: Hyväksy tai hylkää ainesto; muokkaa ainestoa</message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.info1">Voit valita seuraavista toiminnoista:</message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.reject_help">Jos olet tarkastanut aineiston, eikä sitä voida sisällyttää kokoelmaan, valitse "Hylkää". Sinun pitää tällöin kirjoittaa viesti, jossa kerrot aineiston syöttäjälle miksi aineistoa ei voi sisällyttää kokoelmaan, ja voisiko aineiston tietoja korjata ja lähettää uudestaan hyväksyttäväksi.</message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.reject_submit">Hylkää</message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.approve_help">Jos olet tarkastanut aineiston ja se voidaan sisällyttää kokoelmaan, valitse "Hyväksy".</message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.approve_submit">Hyväksy</message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.edit_help">Valitse "Muokkaa metadataa" muokataksesi aineiston metadataa.</message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.edit_submit">Muokkaa metadataa</message>
-
-    <message key="xmlui.XMLWorkflow.step.unknown">Tuntematon tila</message>
-
-    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.head">Suorita tehtävä: Valitse tarkastaja</message>
-    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.help">Käytä allaolevaa hakulaatikkoa ja valitse käyttäjä, joka tarkastaa aineiston.</message>
-    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.search.label">Hae tarkastaja</message>
-    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.search.button">Hae käyttäjä</message>
-    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.select-reviewer.button">Valitse tarkastajaksi</message>
-
-    <message key="xmlui.XMLWorkflow.workflow.SingleUserReviewAction.decline.help">Jos et halua tarkastaa aineistoa, voit hylätä tehtävän valitsemalla "Hylkää tarkastuspyyntö".</message>
-    <message key="xmlui.XMLWorkflow.workflow.SingleUserReviewAction.decline.button">Hylkää tarkastuspyyntö</message>
-
-
-    <message key="xmlui.XMLWorkflow.workflow.ScoreReviewAction.head">Tarkasta syötetty aineisto</message>
-    <message key="xmlui.XMLWorkflow.workflow.ScoreReviewAction.score.button">Tarkasta syötetty aineisto</message>
-    <message key="xmlui.XMLWorkflow.workflow.ScoreReviewAction.help">Anna syötetylle aineistolle pisteet</message>
-
-
-    <message key="xmlui.XMLWorkflow.Navigation.xmlworkflow_overview">Työnkulun yleiskuva</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.trail">Työnkulun yleiskuva</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.title">Työnkulun yleiskuva</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column1"> </message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column2">Vaihe</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column3">Aineisto</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column4">Kokoelma</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column5">Lisääjä</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.submit_submitter">Lähetä aineisto takaisin lisääjälle</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.submit_delete">Poista aineisto</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.no_results">Ei hakutuloksia</message>
-
-
-    <message key="xmlui.XMLWorkflow.WorkflowItemTransformer.title">Näytä aineisto: {0}</message>
-    <message key="xmlui.XMLWorkflow.WorkflowItemTransformer.trail">Näytä aineisto</message>
-
-    <message key="xmlui.XMLWorkflow.default.reviewstep">Hyväksymys- tai hylkäysvaihe</message>
-    <message key="xmlui.XMLWorkflow.default.reviewstep.claimaction">Hyväksy/Hylkää</message>
-    <message key="xmlui.XMLWorkflow.default.reviewstep.reviewaction">Hyväksy/Hylkää</message>
-
-    <message key="xmlui.XMLWorkflow.default.editstep">Hyväksymys-, hylkäys- tai muokkausvaihe</message>
-    <message key="xmlui.XMLWorkflow.default.editstep.claimaction">Hyväksy/Hylkää/Muokkaa</message>
-    <message key="xmlui.XMLWorkflow.default.editstep.editaction">Hyväksy/Hylkää/Muokkaa</message>
-
-    <message key="xmlui.XMLWorkflow.default.finaleditstep">Lopullinen hyväksymys- tai muokkausvaihe</message>
-    <message key="xmlui.XMLWorkflow.default.finaleditstep.claimaction">Lopullinen Hyväksy/Muokkaa</message>
-    <message key="xmlui.XMLWorkflow.default.finaleditstep.finaleditaction">Lopullinen Hyväksy/Muokkaa</message>
-
-
-    <message key="xmlui.XMLWorkflow.selectSingleReviewer.selectReviewerStep.claimaction">Tarkastajan valintavaihe</message>
-    <message key="xmlui.XMLWorkflow.selectSingleReviewer.selectReviewerStep.selectrevieweraction">Valitse tarkastaja</message>
-
-    <message key="xmlui.XMLWorkflow.selectSingleReviewer.singleUserReviewStep">Yhden käyttäjän tarkastusvaihe</message>
-    <message key="xmlui.XMLWorkflow.selectSingleReviewer.singleUserReviewStep.singleuserreviewaction">Tarkasta syötetty aineisto</message>
-
-    <message key="xmlui.XMLWorkflow.scoreReview.scoreReviewStep.claimaction">Pisteytä aineisto</message>
-    <message key="xmlui.XMLWorkflow.scoreReview.scoreReviewStep.scorereviewaction">Pisteytä aineisto</message>
-    <message key="xmlui.XMLWorkflow.scoreReview.scoreReviewStep">Pisteytä aineisto</message>
-    
-  </catalogue>
+</catalogue>

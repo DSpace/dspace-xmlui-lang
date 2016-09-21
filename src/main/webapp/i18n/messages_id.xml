@@ -1,14 +1,4 @@
-<?xml version="1.0"?>
-<!--
-
-    The contents of this file are subject to the license and copyright
-    detailed in the LICENSE and NOTICE files at the root of the source
-    tree and available online at
-
-    http://www.dspace.org/license/
-
--->
-<catalogue xml:lang="id" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<catalogue xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xml:lang="en">
 
 	<!--
 		The format used by all keys is as follows
@@ -374,7 +364,7 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseTrueForm.java -->
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.title">Permintaan Menyalin Dokumen</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.trail">Permintaan Menyalin Dokumen</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.head">>Permintaan Menyalin Dokumen</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.head">&gt;Permintaan Menyalin Dokumen</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.para1">Ini teks yang dikirim ke pemohon.</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.message">Pesan</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.subject">Subjek</message>
@@ -458,7 +448,7 @@
 	<!-- org.dspace.app.xmlui.eperson.CannotRegister.java -->
 	<message key="xmlui.EPerson.CannotRegister.title">Pendaftaran tidak tersedia</message>
 	<message key="xmlui.EPerson.CannotRegister.head">Pendaftaran tidak tersedia</message>
-	<message key="xmlui.EPerson.CannotRegister.para1">Konfigurasi di repositori ini tidak mengijinkan untuk mendaftar di konteks ini. Tolong hubungi <a href="../contact">administrator situs</a> dengan pertanyaan atau komentar.</message>
+	<message key="xmlui.EPerson.CannotRegister.para1">Konfigurasi di repositori ini tidak mengijinkan untuk mendaftar di konteks ini. Tolong hubungi <a href="../contact">site administrator</a> with questions or comments.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.EditProfile.java -->
 	<message key="xmlui.EPerson.EditProfile.title_update">Perbaharui Profil</message>
@@ -656,13 +646,13 @@
 	<message key="xmlui.Submission.Submissions.title">Pengunggahan &amp; Alurkerja</message>
 	<message key="xmlui.Submission.Submissions.trail">Alurkerja</message>
 	<message key="xmlui.Submission.Submissions.head">Tugas Pengunggahan &amp; Alurkerja</message>
-	<message key="xmlui.Submission.Submissions.untitled"><i>Tidak Berjudul</i></message>
+	<message key="xmlui.Submission.Submissions.untitled"><i>Untitled</i></message>
 	<message key="xmlui.Submission.Submissions.email">surel: </message>
 	<!-- Same transformer, workflow section -->
 	<message key="xmlui.Submission.Submissions.workflow_head1">Tugas Alurkerja</message>
 	<message key="xmlui.Submission.Submissions.workflow_info1">Tugas ini adalah publikasi yang menunggu persetujuan sebelum ditambahkan ke repositori. Terdapat dua antrian tugas, satu tugas untuk yang kamu terima dan lainnya tugas untuk yang belum diterima oleh lainya.</message>
 	<message key="xmlui.Submission.Submissions.workflow_head2">Tugas yang anda miliki</message>
-	<message key="xmlui.Submission.Submissions.workflow_column1"></message>
+	<message key="xmlui.Submission.Submissions.workflow_column1"/>
 	<message key="xmlui.Submission.Submissions.workflow_column2">Tugas</message>
 	<message key="xmlui.Submission.Submissions.workflow_column3">Publikasi</message>
 	<message key="xmlui.Submission.Submissions.workflow_column4">Koleksi</message>
@@ -681,7 +671,7 @@
 	<message key="xmlui.Submission.Submissions.submit_info2a">Berikut adalah pengunggahan yang belum selesai. Anda juga boleh </message>
 	<message key="xmlui.Submission.Submissions.submit_info2b">memulai pengunggahan lain</message>
 	<message key="xmlui.Submission.Submissions.submit_info2c">.</message>
-	<message key="xmlui.Submission.Submissions.submit_column1"></message>
+	<message key="xmlui.Submission.Submissions.submit_column1"/>
 	<message key="xmlui.Submission.Submissions.submit_column2">Judul</message>
 	<message key="xmlui.Submission.Submissions.submit_column3">Koleksi</message>
 	<message key="xmlui.Submission.Submissions.submit_column4">Pengunggah</message>
@@ -750,7 +740,7 @@
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.open_set"> (</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.close_set">)</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles">Judul Banyak</message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_help">Judul lebih dari satu, <i>cnth. judul terjemahan</i></message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_help">Judul lebih dari satu, <i>e.g. a translated title</i></message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_note">Jika kotak pilihan diatas tidak terpilih maka judul berikut akan dihapus dari publikasi ini: </message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before">Dipublikasikan</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before_help">Publikasi harus sudah dipublikasikan atau didistribusikan secara publik sebelumnya</message>
@@ -763,8 +753,8 @@
 	<message key="xmlui.Submission.submit.DescribeStep.head">Deskripsikan Item</message>
 	<message key="xmlui.Submission.submit.DescribeStep.unknown_field">Galat: Tipe kolom tidak diketahui</message>
 	<message key="xmlui.Submission.submit.DescribeStep.required_field">Kolom ini wajib di isi</message>
-	<message key="xmlui.Submission.submit.DescribeStep.last_name_help">Nama belakang, <i>cnth. Ariyanto</i></message>
-	<message key="xmlui.Submission.submit.DescribeStep.first_name_help">Nama Depan + "Jr", <i>cnth. Gunawan Jr</i></message>
+	<message key="xmlui.Submission.submit.DescribeStep.last_name_help">Nama belakang, <i>e.g. Smith</i></message>
+	<message key="xmlui.Submission.submit.DescribeStep.first_name_help">Nama Depan + "Jr", <i>e.g. Donald Jr</i></message>
 	<message key="xmlui.Submission.submit.DescribeStep.year">Tahun</message>
 	<message key="xmlui.Submission.submit.DescribeStep.month">Bulan</message>
 	<message key="xmlui.Submission.submit.DescribeStep.day">Hari</message>
@@ -827,7 +817,7 @@
 	<message key="xmlui.Submission.submit.UploadStep.virus_error">Berkas belum jadi diunggah karena nampaknya terdapat virus. Silahkan hubungi administrator.</message>
     <message key="xmlui.Submission.submit.UploadStep.virus_checker_error">Terdapat masalah teknis ketika memindai berkas dari virus. Silahkan hubungi administrator anda.</message>
     <message key="xmlui.Submission.submit.UploadStep.description">Deskripsi Berkas</message>
-	<message key="xmlui.Submission.submit.UploadStep.description_help">Sebagai tambahan, sediakan deskripsi singkat untuk berkasnya, contoh "<i>Artikel Utama</i>", atau "<i>Bacaan data eksperimen</i>".</message>
+	<message key="xmlui.Submission.submit.UploadStep.description_help">Sebagai tambahan, sediakan deskripsi singkat untuk berkasnya, contoh "<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
 	<message key="xmlui.Submission.submit.UploadStep.submit_upload">Unggah berkas &amp; tambahkan lainnya</message>
 	<message key="xmlui.Submission.submit.UploadStep.head2">Berkas Diunggah</message>
 	<message key="xmlui.Submission.submit.UploadStep.column0">Primer</message>
@@ -836,7 +826,7 @@
 	<message key="xmlui.Submission.submit.UploadStep.column3">Ukuran</message>
 	<message key="xmlui.Submission.submit.UploadStep.column4">Deskripsi</message>
 	<message key="xmlui.Submission.submit.UploadStep.column5">Format</message>
-	<message key="xmlui.Submission.submit.UploadStep.column6"></message>
+	<message key="xmlui.Submission.submit.UploadStep.column6"/>
 	<message key="xmlui.Submission.submit.UploadStep.unknown_name">Tidak Diketahui</message>
 	<message key="xmlui.Submission.submit.UploadStep.unknown_format">Format tidak diketahui</message>
 	<message key="xmlui.Submission.submit.UploadStep.supported">(Didukung)</message>
@@ -856,7 +846,7 @@
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_error">Berkas belum jadi diunggah karena nampaknya terdapat virus. Silahkan hubungi administrator.</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_checker_error">Terdapat masalah teknis ketika memindai berkas dari virus. Silahkan hubungi administrator anda.</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description">Deskripsi Berkas</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">Sebagai Tambahan, sediakan deskripsi singkat dari berkas, sebagai contoh "<i>Artikel Utama</i>", atau "<i>Bacaan data eksperimen</i>".</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">Sebagai Tambahan, sediakan deskripsi singkat dari berkas, sebagai contoh "<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_upload">Unggah berkas &amp; tambah lainnya</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head2">Berkas terunggah</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column0">Primer</message>
@@ -865,7 +855,7 @@
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column3">Ukuran</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column4">Deskripsi</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column5">Format</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"></message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"/>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_name">Tidak Diketahui</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_format">format tidak diketahui</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.supported">(Didukung)</message>
@@ -1075,7 +1065,7 @@
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_help">E-Pengguna dicari berdasar kecocokan parsial surel atau nama</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_para1">Dibawah ini daftar E-Pengguna yang cocok. Pilih E-Pengguna yang ingin anda hapus dan klik tombol hapus untuk melanjutkan atau klik nama atau surel E-Pengguna untuk merubahnya.</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_head">Hasil Pencarian</message>
-	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"></message>
+	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"/>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column2">ID</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column3">Nama</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column4">Surel</message>
@@ -1150,7 +1140,7 @@
 	<message key="xmlui.administrative.group.ManageGroupsMain.actions_search">Mencari grup</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_help">Grup dicari berdasar kecocokan parsial namanya</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_head">Hasil Pencarian</message>
-	<message key="xmlui.administrative.group.ManageGroupsMain.search_column1"></message>
+	<message key="xmlui.administrative.group.ManageGroupsMain.search_column1"/>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column2">ID</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column3">Nama</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column4">Anggota</message>
@@ -1182,18 +1172,18 @@
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column1">ID</message>
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column2">Nama</message>
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column3">Surel</message>
-	<message key="xmlui.administrative.group.EditGroupForm.epeople_column4"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.epeople_column4"/>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column1">ID</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column2">Nama</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column3">Anggota</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column4">Koleksi</message>
-	<message key="xmlui.administrative.group.EditGroupForm.groups_column5"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.groups_column5"/>
 	<message key="xmlui.administrative.group.ManageGroupsMain.groups_collection_link">lihat</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_head">Anggota</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column1">ID</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column2">Nama</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column3">Surel</message>
-	<message key="xmlui.administrative.group.EditGroupForm.members_column4"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.members_column4"/>
 	<message key="xmlui.administrative.group.EditGroupForm.members_group_name">grup: {0}</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_none">Grup ini tidak beranggota.</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_pending">[tertunda]</message>
@@ -1273,7 +1263,7 @@
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head1">Metadata Schema: "{0}"</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.para1">This is the metadata schema for "{0}". You may add new or update existing metadata fields to this schema. Fields may also be selected for deletion or be moved to another schema. </message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head2">Schema metadata fields</message>
-	<message key="xmlui.administrative.registries.EditMetadataSchema.column1"></message>
+	<message key="xmlui.administrative.registries.EditMetadataSchema.column1"/>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column2">ID</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column3">Field</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column4">Scope Note</message>
@@ -1300,7 +1290,7 @@
 	<message key="xmlui.administrative.registries.FormatRegistryMain.head">Bitstream format registry</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.para1">This list of bitstream formats provides information about known formats and their support level. You can edit or add new bitstream formats with this tool. Formats marked as 'internal' are hidden from the user, and are used for administrative purposes.</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.new_link">Add a new bitstream format</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"></message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column2">ID</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column3">Name</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column4">MIME Type</message>
@@ -1315,7 +1305,7 @@
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.title">Metadata Registry</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.head1">Metadata registry</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.para1">The metadata registry maintains a list of all metadata fields available in the repository. These fields may be divided amongst multiple schemas.  However, DSpace requires the qualified Dublin Core schema. You may extend the Dublin Core schema with additional fields or add new schemas to the registry.</message>
-	<message key="xmlui.administrative.registries.MetadataRegistryMain.column1"></message>
+	<message key="xmlui.administrative.registries.MetadataRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column2">ID</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column3">Namespace</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column4">Name</message>
@@ -1403,7 +1393,7 @@
 	<message key="xmlui.administrative.authorization.EditPolicyForm.main_head_edit">Edit policy {0} for {1} {2}</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_group">No group selected</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_action">No action selected</message>
-	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column4"></message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column4"/>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column1">ID</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column2">Name</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column3">Actions for this resource</message>
@@ -1581,7 +1571,7 @@
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.title">Item Bitstreams</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.trail">Item bitstreams</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.head1">Bitstreams</message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column1"></message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column1"/>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column2">Name</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column3">Description</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column4">Format</message>
@@ -1726,7 +1716,7 @@
 	<message key="xmlui.administrative.mapper.SearchItemForm.trail">Search items</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.head1">Search items matching: "{0}"</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.submit_map">Map selected items</message>
-	<message key="xmlui.administrative.mapper.SearchItemForm.column1"></message>
+	<message key="xmlui.administrative.mapper.SearchItemForm.column1"/>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column2">Collection</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column3">Author</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column4">Title</message>
@@ -1736,7 +1726,7 @@
 	<message key="xmlui.administrative.mapper.BrowseItemForm.trail">Browse mapped items</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.head1">Browsing mapped items</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.submit_unmap">Unmap selected items</message>
-	<message key="xmlui.administrative.mapper.BrowseItemForm.column1"></message>
+	<message key="xmlui.administrative.mapper.BrowseItemForm.column1"/>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column2">Collection</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column3">Author</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column4">Title</message>
@@ -2162,7 +2152,7 @@
 	<!-- structural.xsl -->
 	<message key="xmlui.dri2xhtml.structural.footer-promotional">
 		<a href="http://di.tamu.edu" id="ds-logo-link">
-			<span id="ds-footer-logo">&#160;</span>
+			<span id="ds-footer-logo"> </span>
 		</a>
 		<p>
 			This website is using Manakin, a new front end for DSpace created by Texas A&amp;M University
@@ -2225,7 +2215,6 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">View</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-description">Description</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">View/<wbr/>Open</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-access-rights">Read access available for</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">There are no files associated with this item.</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.size-bytes">bytes</message>
@@ -2472,6 +2461,7 @@
     <message key="xmlui.aspect.sherpa.submission.blue">biru</message>
     <message key="xmlui.aspect.sherpa.submission.white">putih</message>
     <message key="xmlui.aspect.sherpa.submission.yellow">kuning</message>
+    <message key="xmlui.aspect.sherpa.submission.gray">gray</message>
     <!-- End Versioning -->
 
 

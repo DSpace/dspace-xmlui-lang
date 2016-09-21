@@ -1,14 +1,4 @@
-<?xml version="1.0"?>
-<!--
-
-    The contents of this file are subject to the license and copyright
-    detailed in the LICENSE and NOTICE files at the root of the source
-    tree and available online at
-
-    http://www.dspace.org/license/
-
--->
-<catalogue xml:lang="sw" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<catalogue xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xml:lang="en">
 
 	<!--
 		The format used by all keys is as follows
@@ -38,6 +28,11 @@
         <message key="xmlui.general.perform">Fanya</message>
         <message key="xmlui.general.queue">mstari</message>
 
+        <!-- Keys which are used by exception2dri.xsl on error pages -->
+        <message key="xmlui.error.contact_msg">Please contact the site administrator if you wish to report this error. If possible, please  provide details about what you were doing at the time this error occurred.</message>
+        <message key="xmlui.error.contact">Contact site administrator</message>
+        <message key="xmlui.error.show_stack">Show underlying error stack</message>
+
 	<!--
 		Page not found keys
 
@@ -55,6 +50,7 @@
     <message key="xmlui.utils.AuthenticationUtil.onlyAdmins">Ni watawala tu wanaweza kuingia kwenye kitumio kingine.</message>
     <message key="xmlui.utils.AuthenticationUtil.onlyAuthenticatedAdmins">Only authenticated users who are administrators may assume the login as another user.</message>
     <message key="xmlui.utils.AuthenticationUtil.notAnotherAdmin">Hauwezi kuingia kama si mtawala.</message>
+
 
 	<!--
 		This section is for feed syndications (RSS, atom, etc)
@@ -125,7 +121,6 @@
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Mchangiaji</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Mwandishi mkuu</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Somo</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Maelezo</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Huusiano</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Mime-Type</message>
@@ -180,6 +175,26 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">Utafuta {0} kwa tarehe ya kuwasilisha kitabu {1}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Utafutaji {0}kwa tarehe ya kuwasilisha kitabu </message>
 
+
+	<!-- org.dspace.app.xmlui.administrative.WithdrawnItems.java -->
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.title">Withdrawn Items by Title</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.title">Withdrawn Items by Title</message>
+
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateissued">Withdrawn Items by Issue Date</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateissued">Withdrawn Items by Issue Date</message>
+
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateaccessioned">Withdrawn Items by Submit Date</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateaccessioned">Withdrawn Items by Submit Date</message>
+
+	<!-- org.dspace.app.xmlui.administrative.PrivateItems.java -->
+	<message key="xmlui.Administrative.PrivateItems.title.item.title">Private Items by Title</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.title">Private Items by Title</message>
+
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateissued">Private Items by Issue Date</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateissued">Private Items by Issue Date</message>
+
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateaccessioned">Private Items by Submit Date</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateaccessioned">Private Items by Submit Date</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.search_scope">Tafuta kwa kiwango</message>
@@ -240,6 +255,9 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
 	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">Kioneshe</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">kinaonekana kwenye vifungu vifuatavyo</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Show simple item record</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Show full item record</message>
+
         <message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">Hakipo kimeisha tolewa.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
@@ -311,7 +329,9 @@
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.title">Ombi la kopi ya nakala</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.trail">Ombi la kopi ya nakala</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.head">Ombi la kopi ya nakala</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.para1">Ingiza taarifa zifuatazo kupata kopi ya nakala kutoka kwa mtu husika</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.login_para">Users of this system, can login to view this document.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.login">Login</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.para1">Ingiza taarifa zifuatazo kupata kopi ya nakala kutoka kwa mtu husika</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail">Your e-mail address</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail_help">This email address is used for sending the document.</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail.error">Address is required</message>
@@ -336,7 +356,9 @@
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.head">Kopi ya nakala imetumwa</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para1">KAMA NI MWANDISHI WA NAKALA {0}" tumia kitufe kujibu maombi ya msomaji.</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para2">This repository will propose an appropriate model reply, which you may edit.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Tuma kopi ya nakala</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactRequester">Initial reply to requester</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactAuthor"> Author permission request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Tuma kopi ya nakala</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.dontSend">Usitume kopi</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseTrueForm.java -->
@@ -376,6 +398,36 @@
 	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.head">Ombi lako la kubadilisha ruhusa limetumwa</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para1">Ombi lako limetumwa kwa watawara</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para2">Asante</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestContactRequester.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.title">Document copy request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.trail">Document copy request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.head">Document copy request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.para1">Initial communication with the requester, to let them know their request is being processed.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.toEmail">To</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.subject">Subject</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.message">Message</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.mail">Send</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.back">Back</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestContactAuthor.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.title">Document copy request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.trail">Document copy request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.head">Document copy request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.para1">This is the text to be sent to the applicant (together with the document).</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.toEmail">To</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.subject">Subject</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.message">Message</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.mail">Send</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.back">Back</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseSent.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.title">Your response has been sent.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.trail">Your response has been sent.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.head">Your response has been sent.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.para1">Your response has been sent.</message>
+
+
 	
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -454,10 +506,9 @@
 	<message key="xmlui.EPerson.Navigation.register">Sajili</message>
 
 	<!-- org.dspace.app.xmlui.eperson.PasswordLogin.java -->
-	<message key="xmlui.EPerson.PasswordLogin.title">Ingia</message>
+	<message key="xmlui.EPerson.PasswordLogin.title">Ingia ndani</message>
 	<message key="xmlui.EPerson.PasswordLogin.trail">Ingia</message>
 	<message key="xmlui.EPerson.PasswordLogin.head1">Ingia kwenye Dspace</message>
-	<message key="xmlui.EPerson.PasswordLogin.title">Ingia ndani</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">Anuani ya barua pepe</message>
 	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">Anuani ya barua pepe/ Au neno la siri lilo tolewa halikubaliki.</message>
 	<message key="xmlui.EPerson.PasswordLogin.password">Neno la siri</message>
@@ -468,10 +519,9 @@
 	<message key="xmlui.EPerson.PasswordLogin.register_link">Bonyeza hapa kurejista.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java -->
-	<message key="xmlui.EPerson.LDAPLogin.title">Ingia</message>
+	<message key="xmlui.EPerson.LDAPLogin.title">Ingia ndani</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">Ingia</message>
 	<message key="xmlui.EPerson.LDAPLogin.head1">Ingia kwenye Dispesi</message>
-	<message key="xmlui.EPerson.LDAPLogin.title">Ingia ndani</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">Jina la mtumiaji</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">The user name and/or password supplied were not valid.</message>
 	<message key="xmlui.EPerson.LDAPLogin.password">Neno la siri</message>
@@ -602,7 +652,7 @@
 	<message key="xmlui.Submission.Submissions.workflow_head1">Mtililiko wa kazi husika</message>
 	<message key="xmlui.Submission.Submissions.workflow_info1">These tasks are items that are awaiting approval before they are added to the repository. There are two task queues, one for tasks which you have chosen to accept and another for tasks which have not been taken by anyone yet.</message>
 	<message key="xmlui.Submission.Submissions.workflow_head2">Tasks you own</message>
-	<message key="xmlui.Submission.Submissions.workflow_column1"></message>
+	<message key="xmlui.Submission.Submissions.workflow_column1"/>
 	<message key="xmlui.Submission.Submissions.workflow_column2">Kazi</message>
 	<message key="xmlui.Submission.Submissions.workflow_column3">Item</message>
 	<message key="xmlui.Submission.Submissions.workflow_column4">Kifungu</message>
@@ -621,7 +671,7 @@
 	<message key="xmlui.Submission.Submissions.submit_info2a">Uwasilishaji huu Hauja kamilika. Vilevile unaweza </message>
 	<message key="xmlui.Submission.Submissions.submit_info2b">Anza Uwasilishaji Mpya</message>
 	<message key="xmlui.Submission.Submissions.submit_info2c">.</message>
-	<message key="xmlui.Submission.Submissions.submit_column1"></message>
+	<message key="xmlui.Submission.Submissions.submit_column1"/>
 	<message key="xmlui.Submission.Submissions.submit_column2">Kichwa cha habari</message>
 	<message key="xmlui.Submission.Submissions.submit_column3">Kifungu</message>
 	<message key="xmlui.Submission.Submissions.submit_column4">Muwasilishaji</message>
@@ -776,7 +826,7 @@
 	<message key="xmlui.Submission.submit.UploadStep.column3">Size</message>
 	<message key="xmlui.Submission.submit.UploadStep.column4">Description</message>
 	<message key="xmlui.Submission.submit.UploadStep.column5">Format</message>
-	<message key="xmlui.Submission.submit.UploadStep.column6"></message>
+	<message key="xmlui.Submission.submit.UploadStep.column6"/>
 	<message key="xmlui.Submission.submit.UploadStep.unknown_name">Unknown</message>
 	<message key="xmlui.Submission.submit.UploadStep.unknown_format">unknown format</message>
 	<message key="xmlui.Submission.submit.UploadStep.supported">(Supported)</message>
@@ -805,7 +855,7 @@
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column3">Kiasi</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column4">Maelezo</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column5">Format</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"></message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"/>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_name">Hijulikani</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_format">unknown format</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.supported">(Supported)</message>
@@ -853,7 +903,7 @@
 	<!-- org.dspace.app.xmlui.Submission.submit.CCLicenseStep -->
         <message key="xmlui.Submission.submit.CCLicenseStep.ccws_error">Tatizo limetokea... {0}</message>
         <message key="xmlui.Submission.submit.CCLicenseStep.head">Leseni ya kazi yako</message>
-        <message key="xmlui.Submission.submit.CCLicenseStep.info1">Kama unapenda, unaweza kuongeza <a href="http://creativecommons.org/">Unda kawaida</a> Leseni yako ya. <strong>Uundaji wa leseni unaongoza watu wapi ambao wanasoma kazi yako kisha wanaweza kuwa nayo.</strong></message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.info1">Kama unapenda, unaweza kuongeza <a href="http://creativecommons.org/">Creative Commons</a> License to your item. <strong>Creative Commons licenses govern what people who read your work may then do with it.</strong></message>
         <message key="xmlui.Submission.submit.CCLicenseStep.submit_choose_creative_commons">Chagua leseni</message>
         <message key="xmlui.Submission.submit.CCLicenseStep.submit_to_creative_commons">Endelea kuhunda website kisha chagua leseni </message>
         <message key="xmlui.Submission.submit.CCLicenseStep.license">Ingiza leseni</message>
@@ -863,7 +913,7 @@
 
 	<!-- org.dspace.app.xmlui.Submission.submit.LicenseStep -->
 	<message key="xmlui.Submission.submit.LicenseStep.head">Usambazaji wa leseni</message>
-	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>Kuna atua moja ya mwisho:</strong> Kwa ajili DSpace kuendelea kujizalisha, tafsiri na uwasilishaji wako dunia nzima, Unatakiwa kukubali vifungu vifuatavyo.</message>
+	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>There is one last step:</strong> In order for DSpace to reproduce, translate and distribute your submission worldwide, you must agree to the following terms.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info2">Toa kiwango  cha usambazaji leseni kwa kuchagua 'Ninatoa Leseni'; na kisha bofya 'Kamilisha Uwasilishaji'.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info3">kama unaswali linalo husu leseni tafadhari wasiliana na watawara.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_label">Sambasa leseni</message>
@@ -891,7 +941,7 @@
 	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_submit">Ipitisha</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_help">Unaporekebisha hiki, tumia njia hii kuakikisha kinafaniki.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_submit">Hakiki inafanikiwa</message>
-	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">Kama unaipitia na unaikuta kama ilivyo  <strong>not</strong> Inafaha kuijumuhisha ndani ya kifungu, chagua "Kata".kisha utaingiza ujumbe unaonesha kwa nini hakifahi na kama muwasilshaji angefanya mabadiliko na kuwasilisha upya.</message>
+	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">Kama unaipitia na unaikuta kama ilivyo  <strong>not</strong> suitable for inclusion in the collection, select "Reject".  You will then be asked to enter a message indicating why the item is unsuitable, and whether the submitter should change something and resubmit.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_submit">Ikatishe</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.edit_help">Chagua njia hii kubadilisha metadata.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.edit_submit">Rekebisha metadata</message>
@@ -974,11 +1024,13 @@
 	<message key="xmlui.administrative.Navigation.administrative_registries">Visajili</message>
 	<message key="xmlui.administrative.Navigation.administrative_metadata">Metadata</message>
 	<message key="xmlui.administrative.Navigation.administrative_format">Format</message>
+    <message key="xmlui.administrative.Navigation.administrative_content">Content Administration</message>
 	<message key="xmlui.administrative.Navigation.administrative_items">Items</message>
     <message key="xmlui.administrative.Navigation.administrative_withdrawn">Vitoe</message>
     <message key="xmlui.administrative.Navigation.administrative_private">Mambo binafsi</message>
     <message key="xmlui.administrative.Navigation.administrative_control_panel">Control Panel</message>
     <message key="xmlui.administrative.Navigation.statistics">Takwimu</message>
+    <message key="xmlui.administrative.Navigation.administrative_batch_import">Batch Import (ZIP)</message>
         <message key="xmlui.administrative.Navigation.administrative_import_metadata">Ingiza Metadata</message>
         <message key="xmlui.administrative.Navigation.administrative_curation">Curation Tasks</message>
 
@@ -1013,7 +1065,7 @@
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_help">E-People are searched by any partial match on email or name</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_para1">Chini ni orodha ya wenye barua pepe ambayo inafana na unayo hiitaji.Chagua wenye barua pepe unaotaka kuwafuta na bofya kitufe kufuta kuendelea au bofya katika au bofya kwenye jina la mwenye barua pepe.</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_head">Tafuta majibu</message>
-	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"></message>
+	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"/>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column2">ID</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column3">Jina</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column4">Anuani</message>
@@ -1088,7 +1140,7 @@
 	<message key="xmlui.administrative.group.ManageGroupsMain.actions_search">Tafuta kwa makundi</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_help">Makundi ya natafutwa kwa sehemu ndogo ya jina linalofanana na jina la kundi</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_head">Tafuta majibu</message>
-	<message key="xmlui.administrative.group.ManageGroupsMain.search_column1"></message>
+	<message key="xmlui.administrative.group.ManageGroupsMain.search_column1"/>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column2">ID</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column3">Jina</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column4">Wanachama</message>
@@ -1120,18 +1172,18 @@
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column1">ID</message>
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column2">jina</message>
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column3">Barua pepe</message>
-	<message key="xmlui.administrative.group.EditGroupForm.epeople_column4"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.epeople_column4"/>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column1">ID</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column2">Jina</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column3">wanachama</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column4">Collection</message>
-	<message key="xmlui.administrative.group.EditGroupForm.groups_column5"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.groups_column5"/>
 	<message key="xmlui.administrative.group.ManageGroupsMain.groups_collection_link">view</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_head">Wanachama</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column1">ID</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column2">Jina</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column3">Barua pepe</message>
-	<message key="xmlui.administrative.group.EditGroupForm.members_column4"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.members_column4"/>
 	<message key="xmlui.administrative.group.EditGroupForm.members_group_name">kundi: {0}</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_none">This group has no members.</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_pending">[pending]</message>
@@ -1211,7 +1263,7 @@
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head1">Metadata Schema: "{0}"</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.para1">This is the metadata schema for "{0}". You may add new or update existing metadata fields to this schema. Fields may also be selected for deletion or be moved to another schema. </message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head2">Schema metadata fields</message>
-	<message key="xmlui.administrative.registries.EditMetadataSchema.column1"></message>
+	<message key="xmlui.administrative.registries.EditMetadataSchema.column1"/>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column2">ID</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column3">Field</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column4">Scope Note</message>
@@ -1238,7 +1290,7 @@
 	<message key="xmlui.administrative.registries.FormatRegistryMain.head">Bitstream format registry</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.para1">This list of bitstream formats provides information about known formats and their support level. You can edit or add new bitstream formats with this tool. Formats marked as 'internal' are hidden from the user, and are used for administrative purposes.</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.new_link">Add a new bitstream format</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"></message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column2">ID</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column3">Jina</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column4">MIME Type</message>
@@ -1253,7 +1305,7 @@
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.title">Metadata Registry</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.head1">Metadata registry</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.para1">The metadata registry maintains a list of all metadata fields available in the repository. These fields may be divided amongst multiple schemas.  However, DSpace requires the qualified Dublin Core schema. You may extend the Dublin Core schema with additional fields or add new schemas to the registry.</message>
-	<message key="xmlui.administrative.registries.MetadataRegistryMain.column1"></message>
+	<message key="xmlui.administrative.registries.MetadataRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column2">ID</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column3">Namespace</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column4">Jina</message>
@@ -1341,7 +1393,7 @@
 	<message key="xmlui.administrative.authorization.EditPolicyForm.main_head_edit">Edit policy {0} for {1} {2}</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_group">No group selected</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_action">No action selected</message>
-	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column4"></message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column4"/>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column1">ID</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column2">Jina</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column3">Actions for this resource</message>
@@ -1397,6 +1449,41 @@
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_id">ID</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_action">Action</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_group">Kundi</message>
+
+
+    <!-- Batch Import Tool -->
+    <!-- org.dspace.app.xmlui.administrative.batchimport -->
+    <message key="xmlui.administrative.batchimport.general.select_collection">Select a collection</message>
+    <message key="xmlui.administrative.batchimport.general.collection">Collection</message>
+    <message key="xmlui.administrative.batchimport.general.collection_help">Select the collection you wish to submit an item to.</message>
+    <message key="xmlui.administrative.batchimport.general.collection_default">Select a collection...</message>
+
+    <message key="xmlui.administrative.batchimport.general.title">Import Batch Load (ZIP)</message>
+    <message key="xmlui.administrative.batchimport.general.head1">Import Batch Load (ZIP)</message>
+    <message key="xmlui.administrative.batchimport.general.trail">Import Batch Load (ZIP)</message>
+    <message key="xmlui.administrative.batchimport.general.changes">changes</message>
+    <message key="xmlui.administrative.batchimport.general.no_changes">No changes were detected</message>
+    <message key="xmlui.administrative.batchimport.general.new_item">New item</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_successful">Upload successful</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_failed">Upload failed or no file selected</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_badschema">Unknown metadata schema in heading</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_badelement">Unknown metadata element in heading</message>
+    <message key="xmlui.administrative.batchimport.flow.import_successful">Import successful</message>
+    <message key="xmlui.administrative.batchimport.flow.import_failed">Import failed</message>
+    <message key="xmlui.administrative.batchimport.flow.failed_no_collection">No Destination Collection Specified</message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
+    <message key="xmlui.administrative.batchimport.BatchmportMain.submit_upload">Upload SimpleArchiveFormat ZIP</message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.success">Successfully processed</message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.changes_committed">Changes applied to item</message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_added">Added: </message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_removed">Removed: </message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportUpload -->
+    <message key="xmlui.administrative.batchimport.BatchImportUpload.item_add">Add: </message>
+    <message key="xmlui.administrative.batchimport.BatchImportUpload.item_remove">Remove: </message>
 
 	<!-- general edit item messages -->
 	<message key="xmlui.administrative.item.general.item_trail">Items</message>
@@ -1484,14 +1571,14 @@
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.title">Item Bitstreams</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.trail">Item bitstreams</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.head1">Bitstreams</message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column1"></message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column1"/>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column2">Jina</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column3">Maelezo</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column4">Format</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column5">Onesha</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column6">Order</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column7"> </message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.bundle_label"><strong>Bando: {0}</strong></message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.bundle_label"><strong>Bundle: {0}</strong></message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.primary_label"> (primary) </message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.view_link">Onesha</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_add">Weka bitstream mpya</message>
@@ -1629,7 +1716,7 @@
 	<message key="xmlui.administrative.mapper.SearchItemForm.trail">Search items</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.head1">Search items matching: "{0}"</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.submit_map">Map selected items</message>
-	<message key="xmlui.administrative.mapper.SearchItemForm.column1"></message>
+	<message key="xmlui.administrative.mapper.SearchItemForm.column1"/>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column2">Collection</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column3">mwandishi</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column4">Kichwa  cah  habari</message>
@@ -1639,7 +1726,7 @@
 	<message key="xmlui.administrative.mapper.BrowseItemForm.trail">Browse mapped items</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.head1">Browsing mapped items</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.submit_unmap">Unmap selected items</message>
-	<message key="xmlui.administrative.mapper.BrowseItemForm.column1"></message>
+	<message key="xmlui.administrative.mapper.BrowseItemForm.column1"/>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column2">Collection</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column3">Mwandishi</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column4">Kicha cha habari</message>
@@ -1751,7 +1838,6 @@
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">The persistent identifier used by the OAI provider to designate the target collection</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">You must provide a set id of the target collection.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Content being harvested</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Content being harvested</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">Harvest metadata only.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">Harvest metadata and references to bitstreams (requires ORE support).</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_bs">Harvest metadata and bitstreams (requires ORE support).</message>
@@ -1818,7 +1904,7 @@
 	<message key="xmlui.administrative.community.AssignCommunityRoles.role_group">Kundi husika</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.role_buttons">  </message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.label_admins">Watawala</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.sysadmins_only"><nobr>(Watawala tu)</nobr></message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.sysadmins_only"><nobr>(system administrators only)</nobr></message>
 
         <!-- org.dspace.app.xmlui.administrative.community.CurateCommunityForm.java -->
         <message key="xmlui.administrative.community.CurateCommunityForm.main_head">Unda jamihii: {0}</message>
@@ -1926,7 +2012,7 @@
 	<message key="xmlui.administrative.ControlPanel.alerts_session_all_sessions">Endelea kuruhusu kuthibisha kipindi</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_session_current_sessions">Zuia thibitisho ila ondoa kipindi cha sasa</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_session_only_administrative_sessions">Zuia thibitisho na ondoa kipindi cha sasa</message>
-	<message key="xmlui.administrative.ControlPanel.alerts_session_note"><strong>Nukuhu:</strong> Site administrators are exempt from session management.</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_session_note"><strong>Note:</strong> Site administrators are exempt from session management.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_activate">Fanya ijiweze</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_deactivate">Fanya isijiweze</message>
 	<message key="xmlui.administrative.ControlPanel.activity_head">Kazi ya sasa ({0} Kurasa kiasi cha juu)</message>
@@ -1945,7 +2031,7 @@
 	<message key="xmlui.administrative.ControlPanel.select_panel">Use the tabs above to select the information to display</message>
 
 	<!-- org.dspace.app.xmlui.administrative.SystemwideAlerts -->
-	<message key="xmlui.administrative.SystemwideAlerts.countdown"><strong>ndani {0} dakika</strong>: </message>
+	<message key="xmlui.administrative.SystemwideAlerts.countdown"><strong>In {0} minutes</strong>: </message>
 
 	<!-- org.dspace.app.xmlui.administrative.NotAuthorized -->
 	<message key="xmlui.administrative.NotAuthorized.title">Haija mamlakisha</message>
@@ -1986,6 +2072,7 @@
     <message key="xmlui.statistics.visits.bitstreams">Tembelea kablasha</message>
     <message key="xmlui.statistics.Navigation.title">Takwimu</message>
     <message key="xmlui.statistics.Navigation.usage.view">Onesha matumizi  ya takwimu</message>
+    <message key="xmlui.statistics.Navigation.usage-Elasticsearch.view">View Usage Statistics</message>
     <message key="xmlui.statistics.Navigation.search.view">Onesh mtililiko wa takwimu</message>
     <message key="xmlui.statistics.Navigation.workflow.view">Onesh mtililiko wa takwimu</message>
     <message key="xmlui.statistics.trail">Takwimu</message>
@@ -2024,7 +2111,6 @@
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.editaction">Accept/Reject/Edit Metadata Step</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.claimaction">Edit Metadata Step Pool</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Edit Metadata Step</message>
-    <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Edit Metadata Step</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.claimaction">Score Review Pool</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.scorereviewaction">Score Review</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.evaluationStep.evaluationaction">Score Review Evaluation</message>
@@ -2034,10 +2120,23 @@
     <message key="xmlui.statistics.display.table.workflow.step.selectSingleReviewer.singleUserReviewStep.singleuserreviewaction">Single User Review Action</message>
 
 
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+                     Google Analytics Statistics Aspect
 
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
+    <message key="xmlui.statisticsGoogleAnalytics.Navigation.title">Statistics</message>
+    <message key="xmlui.statisticsGoogleAnalytics.Navigation.usage.view">View Google Analytics Statistics</message>
+    <message key="xmlui.statisticsGoogleAnalytics.trail">Statistics</message>
+    <message key="xmlui.statisticsGoogleAnalytics.title">Google Analytics Statistics</message>
 
+    <message key="xmlui.statisticsGoogleAnalytics.dates.startDate">Start date</message>
+    <message key="xmlui.statisticsGoogleAnalytics.dates.endDate">End date</message>
+    <message key="xmlui.statisticsGoogleAnalytics.dates.refresh">Refresh</message>
+
+    <message key="xmlui.statisticsGoogleAnalytics.pageViews.title">Page Views</message>
+    <message key="xmlui.statisticsGoogleAnalytics.downloads.title">File Downloads</message>
 
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -2053,7 +2152,7 @@
 	<!-- structural.xsl -->
 	<message key="xmlui.dri2xhtml.structural.footer-promotional">
 		<a href="http://di.tamu.edu" id="ds-logo-link">
-			<span id="ds-footer-logo">&#160;</span>
+			<span id="ds-footer-logo"> </span>
 		</a>
 		<p>
 			This website is using Manakin, a new front end for DSpace created by Texas A&amp;M University
@@ -2264,6 +2363,7 @@
   <!-- params are: start, end, total-count, search-value -->
   <message key="xmlui.ChoiceLookupTransformer.results">Matokeo @1@ hadi @2@ ya @3@ kwa ajili "@4@"</message>
   <message key="xmlui.ChoiceLookupTransformer.fail">Failed to load choice data: </message>
+  <message key="xmlui.ChoiceLookupTransformer.lookup">Lookup</message>
 
   <!-- Choice Lookup - sample config for dc.publisher field -->
   <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.help">Name of Publisher</message>
@@ -2351,6 +2451,45 @@
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_head">Nukuu</message>
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">A more recent version of this item is in the Workflow.</message>
 
+    <message key="xmlui.aspect.sherpa.submission.consult">To check the copyright and self-archiving policies per journal or publisher, please consult <a href="http://www.sherpa.ac.uk/">SHERPA/RoMEO</a>.</message>
+    <message key="xmlui.aspect.sherpa.submission.title">Publisher information</message>
+    <message key="xmlui.aspect.sherpa.submission.journal">Journal: </message>
+    <message key="xmlui.aspect.sherpa.submission.publisher">Publisher information: </message>
+    <message key="xmlui.aspect.sherpa.submission.colour">RoMEO Colour: </message>
+    <message key="xmlui.aspect.sherpa.submission.more">(More info)</message>
+    <message key="xmlui.aspect.sherpa.submission.green">green</message>
+    <message key="xmlui.aspect.sherpa.submission.blue">blue</message>
+    <message key="xmlui.aspect.sherpa.submission.white">white</message>
+    <message key="xmlui.aspect.sherpa.submission.yellow">yellow</message>
+    <message key="xmlui.aspect.sherpa.submission.gray">gray</message>
     <!-- End Versioning -->
-</catalogue>
 
+
+    <message key="xmlui.mirage2.itemSummaryView.MetaData">Metadata</message>
+    <message key="xmlui.mirage2.itemSummaryView.Collections">Collections</message>
+
+    <message key="xmlui.mirage2.discovery.reset">Reset</message>
+    <message key="xmlui.mirage2.discovery.newFilter">Add New Filter</message>
+    <message key="xmlui.mirage2.discovery.showAdvancedFilters">Show Advanced Filters</message>
+    <message key="xmlui.mirage2.discovery.hideAdvancedFilters">Hide Advanced Filters</message>
+
+
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.add">Add</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.remove">Remove</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.noSuggestionError">ERROR: Input field with "suggest" (autocomplete) choice behavior is not implemented for Composite (e.g. "name") fields.</message>
+    <message key="xmlui.mirage2.forms.nonInstancedCompositeFields.noSuggestionError">ERROR: Input field with "suggest" (autocomplete) choice behavior is not implemented for Composite (e.g. "name") fields.</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.add">Add</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.remove">Remove</message>
+
+    <message key="xmlui.mirage2.page-structure.aboutThisRepository">About This Repository</message>
+    <message key="xmlui.mirage2.page-structure.toggleNavigation">Toggle navigation</message>
+
+    <message key="xmlui.mirage2.page-structure.heroUnit.title">About This Repository</message>
+    <message key="xmlui.mirage2.page-structure.heroUnit.content">To add your own content to this page, edit webapps/xmlui/themes/Mirage2/lib/xsl/core/page-structure.xsl and add your own content to the title, trail, and body. If you wish to add additional pages, you will need to create an additional xsl:when block and match the request-uri to whatever page you are adding. Currently, static pages created through altering XSL are only available under the URI prefix of page/.</message>
+
+    <message key="xmlui.mirage2.navigation.rss.feed">feed</message>
+
+    <message key="xmlui.mirage2.choice-authority-control.loading">Loading...</message>
+
+    <message key="xmlui.mirage2.item-list.thumbnail">Thumbnail</message>
+</catalogue>

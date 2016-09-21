@@ -1,14 +1,4 @@
-﻿<?xml version="1.0"?>
-<!--
-
-    The contents of this file are subject to the license and copyright
-    detailed in the LICENSE and NOTICE files at the root of the source
-    tree and available online at
-
-    http://www.dspace.org/license/
-
--->
-<catalogue xml:lang="et" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<catalogue xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xml:lang="en">
 
 	<!--
 		The format used by all keys is as follows
@@ -22,7 +12,7 @@
 		   may be found at xmlui.<Aspect> without specifying a
 		   particular java class.
 		-->
- 
+
 	<!-- General keys -->
 	<message key="xmlui.general.dspace_home">DSpace esileht</message>
 	<message key="xmlui.general.search">Otsi</message>
@@ -38,7 +28,7 @@
         <message key="xmlui.general.perform">Esita</message>
         <message key="xmlui.general.queue">Lisa järjekorda</message>
 
-<!-- Keys which are used by exception2dri.xsl on error pages -->
+        <!-- Keys which are used by exception2dri.xsl on error pages -->
         <message key="xmlui.error.contact_msg">Palun saatke teade administraatorile. Võimaluse korral kirjeldage oma tegevust vea ilmnemise eel ja ajal.</message>
         <message key="xmlui.error.contact">Saada teade administraatorile</message>
         <message key="xmlui.error.show_stack">Näita vea kohta</message>
@@ -66,7 +56,7 @@
 		This section is for feed syndications (RSS, atom, etc)
 	-->
 	<message key="xmlui.feed.general_description">DSpace digitaalrepositooriumi süsteem salvestab, säilitab, indekseerib ja levitab digitaalset teadusinformatsiooni. </message>
-       <message key="xmlui.feed.header">RSS uudisvood</message>
+    <message key="xmlui.feed.header">RSS uudisvood</message>
 	<message key="xmlui.feed.logo_title">Kanali logo</message>
 	<message key="xmlui.feed.untitled">Pealkirjata</message>
 
@@ -186,6 +176,26 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Sirvi {0} lisamisaja järgi</message>
 
 
+	<!-- org.dspace.app.xmlui.administrative.WithdrawnItems.java -->
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.title">Withdrawn Items by Title</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.title">Withdrawn Items by Title</message>
+
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateissued">Withdrawn Items by Issue Date</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateissued">Withdrawn Items by Issue Date</message>
+
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateaccessioned">Withdrawn Items by Submit Date</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateaccessioned">Withdrawn Items by Submit Date</message>
+
+	<!-- org.dspace.app.xmlui.administrative.PrivateItems.java -->
+	<message key="xmlui.Administrative.PrivateItems.title.item.title">Private Items by Title</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.title">Private Items by Title</message>
+
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateissued">Private Items by Issue Date</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateissued">Private Items by Issue Date</message>
+
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateaccessioned">Private Items by Submit Date</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateaccessioned">Private Items by Submit Date</message>
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.search_scope">Otsingu ulatus</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">Kogu TÜ DSpace</message>
@@ -242,17 +252,13 @@
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.head">Tagasiside saadetud</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.para1">Sinu kommentaarid jõudsid kohale.</message>
 
-	<!-- org.dspace.app.xmlui.artifactbrowser.FrontPageSearch.java -->
-	<message key="xmlui.ArtifactBrowser.FrontPageSearch.head">Otsi</message>
-	<message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">Sisesta otsisõna(d)</message>
-
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
 	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">Vaata</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Nimetus asub järgmis(t)es kollektsiooni(de)s:</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Näita lihtsat nimetuse kirjet</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Näita täielikku nimetuse kirjet</message>
-	
-              <message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">See nimetus ei ole enam kättesaadav.</message>
+
+        <message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">See nimetus ei ole enam kättesaadav.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
 	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">Sirvi</message>
@@ -292,9 +298,9 @@
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_item">nimetus</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_resource">allikas</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.unknown">tundmatu</message>
-          <message key="xmlui.ArtifactBrowser.RestrictedItem.login">Sisselogimise juurde </message>
-          
-  <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">See nimetus on eemaldatud</message>
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.login">Sisselogimise juurde </message>
+
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">See nimetus on eemaldatud</message>
         <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">Valitud nimetus on eemaldatud ega ole enam kättesaadav.</message>
         <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">Ligipääs on piiratud, palun logige sisse</message>
         <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Sellele nimetusele pole Teie kontol õigusi. .</message>
@@ -317,7 +323,8 @@
 	<message key="xmlui.ItemExportDownloadReader.auth_header">Juurdepääs sellele eksportarhiivile on piiratud</message>
 	<message key="xmlui.ItemExportDownloadReader.auth_message">Juurdepääs sellele eksportarhiivile on piiratud ning selle nägemiseks on vaja vastavaid volitusi. Eksportarhiivi avamiseks logi sisse. </message>
 
-<!-- REQUEST COPY -->
+
+	<!-- REQUEST COPY -->
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestForm.java -->
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.title">Telli dokumendi koopia</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.trail">Telli dokumendi koopia</message>
@@ -422,7 +429,6 @@
 
 
 	
-
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 		                EPerson Aspect
@@ -442,7 +448,7 @@
 	<!-- org.dspace.app.xmlui.eperson.CannotRegister.java -->
 	<message key="xmlui.EPerson.CannotRegister.title">Registreerimine ei ole saadaval</message>
 	<message key="xmlui.EPerson.CannotRegister.head">Registreerimine ei ole saadaval</message>
-	<message key="xmlui.EPerson.CannotRegister.para1"> DSpace'i ei ole võimalik registreeruda. Küsimuste korral võta ühendust <a href="../contact">lehekülje administraatoriga.</a></message>
+	<message key="xmlui.EPerson.CannotRegister.para1"> DSpace'i ei ole võimalik registreeruda. Küsimuste korral võta ühendust <a href="../contact">site administrator</a> with questions or comments.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.EditProfile.java -->
 	<message key="xmlui.EPerson.EditProfile.title_update">Uuenda profiili</message>
@@ -517,7 +523,6 @@
 	<message key="xmlui.EPerson.LDAPLogin.trail">Logi sisse</message>
 	<message key="xmlui.EPerson.LDAPLogin.head1">Logi TÜ DSpace'i -
 	ainult TÜ kasutajatele</message>
-	<message key="xmlui.EPerson.LDAPLogin.title">Logi sisse</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">Kasutajanimi</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">Sisestatud kasutajanimi ja/või salasõna on vale(d).</message>
 	<message key="xmlui.EPerson.LDAPLogin.password">Salasõna</message>
@@ -612,6 +617,7 @@
 
 
 
+
 	<!-- general submission aspect messages -->
 	<message key="xmlui.Submission.general.mydspace_home">Minu  DSpace esileht</message>
 	<message key="xmlui.Submission.general.go_mydspace">Mine Minu  DSpace esilehele</message>
@@ -630,7 +636,7 @@
 	<message key="xmlui.Submission.general.default.title">Lisamine</message>
 	<message key="xmlui.Submission.general.default.trail">Lisamine</message>
 
-	<!-- org.dspace.app.xmlui.submission.CollectionViewer -->
+	<!-- org.dspace.app.xmlui.submission.CollectiovViewer -->
 	<message key="xmlui.Submission.CollectionViewer.link1">Lisa kollektsiooni uus nimetus</message>
 
 	<!-- org.dspace.app.xmlui.submission.Navigation -->
@@ -641,13 +647,13 @@
 	<message key="xmlui.Submission.Submissions.title">Nimetuste lisamine</message>
 	<message key="xmlui.Submission.Submissions.trail">Lisatud</message>
 	<message key="xmlui.Submission.Submissions.head">Nimetuste lisamine</message>
-	<message key="xmlui.Submission.Submissions.untitled"><i>Pealkirjata</i></message>
+	<message key="xmlui.Submission.Submissions.untitled"><i>Untitled</i></message>
 	<message key="xmlui.Submission.Submissions.email">e-post: </message>
 	<!-- Same transformer, workflow section -->
 	<message key="xmlui.Submission.Submissions.workflow_head1">Töövoo toimingud</message>
 	<message key="xmlui.Submission.Submissions.workflow_info1">Need toimingud hõlmavad nimetusi, mis enne repositooriumisse lisamist vajavad kinnitamist. Toimingutel on kaks järjekorda, ühte kuuluvad kinnitatud ja teise kinnitamata nimetused.</message>
 	<message key="xmlui.Submission.Submissions.workflow_head2">Sinu toimingud</message>
-	<message key="xmlui.Submission.Submissions.workflow_column1"></message>
+	<message key="xmlui.Submission.Submissions.workflow_column1"/>
 	<message key="xmlui.Submission.Submissions.workflow_column2">Toiming</message>
 	<message key="xmlui.Submission.Submissions.workflow_column3">Nimetus</message>
 	<message key="xmlui.Submission.Submissions.workflow_column4">Kollektsioon</message>
@@ -666,7 +672,7 @@
 	<message key="xmlui.Submission.Submissions.submit_info2a">Sinu lõpetamata lisamised.</message>
 	<message key="xmlui.Submission.Submissions.submit_info2b">Sisesta uus nimetus</message>
 	<message key="xmlui.Submission.Submissions.submit_info2c">.</message>
-	<message key="xmlui.Submission.Submissions.submit_column1"></message>
+	<message key="xmlui.Submission.Submissions.submit_column1"/>
 	<message key="xmlui.Submission.Submissions.submit_column2">Pealkiri</message>
 	<message key="xmlui.Submission.Submissions.submit_column3">Kollektsioon</message>
 	<message key="xmlui.Submission.Submissions.submit_column4">Sisestaja</message>
@@ -690,7 +696,7 @@
 	<message key="xmlui.Submission.Submissions.status_6">Nimetus toimetamisel</message>
 	<message key="xmlui.Submission.Submissions.status_7">Nimetus on arhiveeritud</message>
 	<message key="xmlui.Submission.Submissions.status_unknown">Olek teadmata</message>
-<!-- Same transformer, completed submissions section -->
+        <!-- Same transformer, completed submissions section -->
         <message key="xmlui.Submission.Submissions.completed.head">Arhiveeritud lisandused</message>
         <message key="xmlui.Submission.Submissions.completed.info">Need on aktepteeritud ja lõpetatud lisamised.</message>
         <message key="xmlui.Submission.Submissions.completed.column1">Aktsepti aeg</message>
@@ -702,12 +708,12 @@
 	<!-- submission progress bar messages -->
 	<message key="xmlui.Submission.submit.progressbar.initial-questions">Lähteküsimused</message>
 	<message key="xmlui.Submission.submit.progressbar.describe">Kirjelda</message>
-         <message key="xmlui.Submission.submit.progressbar.access">Ligipääs</message>
-	<message key="xmlui.Submission.submit.progressbar.upload">Laadi üles</message>
+    <message key="xmlui.Submission.submit.progressbar.access">Ligipääs</message>
+    <message key="xmlui.Submission.submit.progressbar.upload">Laadi üles</message>
 	<message key="xmlui.Submission.submit.progressbar.verify">Retsensioon</message>
 	<message key="xmlui.Submission.submit.progressbar.creative-commons">Creative Commons</message>
-<message key="xmlui.Submission.submit.progressbar.CClicense">CC Litsents</message>
-	<message key="xmlui.Submission.submit.progressbar.license">Litsents</message>
+	<message key="xmlui.Submission.submit.progressbar.CClicense">CC Litsents</message>
+    <message key="xmlui.Submission.submit.progressbar.license">Litsents</message>
 	<message key="xmlui.Submission.submit.progressbar.complete">Lõpetamine</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.ResumeStep -->
@@ -735,7 +741,7 @@
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.open_set"> (</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.close_set">)</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles">Mitu pealkirja</message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_help">Nimetusel on rohkem kui üks pealkiri, <i>nt tõlgitud pealkiri</i></message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_help">Nimetusel on rohkem kui üks pealkiri, <i>e.g. a translated title</i></message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_note">Järgmised nimetused eemaldatakse, kui ülalolev kastike on märgistamata </message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before">Avaldamine</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before_help">Nimetus on varem avaldatud või seda on avalikult levitatud.</message>
@@ -748,14 +754,14 @@
 	<message key="xmlui.Submission.submit.DescribeStep.head">Kirjelda nimetust</message>
 	<message key="xmlui.Submission.submit.DescribeStep.unknown_field">Viga: Tundmatu väljatüüp</message>
 	<message key="xmlui.Submission.submit.DescribeStep.required_field">Kohustuslik väli</message>
-	<message key="xmlui.Submission.submit.DescribeStep.last_name_help">Perekonnanimi <i>nt Tamm</i></message>
-	<message key="xmlui.Submission.submit.DescribeStep.first_name_help">Eesnimi, <i>nt Jüri</i></message>
+	<message key="xmlui.Submission.submit.DescribeStep.last_name_help">Perekonnanimi <i>e.g. Smith</i></message>
+	<message key="xmlui.Submission.submit.DescribeStep.first_name_help">Eesnimi, <i>e.g. Donald Jr</i></message>
 	<message key="xmlui.Submission.submit.DescribeStep.year">Aasta</message>
 	<message key="xmlui.Submission.submit.DescribeStep.month">Kuu</message>
 	<message key="xmlui.Submission.submit.DescribeStep.day">Päev</message>
 	<message key="xmlui.Submission.submit.DescribeStep.series_name">Seeria nimetus</message>
 	<message key="xmlui.Submission.submit.DescribeStep.report_no">Number</message>
-<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.link">Teemad</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.link">Teemad</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.title">Teemad</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.label">Märksõnafilter</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.button">Märksõnafilter</message>
@@ -794,24 +800,25 @@
     <message key="xmlui.Submission.submit.AccessStep.table_edit_button">Muuda</message>
     <message key="xmlui.Submission.submit.AccessStep.table_delete_button">Kustuta</message>
     <message key="xmlui.administrative.authorization.AccessStep.label_date_help">Ajaformaat: yyyy, yyyy-mm, yyyy-mm-dd</message>
-   <message key="xmlui.Submission.submit.AccessStep.review_policy_line">Nimetus: {0}; tegevus: {1}, grupp: {2}, algus: {3}, lõpp: {4}</message>
-   <message key="xmlui.Submission.submit.AccessStep.review_public_item">Dokument on otsitav</message>
-   <message key="xmlui.Submission.submit.AccessStep.review_private_item">Dokument ei ole otsitav</message>
+    <message key="xmlui.Submission.submit.AccessStep.review_policy_line">Nimetus: {0}; tegevus: {1}, grupp: {2}, algus: {3}, lõpp: {4}</message>
+    <message key="xmlui.Submission.submit.AccessStep.review_public_item">Dokument on otsitav</message>
+    <message key="xmlui.Submission.submit.AccessStep.review_private_item">Dokument ei ole otsitav</message>
 
 
-<!-- org.dspace.app.xmlui.Submission.submit.EditPolicyStep -->
+
+    <!-- org.dspace.app.xmlui.Submission.submit.EditPolicyStep -->
     <message key="xmlui.Submission.submit.EditPolicyStep.head">Muuda reeglit</message>
 
-	<!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
+    <!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
 	<message key="xmlui.Submission.submit.UploadStep.head">Laadi üles fail(e)</message>
 	<message key="xmlui.Submission.submit.UploadStep.file">Fail</message>
 	<message key="xmlui.Submission.submit.UploadStep.file_help">Sisesta nimetuse täielik asukoht sinu arvutis. "Sirvi..." vajutamisel avaneb aken arvutist faili valimiseks.</message>
 	<message key="xmlui.Submission.submit.UploadStep.file_error">Nimetus peab sisaldama vähemalt ühte faili.</message>
 	<message key="xmlui.Submission.submit.UploadStep.upload_error">Faili üleslaadimisel tekkis probleem.  Sisestatud failinimi oli vale, tekkis ühenduse viga või oli fail markeeritud süsteemisiseseks kasutuseks. Palun proovi uuesti.</message>
 	<message key="xmlui.Submission.submit.UploadStep.virus_error">Faili ei laaditud, kuna sisaldab viirust. Palun kontakteeruge administraatoriga.</message>
-  <message key="xmlui.Submission.submit.UploadStep.virus_checker_error">Tehniline probleem viirusekontrolliga. Palun kontakteeruge administraatoriga.</message>
-	<message key="xmlui.Submission.submit.UploadStep.description">Faili kirjeldus</message>
-	<message key="xmlui.Submission.submit.UploadStep.description_help">Soovi korral lisa faili kirjeldus, näiteks" <i>Põhiartikkel</i>", või "<i>Esmane andmeanalüüs</i>".</message>
+    <message key="xmlui.Submission.submit.UploadStep.virus_checker_error">Tehniline probleem viirusekontrolliga. Palun kontakteeruge administraatoriga.</message>
+    <message key="xmlui.Submission.submit.UploadStep.description">Faili kirjeldus</message>
+	<message key="xmlui.Submission.submit.UploadStep.description_help">Soovi korral lisa faili kirjeldus, näiteks" <i>Main article</i>", or "<i>Experiment data readings</i>".</message>
 	<message key="xmlui.Submission.submit.UploadStep.submit_upload">Laadi fail üles &amp; lisa järgmine</message>
 	<message key="xmlui.Submission.submit.UploadStep.head2">Üleslaaditud failid</message>
 	<message key="xmlui.Submission.submit.UploadStep.column0">Esmane</message>
@@ -820,7 +827,7 @@
 	<message key="xmlui.Submission.submit.UploadStep.column3">Suurus</message>
 	<message key="xmlui.Submission.submit.UploadStep.column4">Kirjeldus</message>
 	<message key="xmlui.Submission.submit.UploadStep.column5">Formaat</message>
-	<message key="xmlui.Submission.submit.UploadStep.column6"></message>
+	<message key="xmlui.Submission.submit.UploadStep.column6"/>
 	<message key="xmlui.Submission.submit.UploadStep.unknown_name">Tundmatu</message>
 	<message key="xmlui.Submission.submit.UploadStep.unknown_format">Tundmatu formaat</message>
 	<message key="xmlui.Submission.submit.UploadStep.supported">(Toetatud)</message>
@@ -829,10 +836,10 @@
 	<message key="xmlui.Submission.submit.UploadStep.submit_edit">Muuda</message>
 	<message key="xmlui.Submission.submit.UploadStep.checksum">Kontrollsumma:</message>
 	<message key="xmlui.Submission.submit.UploadStep.submit_remove">Eemalda valitud failid</message>
-	
-	
-	  
-	  <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head">Laadi fail(e)</message>
+
+
+
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head">Laadi fail(e)</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file">Fail</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_help">Sisesta nimetuse täielik asukoht sinu arvutis. "Sirvi..." vajutamisel avaneb aken arvutist faili valimiseks</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_error">Nimetus peab sisaldama vähemalt ühte faili.</message>
@@ -840,7 +847,7 @@
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_error">Faili ei laaditud, kuna sisaldab viirust. Palun kontakteeruge administraatoriga.</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_checker_error">Tehniline probleem viirusekontrolliga. Palun pöörduge administraatori poole.</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description">Faili kirjeldus</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">Soovi korral lisa faili kirjeldus, näiteks"<i>Põhiartikkel</i> või "<i>Esmane andmeanalüüs</i>".</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">Soovi korral lisa faili kirjeldus, näiteks"<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_upload">Laadi üles &amp; lisa järgmine</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head2">Üleslaaditud failid</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column0">Esmane</message>
@@ -849,7 +856,7 @@
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column3">Suurus</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column4">Kirjeldus</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column5">Formaat</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"></message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"/>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_name">Tundmatu</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_format">tundmatu formaat</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.supported">(Toetatud)</message>
@@ -859,24 +866,24 @@
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.checksum">Kontrollsumma:</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_remove">Kustuta valitud failid</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_policy">Reeglid</message>
-    
-    
+
+
 	<!-- org.dspace.app.xmlui.Submission.submit.EditFileStep -->
 	<message key="xmlui.Submission.submit.EditFileStep.head">Muuda faili</message>
 	<message key="xmlui.Submission.submit.EditFileStep.file">Fail</message>
 	<message key="xmlui.Submission.submit.EditFileStep.description">Fiaili kirjeldus</message>
-	<message key="xmlui.Submission.submit.EditFileStep.description_help"> Soovi korral lisa sisu kirjeldus; näiteks, "<i>Põhiartikkel</i>", or "<i>Esmane andmeanalüüs</i>".</message>
-	<message key="xmlui.Submission.submit.EditFileStep.info1">Vali failiformaat allolevast nimekirjast, näiteks "<i>Adobe PDF</i>"või "<i>Microsoft Word</i>." <strong>Kui formaati pole nimekirjas</strong> kirjelda seda vastaval väljal.</message>
+	<message key="xmlui.Submission.submit.EditFileStep.description_help"> Soovi korral lisa sisu kirjeldus; näiteks, "<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
+	<message key="xmlui.Submission.submit.EditFileStep.info1">Vali failiformaat allolevast nimekirjast, näiteks "<i>Adobe PDF</i>" or "<i>Microsoft Word</i>." <strong>If the format is not in the list</strong>, please describe it in the input box below the list.</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_detected">Kindlakstehtud formaat</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_selected">Valitud formaat</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_default">Formaati ei ole nimekirjas</message>
-	<message key="xmlui.Submission.submit.EditFileStep.info2">Kui formaati ei ole nimekirjas <strong>vali "formaat ei ole nimekirjas" ülal</strong> ja kirjelda faili vastaval väljal</message>
+	<message key="xmlui.Submission.submit.EditFileStep.info2">Kui formaati ei ole nimekirjas <strong>select "format not in list" above</strong> and describe the file's format in the box below.</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_user">Muu formaat</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_user_help">Kasutatud rakenduse nimi ja versioon (näiteks "<i>ACMESoft SuperApp version 1.5</i>").</message>
-	
-	  <!-- org.dspace.app.xmlui.Submission.submit.EditBitstreamPolicies -->
+
+    <!-- org.dspace.app.xmlui.Submission.submit.EditBitstreamPolicies -->
     <message key="xmlui.Submission.submit.EditBitstreamPolicies.head">Muuda failile ligipääsu</message>
-	
+
 
 	<!-- org.dspace.app.xmlui.Submission.submit.ReviewStep -->
 	<message key="xmlui.Submission.submit.ReviewStep.head">Retsensiooni lisamine</message>
@@ -895,19 +902,19 @@
 	<message key="xmlui.Submission.submit.ReviewStep.supported">toetatud</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.CCLicenseStep -->
-	<message key="xmlui.Submission.submit.CCLicenseStep.ccws_error">Ilmnes viga ... {0}</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.head">Creative Commons Litsents</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.info1">Soovi korral võid oma nimetusele lisada <a href="http://creativecommons.org/">Creative Commons</a> Litsentsi. <strong>Creative Commons litsentsid määravad, mida sinu tööd lugevad inimesed sellega teha tohivad.</strong> Creative Commons litsentsi valimiseks kliki alloleval nupul. Sind suunatakse Creative Commons veebilehele, millest leiad erinevad litsenseerimise võimalused.  Pärast litsentsi valimist suunatakse sind tagasi sellele lehele.</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.submit_choose_creative_commons">Vali litsents</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.submit_to_creative_commons">Liigu Creative Commons veebilehele litsentsi valimiseks</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.license">Litsents</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.select_change">Vali või muuda litsentsi ...</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.no_license">Ilma CC litsentsita</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.save_changes">Salvestamiseks klikake "Järgmine".</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.ccws_error">Ilmnes viga ... {0}</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.head">Creative Commons Litsents</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.info1">Soovi korral võid oma nimetusele lisada <a href="http://creativecommons.org/">Creative Commons</a> License to your item. <strong>Creative Commons licenses govern what people who read your work may then do with it.</strong></message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.submit_choose_creative_commons">Vali litsents</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.submit_to_creative_commons">Liigu Creative Commons veebilehele litsentsi valimiseks</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.license">Litsents</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.select_change">Vali või muuda litsentsi ...</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.no_license">Ilma CC litsentsita</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.save_changes">Salvestamiseks klikake "Järgmine".</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.LicenseStep -->
 	<message key="xmlui.Submission.submit.LicenseStep.head">Levitamise Litsents</message>
-	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>Viimane samm:</strong> Selleks, et DSpace taastoodaks, tõlgiks ja jagaks sinu poolt lisatud nimetust üle maailma, nõustu järgmiste tingimustega. </message>
+	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>There is one last step:</strong> In order for DSpace to reproduce, translate and distribute your submission worldwide, you must agree to the following terms.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info2">Vali standardse levitamise litsents "Valin litsentsi" ja vajuta "Lõpeta lisamine"</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info3">Litsentsiga seotud küsimuste korral võta ühendust süsteemi administraatoritega.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_label">Levitamise litsents</message>
@@ -935,7 +942,7 @@
 	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_submit">Nõustu nimetusega</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_help">Pärast nimetuse toimetamist kasuta seda valikut nimetuse arhiveerimiseks. </message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_submit">Arhiveeri</message>
-	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">Vali "Keeldu", kui oled nimetuse retsenseerinud ja see <strong>ei ole</strong> kollektsiooni lisamiseks sobiv. Kirjelda, miks antud nimetus ei sobi ning kas selle lisaja peaks midagi muutma ja uuesti lisama.</message>
+	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">Vali "Keeldu", kui oled nimetuse retsenseerinud ja see <strong>not</strong> suitable for inclusion in the collection, select "Reject".  You will then be asked to enter a message indicating why the item is unsuitable, and whether the submitter should change something and resubmit.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_submit">Keeldu nimetusest</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.edit_help">Tee valik nimetuse metaandmete muutmiseks.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.edit_submit">Muuda metaandmeid</message>
@@ -963,7 +970,7 @@
         <message key="xmlui.administrative.FlowCurationUtils.curate_failed_notice">Tegevus katkestati. Vajaduse korral pöörduge administraatori poole või uurige logisid.</message>
         <message key="xmlui.administrative.FlowCurationUtils.queue_success_notice">Tegevus pandi järjekorda.</message>
         <message key="xmlui.administrative.FlowCurationUtils.queue_failed_notice">Tegevuse järjekorda panek ei õnnestunud. Vajaduse korral pöörduge administraatori poole või uurige logisid.</message>
-	<message key="xmlui.administrative.FlowEPersonUtils.add_eperson_success_notice">Kasutaja lisamine õnnestus.</message>
+        <message key="xmlui.administrative.FlowEPersonUtils.add_eperson_success_notice">Kasutaja lisamine õnnestus.</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.edit_eperson_success_notice">Kasutaja muutmine õnnestus.</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.reset_password_success_notice">Kasutajale saadeti meil, mis sisaldab andmeid uue salasõna valimiseks.</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.delete_eperson_success_notice">Kasutaja(te) kustutamine õnnestus.</message>
@@ -1018,12 +1025,13 @@
 	<message key="xmlui.administrative.Navigation.administrative_registries">Registrid</message>
 	<message key="xmlui.administrative.Navigation.administrative_metadata">Metaandmed</message>
 	<message key="xmlui.administrative.Navigation.administrative_format">Formaat</message>
-	<message key="xmlui.administrative.Navigation.administrative_content">Sisu administreerimine</message>
+    <message key="xmlui.administrative.Navigation.administrative_content">Sisu administreerimine</message>
 	<message key="xmlui.administrative.Navigation.administrative_items">Nimetused</message>
-  <message key="xmlui.administrative.Navigation.administrative_withdrawn">Katkestatud lisamised</message>
-  <message key="xmlui.administrative.Navigation.administrative_private">Privaatsed nimetused</message>
-	<message key="xmlui.administrative.Navigation.administrative_control_panel">Juhtpaneel</message>
-  <message key="xmlui.administrative.Navigation.statistics">Statistika</message>
+    <message key="xmlui.administrative.Navigation.administrative_withdrawn">Katkestatud lisamised</message>
+    <message key="xmlui.administrative.Navigation.administrative_private">Privaatsed nimetused</message>
+    <message key="xmlui.administrative.Navigation.administrative_control_panel">Juhtpaneel</message>
+    <message key="xmlui.administrative.Navigation.statistics">Statistika</message>
+    <message key="xmlui.administrative.Navigation.administrative_batch_import">Batch Import (ZIP)</message>
         <message key="xmlui.administrative.Navigation.administrative_import_metadata">Impordi metaandmed</message>
         <message key="xmlui.administrative.Navigation.administrative_curation">Hooldustegevused</message>
 
@@ -1058,7 +1066,7 @@
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_help">E-inimesi otsitakse nime või e-posti aadressi järgi</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_para1">E-inimested, kes sobisid sinu otsinguga. Vali E-inimene, kelle soovid kustutada ja vajuta "Kustuta". E-inimese e-posti aadressi või nime muutmiseks vajuta vastavalt e-posti aadressile või nimele.</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_head">Otsitulemused</message>
-	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"></message>
+	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"/>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column2">ID</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column3">Nimi</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column4">E-posti aadress</message>
@@ -1133,7 +1141,7 @@
 	<message key="xmlui.administrative.group.ManageGroupsMain.actions_search">Otsi rühmasid</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_help">Rühmasid otsitakse nime või e-posti aadressi järgi</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_head">Otsitulemused</message>
-	<message key="xmlui.administrative.group.ManageGroupsMain.search_column1"></message>
+	<message key="xmlui.administrative.group.ManageGroupsMain.search_column1"/>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column2">ID</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column3">Nimi</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column4">Liikmed</message>
@@ -1165,18 +1173,18 @@
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column1">ID</message>
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column2">Nimi</message>
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column3">E-post</message>
-	<message key="xmlui.administrative.group.EditGroupForm.epeople_column4"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.epeople_column4"/>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column1">ID</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column2">Nimi</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column3">E-post</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column4">Kollektsioon</message>
-	<message key="xmlui.administrative.group.EditGroupForm.groups_column5"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.groups_column5"/>
 	<message key="xmlui.administrative.group.ManageGroupsMain.groups_collection_link">vaata</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_head">Liikmed</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column1">ID</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column2">Nimi</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column3">E-post</message>
-	<message key="xmlui.administrative.group.EditGroupForm.members_column4"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.members_column4"/>
 	<message key="xmlui.administrative.group.EditGroupForm.members_group_name">rühm: {0}</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_none">Sellel rühma ei ole ühtegi liiget.</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_pending">[ootel]</message>
@@ -1210,7 +1218,7 @@
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.title">Kustuta väljad</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.trail">Kustuta väljad</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.head">Kinnita kustutamine</message>
-	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para1">Kas sa oled <b>täiesti</b> kindel, et tahad need väljad kustutada? Kui nimetused sisaldavad välja metaandmeid, ei saa välja kustutada. Kontrolli, et ükski nimetus ei kasutaks neid välju.</message>
+	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para1">Kas sa oled <b>absolutely</b> sure you want to delete these fields? If any items contain metadata for these fields, the field(s) cannot be deleted. You must ensure that no items use these fields.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.warning">HOIATUS: </message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para2">Kui nimetuses sisalduvad väljade metaandmed tekib tõrge. </message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.column1">ID</message>
@@ -1221,7 +1229,7 @@
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.title">Kustuta skeem</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.trail">Kustuta skeem</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.head">Kinnita kustutamine</message>
-	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">Kas sa oled <b>täiesti</b> kindel, et tahad selle skeemi kustutada? Kui nimetused sisaldavad selle skeemi väljade metaandmeid, ei saa skeemi kustutada. Kontrolli, et ühelgi nimetusel ei oleks selles skeemis metaandmeid.</message>
+	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">Kas sa oled <b>absolutely</b> sure you want to delete this schema? If any items contain metadata for fields contained within this schema, the schema cannot be deleted. You must ensure that no items contain metadata in this schema.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.warning">HOIATUS:: </message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para2">Kui nimetused sisaldavad selle skeemi metaandmeid tekib tõrge.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column1">ID</message>
@@ -1256,7 +1264,7 @@
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head1">Metaandmete skeem: "{0}"</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.para1">See metaandmete skeem kuulub: "{0}". Võid lisada uue metaandmete välja skeemi või uuendada mõnda olemasolevat. Välju võib märgistada ka kustutamiseks või teise skeemi liigutamiseks. </message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head2">Skeemi metaandmete väli</message>
-	<message key="xmlui.administrative.registries.EditMetadataSchema.column1"></message>
+	<message key="xmlui.administrative.registries.EditMetadataSchema.column1"/>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column2">ID</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column3">Väli</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column4">Skoobi teade </message>
@@ -1283,12 +1291,12 @@
 	<message key="xmlui.administrative.registries.FormatRegistryMain.head">Bitivoo formaadi register</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.para1">See bitivoo formaadi nimekiri sisaldab infot formaatide ja nende toetemise kohta. Selle tööriistaga saad muuta või lisada bitivoo formaate. Sisemiseks märgistustatud formaadid on kasutajate eest varjatud. Neid kasutatakse administratiivsetel eesmärkidel.</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.new_link">Lisa uus bitivoo formaat</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"></message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column2">ID</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column3">Nimi</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column4">MIME Tüüp</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column5">Toetamise tase</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.internal">(<i>sisemine</i>)</message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.internal">(<i>internal</i>)</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.support_0">Tundmatu</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.support_1">Tuntud</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.support_2">Tugi</message>
@@ -1298,7 +1306,7 @@
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.title">Metaandmete register</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.head1">Metaandmete register</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.para1">Metaandmete register säilitab nimekirja repositooriumis kättesaadavatest metaandmete väljadest. Väljad võivad olla jagatud mitme skeemi vahel. DSpace nõuab kvalifitseeritud Dublin Core skeemi. Dublin Core skeemi võib laiendada lisaväljadega või uute skeemide lisamisega registrisse.</message>
-	<message key="xmlui.administrative.registries.MetadataRegistryMain.column1"></message>
+	<message key="xmlui.administrative.registries.MetadataRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column2">ID</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column3">Nimeruum</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column4">Nimi</message>
@@ -1353,10 +1361,10 @@
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_add_link">Uute õiguste lisamiseks vajuta siia. </message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.submit_add">Lisa</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_id">ID</message>
-	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_name">Nimi</message>
+    <message key="xmlui.administrative.authorization.EditContainerPolicies.head_name">Nimi</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_action">Tegevus</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_group">Rühm</message>
-	 <message key="xmlui.administrative.authorization.EditContainerPolicies.head_start_date">Algusaeg</message>
+    <message key="xmlui.administrative.authorization.EditContainerPolicies.head_start_date">Algusaeg</message>
     <message key="xmlui.administrative.authorization.EditContainerPolicies.head_end_date">Lõppaeg</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.submit_delete">Kustuta valitud</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.group_edit">Muuda</message>
@@ -1386,7 +1394,7 @@
 	<message key="xmlui.administrative.authorization.EditPolicyForm.main_head_edit">Muuda õigusi {0} kohta {1} {2}</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_group">Ühtegi rühma ei valitud</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_action">Ühtegi tegevust ei valitud</message>
-	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column4"></message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column4"/>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column1">ID</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column2">Nimi</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column3">Selle allika tegevused </message>
@@ -1399,7 +1407,7 @@
     <message key="xmlui.administrative.authorization.EditPolicyForm.submit_search_groups">Otsi</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_action">Vali tegevus</message>
 
-<message key="xmlui.administrative.authorization.EditPolicyForm.label_name">Nimi</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_name">Nimi</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_description">Kirjeldus</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_start_date">Algusaeg</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_end_date">Lõppaeg</message>
@@ -1407,8 +1415,8 @@
     <message key="xmlui.administrative.authorization.EditPolicyForm.error_duplicated_policy">Identne reegel on juba seatud.</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.error_start_date_greater_than_end_date">Algusaeg on hilisem kui lõppaeg</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_date_help">Lubatud formaat: yyyy, yyyy-mm, yyyy-mm-dd</message>
-    
-	<!-- org.dspace.app.xmlui.administrative.authorization.AdvacedAuthorizationsForm -->
+
+    <!-- org.dspace.app.xmlui.administrative.authorization.AdvacedAuthorizationsForm -->
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.title">Õiguste haldur</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.trail">Rohkem autoriseerimisi</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.main_head">Rohkemate õiguste haldur</message>
@@ -1423,9 +1431,9 @@
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_policyCollections">Kollektsioon</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.submit_add">Lisa õigusi</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.submit_remove_all">Tühjenda õigused</message>
-	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.label_date_help">Lubatud formaat: yyyy, yyyy-mm, yyyy-mm-dd</message>
+    <message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.label_date_help">Lubatud formaat: yyyy, yyyy-mm, yyyy-mm-dd</message>
 
- <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_name">Nimi</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_name">Nimi</message>
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_description">Kirjeldus</message>
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_start_date">Algusaeg</message>
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_end_date">Lõppaeg</message>
@@ -1433,7 +1441,7 @@
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_start_date_greater_than_end_date">Algusaeg on lõppajast hilisem</message>
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_groupIds">Vali vähemalt üks grupp</message>
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_collectionIds">Vali vähemalt üks kollektsioon</message>
-    
+
 	<!-- org.dspace.app.xmlui.administrative.authorization.DeletePoliciesConfirm -->
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.title">Kinnita õiguste kustutamine</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.trail">Kinnita kustutamine</message>
@@ -1442,8 +1450,9 @@
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_id">ID</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_action">Tegevus</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_group">Rühm</message>
-	
-	<!-- Batch Import Tool -->
+
+
+    <!-- Batch Import Tool -->
     <!-- org.dspace.app.xmlui.administrative.batchimport -->
     <message key="xmlui.administrative.batchimport.general.select_collection">Vali kollektsioon</message>
     <message key="xmlui.administrative.batchimport.general.collection">Kollektsioon</message>
@@ -1501,7 +1510,7 @@
 	<message key="xmlui.administrative.item.AddBitstreamForm.file_label">Fail</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.file_help">Sisesta sinu arvutis oleva faili nimi. Uues aknas faili otsimiseks ja valimiseks arvutist vajuta "Sirvi...".</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.description_label">Kirjeldus</message>
-	<message key="xmlui.administrative.item.AddBitstreamForm.description_help">Soovi korral lisa faili lühikirjeldus, näiteks "<i>Põhiartikkel</i>", või "<i>Esmane andmeanalüüs</i>".</message>
+	<message key="xmlui.administrative.item.AddBitstreamForm.description_help">Soovi korral lisa faili lühikirjeldus, näiteks "<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.submit_upload">Laadi üles</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.no_bundles">Uute bitivoogude üleslaadimiseks on vaja vähemalt LISA &amp; KIRJUTA privileege vähemalt ühele kimbule.</message>
 
@@ -1526,7 +1535,7 @@
 	<message key="xmlui.administrative.item.ConfirmItemForm.column3">Keel</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_withdraw">Eemalda</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_reinstate">Arhiveeri uuesti</message>
-	 <message key="xmlui.administrative.item.ConfirmItemForm.submit_private">Tee privaatseks</message>
+    <message key="xmlui.administrative.item.ConfirmItemForm.submit_private">Tee privaatseks</message>
     <message key="xmlui.administrative.item.ConfirmItemForm.submit_public">Tee avalikuks</message>
 
     <!-- org.dspace.app.xmlui.aspect.administrative.item.MoveItemForm -->
@@ -1549,28 +1558,28 @@
 	<message key="xmlui.administrative.item.EditBitstreamForm.primary_option_yes">jah</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.primary_option_no">ei</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.description_label">Kirjeldus</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.description_help">Soovi korral lisa faili lühikirjeldus, näiteks: "<i>Põhiartikkel</i>",või "<i>Esmane andmeanalüüs</i>"."</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.para1">Vali nimekirjast faili formaat, näiteks "<i>Adobe PDF</i>"või "<i>Microsoft Word</i>", <b>VÕI</b> kui formaati ei ole nimekirjas, kirjelda seda vastaval väljal.</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.description_help">Soovi korral lisa faili lühikirjeldus, näiteks: "<i>Main article</i>", or "<i>Experiment data readings</i>"."</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.para1">Vali nimekirjast faili formaat, näiteks "<i>Adobe PDF</i>" or "<i>Microsoft Word</i>", <b>OR</b> if the format is not in the list, please describe it in the box below.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.format_label">Vali formaat</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.format_default">Formaati pole nimekirjas</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.para2">Kui formaati pole nimekirjas, <strong> vali "formaati pole nimekirjas" </strong> ja kirjelda seda vastaval väljal.</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.para2">Kui formaati pole nimekirjas, <strong>select "format not in list" above</strong> and describe it in the field below.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_label">Muu formaat</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">Kasutatud rakendus ja versioon (näiteks, "<i>ACMESoft SuperApp versioon 1.5</i>").</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.name_label">Failinimi</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">Kasutatud rakendus ja versioon (näiteks, "<i>ACMESoft SuperApp version 1.5</i>").</message>
+    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Failinimi</message>
     <message key="xmlui.administrative.item.EditBitstreamForm.name_help">Muuda failinime NB see muudab faili urli, kuid kuni sequence-ID on muutmatu, töötab vana link.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.title">Nimetuse bitivood</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.trail">Nimetuse bitivood</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.head1">Bitivood</message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column1"></message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column1"/>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column2">Nimi</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column3">Kirjeldus</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column4">Formaat</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column5">Vaata</message>
-		<message key="xmlui.administrative.item.EditItemBitstreamsForm.column6">Järjestus</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column6">Järjestus</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column7"> </message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.bundle_label"><strong>Kimp: {0}</strong></message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.bundle_label"><strong>Bundle: {0}</strong></message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.primary_label"> (esmane) </message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.view_link">vaata</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_add">Laadi uus bitivoog üles</message>
@@ -1620,13 +1629,13 @@
 	<message key="xmlui.administrative.item.EditItemStatusForm.sysadmins_only">(ainult süsteemi administraatorid)</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.collection_admins_only">(ainult kollektsiooni administraatorid)</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.not_allowed">(tegevus ei ole sulle lubatud)</message>
-<message key="xmlui.administrative.item.EditItemStatusForm.label_private">Tee privaatseks</message>
+    <message key="xmlui.administrative.item.EditItemStatusForm.label_private">Tee privaatseks</message>
     <message key="xmlui.administrative.item.EditItemStatusForm.label_public">Tee avalikuks</message>
     <message key="xmlui.administrative.item.EditItemStatusForm.submit_private">Tee privaatseks...</message>
-    <message key="xmlui.administrative.item.EditItemStatusForm.submit_public">Tee avalikuks...</message>	
-	
-	
-	
+    <message key="xmlui.administrative.item.EditItemStatusForm.submit_public">Tee avalikuks...</message>
+
+
+
 	<!-- org.dspace.app.xmlui.administrative.item.ViewItem -->
 	<message key="xmlui.administrative.item.ViewItem.title">Vaata nimetust</message>
 	<message key="xmlui.administrative.item.ViewItem.trail">Vaata nimetust</message>
@@ -1652,8 +1661,8 @@
         <message key="xmlui.administrative.metadataimport.general.new_item">Uus nimetus</message>
         <message key="xmlui.administrative.metadataimport.flow.upload_successful">Üleslaadimine õnnestus</message>
         <message key="xmlui.administrative.metadataimport.flow.upload_failed">Üleslaadimine ebaõnnestus</message>
-    <message key="xmlui.administrative.metadataimport.flow.upload_badschema">Tundmatu metaandmete skeem pealkirjas</message>
-    <message key="xmlui.administrative.metadataimport.flow.upload_badelement">Tundmatu metaandmete element pealkirjas</message>
+        <message key="xmlui.administrative.metadataimport.flow.upload_badschema">Tundmatu metaandmete skeem pealkirjas</message>
+        <message key="xmlui.administrative.metadataimport.flow.upload_badelement">Tundmatu metaandmete element pealkirjas</message>
         <message key="xmlui.administrative.metadataimport.flow.import_successful">Importimine õnnestus</message>
         <message key="xmlui.administrative.metadataimport.flow.import_failed">Importimine ebaõnnestus</message>
         <message key="xmlui.administrative.metadataimport.flow.over_limit">Muudatuste arv ületab lubatud piiri. Piira muudatusi või muuda bulkedit.gui-item-limit failis dspace.cfg</message>
@@ -1697,7 +1706,7 @@
 	<message key="xmlui.administrative.mapper.MapperMain.para1">Kollektsioon: "<strong>{0}</strong>"</message>
 	<message key="xmlui.administrative.mapper.MapperMain.para2">Nimetuse ühendamise tööriistaga saavad kollektsiooni administraatorid kaasata nimetusi teistest kollektsioonidest sellesse kollektsiooni. Sa saad otsida nimetusi teistest kollektsioonidest, nimetusi kaasata või sirvida kaasatud nimetusi.</message>
 	<message key="xmlui.administrative.mapper.MapperMain.stat_label">Statistika</message>
-	<message key="xmlui.administrative.mapper.MapperMain.stat_info"><strong>{0} nimetust {1}</strong>-st selles kollektsioonis on kaasatud siia teistest kollektsioonidest.</message>
+	<message key="xmlui.administrative.mapper.MapperMain.stat_info"><strong>{0} of {1}</strong> items in this collection are mapped in from other collections</message>
 	<message key="xmlui.administrative.mapper.MapperMain.search_label">Otsi</message>
 	<message key="xmlui.administrative.mapper.MapperMain.submit_search">Otsi nimetusi</message>
 	<message key="xmlui.administrative.mapper.MapperMain.submit_browse">Sirvi kaasatud nimetusi</message>
@@ -1708,7 +1717,7 @@
 	<message key="xmlui.administrative.mapper.SearchItemForm.trail">Otsi nimetusi</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.head1">Otsi nimetusi, mis sobituvad: "{0}"</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.submit_map">Kaasa märgitud nimetused</message>
-	<message key="xmlui.administrative.mapper.SearchItemForm.column1"></message>
+	<message key="xmlui.administrative.mapper.SearchItemForm.column1"/>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column2">Kollektsioon</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column3">Autor</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column4">Pealkiri</message>
@@ -1718,7 +1727,7 @@
 	<message key="xmlui.administrative.mapper.BrowseItemForm.trail">Sirvi kaasatud nimetusi</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.head1">Kaasatud nimetuste sirvimine</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.submit_unmap">Tühista valitud nimetuste kaasamine</message>
-	<message key="xmlui.administrative.mapper.BrowseItemForm.column1"></message>
+	<message key="xmlui.administrative.mapper.BrowseItemForm.column1"/>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column2">Kollektsioon</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column3">Autor</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column4">Pealkiri</message>
@@ -1757,9 +1766,9 @@
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step3">Muuda metaandmeid etappp</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_submitters">Sisestajad</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_default_read">Vaikimisi lugemise juurdepääs</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.sysadmins_only"><nobr>(ainult süsteemi administraatorid)</nobr></message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.repository_role"><br/>(Repositooriumi tasemel grupp, ainult administraatorid)</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>(sul puuduvad õigused selle konfigureerimiseks)</nobr></message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.sysadmins_only"><nobr>(system administrators only)</nobr></message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.repository_role"><br/>(Repository level group, system administrators only)</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>(you are not allowed to configure this)</nobr></message>
 
         <!-- org.dspace.app.xmlui.administrative.collection.CurateCollectionForm.java -->
         <message key="xmlui.administrative.collection.CurateCollectionForm.main_head">Halda kollektsiooni: {0}</message>
@@ -1802,7 +1811,7 @@
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.submit_delete_logo">Eemalda logo</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.submit_delete">Kustuta kollektsioon</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.submit_save">Salvesta uuendused</message>
-	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.sysadmins_only"><nobr>(ainult süsteemi administraatorid)</nobr></message>
+	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.sysadmins_only"><nobr>(system administrators only)</nobr></message>
 
 	<!-- org.dspace.app.xmlui.administrative.collection.CreateCollectionForm.java -->
 	<message key="xmlui.administrative.collection.CreateCollectionForm.title">Loo kollektsioon</message>
@@ -1896,7 +1905,7 @@
 	<message key="xmlui.administrative.community.AssignCommunityRoles.role_group">Seotud rühm</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.role_buttons">  </message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.label_admins">Administraatorid</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.sysadmins_only"><nobr>(ainult süsteemi administraatorid)</nobr></message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.sysadmins_only"><nobr>(system administrators only)</nobr></message>
 
         <!-- org.dspace.app.xmlui.administrative.community.CurateCommunityForm.java -->
         <message key="xmlui.administrative.community.CurateCommunityForm.main_head">Halda valdkonda: {0}</message>
@@ -1965,7 +1974,7 @@
 	<message key="xmlui.administrative.ControlPanel.runtime_total">Reserveeritud mälu</message>
 	<message key="xmlui.administrative.ControlPanel.runtime_used">Kasutatud mälu</message>
 	<message key="xmlui.administrative.ControlPanel.runtime_free">Vaba mälu</message>
-	<message key="xmlui.administrative.ControlPanel.cocoon_head">Cocoon Info</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_head">Cocoon Info</message>
         <message key="xmlui.administrative.ControlPanel.cocoon_version">Cocoon versioon</message>
         <message key="xmlui.administrative.ControlPanel.cocoon_cache_dir">Cocoon vahemälu kataloog</message>
         <message key="xmlui.administrative.ControlPanel.cocoon_work_dir">Cocoon töökataloog</message>
@@ -1974,7 +1983,7 @@
         <message key="xmlui.administrative.ControlPanel.cocoon_persistent_cache_size">Alaline vahemälu suurus ({0})</message>
         <message key="xmlui.administrative.ControlPanel.cocoon_transient_cache_size">Muutuv vahemälu suurus ({0})</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_head">DSpace sätted</message>
-	 <message key="xmlui.administrative.ControlPanel.dspace_version">DSpace versioon</message>
+        <message key="xmlui.administrative.ControlPanel.dspace_version">DSpace versioon</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_dir">DSpace installeerimise kataloog</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_url">DSpace baas-URL</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_hostname">DSpace Hostinimi</message>
@@ -1990,7 +1999,7 @@
 	<message key="xmlui.administrative.ControlPanel.mail_feedback_recipient">Tagasiside saaja</message>
 	<message key="xmlui.administrative.ControlPanel.mail_admin">Üldine lehe administratsiooni e-posti aadress</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_head">Süsteemiülesed häired</message>
-	<message key="xmlui.administrative.ControlPanel.alerts_warning"><strong>Hoiatus balanseeritud laadimisega süsteemidele</strong>: Süsteemiülesed häired töötavad vaid sõlmes, kus nad on aktiveeritud . Kontrolli, et iga sõlm saaks aktiveerimise häire käskluse.</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_warning"><strong>Warning for load balanced systems</strong>: System-wide alerts are only effective for the node on which it is activated. You need to ensure that each node in the set receives the activate alert command.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_message_label">Häire sõnum</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_message_default">Süsteem läbib regulaarseid hooldustöid. Palun salvesta oma töö ja logi välja.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_label">Aeg</message>
@@ -2004,7 +2013,7 @@
 	<message key="xmlui.administrative.ControlPanel.alerts_session_all_sessions">Autenditud sessioonide lubamiseks jätka</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_session_current_sessions">Piira autentimist, aga säilita praegused sessioonid</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_session_only_administrative_sessions">Piira autentimist ning katkesta ja lõpeta praegused sessioonid</message>
-	<message key="xmlui.administrative.ControlPanel.alerts_session_note"><strong>Pane tähele:</strong> Lehekülje administraatorid ei halda sessiooni.</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_session_note"><strong>Note:</strong> Site administrators are exempt from session management.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_activate">Aktiveeri</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_deactivate">Deaktiveeri</message>
 	<message key="xmlui.administrative.ControlPanel.activity_head">Praegused tegevused ({0} lehekülge maksimaalselt)</message>
@@ -2023,7 +2032,7 @@
 	<message key="xmlui.administrative.ControlPanel.select_panel">Vahelehtedel saad valida informatsiooni, mida näidata</message>
 
 	<!-- org.dspace.app.xmlui.administrative.SystemwideAlerts -->
-	<message key="xmlui.administrative.SystemwideAlerts.countdown"><strong> {0} minuti pärast</strong>: </message>
+	<message key="xmlui.administrative.SystemwideAlerts.countdown"><strong>In {0} minutes</strong>: </message>
 
 	<!-- org.dspace.app.xmlui.administrative.NotAuthorized -->
 	<message key="xmlui.administrative.NotAuthorized.title">Autoriseerimata</message>
@@ -2033,8 +2042,8 @@
 	<message key="xmlui.administrative.NotAuthorized.para1b">süsteemi administraatoriga</message>
 	<message key="xmlui.administrative.NotAuthorized.para1c">.</message>
 	<message key="xmlui.administrative.NotAuthorized.para2">Logi sisse teise kasutajana</message>
-	
-	       <!-- System-wide Curation Tasks form (org.dspace.app.xmlui.aspect.administrative.CurateForm) -->
+        
+        <!-- System-wide Curation Tasks form (org.dspace.app.xmlui.aspect.administrative.CurateForm) -->
         <message key="xmlui.administrative.CurateForm.title">Süsteemihoolduse tegevused</message>
         <message key="xmlui.administrative.CurateForm.trail">Hooldustegevused</message>
         <message key="xmlui.administrative.CurateForm.object_label_name">Objekti handle</message>
@@ -2064,6 +2073,7 @@
     <message key="xmlui.statistics.visits.bitstreams">Failide külastamised</message>
     <message key="xmlui.statistics.Navigation.title">Statistika</message>
     <message key="xmlui.statistics.Navigation.usage.view">Vaata kasutusstatistikat</message>
+    <message key="xmlui.statistics.Navigation.usage-Elasticsearch.view">View Usage Statistics</message>
     <message key="xmlui.statistics.Navigation.search.view">Vaata otsistatistikat</message>
     <message key="xmlui.statistics.Navigation.workflow.view">Vaata töövoo statistikat</message>
     <message key="xmlui.statistics.trail">Statistika</message>
@@ -2073,16 +2083,16 @@
     <message key="xmlui.statistics.workflow.error">Töövoo statistika genereerimisel tekkis viga. Palun proovige hiljem uuesti</message>
     <message key="xmlui.statistics.workflow.head">Töövoo statistika</message>
     <message key="xmlui.statistics.workflow.head-dso">Töövoo statistika {0} kohta</message>
-    
-    
+
+
     <message key="xmlui.statistics.StatisticsSearchTransformer.search-terms.head">Top otsiterminid</message>
     <message key="xmlui.statistics.StatisticsSearchTransformer.search-total.head">Kokku</message>
     <message key="xmlui.statistics.StatisticsSearchTransformer.time-filter.last-month">Eelmine kuu</message>
     <message key="xmlui.statistics.StatisticsSearchTransformer.time-filter.last-6-months">Eelmised 6 kuud</message>
     <message key="xmlui.statistics.StatisticsSearchTransformer.time-filter.last-year">Eelmine aasta</message>
     <message key="xmlui.statistics.StatisticsSearchTransformer.time-filter.overall">Üleüldse</message>
-    
-    
+
+
     <message key="xmlui.statistics.display.table.column-label.search-terms">Otsiterminid</message>
     <message key="xmlui.statistics.display.table.column-label.searches">Otsingud</message>
     <message key="xmlui.statistics.display.table.column-label.percent-total">% koguarvust</message>
@@ -2111,27 +2121,23 @@
     <message key="xmlui.statistics.display.table.workflow.step.selectSingleReviewer.singleUserReviewStep.singleuserreviewaction">Kasutaja ülevaated, aktsioon</message>
 
 
-<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
                      Google Analytics Statistics Aspect
 
         !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
-   <message key="xmlui.statisticsGoogleAnalytics.Navigation.title">Statistika</message>
-   <message key="xmlui.statisticsGoogleAnalytics.Navigation.usage.view">Vaata Google Analytics</message>
-   <message key="xmlui.statisticsGoogleAnalytics.trail">Statistika</message>
-   <message key="xmlui.statisticsGoogleAnalytics.title">Google Analytics Statistika</message>
+    <message key="xmlui.statisticsGoogleAnalytics.Navigation.title">Statistika</message>
+    <message key="xmlui.statisticsGoogleAnalytics.Navigation.usage.view">Vaata Google Analytics</message>
+    <message key="xmlui.statisticsGoogleAnalytics.trail">Statistika</message>
+    <message key="xmlui.statisticsGoogleAnalytics.title">Google Analytics Statistika</message>
 
-   <message key="xmlui.statisticsGoogleAnalytics.dates.startDate">Algus</message>
-   <message key="xmlui.statisticsGoogleAnalytics.dates.endDate">Lõpp</message>
+    <message key="xmlui.statisticsGoogleAnalytics.dates.startDate">Algus</message>
+    <message key="xmlui.statisticsGoogleAnalytics.dates.endDate">Lõpp</message>
     <message key="xmlui.statisticsGoogleAnalytics.dates.refresh">Uuenda</message>
 
     <message key="xmlui.statisticsGoogleAnalytics.pageViews.title">Lehekülje vaatamisi</message>
     <message key="xmlui.statisticsGoogleAnalytics.downloads.title">Faili allalaadimisi</message>
-
-
-
-
 
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -2147,12 +2153,13 @@
 	<!-- structural.xsl -->
 	<message key="xmlui.dri2xhtml.structural.footer-promotional">
 		<a href="http://di.tamu.edu" id="ds-logo-link">
-			<span id="ds-footer-logo">&#160;</span>
+			<span id="ds-footer-logo"> </span>
 		</a>
 		<p>
-			Lehekülg kasutab Manakin'i, Texas A&amp;M Ülikooli Raamatukogude poolt loodud DSpace'i esiliidest  Liidest saab muuta, kasutades Manakin Aspects ja XSL-il toetuvaid teemasid. 
-			Rohkem infot aadressil
-			<a href="http://di.tamu.edu">http://di.tamu.edu</a> ja
+			This website is using Manakin, a new front end for DSpace created by Texas A&amp;M University
+			Libraries. The interface can be extensively modified through Manakin Aspects and XSL based Themes.
+			For more information visit
+			<a href="http://di.tamu.edu">http://di.tamu.edu</a> and
 			<a href="http://dspace.org">http://dspace.org</a>
 		</p>
 	</message>
@@ -2208,7 +2215,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-format">Formaat</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Vaata</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-description">Kirjeldus</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Vaata/<wbr/>Ava</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Vaata/<wbr/>Open</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">Selle nimetusega ei ole seotud ühtegi faili.</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.size-bytes">baidid</message>
@@ -2217,7 +2224,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.size-gigabytes">Gb</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.license-text">Selle nimetusega on seotud järgmised litsentsi failid:</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.cc-license-text">Kui pole teisiti märgitud, kirjeldatakse litsentsi järgnevalt </message>
+    <message key="xmlui.dri2xhtml.METS-1.0.cc-license-text">Kui pole teisiti märgitud, kirjeldatakse litsentsi järgnevalt </message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.collection-not-implemented">
 		Kollektsiooni KollektsiooniVaade ei ole saadaval. 
@@ -2243,7 +2250,9 @@
 
 	<message key="xmlui.dri2xhtml.METS-1.0.header-qdc-elements">Dublin Core elemendid</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.header-qdc-terms">Dublin Core terminid</message>
-      <message key="xmlui.dri2xhtml.METS-1.0.blocked">Blokeeritud</message>
+
+        <message key="xmlui.dri2xhtml.METS-1.0.blocked">Blokeeritud</message>
+
 
 	<!-- Special pioneer model related text, wherever it might end up -->
 	<message key="xmlui.dri2xhtml.pioneer.preview">Eelvaade</message>
@@ -2355,6 +2364,7 @@
   <!-- params are: start, end, total-count, search-value -->
   <message key="xmlui.ChoiceLookupTransformer.results">Otsingu "@4@" @1@. - @2@. tulemus @3@-st </message>
   <message key="xmlui.ChoiceLookupTransformer.fail">Valitud andmete laadimine ebaõnnestus: </message>
+  <message key="xmlui.ChoiceLookupTransformer.lookup">Lookup</message>
 
   <!-- Choice Lookup - sample config for dc.publisher field -->
   <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.help">Kirjastaja nimi</message>
@@ -2368,7 +2378,7 @@
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help.first">Eesnimi, nt. "Jüri"</message>
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.title">LC normkirje</message>
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.nonauthority">Kohalik väärtus "@1@" (Puudub normkirje)</message>
-  
+
   <!-- mobile theme -->
   <message key="xmlui.mobile.home_mobile">DSpace mobiilile</message>
   <message key="xmlui.mobile.search_all">Otsi kõikjal</message>
@@ -2441,8 +2451,8 @@
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.new_version_help">See pole objekti viimane versioon. Viimane versioon on:  </message>
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_head">Märkus</message>
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">Selle objekti sobivam versioon on töövoos.</message>
-    
-   <message key="xmlui.aspect.sherpa.submission.consult">Kontrollige autoriõigusi ja isearhiveerimise reegleid:<a href="http://www.sherpa.ac.uk/">SHERPA/RoMEO</a>.</message>
+
+    <message key="xmlui.aspect.sherpa.submission.consult">Kontrollige autoriõigusi ja isearhiveerimise reegleid:<a href="http://www.sherpa.ac.uk/">SHERPA/RoMEO</a>.</message>
     <message key="xmlui.aspect.sherpa.submission.title">Kirjastaja info</message>
     <message key="xmlui.aspect.sherpa.submission.journal">Ajakiri: </message>
     <message key="xmlui.aspect.sherpa.submission.publisher">Kirjastaja info: </message>
@@ -2452,9 +2462,14 @@
     <message key="xmlui.aspect.sherpa.submission.blue">sinine</message>
     <message key="xmlui.aspect.sherpa.submission.white">valge</message>
     <message key="xmlui.aspect.sherpa.submission.yellow">kollane</message>
-
+    <message key="xmlui.aspect.sherpa.submission.gray">gray</message>
     <!-- End Versioning -->
-  <message key="xmlui.mirage2.discovery.reset">Lähtesta</message>
+
+
+    <message key="xmlui.mirage2.itemSummaryView.MetaData">Metadata</message>
+    <message key="xmlui.mirage2.itemSummaryView.Collections">Collections</message>
+
+    <message key="xmlui.mirage2.discovery.reset">Lähtesta</message>
     <message key="xmlui.mirage2.discovery.newFilter">Lisa filter</message>
     <message key="xmlui.mirage2.discovery.showAdvancedFilters">Näita filtreid</message>
     <message key="xmlui.mirage2.discovery.hideAdvancedFilters">Peida filtrid</message>
@@ -2478,6 +2493,4 @@
     <message key="xmlui.mirage2.choice-authority-control.loading">Laadimine...</message>
 
     <message key="xmlui.mirage2.item-list.thumbnail">Pisipilt</message>
-  
-  </catalogue>
-  
+</catalogue>

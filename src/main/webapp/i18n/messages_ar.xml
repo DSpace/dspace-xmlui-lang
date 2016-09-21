@@ -1,48 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  messages.xml
- 
-  Version: $Revision: 5694 $
-
-  Date: $Date: 2010-10-29 21:13:49 +0000 (Fri, 29 Oct 2010) $
-
-  Copyright (c) 2002-2005, Hewlett-Packard Company and Massachusetts
-  Institute of Technology.  All rights reserved.
-
-  Redistribution and use in source and binary forms, with or without
-  modification, are permitted provided that the following conditions are
-  met:
-
-  - Redistributions of source code must retain the above copyright
-  notice, this list of conditions and the following disclaimer.
-
-  - Redistributions in binary form must reproduce the above copyright
-  notice, this list of conditions and the following disclaimer in the
-  documentation and/or other materials provided with the distribution.
-
-  - Neither the name of the Hewlett-Packard Company nor the name of the
-  Massachusetts Institute of Technology nor the names of their
-  contributors may be used to endorse or promote products derived from
-  this software without specific prior written permission.
-
-  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-  ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-  HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
-  OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-  ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
-  TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
-  USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
-  DAMAGE.
--->
-
-<!-- Arabic Translation by KnowledgeWare Technologies الترجمة العربية بواسطة مؤسسة تقنية المعارف -->
-
-
-<catalogue xml:lang="ar" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<catalogue xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xml:lang="en">
 
 	<!--
 		The format used by all keys is as follows
@@ -72,6 +28,11 @@
         <message key="xmlui.general.perform">أداء</message>
         <message key="xmlui.general.queue">طابور</message>
 
+        <!-- Keys which are used by exception2dri.xsl on error pages -->
+        <message key="xmlui.error.contact_msg">يرجى الاتصال بمدير الموقع إذا كنت تريد التبليغ عن هذا الخطأ.  إذا أمكن، يرجى توفير التفاصيل حول ما كنت تقوم به أثناء حدوث هذا الخطأ .</message>
+        <message key="xmlui.error.contact">الاتصال بمدير الموقع</message>
+        <message key="xmlui.error.show_stack">عرض كومة الخطأ الضمنية</message>
+
 	<!--
 		Page not found keys
 
@@ -81,189 +42,6 @@
 	<message key="xmlui.PageNotFound.title">لم يتم العثور على الصفحة</message>
 	<message key="xmlui.PageNotFound.head">لم يتم العثور على الصفحة</message>
 	<message key="xmlui.PageNotFound.para1">لم نتمكن من العثور على الصفحة التي قمت بطلبها.</message>
-
-
-
-
-
-
-
-
- <!-- Keys which are used by exception2dri.xsl on error pages -->
-        <message key="xmlui.error.contact_msg">يرجى الاتصال بمدير الموقع إذا كنت تريد التبليغ عن هذا الخطأ.  إذا أمكن، يرجى توفير التفاصيل حول ما كنت تقوم به أثناء حدوث هذا الخطأ .</message>
-        <message key="xmlui.error.contact">الاتصال بمدير الموقع</message>
-        <message key="xmlui.error.show_stack">عرض كومة الخطأ الضمنية</message>
-
-
-
-	<!-- org.dspace.app.xmlui.administrative.WithdrawnItems.java -->
-	<message key="xmlui.Administrative.WithdrawnItems.title.item.title">مواد مسحوبة بالعنوان</message>
-	<message key="xmlui.Administrative.WithdrawnItems.trail.item.title">مواد مسحوبة بالعنوان</message>
-
-	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateissued">مواد مسحوبة بتاريخ الإصدار</message>
-	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateissued">مواد مسحوبة بتاريخ الإصدار</message>
-
-	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateaccessioned">مواد مسحوبة بتاريخ التقديم</message>
-	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateaccessioned">مواد مسحوبة بتاريخ التقديم</message>
-
-	<!-- org.dspace.app.xmlui.administrative.PrivateItems.java -->
-	<message key="xmlui.Administrative.PrivateItems.title.item.title">مواد خاصة بالعنوان</message>
-	<message key="xmlui.Administrative.PrivateItems.trail.item.title">مواد خاصة بالعنوان</message>
-
-	<message key="xmlui.Administrative.PrivateItems.title.item.dateissued">مواد خاصة بتاريخ الإصدار</message>
-	<message key="xmlui.Administrative.PrivateItems.trail.item.dateissued">مواد خاصة بتاريخ الإصدار</message>
-
-	<message key="xmlui.Administrative.PrivateItems.title.item.dateaccessioned">مواد خاصة بتاريخ التقديم</message>
-	<message key="xmlui.Administrative.PrivateItems.trail.item.dateaccessioned">مواد خاصة بتاريخ التقديم</message>
-
-
- <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactRequester">رد مبدئي على الطلب</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactAuthor"> طلب إذن المؤلف</message>
-    
-
-<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestContactRequester.java -->
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.title">طلب نسخة من الوثيقة</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.trail">طلب نسخة من الوثيقة</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.head">طلب نسخة من الوثيقة</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.para1">الاتصال المبدئي مع الطالب،لإعلامه بأن طلبه قيد المعالجة.</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.toEmail">إلى</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.subject">الموضوع</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.message">الرسالة</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.mail">إرسال</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.back">رجوع</message>
-
-    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestContactAuthor.java -->
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.title">طلب نسخة من الوثيقة</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.trail">طلب نسخة من الوثيقة</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.head">طال نسخة من الوثيقة</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.para1">هذا ما سيتم إرساله بعد ذلك إلى الطالب  (إلى جانب الوثيقة).</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.toEmail">إلى</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.subject">الموضوع</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.message">الرسالة</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.mail">إرسال</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.back">رجوع</message>
-
-    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseSent.java -->
-    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.title">تم إرسال الرد.</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.trail">تم إرسال الرد.</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.head">تم إرسال الرد.</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.para1">تم إرسال الرد.</message>
-
-<message key="xmlui.administrative.Navigation.administrative_content">إدارة المحتوى</message>
-
-<message key="xmlui.administrative.Navigation.administrative_batch_import">استيراد كمي (ZIP)</message>
-
- <!-- Batch Import Tool -->
-    <!-- org.dspace.app.xmlui.administrative.batchimport -->
-    <message key="xmlui.administrative.batchimport.general.select_collection">تحديد حاوية</message>
-    <message key="xmlui.administrative.batchimport.general.collection">الحاوية</message>
-    <message key="xmlui.administrative.batchimport.general.collection_help">قم بتحديد الحاوية التي تريد تقديم المادة لها .</message>
-    <message key="xmlui.administrative.batchimport.general.collection_default">تحديد حاوية...</message>
-
-    <message key="xmlui.administrative.batchimport.general.title">تحميل الاستيراد الكمي (ZIP)</message>
-    <message key="xmlui.administrative.batchimport.general.head1">تحميل الاستيراد الكمي (ZIP)</message>
-    <message key="xmlui.administrative.batchimport.general.trail">تحميل الاستيراد الكمي (ZIP)</message>
-    <message key="xmlui.administrative.batchimport.general.changes">تغييرات</message>
-    <message key="xmlui.administrative.batchimport.general.no_changes">لم يتم العثور على تغييرات</message>
-    <message key="xmlui.administrative.batchimport.general.new_item">مادة جديدة</message>
-    <message key="xmlui.administrative.batchimport.flow.upload_successful">تم التحميل بنجاح</message>
-    <message key="xmlui.administrative.batchimport.flow.upload_failed">فشل التحميل أو لم يتم تحديد ملف</message>
-    <message key="xmlui.administrative.batchimport.flow.upload_badschema">مخطط ميتاداتا غير معروف في الرأس</message>
-    <message key="xmlui.administrative.batchimport.flow.upload_badelement">عنصر ميتاداتا غير معروف في الرأس</message>
-    <message key="xmlui.administrative.batchimport.flow.import_successful">تم الاستيراد بنجاح</message>
-    <message key="xmlui.administrative.batchimport.flow.import_failed">فشل الاستيراد</message>
-    <message key="xmlui.administrative.batchimport.flow.failed_no_collection">لم يتم تحديد حاوية مستهدفة</message>
-
-    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
-    <message key="xmlui.administrative.batchimport.BatchmportMain.submit_upload">تحميل SimpleArchiveFormat ZIP</message>
-
-    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
-    <message key="xmlui.administrative.batchimport.BatchImportConfirm.success">تمت المعالجة بنجاح</message>
-    <message key="xmlui.administrative.batchimport.BatchImportConfirm.changes_committed">تم تطبيق التغييرات على المادة</message>
-    <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_added">تمت الإضافة: </message>
-    <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_removed">تمت الإزالة: </message>
-
-    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportUpload -->
-    <message key="xmlui.administrative.batchimport.BatchImportUpload.item_add">إضافة: </message>
-    <message key="xmlui.administrative.batchimport.BatchImportUpload.item_remove">إزالة: </message>
-
- <message key="xmlui.statistics.Navigation.usage-Elasticsearch.view">عرض احصائيات الاستخدام</message>
-
- <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-                     Google Analytics Statistics Aspect
-
-        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-
-    <message key="xmlui.statisticsGoogleAnalytics.Navigation.title">Statistics</message>
-    <message key="xmlui.statisticsGoogleAnalytics.Navigation.usage.view">عرض احصائيات جوجل التحليلية</message>
-    <message key="xmlui.statisticsGoogleAnalytics.trail">احصائيات</message>
-    <message key="xmlui.statisticsGoogleAnalytics.title">احصائيات جوجل التحليلية</message>
-
-    <message key="xmlui.statisticsGoogleAnalytics.dates.startDate">تاريخ البدء</message>
-    <message key="xmlui.statisticsGoogleAnalytics.dates.endDate">تاريخ الانتهاء</message>
-    <message key="xmlui.statisticsGoogleAnalytics.dates.refresh">تحديث</message>
-
-    <message key="xmlui.statisticsGoogleAnalytics.pageViews.title">عروض الصفحة</message>
-    <message key="xmlui.statisticsGoogleAnalytics.downloads.title">تنزيلات الملف</message>
-
-
-<message key="xmlui.ChoiceLookupTransformer.lookup">Lookup</message>
-
-
-<message key="xmlui.aspect.sherpa.submission.consult">للتحقق من سياسات حقوق الطبع والنشر والإنجاز الذاتي للدورية أو الناشر ‘ يرجى استشارة <a href="http://www.sherpa.ac.uk/">SHERPA/RoMEO</a>.</message>
-    <message key="xmlui.aspect.sherpa.submission.title">معلومات الناشر</message>
-    <message key="xmlui.aspect.sherpa.submission.journal">الدورية: </message>
-    <message key="xmlui.aspect.sherpa.submission.publisher">معلومات الناشر: </message>
-    <message key="xmlui.aspect.sherpa.submission.colour">RoMEO لون: </message>
-    <message key="xmlui.aspect.sherpa.submission.more">(المزيد من المعلومات)</message>
-    <message key="xmlui.aspect.sherpa.submission.green">أخضر</message>
-    <message key="xmlui.aspect.sherpa.submission.blue">أزرق</message>
-    <message key="xmlui.aspect.sherpa.submission.white">أبيض</message>
-    <message key="xmlui.aspect.sherpa.submission.yellow">أصفر</message>
-    <!-- End Versioning -->
-
-
-    <message key="xmlui.mirage2.itemSummaryView.MetaData">ميتاداتا</message>
-    <message key="xmlui.mirage2.itemSummaryView.Collections">الحاويات</message>
-
-    <message key="xmlui.mirage2.discovery.reset">إعادة ضبط</message>
-    <message key="xmlui.mirage2.discovery.newFilter">إضافة مرشح جديد</message>
-    <message key="xmlui.mirage2.discovery.showAdvancedFilters">عرض المرشحات المتقدمة</message>
-    <message key="xmlui.mirage2.discovery.hideAdvancedFilters">إخفاء المرشحات المتقدمة</message>
-
-
-    <message key="xmlui.mirage2.forms.instancedCompositeFields.add">إضافة</message>
-    <message key="xmlui.mirage2.forms.instancedCompositeFields.remove">حذف</message>
-    <message key="xmlui.mirage2.forms.instancedCompositeFields.noSuggestionError">خطأ: حقل الإدخال مع "اقتراح" (إكمال تلقائي) سلوك الاختيار لم ينفذ مع الحقول المركبة (مثال: "الاسم") .</message>
-    <message key="xmlui.mirage2.forms.nonInstancedCompositeFields.noSuggestionError">خطأ: حقل الإدخال مع "اقتراح" (إكمال تلقائي) سلوك الاختيار لم ينفذ مع الحقول المركبة  for Composite (e.g. "name") fields.</message>
-    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.add">إضافة</message>
-    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.remove">حذف</message>
-
-    <message key="xmlui.mirage2.page-structure.aboutThisRepository">حول هذا المستودع</message>
-    <message key="xmlui.mirage2.page-structure.toggleNavigation">الإبحار بالتنقل</message>
-
-    <message key="xmlui.mirage2.page-structure.heroUnit.title">حول هذا المستودع</message>
-    <message key="xmlui.mirage2.page-structure.heroUnit.content">لإضافة المحتوى الخاص بك إلى هذه الصفحة، قم بتحرير تطبيقات الويب /xmlui/themes/Mirage2/lib/xsl/core/page-structure.xsl وإضافة محتواك إلى العنوان، والمسار، والموضوع. إذا كنت ترغب في إضافة صفحات إضافية،  يجب عليك إنشاء xsl إضافي:  عند الحظر ومطابقة uri الطلب إلى الصفحة التي تقوم بإضافتها . حاليا، يتم إنشاء الصفحات الثابتة عبر تعديل XSL  متاحة فقط أدنى سابقة URI للصفحة /.</message>
-
-    <message key="xmlui.mirage2.navigation.rss.feed">تلقيمة</message>
-
-    <message key="xmlui.mirage2.choice-authority-control.loading">جاري التحميل...</message>
-
-    <message key="xmlui.mirage2.item-list.thumbnail">صورة مصغرة</message>
-
-
-<message key="xmlui.ArtifactBrowser.ItemRequestForm.login_para">مستخدمي هذا النظام، يمكنهم تسجيل الدخول لعرض هذه الوثيقة .</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestForm.login">تسجيل الدخول</message>
-
-
-
-
-
-
-
-
-
 
 
 	<!--
@@ -278,7 +56,7 @@
 		This section is for feed syndications (RSS, atom, etc)
 	-->
 	<message key="xmlui.feed.general_description">نظام المستودع الرقمي دي سبيس يلتقط ويخزن ويفهرس ويحفظ ويوزع مواد البحث الرقمي.</message>
-	<message key="xmlui.feed.header">RSS تلقيمات</message>
+    <message key="xmlui.feed.header">RSS تلقيمات</message>
 	<message key="xmlui.feed.logo_title">صورة القناة</message>
 	<message key="xmlui.feed.untitled">غير معنون</message>
 
@@ -295,123 +73,10 @@
 
 		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
-<!-- discovery facts  -->
-
-  
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.contributor.author_filter">المؤلف</message>
-
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">المواضيع</message>
-        <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject.lcsh_filter">المواضيع</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.title_filter">العنوان</message>
-
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">نوع المحتوى</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">تاريخ النشر</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued.year">سنة النشر</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.language.iso_filter">اللغة</message>
-
-
-    <!-- Site Leve Recently Added Content -->
-    <message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">مواد أضيفت حديثا</message>
-    
-  <message key="xmlui.ArtifactBrowser.AbstractRecentSubmissionTransformer.recent_submissions_more">عرض المزيد</message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.head">{0} آخر التقديمات</message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.trail">آخر التقديمات </message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.recent.head">آخر الاضافات</message>
-
-
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type_filter">النوع</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.publisher_filter">الناشر</message>
-
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.ispartof">الأب</message>
-
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by">تجميع النتائج حسب</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.none">لا يوجد</message>
-  
-    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.head">اكتشف</message>
-    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.view-more"> . . . . . . . . اعرض المزيد </message>
-     <message key="xmlui.Discovery.SimpleSearch.filter.contains">يحتوى</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.equals">يساوي</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.authority">رقم الهوية</message>
-	<message key="xmlui.Discovery.SimpleSearch.filter.notcontains">لا يحتوي</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.notequals">لا يساوي</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.notauthority">رقم هوية غير</message>
-    
-    
-      <message key="xmlui.Discovery.AbstractSearch.startswith"> يبدأ ب</message>
-    <message key="xmlui.Discovery.AbstractSearch.startswith.help">او ادخل بعض الحروف:</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.head">خيارات الترتيب:</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.relevance">وثيق الصلة</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_desc">العنوان تنازليا</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_desc">تاريخ النشر تنازليا</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_asc">العنوان تصاعديا</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_asc">تاريخ النشر تصاعديا</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.rpp">نتيجة في الصفحة:</message>
-     <message key="xmlui.Discovery.AbstractSearch.filters.controls.add-filter">أضف عنصر تصفية</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.apply-filters">تطبيق</message>
-        <message key="xmlui.Discovery.AbstractSearch.filters.controls.reset-filters">مسح</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.remove-filter">حذف</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.new-filters.head">تصفية جديدة:</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.current-filters.head">التصفية الحالية:</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.display">أضف عناصر تصفية</message>
-
-    <message key="xmlui.discovery.SearchFacetFilter.no-results">لا يوجد قيمة لعنصر التصفية</message>
-    
-    
-     <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dc.title_sort">العنوان</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dc.date.issued_dt_sort">تاريخ النشر</message>
-  
-   <message key="xmlui.Discovery.SimpleSearch.filter_help">أدخل بعض النص في الصندوق أدناه لإضافة محددات تصفية لنتائج بحثك، مع الاحاطة بان هذا الصندوق يوفر خدمة تكملة النص التلقائية والتي تحتوي على جميع القيم الموجودة في الحقل المُختار من حقول القائمة المنسدلة على يمين صندوق النص. وفي جميع الأحوال نرجو الاحاطة أنه على الرغم ان خيار البحث في النص الكامل مدعوم ايضاً بخاصية التكملة التلقائية، الا ان هذه القيم سوف تظهر من الحقول التي يمكن اختيارها فقط ولا تشمل كافة القيم في المستودع الرقمي حيث يتم البحث عند اختيارها.</message>
-
-    <message key="xmlui.Discovery.SimpleSearch.filter_head">اضافة تصفية</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.all">كل التسجيلة</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dc.title">العنوان</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dc.contributor.author">المؤلف</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dc.subject">الموضوع</message>
-        <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dc.subject.lcsh">الموضوع</message>
-     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dc.language.iso">اللغة</message>
-
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dc.description">الوصف</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dc.date.issued.year">تاريخ النشر</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">المؤلف</message>
-        <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">العنوان</message>
-        <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">الموضوع</message>
-        <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">تاريخ النشر</message>
-
-     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dc.language.iso_filter"> اللغة</message>
 
 
 
 
-	<!-- org.dspace.app.xmlui.artifactbrowser.AbstractSearch.java -->
-	<message key="xmlui.Discovery.AbstractSearch.head1_community">نتائج البحث عن المجتمع: {0}</message>
-	<message key="xmlui.Discovery.AbstractSearch.head1_collection">نتائج البحث عن الحاوية: {0}</message>
-	<message key="xmlui.Discovery.AbstractSearch.head1_none">نتائج البحث</message>
-	<message key="xmlui.Discovery.AbstractSearch.result_query">استعلامك "{0}" أنتج {1} نتيجة.</message>
-	<message key="xmlui.Discovery.AbstractSearch.head2">المجتمعات أو الحاويات التي توافق استعلامك</message>
-	<message key="xmlui.Discovery.AbstractSearch.head3">المواد المطابقة لاستفسارك</message>
-	<message key="xmlui.Discovery.AbstractSearch.no_results">لم يسفر البحث عن نتائج.</message>
-	<message key="xmlui.Discovery.AbstractSearch.all_of_dspace">جميع محتويات المستودع</message>
-
-   <message key="xmlui.Discovery.AbstractSearch.sort_by.title">عنوان</message>
-   <message key="xmlui.Discovery.AbstractSearch.sort_by.dateissued">تاريخ النشر</message>
-   <message key="xmlui.Discovery.AbstractSearch.sort_by.dateaccessioned">تاريخ اﻹشتراك</message>
-	<message key="xmlui.Discovery.AbstractSearch.sort_by.relevance">الصلة</message>
-	<message key="xmlui.Discovery.AbstractSearch.sort_by">فرز المواد حسب</message>
-	<message key="xmlui.Discovery.AbstractSearch.order">مرتب</message>
-	<message key="xmlui.Discovery.AbstractSearch.order.asc">تصاعدي</message>
-	<message key="xmlui.Discovery.AbstractSearch.order.desc">تنازلي</message>
-	<message key="xmlui.Discovery.AbstractSearch.rpp">النتائج / الصفحة</message>
-	<message key="xmlui.Discovery.AbstractSearch.type_author">تصفية بواسطة : المؤلف</message>
-    <message key="xmlui.Discovery.AbstractSearch.type_subject"> تصفية بواسطة : الموضوع</message>
-
-    <message key="xmlui.dri2xhtml.structural.pagination-info.nototal">عرض المواد  {0}-{1}</message>
-
-	
-    <!-- end my adds (by ahmad maher) -->
 
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.AbstractSearch.java -->
@@ -434,8 +99,6 @@
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.order.desc">تنازلي</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.rpp">النتائج / الصفحة</message>
 
-	<message key="xmlui.Discovery.AbstractSearch.type_dc.language.iso_filter"> اللغة </message>
-
     <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.title">بحث متقدم</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.trail">بحث متقدم</message>
@@ -454,16 +117,10 @@
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">المعرف</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">لغة (أيزو)</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">كلمة مفتاحية</message>
-	
-	<!--discovery box -->
-
-  
 
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">المساهم</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">المنشئ</message>
-
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">الموضوع</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">الوصف</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">العلاقة</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">نوع الـ MIME</message>
@@ -518,6 +175,26 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">استعرض {0} حسب تاريخ اﻹشتراك {1}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">استعرض {0} حسب تاريخ اﻹشتراك</message>
 
+
+	<!-- org.dspace.app.xmlui.administrative.WithdrawnItems.java -->
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.title">مواد مسحوبة بالعنوان</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.title">مواد مسحوبة بالعنوان</message>
+
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateissued">مواد مسحوبة بتاريخ الإصدار</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateissued">مواد مسحوبة بتاريخ الإصدار</message>
+
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateaccessioned">مواد مسحوبة بتاريخ التقديم</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateaccessioned">مواد مسحوبة بتاريخ التقديم</message>
+
+	<!-- org.dspace.app.xmlui.administrative.PrivateItems.java -->
+	<message key="xmlui.Administrative.PrivateItems.title.item.title">مواد خاصة بالعنوان</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.title">مواد خاصة بالعنوان</message>
+
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateissued">مواد خاصة بتاريخ الإصدار</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateissued">مواد خاصة بتاريخ الإصدار</message>
+
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateaccessioned">مواد خاصة بتاريخ التقديم</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateaccessioned">مواد خاصة بتاريخ التقديم</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.search_scope">نطاق البحث</message>
@@ -575,18 +252,14 @@
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.head">تم ارسال الملاحظات</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.para1">تم استقبال تعليقاتك.</message>
 
-	<!-- org.dspace.app.xmlui.artifactbrowser.FrontPageSearch.java -->
-	<message key="xmlui.ArtifactBrowser.FrontPageSearch.head">إبحث في مستودع جامعة طيبة الرقمي</message>
-	<message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">أدخل نص في المربع أدناه للبحث في مستودع جامعة طيبة الرقمي.</message>
-
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
 	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">عرض المادة</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">هذه المادة تظهر في الحاويات التالية</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">عرض سجل المادة البسيط</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">عرض سجل المادة الكامل</message>
-		
-		<message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">لقد تم سحب هذه المادة ولم تعد متاحة .</message>
-		
+
+        <message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">لقد تم سحب هذه المادة ولم تعد متاحة .</message>
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
 	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">استعرض</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">جميع محتويات المستودع</message>
@@ -605,11 +278,6 @@
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.head">بحث</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.search_scope">نطاق البحث</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.full_text_search">بحث النص الكامل</message>
-	<!-- adds by ahmad maher -->
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dc.publisher_filter">الناشر </message> 
- <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dc.subject.lcsh_filter">الموضوع</message> 
- <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dc.contributor.author_filter">المؤلف</message>
-  <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dc.date.issued.dt_filter">سنة النشر</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.RestrictedItem.java -->
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.title">هذا المصدر مقيد</message>
@@ -630,14 +298,13 @@
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_item">المادة</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_resource">المصدر</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.unknown">غير معروف</message>
-	
-		<message key="xmlui.ArtifactBrowser.RestrictedItem.login">الاستمرار إلى شاشة تسجيل الدخول</message>
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.login">الاستمرار إلى شاشة تسجيل الدخول</message>
 
         <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">هذه المادة مسحوبة</message>
         <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">المادة المحددة مسحوبة ولم تعد متاحة حاليا.</message>
         <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">المادة المحددة يحظر الوصول إليها وتتطلب اعتمادات لعرضها. الرجاء تسجيل الدخول للوصول إلى المادة.</message>
         <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">لا يوجد لحساب المستخدم الخاص بك الاعتمادات الكافية لعرض هذه المادة. الرجاء الاتصال بإدارة النظام إذا كان لديك أي استفسارات.</message>
-
+        
 	<!-- Authentication messages used at the top of the login page:  -->
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_header">المادة مقيدة</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_message">المادة التي تحاول الوصول اليها هي مادة مقيدة وتحتاج الى تفويض لعرضها. يرجي تسجيل الدخول باﻷسفل للوصول الى المادة.</message>
@@ -655,14 +322,16 @@
 	<!-- Export Archive download messages -->
 	<message key="xmlui.ItemExportDownloadReader.auth_header">أرشيف التصدير مقيد</message>
 	<message key="xmlui.ItemExportDownloadReader.auth_message">أرشيف التصدير الذي تحاول الوصول اليه هو مصدر مقيد ويحتاج الى تفويض لعرضه. يرجى تسجيل الدخول باﻷسفل للوصول الى أرشيف التصدير.</message>
-	
-	
-		<!-- REQUEST COPY -->
+
+
+	<!-- REQUEST COPY -->
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestForm.java -->
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.title">اطلب نسخة من الوثيقة</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.trail">اطلب نسخة من الوثيقة</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.head">اطلب نسخة من الوثيقة</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.para1">أدخل البيانات التالية لإرسال طلب نسخة من الوثيقة إلى الشخص صاحب المادة</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.login_para">مستخدمي هذا النظام، يمكنهم تسجيل الدخول لعرض هذه الوثيقة .</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.login">تسجيل الدخول</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.para1">أدخل البيانات التالية لإرسال طلب نسخة من الوثيقة إلى الشخص صاحب المادة</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail">عنوان البريد الإلكتروني</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail_help">هذا البريد يستخدم لإرسال الوثيقة عليه.</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail.error">عنوان البريد الإلكتروني مطلوب</message>
@@ -687,7 +356,9 @@
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.head">Document copy request</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para1">IF YOU ARE THE AUTHOR (OR AN AUTHOR) OF DOCUMENT "{0}" use the buttons to answer the user's request.</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para2">This repository will propose an appropriate model reply, which you may edit.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Send copy</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactRequester">رد مبدئي على الطلب</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactAuthor"> طلب إذن المؤلف</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Send copy</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.dontSend">Don't send copy</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseTrueForm.java -->
@@ -727,17 +398,37 @@
 	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.head">Your request to change permissions has been sent</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para1">Your request has been sent to the administrator</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para2">Thanks</message>
-	
-	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-		                EPerson Aspect
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestContactRequester.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.title">طلب نسخة من الوثيقة</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.trail">طلب نسخة من الوثيقة</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.head">طلب نسخة من الوثيقة</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.para1">الاتصال المبدئي مع الطالب،لإعلامه بأن طلبه قيد المعالجة.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.toEmail">إلى</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.subject">الموضوع</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.message">الرسالة</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.mail">إرسال</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.back">رجوع</message>
 
-		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestContactAuthor.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.title">طلب نسخة من الوثيقة</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.trail">طلب نسخة من الوثيقة</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.head">طال نسخة من الوثيقة</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.para1">هذا ما سيتم إرساله بعد ذلك إلى الطالب  (إلى جانب الوثيقة).</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.toEmail">إلى</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.subject">الموضوع</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.message">الرسالة</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.mail">إرسال</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.back">رجوع</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseSent.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.title">تم إرسال الرد.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.trail">تم إرسال الرد.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.head">تم إرسال الرد.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.para1">تم إرسال الرد.</message>
+
 
 	
-	
-	
-
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 		                EPerson Aspect
@@ -757,7 +448,7 @@
 	<!-- org.dspace.app.xmlui.eperson.CannotRegister.java -->
 	<message key="xmlui.EPerson.CannotRegister.title">التسجيل غير متاح</message>
 	<message key="xmlui.EPerson.CannotRegister.head">التسجيل غير متاح</message>
-	<message key="xmlui.EPerson.CannotRegister.para1">اعداد هذا المستودع لمستودع جامعة طيبة الرقمي ﻻ يسمح بالتسجيل في هذا السياق. يرجى الاتصال <a href="../contact">بمشرف الموقع</a> مع اﻷسئلة أو التعليقات.</message>
+	<message key="xmlui.EPerson.CannotRegister.para1">اعداد هذا المستودع لمستودع جامعة طيبة الرقمي ﻻ يسمح بالتسجيل في هذا السياق. يرجى الاتصال <a href="../contact">site administrator</a> with questions or comments.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.EditProfile.java -->
 	<message key="xmlui.EPerson.EditProfile.title_update">تحديث الملف الشخصي</message>
@@ -818,7 +509,6 @@
 	<message key="xmlui.EPerson.PasswordLogin.title">تسجيل الدخول</message>
 	<message key="xmlui.EPerson.PasswordLogin.trail">تسجيل الدخول</message>
 	<message key="xmlui.EPerson.PasswordLogin.head1">تسجيل الدخول الى مستودع جامعة طيبة الرقمي</message>
-	<message key="xmlui.EPerson.PasswordLogin.title">تسجيل الدخول</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">عنوان البريد الالكتروني</message>
 	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">عنوان البريد الالكتروني و/أو كلمة المرور الموفرة غير صالحة.</message>
 	<message key="xmlui.EPerson.PasswordLogin.password">كلمة المرور</message>
@@ -828,11 +518,10 @@
 	<message key="xmlui.EPerson.PasswordLogin.para1">تسجيل حساب جديد للاشتراك في مجموعات تحديث البريد الالكتروني وتقديم مواد جديدة في مستودع جامعة طيبة الرقمي.</message>
 	<message key="xmlui.EPerson.PasswordLogin.register_link">انقر هنا للتسجيل</message>
 
-	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java --> 
+	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java -->
 	<message key="xmlui.EPerson.LDAPLogin.title">تسجيل الدخول</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">تسجيل الدخول</message>
 	<message key="xmlui.EPerson.LDAPLogin.head1">تسجيل الدخول الى مستودع جامعة طيبة الرقمي</message>
-	<message key="xmlui.EPerson.LDAPLogin.title">تسجيل الدخول</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">اسم المستخدم</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">اسم المستخدم و/أو كلمة المرور الموفرة غير صالحة.</message>
 	<message key="xmlui.EPerson.LDAPLogin.password">كلمة المرور</message>
@@ -957,13 +646,13 @@
 	<message key="xmlui.Submission.Submissions.title">تقديمات &amp; سير عمل</message>
 	<message key="xmlui.Submission.Submissions.trail">تقديمات</message>
 	<message key="xmlui.Submission.Submissions.head">تقديمات &amp; مهمات سير العمل</message>
-	<message key="xmlui.Submission.Submissions.untitled"><i>غير معنون</i></message>
+	<message key="xmlui.Submission.Submissions.untitled"><i>Untitled</i></message>
 	<message key="xmlui.Submission.Submissions.email">بريد الكتروني: </message>
 	<!-- Same transformer, workflow section -->
 	<message key="xmlui.Submission.Submissions.workflow_head1">مهمات سير العمل</message>
 	<message key="xmlui.Submission.Submissions.workflow_info1">هذه المهام هي بنود تنتظر الموافقة قبل اضافتها الى المستودع. يوجد طابورين للمهام، أحدهما للمهام التي اخترتها للقبول واﻵخر للمهام التي لم تتخذ من قبل أحد آخر حتى اﻵن.</message>
 	<message key="xmlui.Submission.Submissions.workflow_head2">المهام التي تمتلكها</message>
-	<message key="xmlui.Submission.Submissions.workflow_column1"></message>
+	<message key="xmlui.Submission.Submissions.workflow_column1"/>
 	<message key="xmlui.Submission.Submissions.workflow_column2">مهمة</message>
 	<message key="xmlui.Submission.Submissions.workflow_column3">مادة</message>
 	<message key="xmlui.Submission.Submissions.workflow_column4">مجموعة</message>
@@ -982,7 +671,7 @@
 	<message key="xmlui.Submission.Submissions.submit_info2a">يوجد تقديمات مادة غير مكتملة. يمكنك أيضا </message>
 	<message key="xmlui.Submission.Submissions.submit_info2b">بدء تقديم آخر</message>
 	<message key="xmlui.Submission.Submissions.submit_info2c">.</message>
-	<message key="xmlui.Submission.Submissions.submit_column1"></message>
+	<message key="xmlui.Submission.Submissions.submit_column1"/>
 	<message key="xmlui.Submission.Submissions.submit_column2">العنوان</message>
 	<message key="xmlui.Submission.Submissions.submit_column3">الحاوية</message>
 	<message key="xmlui.Submission.Submissions.submit_column4">المقدم</message>
@@ -1006,7 +695,7 @@
 	<message key="xmlui.Submission.Submissions.status_6">التقديم تحت التحرير</message>
 	<message key="xmlui.Submission.Submissions.status_7">تم حفظ التقديم في اﻷرشيف</message>
 	<message key="xmlui.Submission.Submissions.status_unknown">حالة غير معروفة</message>
-	 <!-- Same transformer, completed submissions section -->
+        <!-- Same transformer, completed submissions section -->
         <message key="xmlui.Submission.Submissions.completed.head">التقديمات المحفوظة</message>
         <message key="xmlui.Submission.Submissions.completed.info">هذه هي تقديماتك الكاملة التي تمت الموافقة عليها في دي سبيس.</message>
         <message key="xmlui.Submission.Submissions.completed.column1">تاريخ القبول</message>
@@ -1015,16 +704,15 @@
         <message key="xmlui.Submission.Submissions.completed.limit">لقد قمنا بإدراج 50 فقط من تقديماتك المحفوظة أعلاه. </message>
         <message key="xmlui.Submission.Submissions.completed.displayall">عرض كل تقديماتي المحفوظة.</message>
 
-
 	<!-- submission progress bar messages -->
 	<message key="xmlui.Submission.submit.progressbar.initial-questions">أسئلة أولية</message>
 	<message key="xmlui.Submission.submit.progressbar.describe">اوصف</message>
-	<message key="xmlui.Submission.submit.progressbar.access">الوصول</message>
-	<message key="xmlui.Submission.submit.progressbar.upload">حمل</message>
+    <message key="xmlui.Submission.submit.progressbar.access">الوصول</message>
+    <message key="xmlui.Submission.submit.progressbar.upload">حمل</message>
 	<message key="xmlui.Submission.submit.progressbar.verify">راجع</message>
 	<message key="xmlui.Submission.submit.progressbar.creative-commons">موسوعة ابداعية</message>
 	<message key="xmlui.Submission.submit.progressbar.CClicense">CC رخصة</message>
-	<message key="xmlui.Submission.submit.progressbar.license">ترخيص</message>
+    <message key="xmlui.Submission.submit.progressbar.license">ترخيص</message>
 	<message key="xmlui.Submission.submit.progressbar.complete">اكمال</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.ResumeStep -->
@@ -1052,7 +740,7 @@
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.open_set"> (</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.close_set">)</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles">عناوين متعددة</message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_help">المادة لها أكثر من عنوان،  على سبيل المثال <i>عنوان مترجم</i></message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_help">المادة لها أكثر من عنوان،  على سبيل المثال <i>e.g. a translated title</i></message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_note">اذا لم يتم اختيار مربع اﻻختيار أعلاه فان العنوان التالي سوف تتم ازالته من المادة:</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before">نشر</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before_help">تم نشر المادة أو توزيعها علنا من قبل</message>
@@ -1065,21 +753,21 @@
 	<message key="xmlui.Submission.submit.DescribeStep.head">وصف المادة</message>
 	<message key="xmlui.Submission.submit.DescribeStep.unknown_field">خطأ: نوع حقل غير معروف</message>
 	<message key="xmlui.Submission.submit.DescribeStep.required_field">هذا الحقل مطلوب</message>
-	<message key="xmlui.Submission.submit.DescribeStep.last_name_help">اﻻسم اﻷخير، على سبيل المثال<i> زاهد</i></message>
-	<message key="xmlui.Submission.submit.DescribeStep.first_name_help">اﻻسم اﻷول + "اﻻبن"، على سبيل المثال <i>عبد الرحمن</i></message>
+	<message key="xmlui.Submission.submit.DescribeStep.last_name_help">اﻻسم اﻷخير، على سبيل المثال<i>e.g. Smith</i></message>
+	<message key="xmlui.Submission.submit.DescribeStep.first_name_help">اﻻسم اﻷول + "اﻻبن"، على سبيل المثال <i>e.g. Donald Jr</i></message>
 	<message key="xmlui.Submission.submit.DescribeStep.year">سنة</message>
 	<message key="xmlui.Submission.submit.DescribeStep.month">شهر</message>
 	<message key="xmlui.Submission.submit.DescribeStep.day">يوم</message>
 	<message key="xmlui.Submission.submit.DescribeStep.series_name">اسم السلسلة</message>
 	<message key="xmlui.Submission.submit.DescribeStep.report_no">رقم الورقة أو التقرير</message>
-	
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.link">فئات الموضوع</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.title">فئات الموضوع</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.label">ترشيح الموضوعات</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.button">ترشيح</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.loading">الرجاء الانتظار بينما يتم تحميل المفردات المقننة .</message>
 	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.error">لقد حدثت مشكلة أثناء تحميل المفردات المقننة , الرجاء المحاولة لاحقا.</message>
-	
+
+
     <!-- org.dspace.app.xmlui.Submission.submit.AccessStep -->
     <message key="xmlui.Submission.submit.AccessStep.head">إعدادات الوصول</message>
     <message key="xmlui.Submission.submit.AccessStep.access_settings">مرئي لمجموعة من المستخدمين المحددين (لا حاجة إلى التحديد بالنسبة لغير المعروف)</message>
@@ -1087,16 +775,22 @@
     <message key="xmlui.Submission.submit.AccessStep.embargo">حظر الوصول حتى التاريخ المحدد</message>
     <message key="xmlui.Submission.submit.AccessStep.embargo_visible">مرئي/محظور</message>
     <message key="xmlui.Submission.submit.AccessStep.name">الاسم</message>
+    <message key="xmlui.Submission.submit.AccessStep.name_help">اسماً وصفياً قصيراً للسياسة (حتى 30 حرفاً). يمكن أن يتم عرضه للمستخدمين. مثال: "للموظفين-فقط". اختياري لكن يوصى به.</message>
     <message key="xmlui.Submission.submit.AccessStep.description">الوصف</message>
     <message key="xmlui.Submission.submit.AccessStep.reason">السبب</message>
+    <message key="xmlui.Submission.submit.AccessStep.reason_help">سبب الحظر، للاستخدام الداخلي فقط عادةً. اختياري .</message>
     <message key="xmlui.Submission.submit.AccessStep.submit_add_policy">تأكيد السياسة &amp; إضافة أخرى</message>
     <message key="xmlui.Submission.submit.AccessStep.list_assigned_groups">المجموعات</message>
     <message key="xmlui.Submission.submit.AccessStep.error_format_date">خطأ في تنسيق التاريخ</message>
     <message key="xmlui.Submission.submit.AccessStep.error_missing_date">عند تحديد الحظر, التاريخ مطلوب</message>
     <message key="xmlui.Submission.submit.AccessStep.error_duplicated_policy">توجد سياسة مطابقة لهذ المجموعة وهذا الإجراء بالفعل.</message>
     <message key="xmlui.Submission.submit.AccessStep.table_policies">قائمة السياسات</message>
+    <message key="xmlui.Submission.submit.AccessStep.policies_help">السياسات المدرجة في هذا القسم تتخطى أي سياسات افتراضية للحاوية التي تقوم بالتقديم لها. إذا كنت ترغب في ضبط حظر لكن الحاوية المستهدفة  تتيح الوصول لأي مستخدم، يجب عليك ضبط سياسة تتيح الوصول  للمجموعة المجهولة فقط منذ تاريخ محدد فصاعداً .</message>
+    <message key="xmlui.Submission.submit.AccessStep.no_policies">لم يتم تنصيب أي سياسات مجموعة لهذه المادة .</message>
+    <message key="xmlui.Submission.submit.AccessStep.new_policy_head">حظر</message>
     <message key="xmlui.Submission.submit.AccessStep.private_settings">مادة خاصة</message>
     <message key="xmlui.Submission.submit.AccessStep.private_settings_help">في حالة التحديد, لن تكون المادة قابلة للبحث</message>
+    <message key="xmlui.Submission.submit.AccessStep.private_settings_label">خاص</message>
     <message key="xmlui.Submission.submit.AccessStep.column0">الاسم</message>
     <message key="xmlui.Submission.submit.AccessStep.column1">الإجراء</message>
     <message key="xmlui.Submission.submit.AccessStep.column2">المجموعة</message>
@@ -1105,20 +799,25 @@
     <message key="xmlui.Submission.submit.AccessStep.table_edit_button">تحرير</message>
     <message key="xmlui.Submission.submit.AccessStep.table_delete_button">حذف</message>
     <message key="xmlui.administrative.authorization.AccessStep.label_date_help">التنسيق المقبول: العام, العام-الشهر, العام-الشهر-اليوم</message>
+    <message key="xmlui.Submission.submit.AccessStep.review_policy_line">الاسم: {0}; الإجراء: {1}, المجموعة: {2}, تاريخ البدء: {3}, تاريخ الانتهاء: {4}</message>
+    <message key="xmlui.Submission.submit.AccessStep.review_public_item">ستكون المادة قابلة للبحث</message>
+    <message key="xmlui.Submission.submit.AccessStep.review_private_item">لن تكون المادة قابلة للبحث</message>
+
 
 
     <!-- org.dspace.app.xmlui.Submission.submit.EditPolicyStep -->
     <message key="xmlui.Submission.submit.EditPolicyStep.head">تحرير السياسة</message>
 
-
-	<!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
+    <!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
 	<message key="xmlui.Submission.submit.UploadStep.head">تحميل الملفات</message>
 	<message key="xmlui.Submission.submit.UploadStep.file">ملف</message>
 	<message key="xmlui.Submission.submit.UploadStep.file_help">الرجاء ادخال المسار الكامل للملف على جهاز الحاسب الخاص بك المقابل لمادتك، اذا نقرت فوق "استعرض..." سوف تسمح لك نافذة جديدة بتحديد ملف من حاسوبك.</message>
 	<message key="xmlui.Submission.submit.UploadStep.file_error">ينبغي أن تحتوي المادة على ملف واحد على اﻷقل.</message>
 	<message key="xmlui.Submission.submit.UploadStep.upload_error">كانت هناك مشكلة أثناء تحميل ملفك، فاما أن اسم الملف الذي أدخلته غير صحيح. أو كان هناك مشكلة في الشبكة منعت الملف من الوصول لنا بشكل صحيح، أو أو أنك حاولت تحميل تنسيق ملف معلم للنظام الداخلي فقط. يرجى المحاولة مرة أخرى.</message>
-	<message key="xmlui.Submission.submit.UploadStep.description">وصف الملف</message>
-	<message key="xmlui.Submission.submit.UploadStep.description_help">اختياريا، قدم وصفا موجزا للملف، على سبيل المثال "<i>مقال رئيسي</i>"، أو "<i>قراءات بيانات تجربة</i>".</message>
+	<message key="xmlui.Submission.submit.UploadStep.virus_error">لم يتم تحميل الملف حيث يبدو أمه يحتوي على فيروس. يرجى الاتصال بإدارة  النظام .</message>
+    <message key="xmlui.Submission.submit.UploadStep.virus_checker_error">لقد حدثت مشكلة تقنية أثناء محاولة مسح الملف بحثا عن الفيروسات. يرجى الاتصال بإدارة النظام.</message>
+    <message key="xmlui.Submission.submit.UploadStep.description">وصف الملف</message>
+	<message key="xmlui.Submission.submit.UploadStep.description_help">اختياريا، قدم وصفا موجزا للملف، على سبيل المثال "<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
 	<message key="xmlui.Submission.submit.UploadStep.submit_upload">تحميل ملف &amp; اضافة آخر</message>
 	<message key="xmlui.Submission.submit.UploadStep.head2">الملفات حملت</message>
 	<message key="xmlui.Submission.submit.UploadStep.column0">ابتدائي</message>
@@ -1127,7 +826,7 @@
 	<message key="xmlui.Submission.submit.UploadStep.column3">الحجم</message>
 	<message key="xmlui.Submission.submit.UploadStep.column4">الوصف</message>
 	<message key="xmlui.Submission.submit.UploadStep.column5">التنسيق</message>
-	<message key="xmlui.Submission.submit.UploadStep.column6"></message>
+	<message key="xmlui.Submission.submit.UploadStep.column6"/>
 	<message key="xmlui.Submission.submit.UploadStep.unknown_name">غير معروف</message>
 	<message key="xmlui.Submission.submit.UploadStep.unknown_format">تنسيق غير معروف</message>
 	<message key="xmlui.Submission.submit.UploadStep.supported">(مدعوم)</message>
@@ -1136,17 +835,18 @@
 	<message key="xmlui.Submission.submit.UploadStep.submit_edit">تحرير</message>
 	<message key="xmlui.Submission.submit.UploadStep.checksum">تدقيق مجموع الملف:</message>
 	<message key="xmlui.Submission.submit.UploadStep.submit_remove">ازالة الملفات المحددة</message>
-	
+
+
 
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head">تحميل الملف (الملفات)</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file">الملف</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_help">الرجاء إدخال المسار الكامل للملف على حاسبك بما يتماشى مع الملف، إذا قمت بالنقر على "استعراض...", سوف تتيح لك نافذة جديدة اختيار الملف من حاسبك.</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_error">يجب أن تحتوي المادة ملفا واحدا على الأقل.</message>    
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_error">يجب أن تحتوي المادة ملفا واحدا على الأقل.</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.upload_error">واجهتنامشكلة عتد تحميل ملفك. اما ان اسم الملف غير صحيح، او ان هناك مشكلة في الشبكة حالت دون وصول ملفك الينا بشكل صحيح او انك حاولت تحميل ملق مُعلم على أنه للاسخدام الداخلي للنظام فقط. نرجو اعادة المحاولة مرة أخرى‬‬ </message>
-	<message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_error"> تعذر تحميل الملف لأنه ظهر احتوائه على فيروس. نرجو الاتصال بمدير النظام.</message>
-	<message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_checker_error"> واجهتنا مشكلة فنية خلال محاولة مسح الملف ضد الفيروسوات. نرجو الاتصال بمدير النظام. </message>  
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_error"> تعذر تحميل الملف لأنه ظهر احتوائه على فيروس. نرجو الاتصال بمدير النظام.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_checker_error"> واجهتنا مشكلة فنية خلال محاولة مسح الملف ضد الفيروسوات. نرجو الاتصال بمدير النظام. </message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description">وصف الملف</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">اختياريا, قم بتوفير وصفا مختصرا للملف , على سبيل المثال "<i>مقال رئيسي</i>", or "<i>قراءات بيانات تجريبية</i>".</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">اختياريا, قم بتوفير وصفا مختصرا للملف , على سبيل المثال "<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_upload">تحميل ملف &amp; إضافة آخر</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head2">تم تحميل الملف</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column0">أولي</message>
@@ -1155,7 +855,7 @@
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column3">الحجم</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column4">الوصف</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column5">التنسيق</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"></message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"/>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_name">غير معروف</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_format">تنسيق غير معروف</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.supported">(مدعوم)</message>
@@ -1166,21 +866,21 @@
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_remove">حذف الملفات المحددة</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_policy">السياسات</message>
 
-	
+
 	<!-- org.dspace.app.xmlui.Submission.submit.EditFileStep -->
 	<message key="xmlui.Submission.submit.EditFileStep.head">تحرير الملف</message>
 	<message key="xmlui.Submission.submit.EditFileStep.file">ملف</message>
 	<message key="xmlui.Submission.submit.EditFileStep.description">وصف الملف</message>
-	<message key="xmlui.Submission.submit.EditFileStep.description_help">اختياريا، قدم وصفا موجزا للمحتوى؛ على سبيل المثال "<i>مقال رئيسي</i>"، أو "<i>قراءات بيانات تجربة</i>".</message>
-	<message key="xmlui.Submission.submit.EditFileStep.info1">حدد تنسيق الملف من القائمة أدناه، على سبيل المثال "<i>Adobe PDF</i>" أو "<i>Microsoft Word</i>." <strong>اذا لم يكن التنسيق موجودا في القائمة</strong>, يرجى وصفه في مربع اﻻدخال أدنى القائمة.</message>
+	<message key="xmlui.Submission.submit.EditFileStep.description_help">اختياريا، قدم وصفا موجزا للمحتوى؛ على سبيل المثال "<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
+	<message key="xmlui.Submission.submit.EditFileStep.info1">حدد تنسيق الملف من القائمة أدناه، على سبيل المثال "<i>Adobe PDF</i>" or "<i>Microsoft Word</i>." <strong>If the format is not in the list</strong>, please describe it in the input box below the list.</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_detected">تنسيق مكتشف</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_selected">تنسيق محدد</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_default">التنسيق ليس في القائمة</message>
-	<message key="xmlui.Submission.submit.EditFileStep.info2">اذا كان التنسيق غير موجود في القائمة أعلاه, <strong>اختر "التنسيق ليس في القائمة" أعلاه</strong>وقم بوصف تنسيق الملف في المربع أدناه.</message>
+	<message key="xmlui.Submission.submit.EditFileStep.info2">اذا كان التنسيق غير موجود في القائمة أعلاه, <strong>select "format not in list" above</strong> and describe the file's format in the box below.</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_user">تنسيق آخر</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_user_help">اسم التطبيق الذي استخدمته في انشاء الملف، ورقم اﻻصدار (علي سبيل المثال "<i>ACMESoft SuperApp version 1.5</i>").</message>
-	
-	<!-- org.dspace.app.xmlui.Submission.submit.EditBitstreamPolicies -->
+
+    <!-- org.dspace.app.xmlui.Submission.submit.EditBitstreamPolicies -->
     <message key="xmlui.Submission.submit.EditBitstreamPolicies.head">تحرير وصول Bitstream </message>
 
 
@@ -1200,11 +900,10 @@
 	<message key="xmlui.Submission.submit.ReviewStep.known">معروف</message>
 	<message key="xmlui.Submission.submit.ReviewStep.supported">مدعوم</message>
 
-	
 	<!-- org.dspace.app.xmlui.Submission.submit.CCLicenseStep -->
         <message key="xmlui.Submission.submit.CCLicenseStep.ccws_error">لقد حدث خطأ ... {0}</message>
         <message key="xmlui.Submission.submit.CCLicenseStep.head">ترخيص عملك</message>
-        <message key="xmlui.Submission.submit.CCLicenseStep.info1">إذا كنت ترغب, يمكنك إضافة <a href="http://creativecommons.org/">إبداعية عامة</a> رخصة لمادتك. <strong>تتحكم الرخص الإبداعية العامة في  ما قد يقوم به الأشخاص الذين يقرؤون أعمالك فيما بعد .</strong></message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.info1">إذا كنت ترغب, يمكنك إضافة <a href="http://creativecommons.org/">Creative Commons</a> License to your item. <strong>Creative Commons licenses govern what people who read your work may then do with it.</strong></message>
         <message key="xmlui.Submission.submit.CCLicenseStep.submit_choose_creative_commons">اختر رخصة</message>
         <message key="xmlui.Submission.submit.CCLicenseStep.submit_to_creative_commons">الاستمرار إلى موقع الإبداعية العامة لتحديد رخصة </message>
         <message key="xmlui.Submission.submit.CCLicenseStep.license">نوع الرخصة</message>
@@ -1212,10 +911,9 @@
         <message key="xmlui.Submission.submit.CCLicenseStep.no_license">لا توجد رخص إبداعية عامة</message>
         <message key="xmlui.Submission.submit.CCLicenseStep.save_changes">يجب أن تنقر التالي لحفظ التغييرات.</message>
 
-
 	<!-- org.dspace.app.xmlui.Submission.submit.LicenseStep -->
 	<message key="xmlui.Submission.submit.LicenseStep.head">رخصة التوزيع</message>
-	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>هذه آخر خطوة: </strong> لكي يقوم المستودع الرقمي في جامعة طيبة باعادة انتاج وترجمة وتوزيع تقديمك هذا على مستوى العالم، يجب أن توافق على الشروط التالية.</message>
+	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>There is one last step:</strong> In order for DSpace to reproduce, translate and distribute your submission worldwide, you must agree to the following terms.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info2">منح رخصة التوزيع القياسي عن طريق تحديد "أنا أمنح الرخصة"، ثم النقر فوق "اكمال التقديم".</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info3">اذا كانت لديك أسئلة تتعلق بهذه الرخصة يرجى الاتصال بمشرفي النظام.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_label">رخصة التوزيع</message>
@@ -1243,7 +941,7 @@
 	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_submit">موافقة على المادة</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_help">بمجرد تحرير المادة، استخدم هذا الخيار لايداع المادة في اﻷرشيف.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_submit">ايداع في اﻷرشيف</message>
-	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">اذا قمت بمراجعة المادة ووجدت أنها   <strong>غير</strong> مناسبة للادراج في المجموعة، حدد "رفض". سوف يطلب منك عند ذلك ادخال رسالة توضح لماذا تعد المادة غير مناسبة، واذا كان ينبغي على المقدم تغيير شيئا ثم اعادة التقديم.</message>
+	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">اذا قمت بمراجعة المادة ووجدت أنها   <strong>not</strong> suitable for inclusion in the collection, select "Reject".  You will then be asked to enter a message indicating why the item is unsuitable, and whether the submitter should change something and resubmit.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_submit">رفض المادة</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.edit_help">حدد هذا الخيار لتغيير واصفات بيانات المادة.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.edit_submit">تحرير واصفات البيانات</message>
@@ -1267,7 +965,11 @@
 
 	<!-- action-generated messages. These are referenced from the sitemap rather than a transformer -->
 
-	<message key="xmlui.administrative.FlowEPersonUtils.add_eperson_success_notice">تم اضافة المستخدم بنجاح.</message>
+        <message key="xmlui.administrative.FlowCurationUtils.curate_success_notice">لقد تمت المهمة بنجاح.</message>
+        <message key="xmlui.administrative.FlowCurationUtils.curate_failed_notice">لقد انتهت العملية بشكل غير متوقع أو فشلت. للمزيد من المعلومات، يرجى الاتصال بمدير الموقع أو التحقق من  سجلات نظامك.</message>
+        <message key="xmlui.administrative.FlowCurationUtils.queue_success_notice">تم صف المهمة بنجاح.</message>
+        <message key="xmlui.administrative.FlowCurationUtils.queue_failed_notice">لم يتم صف المهمة. حدث خطأ. للمزيد من المعلومات،  يرجى الاتصال بمدير الموقع أو التحقق من سجلات نظامك .</message>
+        <message key="xmlui.administrative.FlowEPersonUtils.add_eperson_success_notice">تم اضافة المستخدم بنجاح.</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.edit_eperson_success_notice">تم تحرير المستخدم بنجاح.</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.reset_password_success_notice">تم ارسال رسالة بريد الكتروني الى المستخدم تحتوي رمز قد يستخدم في اختيار كلمة مرور جديدة.</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.delete_eperson_success_notice">تم حذف المستخدم بنجاح.</message>
@@ -1295,14 +997,6 @@
 	<message key="xmlui.administrative.FlowMapperUtils.map_items">تم تعيين المواد بنجاح.</message>
 	<message key="xmlui.administrative.FlowMapperUtils.unmaped_items">تم حذف تعيين المواد.</message>
 
-	<message key="xmlui.administrative.CurateForm.title">نموذج التكريت</message>  
-	<message key="xmlui.administrative.CurateForm.object_label_name">اسم نموذج التكريت</message>
-	<message key="xmlui.administrative.CurateForm.object_hint">ادخل اسم لنموذج التكريت هنا</message>
-	<message key="xmlui.administrative.CurateForm.task_label_name">مهمة و استخدامات النموذج</message>
-	
-	<message key="xmlui.administrative.Navigation.administrative_curation">نموذج التكريت</message>
-	<message key="xmlui.administrative.CurateForm.trail">تدفق نموج التكريت</message>
-	
 	<!-- general items for all of the eperson classes -->
 	<message key="xmlui.administrative.eperson.general.epeople_trail">ادارة اﻷشخاص الالكتروني</message>
 
@@ -1330,11 +1024,13 @@
 	<message key="xmlui.administrative.Navigation.administrative_registries">تسجيلات</message>
 	<message key="xmlui.administrative.Navigation.administrative_metadata">واصفات البيانات</message>
 	<message key="xmlui.administrative.Navigation.administrative_format">التنسيق</message>
+    <message key="xmlui.administrative.Navigation.administrative_content">إدارة المحتوى</message>
 	<message key="xmlui.administrative.Navigation.administrative_items">المواد</message>
     <message key="xmlui.administrative.Navigation.administrative_withdrawn">مواد مسحوبة</message>
     <message key="xmlui.administrative.Navigation.administrative_private">مواد خاصة</message>
-	<message key="xmlui.administrative.Navigation.administrative_control_panel">لوحة الضبط</message>
+    <message key="xmlui.administrative.Navigation.administrative_control_panel">لوحة الضبط</message>
     <message key="xmlui.administrative.Navigation.statistics">احصائيات</message>
+    <message key="xmlui.administrative.Navigation.administrative_batch_import">استيراد كمي (ZIP)</message>
         <message key="xmlui.administrative.Navigation.administrative_import_metadata">استيراد واصفات البيانات</message>
         <message key="xmlui.administrative.Navigation.administrative_curation">مهام التكريت</message>
 
@@ -1369,7 +1065,7 @@
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_help">يتم البحث عن اﻷشخاص الالكتروني عن طريق أي تطابق جزئي مع البريد الالكتروني أو الاسم</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_para1">فيما يلي قائمة باﻷشخاص الالكتروني التي تطابق استعلام بحثك. حدد اﻷشخاص الالكتروني الذين ترغب في حذفهم ثم انقر زر الحذف للاستمرار أو انقر فوق البريد الالكتروني أو اسم الشخص الالكتروني لتحريره.</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_head">نتائج البحث</message>
-	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"></message>
+	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"/>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column2">المعرف</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column3">الاسم</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column4">البريد الالكتروني</message>
@@ -1444,7 +1140,7 @@
 	<message key="xmlui.administrative.group.ManageGroupsMain.actions_search">بحث عن المجموعات</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_help">يتم البحث عن المجموعات عن طريق أي تطابق جزئي مع اسمها.</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_head">نتائج البحث</message>
-	<message key="xmlui.administrative.group.ManageGroupsMain.search_column1"></message>
+	<message key="xmlui.administrative.group.ManageGroupsMain.search_column1"/>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column2">المعرف</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column3">الاسم</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column4">اﻷعضاء</message>
@@ -1476,18 +1172,18 @@
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column1">المعرف</message>
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column2">الاسم</message>
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column3">البريد الالكتروني</message>
-	<message key="xmlui.administrative.group.EditGroupForm.epeople_column4"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.epeople_column4"/>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column1">المعرف</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column2">الاسم</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column3">الأعضاء</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column4">الحاوية</message>
-	<message key="xmlui.administrative.group.EditGroupForm.groups_column5"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.groups_column5"/>
 	<message key="xmlui.administrative.group.ManageGroupsMain.groups_collection_link">العرض</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_head">اﻷعضاء</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column1">المعرف</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column2">الاسم</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column3">البريد الالكتروني</message>
-	<message key="xmlui.administrative.group.EditGroupForm.members_column4"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.members_column4"/>
 	<message key="xmlui.administrative.group.EditGroupForm.members_group_name">مجموعة: {0}</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_none">هذه المجموعة ليس بها أعضاء.</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_pending">[معلق]</message>
@@ -1521,7 +1217,7 @@
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.title">حذف الحقول</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.trail">حذف الحقول</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.head">تأكيد الحذف</message>
-	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para1">هل أنت <b>واثق تماما</b> من رغبتك في حذف هذه الحقول؟ اذا كان هناك مواد تحتوي واصفات بيانات لهذه الحقول فلن يمكن حذفها. عليك التأكد من أنه لا يوجد مواد تستخدم هذه الحقول.</message>
+	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para1">هل أنت <b>absolutely</b> sure you want to delete these fields? If any items contain metadata for these fields, the field(s) cannot be deleted. You must ensure that no items use these fields.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.warning">تحذير: </message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para2">هذا سوف يسبب خطأ اذا كانت أي مادة تحتوي واصفات بيانات لهذا الحقل.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.column1">المعرف</message>
@@ -1532,24 +1228,12 @@
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.title">حذف المخطط</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.trail">حذف المخطط</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.head">تأكيد الحذف</message>
-	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">هل أنت <b>واثق تماما</b> واثق تماما من رغبتك في حذف هذا المخطط؟ اذا كان هناك مواد تحتوي واصفات بيانات للحقول المحتواه ضمن هذا المخطط فلن يمكن حذف المخطط. عليك التأكد من أنه لا يوجد مواد تحتوي واصفات بيانات من هذا المخطط.</message>
+	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">هل أنت <b>absolutely</b> sure you want to delete this schema? If any items contain metadata for fields contained within this schema, the schema cannot be deleted. You must ensure that no items contain metadata in this schema.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.warning">تحذير: </message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para2">هذا سوف يسبب خطأ اذا كان هناك أي مادة تحتوي واصفات بيانات ضمن هذا المخطط.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column1">المعرف</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column2">مساحة الاسم</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column3">الاسم</message>
-
-   <!-- org.dspace.app.xmlui.aspect.administrative.item.MoveItemForm -->
-	<message key="xmlui.administrative.item.MoveItemForm.title">نقل</message>
-	<message key="xmlui.administrative.item.MoveItemForm.trail">نقل</message>
-	<message key="xmlui.administrative.item.MoveItemForm.head1">نقل المادة: {0}</message>
-	<message key="xmlui.administrative.item.MoveItemForm.collection">الحاوية</message>
-	<message key="xmlui.administrative.item.MoveItemForm.collection_help">اختر الحاوية التى تريد نقل هذه المادة لها.</message>
-	<message key="xmlui.administrative.item.MoveItemForm.collection_default">اختر حاوية...</message>
-	<message key="xmlui.administrative.item.MoveItemForm.submit_move">نقل</message>
-    <message key="xmlui.administrative.item.MoveItemForm.inherit_policies">استخدم سياسات</message>
-    <message key="xmlui.administrative.item.MoveItemForm.inherit_policies_help">استخدم سياسات الحاوية التي سيتم النقل لها </message>
-
 
 	<!-- org.dspace.app.xmlui.administrative.registries.EditBitstreamFormat.java -->
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.title">تنسيق دفق البت</message>
@@ -1579,7 +1263,7 @@
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head1">مخطط واصفات البيانات: "{0}"</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.para1">هذا هو مخطط واصفات البيانات ل "{0}". يمكنك اضافة أو تحديث حقول واصفات البيانات لهذا المخطط. يمكن تحديد الحقول أيضا ﻷجل الحذف أو نقلها الى مخطط آخر. </message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head2">حقول واصفات بيانات المخطط</message>
-	<message key="xmlui.administrative.registries.EditMetadataSchema.column1"></message>
+	<message key="xmlui.administrative.registries.EditMetadataSchema.column1"/>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column2">المعرف</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column3">الحقل</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column4">ملحوظة النطاق</message>
@@ -1605,14 +1289,13 @@
 	<message key="xmlui.administrative.registries.FormatRegistryMain.title">تسجيل التنسيق</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.head">تسجيل تنسيق دفق البت</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.para1">هذه القائمة لتنسيقات دفق البت توفر معلومات عن تنسيقات معروفة ومستوى دعمها. تمكنك تحرير أو اضافة تنسيقات دفق بت جديدة بهذه اﻷداة. التنسيقات المعلمة كداخلية تكون مخفية عن المستخدم وتستخدم ﻷغراض ادارية.</message>
-
 	<message key="xmlui.administrative.registries.FormatRegistryMain.new_link">اضف تنسيق دفق بت جديد</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"></message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column2">المعرف</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column3">الاسم</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column4">نوع الـ MIME</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column5">مستوى الدعم</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.internal">(<i>داخلي</i>)</message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.internal">(<i>internal</i>)</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.support_0">غير معروف</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.support_1">معروف</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.support_2">الدعم</message>
@@ -1622,7 +1305,7 @@
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.title">تسجيل واصفات البيانات</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.head1">تسجيل واصفات البيانات</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.para1">تسجيل واصفات البيانات يبقي قائمة بجميع حقول واصفات البيانات المتاحة في المستودع. ويمكن تقسيم هذه الحقول بين مخططات متعددة. ومع ذلك فان الدي سبيس يحتاج مخطط دبلن كور المؤهل. ويمكنك توسيع مخطط دبلن كور بحقول اضافية أو اضافة مخططات اضافية الى التسجيل.</message>
-	<message key="xmlui.administrative.registries.MetadataRegistryMain.column1"></message>
+	<message key="xmlui.administrative.registries.MetadataRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column2">المعرف</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column3">مساحة الاسم</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column4">الاسم</message>
@@ -1677,10 +1360,10 @@
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_add_link">انقر هنا لاضافة سياسة جديدة. </message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.submit_add">اضف</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_id">معرف</message>
-	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_name">الاسم</message>
+    <message key="xmlui.administrative.authorization.EditContainerPolicies.head_name">الاسم</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_action">اجراء</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_group">مجموعة</message>
-	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_start_date">تاريخ البدء</message>
+    <message key="xmlui.administrative.authorization.EditContainerPolicies.head_start_date">تاريخ البدء</message>
     <message key="xmlui.administrative.authorization.EditContainerPolicies.head_end_date">تاريخ الانتهاء</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.submit_delete">حذف المحدد</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.group_edit">تحرير</message>
@@ -1710,7 +1393,7 @@
 	<message key="xmlui.administrative.authorization.EditPolicyForm.main_head_edit">تحرير السياسة {0} ل {1} {2}</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_group">لم يتم تحديد مجموعة</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_action">لم يتم تحديد اجراء</message>
-	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column4"></message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column4"/>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column1">المعرف</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column2">الاسم</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column3">الاجراءات لهذا المصدر</message>
@@ -1722,6 +1405,7 @@
 	<message key="xmlui.administrative.authorization.EditPolicyForm.label_search">بحث عن مجموعة</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.submit_search_groups">بحث</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_action">تحديد الاجراء</message>
+
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_name">الاسم</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_description">الوصف</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_start_date">تاريخ البدء</message>
@@ -1731,9 +1415,7 @@
     <message key="xmlui.administrative.authorization.EditPolicyForm.error_start_date_greater_than_end_date">تاريخ البدء أكبر من تاريخ الانتهاء</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_date_help">التنسيق المقبول: السنة, السنة-الشهر, السنة-الشهر-اليوم</message>
 
-
-
-	<!-- org.dspace.app.xmlui.administrative.authorization.AdvacedAuthorizationsForm -->
+    <!-- org.dspace.app.xmlui.administrative.authorization.AdvacedAuthorizationsForm -->
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.title">مدير السياسة المتقدمة</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.trail">تصاريح متقدمة</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.main_head">مدير السياسة المتقدمة</message>
@@ -1751,7 +1433,7 @@
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_policyCollections">الحاوية</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.submit_add">اضف سياسات</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.submit_remove_all">مسح سياسات</message>
-	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.label_date_help">التنسيق المقبول: السنة, السنة-الشهر, السنة-الشهر-اليوم</message>
+    <message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.label_date_help">التنسيق المقبول: السنة, السنة-الشهر, السنة-الشهر-اليوم</message>
 
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_name">الاسم</message>
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_description">الوصف</message>
@@ -1762,7 +1444,6 @@
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_groupIds">قم بتحديد مجموعة على الأقل</message>
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_collectionIds">قم بتحديد حاوية على الأقل</message>
 
-
 	<!-- org.dspace.app.xmlui.administrative.authorization.DeletePoliciesConfirm -->
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.title">أكد حذف السياسة</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.trail">أكد الحذف</message>
@@ -1771,6 +1452,41 @@
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_id">المعرف</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_action">الاجراء</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_group">المجموعة</message>
+
+
+    <!-- Batch Import Tool -->
+    <!-- org.dspace.app.xmlui.administrative.batchimport -->
+    <message key="xmlui.administrative.batchimport.general.select_collection">تحديد حاوية</message>
+    <message key="xmlui.administrative.batchimport.general.collection">الحاوية</message>
+    <message key="xmlui.administrative.batchimport.general.collection_help">قم بتحديد الحاوية التي تريد تقديم المادة لها .</message>
+    <message key="xmlui.administrative.batchimport.general.collection_default">تحديد حاوية...</message>
+
+    <message key="xmlui.administrative.batchimport.general.title">تحميل الاستيراد الكمي (ZIP)</message>
+    <message key="xmlui.administrative.batchimport.general.head1">تحميل الاستيراد الكمي (ZIP)</message>
+    <message key="xmlui.administrative.batchimport.general.trail">تحميل الاستيراد الكمي (ZIP)</message>
+    <message key="xmlui.administrative.batchimport.general.changes">تغييرات</message>
+    <message key="xmlui.administrative.batchimport.general.no_changes">لم يتم العثور على تغييرات</message>
+    <message key="xmlui.administrative.batchimport.general.new_item">مادة جديدة</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_successful">تم التحميل بنجاح</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_failed">فشل التحميل أو لم يتم تحديد ملف</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_badschema">مخطط ميتاداتا غير معروف في الرأس</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_badelement">عنصر ميتاداتا غير معروف في الرأس</message>
+    <message key="xmlui.administrative.batchimport.flow.import_successful">تم الاستيراد بنجاح</message>
+    <message key="xmlui.administrative.batchimport.flow.import_failed">فشل الاستيراد</message>
+    <message key="xmlui.administrative.batchimport.flow.failed_no_collection">لم يتم تحديد حاوية مستهدفة</message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
+    <message key="xmlui.administrative.batchimport.BatchmportMain.submit_upload">تحميل SimpleArchiveFormat ZIP</message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.success">تمت المعالجة بنجاح</message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.changes_committed">تم تطبيق التغييرات على المادة</message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_added">تمت الإضافة: </message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_removed">تمت الإزالة: </message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportUpload -->
+    <message key="xmlui.administrative.batchimport.BatchImportUpload.item_add">إضافة: </message>
+    <message key="xmlui.administrative.batchimport.BatchImportUpload.item_remove">إزالة: </message>
 
 	<!-- general edit item messages -->
 	<message key="xmlui.administrative.item.general.item_trail">المواد</message>
@@ -1792,11 +1508,11 @@
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.METADATA">ملفات واصفات البيانات</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.THUMBNAIL">الصور المصغرة</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.LICENSE">التراخيص</message>
-	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.CC_LICENSE">تراخيص الموسوعة الابداعية</message>
+	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.CC-LICENSE">رخص المشاع الإبداعي</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.file_label">ملف</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.file_help">الرجاء ادخال اسم الملف على الحاسب الخاص بك المقابل لمادتك. اذا نقرت فوق "استعراض..." سوف تظهر نافذة جديدة حيث يمكنك تحديد موقع الملف على الحاسب الخاص بك.</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.description_label">الوصف</message>
-	<message key="xmlui.administrative.item.AddBitstreamForm.description_help">اختياريا، قدم وصفا موجزا للملف، على سبيل المثال "<i>مقال رئيسي</i>", أو "<i>قراءات بيانات تجربة</i>".</message>
+	<message key="xmlui.administrative.item.AddBitstreamForm.description_help">اختياريا، قدم وصفا موجزا للملف، على سبيل المثال "<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.submit_upload">تحميل</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.no_bundles">أنت تحتاج امتياز الاضافة &amp; الكتابة في حزمة واحدة على اﻷقل لكي تتمكن من تحميل دفق بت جديد.</message>
 
@@ -1821,7 +1537,7 @@
 	<message key="xmlui.administrative.item.ConfirmItemForm.column3">اللغة</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_withdraw">سحب</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_reinstate">اعادة تنصيب</message>
-	<message key="xmlui.administrative.item.ConfirmItemForm.submit_private">اجعلها خاصة</message>
+    <message key="xmlui.administrative.item.ConfirmItemForm.submit_private">اجعلها خاصة</message>
     <message key="xmlui.administrative.item.ConfirmItemForm.submit_public">اجعلها عامة</message>
 
     <!-- org.dspace.app.xmlui.aspect.administrative.item.MoveItemForm -->
@@ -1832,6 +1548,8 @@
 	<message key="xmlui.administrative.item.MoveItemForm.collection_help">حدد الحاوية التي ترغب في نقل هذه المادة اليها.</message>
 	<message key="xmlui.administrative.item.MoveItemForm.collection_default">حدد حاوية...</message>
 	<message key="xmlui.administrative.item.MoveItemForm.submit_move">نقل</message>
+    <message key="xmlui.administrative.item.MoveItemForm.inherit_policies">استخدم سياسات</message>
+    <message key="xmlui.administrative.item.MoveItemForm.inherit_policies_help">استخدم سياسات الحاوية التي سيتم النقل لها </message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditBitstreamForm -->
 	<message key="xmlui.administrative.item.EditBitstreamForm.title">تحرير دفق البت</message>
@@ -1842,28 +1560,28 @@
 	<message key="xmlui.administrative.item.EditBitstreamForm.primary_option_yes">نعم</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.primary_option_no">لا</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.description_label">الوصف</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.description_help">اختياريا، قدم وصفا موجزا للملف، على سبيل المثال "<i>مقال رئيسي</i>", أو "<i>قراءات بيانات تجربة</i>"."</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.para1">حدد تنسيق الملف من القائمة أدناه، على سبيل المثال "<i>Adobe PDF</i>" أو "<i>Microsoft Word</i>", <b>أو</b> اذا كان التنسيق غير موجود في القائمة فيرجى وصفه في المربع أدناه.</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.description_help">اختياريا، قدم وصفا موجزا للملف، على سبيل المثال "<i>Main article</i>", or "<i>Experiment data readings</i>"."</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.para1">حدد تنسيق الملف من القائمة أدناه، على سبيل المثال "<i>Adobe PDF</i>" or "<i>Microsoft Word</i>", <b>OR</b> if the format is not in the list, please describe it in the box below.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.format_label">التنسيق المحدد</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.format_default">التنسيق ليس في القائمة</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.para2">اذا كان التنسيق غير موجود في القائمة أعلاه <strong>حدد "التنسيق ليس في القائمة" أعلاه</strong> ثم قم بوصفه في الحقل أدناه.</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.para2">اذا كان التنسيق غير موجود في القائمة أعلاه <strong>select "format not in list" above</strong> and describe it in the field below.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_label">تنسيق آخر</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">التطبيق المستخدم في انشاء الملف ورقم الاصدار (على سبيل المثال, "<i>ACMESoft SuperApp version 1.5</i>").</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.name_label">اسم الملف</message>
+    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">اسم الملف</message>
     <message key="xmlui.administrative.item.EditBitstreamForm.name_help">تغيير اسم الملف لهذا ال bitstream. لاحظ أن ذلك سيغير عرض ال bitstream URL, ولكن ستظل الروابط القديمة طالما لم يتم تغيير المعرّف التابع.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.title">دفق بت المادة</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.trail">دفق بت المادة</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.head1">دفق البت</message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column1"></message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column1"/>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column2">الاسم</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column3">الوصف</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column4">تنسيق</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column5">عرض</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column6">ترتيب</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column7"> </message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.bundle_label"><strong>الحزمة: {0}</strong></message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.bundle_label"><strong>Bundle: {0}</strong></message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.primary_label"> (ابتدائي) </message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.view_link">عرض</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_add">تحميل دفق بت جديد</message>
@@ -1874,7 +1592,6 @@
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.previous_order">السابق:</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.order_up">انتقل لأعلى</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.order_down">انتقل لأسفل</message>
-
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemMetadataForm -->
 	<message key="xmlui.administrative.item.EditItemMetadataForm.title">واصفات بيانات المادة</message>
@@ -1914,10 +1631,11 @@
 	<message key="xmlui.administrative.item.EditItemStatusForm.sysadmins_only">(مشرفي النظام فقط)</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.collection_admins_only">(مشرفي الحاوية فقط)</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.not_allowed">(ليس مسموحا لك أداء هذا الاجراء)</message>
-	<message key="xmlui.administrative.item.EditItemStatusForm.label_private">اجعلها خاصة</message>
+    <message key="xmlui.administrative.item.EditItemStatusForm.label_private">اجعلها خاصة</message>
     <message key="xmlui.administrative.item.EditItemStatusForm.label_public">اجعلها عامة</message>
     <message key="xmlui.administrative.item.EditItemStatusForm.submit_private">اجعلها خاصة...</message>
     <message key="xmlui.administrative.item.EditItemStatusForm.submit_public">اجعلها عامة...</message>
+
 
 
 	<!-- org.dspace.app.xmlui.administrative.item.ViewItem -->
@@ -1945,8 +1663,8 @@
         <message key="xmlui.administrative.metadataimport.general.new_item">مادة جديدة</message>
         <message key="xmlui.administrative.metadataimport.flow.upload_successful">تحميل ناجح</message>
         <message key="xmlui.administrative.metadataimport.flow.upload_failed">فشل التحميل</message>
-    <message key="xmlui.administrative.metadataimport.flow.upload_badschema">مخطط واصفات بيانات غير معروف في العنونة</message>
-    <message key="xmlui.administrative.metadataimport.flow.upload_badelement">مادة واصفات بيانات غير معروف في العنونة</message>
+        <message key="xmlui.administrative.metadataimport.flow.upload_badschema">مخطط واصفات بيانات غير معروف في العنونة</message>
+        <message key="xmlui.administrative.metadataimport.flow.upload_badelement">مادة واصفات بيانات غير معروف في العنونة</message>
         <message key="xmlui.administrative.metadataimport.flow.import_successful">استيراد ناجح</message>
         <message key="xmlui.administrative.metadataimport.flow.import_failed">فشل الاستيراد</message>
         <message key="xmlui.administrative.metadataimport.flow.over_limit">عدد من التغييرات يتجاوز الحد اﻷقصى المسموح به. حد التغييرات أو التعديل bulkedit.gui-item-limit في dspace.cfg</message>
@@ -1966,7 +1684,6 @@
         <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_deleted">المادة محذوفة</message>
         <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_withdrawn">المادة مسحوبة</message>
         <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_reinstated">المادة معاد قيدها</message>
-
 
         <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportUpload -->
         <message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_add">اضافة: </message>
@@ -1991,7 +1708,7 @@
 	<message key="xmlui.administrative.mapper.MapperMain.para1">المجموعة: "<strong>{0}</strong>"</message>
 	<message key="xmlui.administrative.mapper.MapperMain.para2">هذه هي أداة معين المادة التي تسمح لمشرفي المجموعات بتعيين المواد من مجموعات أخرى الى هذه المجموعة. يمكنك البحث عن مواد من مجموعة اخرى وتعيينها أو استعراض قائمة المواد المعينة حاليا.</message>
 	<message key="xmlui.administrative.mapper.MapperMain.stat_label">احصائيات</message>
-	<message key="xmlui.administrative.mapper.MapperMain.stat_info"><strong>{0} من {1}</strong> مادة من هذه المجموعة معينة من مجموعات أخرى</message>
+	<message key="xmlui.administrative.mapper.MapperMain.stat_info"><strong>{0} of {1}</strong> items in this collection are mapped in from other collections</message>
 	<message key="xmlui.administrative.mapper.MapperMain.search_label">بحث</message>
 	<message key="xmlui.administrative.mapper.MapperMain.submit_search">بحث المواد</message>
 	<message key="xmlui.administrative.mapper.MapperMain.submit_browse">استعراض المواد المعينة</message>
@@ -2002,7 +1719,7 @@
 	<message key="xmlui.administrative.mapper.SearchItemForm.trail">بحث المواد</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.head1">بحث المواد المطابقة: "{0}"</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.submit_map">تعيين المواد المحددة</message>
-	<message key="xmlui.administrative.mapper.SearchItemForm.column1"></message>
+	<message key="xmlui.administrative.mapper.SearchItemForm.column1"/>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column2">المجموعة</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column3">المؤلف</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column4">العنوان</message>
@@ -2012,7 +1729,7 @@
 	<message key="xmlui.administrative.mapper.BrowseItemForm.trail">استعراض المواد المعينة</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.head1">استعراض المواد المعينة</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.submit_unmap">حذف تعيين المواد المحددة</message>
-	<message key="xmlui.administrative.mapper.BrowseItemForm.column1"></message>
+	<message key="xmlui.administrative.mapper.BrowseItemForm.column1"/>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column2">المجموعة</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column3">المؤلف</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column4">العنوان</message>
@@ -2051,9 +1768,9 @@
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step3">خطوة تحرير واصفات البيانات</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_submitters">المقدمون</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_default_read">وصول القراءة الافتراضي</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.sysadmins_only"><nobr>(مديري النظام فقط)</nobr></message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.repository_role"><br/>(مجموعة المستودع, مديري الموقع فقط)</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>(ليس مسموحا لك باعداد هذا)</nobr></message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.sysadmins_only"><nobr>(system administrators only)</nobr></message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.repository_role"><br/>(Repository level group, system administrators only)</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>(you are not allowed to configure this)</nobr></message>
 
         <!-- org.dspace.app.xmlui.administrative.collection.CurateCollectionForm.java -->
         <message key="xmlui.administrative.collection.CurateCollectionForm.main_head">أكرت الحاوية: {0}</message>
@@ -2096,7 +1813,7 @@
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.submit_delete_logo">ازالة الشعار</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.submit_delete">حذف الحاوية</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.submit_save">حفظ التحديثات</message>
-	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.sysadmins_only"><nobr>(مشرفي النظام فقط)</nobr></message>
+	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.sysadmins_only"><nobr>(system administrators only)</nobr></message>
 
 	<!-- org.dspace.app.xmlui.administrative.collection.CreateCollectionForm.java -->
 	<message key="xmlui.administrative.collection.CreateCollectionForm.title">إنشاء حاوية</message>
@@ -2123,7 +1840,6 @@
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaiurl">يجب عليك توفير تعيين معرف للحاوية الهدف.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">المعرف الثابت المستخدم في موفر OAI للدلالة على الحاوية الهدف</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">يجب عليك توفير تعيين معرف للحاوية الهدف.</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">المحتوى الذي يتم حصاده</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">المحتوى الذي يتم حصاده</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">حصاد واصفات البيانات فقط.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">حصاد واصفات البيانات والمراجع الى دفق البت (يتطلب دعم ORE).</message>
@@ -2191,7 +1907,7 @@
 	<message key="xmlui.administrative.community.AssignCommunityRoles.role_group">مجموعة مرتبطة</message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.role_buttons">  </message>
 	<message key="xmlui.administrative.community.AssignCommunityRoles.label_admins">المشرفين</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.sysadmins_only"><nobr>(مشرفي النظام فقط)</nobr></message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.sysadmins_only"><nobr>(system administrators only)</nobr></message>
 
         <!-- org.dspace.app.xmlui.administrative.community.CurateCommunityForm.java -->
         <message key="xmlui.administrative.community.CurateCommunityForm.main_head">أكرتة المجتمع: {0}</message>
@@ -2260,16 +1976,16 @@
 	<message key="xmlui.administrative.ControlPanel.runtime_total">الذاكرة المخصصة</message>
 	<message key="xmlui.administrative.ControlPanel.runtime_used">الذاكرة المستخدمة</message>
 	<message key="xmlui.administrative.ControlPanel.runtime_free">الذاكرة الحرة</message>
-	<message key="xmlui.administrative.ControlPanel.cocoon_head">Cocoon معلومات</message>
-    <message key="xmlui.administrative.ControlPanel.cocoon_version">Cocoon إصدار</message>
-    <message key="xmlui.administrative.ControlPanel.cocoon_cache_dir">Cocoon مسار الذاكرة المخبأة</message>
-    <message key="xmlui.administrative.ControlPanel.cocoon_work_dir">Cocoon مسار عمل</message>
-    <message key="xmlui.administrative.ControlPanel.cocoon_main_cache_size">حجم الذاكرة المخبأة الرئيسية ({0})</message>
-    <message key="xmlui.administrative.ControlPanel.cocoon_cache_clear">(مسح الذاكرة المخبأة حالا)</message>
-    <message key="xmlui.administrative.ControlPanel.cocoon_persistent_cache_size">حجم الذاكرة المخبأة الثابتة ({0})</message>
-    <message key="xmlui.administrative.ControlPanel.cocoon_transient_cache_size">حجم الذاكرة المخبأة العابرة ({0})</message>	
+        <message key="xmlui.administrative.ControlPanel.cocoon_head">Cocoon معلومات</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_version">Cocoon إصدار</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_cache_dir">Cocoon مسار الذاكرة المخبأة</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_work_dir">Cocoon مسار عمل</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_main_cache_size">حجم الذاكرة المخبأة الرئيسية ({0})</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_cache_clear">(مسح الذاكرة المخبأة حالا)</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_persistent_cache_size">حجم الذاكرة المخبأة الثابتة ({0})</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_transient_cache_size">حجم الذاكرة المخبأة العابرة ({0})</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_head">اعدادات الدي سبيس</message>
-	<message key="xmlui.administrative.ControlPanel.dspace_version">إصدار دي سبيس</message>
+        <message key="xmlui.administrative.ControlPanel.dspace_version">إصدار دي سبيس</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_dir">دليل تثبيت الدي سبيس</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_url">عنوان الدي سبيس اﻷساسي</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_hostname">اسم مضيف الدي سبيس</message>
@@ -2285,7 +2001,7 @@
 	<message key="xmlui.administrative.ControlPanel.mail_feedback_recipient">متلقي الملاحظات</message>
 	<message key="xmlui.administrative.ControlPanel.mail_admin">البريد الالكتروني العام لاشراف الموقع</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_head">تنبيهات على مستوى النظام</message>
-	<message key="xmlui.administrative.ControlPanel.alerts_warning"><strong>تحذير لتحميل اﻷنظمة المتوازنة</strong>: التنبيهات على مستوى النظام تكون فعالة فقط عند العقدة التي تم تنشيطها عندها. عليك التأكد من أن كل عقدة في المجموعة تتلقى أمر التنبيه المنشط.</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_warning"><strong>Warning for load balanced systems</strong>: System-wide alerts are only effective for the node on which it is activated. You need to ensure that each node in the set receives the activate alert command.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_message_label">رسالة التنبيه</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_message_default">سوف يتم تعطيل النظام ﻷجل الصيانة الدورية. يرجى حفظ عملك وتسجيل الخروج.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_label">العد التنازلي</message>
@@ -2299,7 +2015,7 @@
 	<message key="xmlui.administrative.ControlPanel.alerts_session_all_sessions">استمر في السماح بالجلسات المصادقة</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_session_current_sessions">تقييد المصادقة ولكن الحفاظ على الجلسات الحالية</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_session_only_administrative_sessions">تقييد المصادقة وانهاء الجلسات الحالية</message>
-	<message key="xmlui.administrative.ControlPanel.alerts_session_note"><strong>ملحوظة:</strong> مشرفي الموقع معفون من ادارة الجلسة.</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_session_note"><strong>Note:</strong> Site administrators are exempt from session management.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_activate">تفعيل</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_deactivate">تعطيل</message>
 	<message key="xmlui.administrative.ControlPanel.activity_head">النشاط الحالي ({0} صفحات كحد أقصى)</message>
@@ -2318,7 +2034,7 @@
 	<message key="xmlui.administrative.ControlPanel.select_panel">استخدم علامات التبويب بالأعلى لتحديد المعلومات التي سوف تعرض.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.SystemwideAlerts -->
-	<message key="xmlui.administrative.SystemwideAlerts.countdown"><strong>في {0} دقيقة</strong>: </message>
+	<message key="xmlui.administrative.SystemwideAlerts.countdown"><strong>In {0} minutes</strong>: </message>
 
 	<!-- org.dspace.app.xmlui.administrative.NotAuthorized -->
 	<message key="xmlui.administrative.NotAuthorized.title">غير مصرح</message>
@@ -2328,7 +2044,8 @@
 	<message key="xmlui.administrative.NotAuthorized.para1b">مشرفي النظام</message>
 	<message key="xmlui.administrative.NotAuthorized.para1c">.</message>
 	<message key="xmlui.administrative.NotAuthorized.para2">تسجيل الدخول كمستخدم آخر</message>
-	<!-- System-wide Curation Tasks form (org.dspace.app.xmlui.aspect.administrative.CurateForm) -->
+        
+        <!-- System-wide Curation Tasks form (org.dspace.app.xmlui.aspect.administrative.CurateForm) -->
         <message key="xmlui.administrative.CurateForm.title">مهام اكرتة للنظام</message>
         <message key="xmlui.administrative.CurateForm.trail">مهام الأكرتة</message>
         <message key="xmlui.administrative.CurateForm.object_label_name">هاندل مادة دي سبيس</message>
@@ -2336,7 +2053,6 @@
         <message key="xmlui.administrative.CurateForm.task_label_name">المهام</message>
     <!-- Used by Curate<DSO>Form classes also -->
         <message key="xmlui.administrative.CurateForm.taskgroup_label_name">اختر من المجموعات التالية</message>
-
 
 
     <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -2359,10 +2075,10 @@
     <message key="xmlui.statistics.visits.bitstreams">عدد زيارات الملف</message>
     <message key="xmlui.statistics.Navigation.title">احصائيات</message>
     <message key="xmlui.statistics.Navigation.usage.view">عرض إحصائيات الاستخدام</message>
+    <message key="xmlui.statistics.Navigation.usage-Elasticsearch.view">عرض احصائيات الاستخدام</message>
     <message key="xmlui.statistics.Navigation.search.view">عرض إحصائيات البحث</message>
     <message key="xmlui.statistics.Navigation.workflow.view">عرض إحصائيات سيرالعمل</message>
     <message key="xmlui.statistics.trail">احصائيات</message>
-    
     <message key="xmlui.statistics.trail-search">إحصائيات البحث</message>
     <message key="xmlui.statistics.trail-workflow">إحصائيات سير العمل</message>
     <message key="xmlui.statistics.workflow.no-results">لا توجد إحصائيات سير عمل متاحة للفترة المحددة.</message>
@@ -2397,7 +2113,6 @@
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.claimaction">قبول/رفض/تحرير مجمع خطوات البيانات الفوقية</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.editstep.editaction">قبول/رفض/تحرير مجمع خطوات البيانات الفوقية</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.claimaction">تحرير مجمع خطوات البيانات الفوقية </message>
-    <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">تحرير خطوات البيانات الفوقية</message>
     <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">تحرير خطوة البيانات الفوقية</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.claimaction">مجمع معاينة الهدف</message>
     <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.scorereviewaction">معاينة الهدف</message>
@@ -2408,12 +2123,23 @@
     <message key="xmlui.statistics.display.table.workflow.step.selectSingleReviewer.singleUserReviewStep.singleuserreviewaction">إجراء معاينة لسمتخدم مفرد</message>
 
 
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+                     Google Analytics Statistics Aspect
 
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
+    <message key="xmlui.statisticsGoogleAnalytics.Navigation.title">Statistics</message>
+    <message key="xmlui.statisticsGoogleAnalytics.Navigation.usage.view">عرض احصائيات جوجل التحليلية</message>
+    <message key="xmlui.statisticsGoogleAnalytics.trail">احصائيات</message>
+    <message key="xmlui.statisticsGoogleAnalytics.title">احصائيات جوجل التحليلية</message>
 
+    <message key="xmlui.statisticsGoogleAnalytics.dates.startDate">تاريخ البدء</message>
+    <message key="xmlui.statisticsGoogleAnalytics.dates.endDate">تاريخ الانتهاء</message>
+    <message key="xmlui.statisticsGoogleAnalytics.dates.refresh">تحديث</message>
 
-
+    <message key="xmlui.statisticsGoogleAnalytics.pageViews.title">عروض الصفحة</message>
+    <message key="xmlui.statisticsGoogleAnalytics.downloads.title">تنزيلات الملف</message>
 
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -2429,12 +2155,13 @@
 	<!-- structural.xsl -->
 	<message key="xmlui.dri2xhtml.structural.footer-promotional">
 		<a href="http://di.tamu.edu" id="ds-logo-link">
-			<span id="ds-footer-logo">&#160;</span>
+			<span id="ds-footer-logo"> </span>
 		</a>
 		<p>
-			هذا الموقع يستخدم ماناكين، وهي واجهة جديدة للدي سبيس أنشأها مكتبات جامعة A&amp;M تكساس. يمكن تعديل الواجهة على نطاق واسع من خلال سمات ماناكين وثيمات مبنية على XSL.
-			لمزيد من المعلومات يمكنك زيارة
-			<a href="http://di.tamu.edu">http://di.tamu.edu</a> و
+			This website is using Manakin, a new front end for DSpace created by Texas A&amp;M University
+			Libraries. The interface can be extensively modified through Manakin Aspects and XSL based Themes.
+			For more information visit
+			<a href="http://di.tamu.edu">http://di.tamu.edu</a> and
 			<a href="http://dspace.org">http://dspace.org</a>
 		</p>
 	</message>
@@ -2479,7 +2206,6 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-date">التاريخ</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-publisher">الناشر</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-subject">الموضوع</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-type">نوع المادة</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-head">الملفات في هذه المادة</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-file">الملفات</message>
@@ -2488,7 +2214,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-format">التنسيق</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">عرض</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-description">الوصف</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">عرض/<wbr/>افتح</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">عرض/<wbr/>Open</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">لا يوجد ملفات مرتبطة بهذه المادة.</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.size-bytes">بايت</message>
@@ -2497,8 +2223,8 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.size-gigabytes">Gb</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.license-text">ملفات الرخصة التالية مرتبطة بهذه المادة:</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.cc-license-text">Except where otherwise noted, this item's license is described as </message>
-	
+    <message key="xmlui.dri2xhtml.METS-1.0.cc-license-text">Except where otherwise noted, this item's license is described as </message>
+
 	<message key="xmlui.dri2xhtml.METS-1.0.collection-not-implemented">
 		عرض الملخص للحاوية غير مستخدم حاليا أو منفذ. يمكن اصلاح هذا عن طريق تجاوز قالب dri2xhtml المسمى collectionSummaryView.
 	</message>
@@ -2518,6 +2244,8 @@
 
 	<message key="xmlui.dri2xhtml.METS-1.0.header-qdc-elements">مواد دبلن كور</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.header-qdc-terms">بنود دبلن كور</message>
+
+        <message key="xmlui.dri2xhtml.METS-1.0.blocked">محظور</message>
 
 
 	<!-- Special pioneer model related text, wherever it might end up -->
@@ -2606,7 +2334,7 @@
 
   <!-- explanatory messages for choice authority confidence values -->
   <message key="xmlui.authority.confidence.description.cf_unset">لم يتم تسجيل ثقة لهذه القيمة</message>
-  <message key="xmlui.authority.confidence.description.cf_novalue"></message>
+  <message key="xmlui.authority.confidence.description.cf_novalue"/>
   <message key="xmlui.authority.confidence.description.cf_rejected">لم يتم ارجاع أي قيمة ثقة معقولة من المرجع</message>
   <message key="xmlui.authority.confidence.description.cf_failed">المرجع يواجه فشل داخلي</message>
   <message key="xmlui.authority.confidence.description.cf_notfound">ﻻ يوجد اجابات مطابقة في المرجع</message>
@@ -2630,6 +2358,7 @@
   <!-- params are: start, end, total-count, search-value -->
   <message key="xmlui.ChoiceLookupTransformer.results">النتائج @1@ ل @2@ من @3@ ﻷجل "@4@"</message>
   <message key="xmlui.ChoiceLookupTransformer.fail">فشل تحميل بيانات الاختيار: </message>
+  <message key="xmlui.ChoiceLookupTransformer.lookup">Lookup</message>
 
   <!-- Choice Lookup - sample config for dc.publisher field -->
   <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.help">اسم الناشر</message>
@@ -2643,7 +2372,7 @@
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help.first">الاسم الأول ،على سبيل المثال "عبد الرحمن"</message>
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.title">بحث مؤلف مرجع اسم LC</message>
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.nonauthority">القيمة المحلية "@1@" (ليست في تسمية المرجع)</message>
-  
+
   <!-- mobile theme -->
   <message key="xmlui.mobile.home_mobile">مكتبة العرب الرقمية</message>
   <message key="xmlui.mobile.search_all">بحث الكل</message>
@@ -2717,7 +2446,19 @@
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_head">إخطار</message>
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">النسخة الأحدث من هذه المادة لا تزال في طور العمل.</message>
 
-    <!-- End Versioning --> 
+    <message key="xmlui.aspect.sherpa.submission.consult">للتحقق من سياسات حقوق الطبع والنشر والإنجاز الذاتي للدورية أو الناشر ‘ يرجى استشارة <a href="http://www.sherpa.ac.uk/">SHERPA/RoMEO</a>.</message>
+    <message key="xmlui.aspect.sherpa.submission.title">معلومات الناشر</message>
+    <message key="xmlui.aspect.sherpa.submission.journal">الدورية: </message>
+    <message key="xmlui.aspect.sherpa.submission.publisher">معلومات الناشر: </message>
+    <message key="xmlui.aspect.sherpa.submission.colour">RoMEO لون: </message>
+    <message key="xmlui.aspect.sherpa.submission.more">(المزيد من المعلومات)</message>
+    <message key="xmlui.aspect.sherpa.submission.green">أخضر</message>
+    <message key="xmlui.aspect.sherpa.submission.blue">أزرق</message>
+    <message key="xmlui.aspect.sherpa.submission.white">أبيض</message>
+    <message key="xmlui.aspect.sherpa.submission.yellow">أصفر</message>
+    <message key="xmlui.aspect.sherpa.submission.gray">gray</message>
+    <!-- End Versioning -->
+
 
     <message key="xmlui.mirage2.itemSummaryView.MetaData">واصفات البيانات</message>
     <message key="xmlui.mirage2.itemSummaryView.Collections">حاويات</message>
@@ -2726,9 +2467,7 @@
     <message key="xmlui.mirage2.discovery.newFilter">اضافة تصفية جديدة</message>
     <message key="xmlui.mirage2.discovery.showAdvancedFilters">عرض التصفية المتقدمة</message>
     <message key="xmlui.mirage2.discovery.hideAdvancedFilters">اخفاء التصفية المتقدمة</message>
-    
 
-   
 
     <message key="xmlui.mirage2.forms.instancedCompositeFields.add">اضافة</message>
     <message key="xmlui.mirage2.forms.instancedCompositeFields.remove">حذف</message>
@@ -2748,347 +2487,4 @@
     <message key="xmlui.mirage2.choice-authority-control.loading">تحميل...</message>
 
     <message key="xmlui.mirage2.item-list.thumbnail">مصغرات</message>
-        <message key="xmlui.mirage2.collections.Taibah University">جامعة طيبة</message>
-
-        <message key="xmlui.Submission.submit.AccessStep.name_help">اسماً وصفياً قصيراً للسياسة (حتى 30 حرفاً). يمكن أن يتم عرضه للمستخدمين. مثال: "للموظفين-فقط". اختياري لكن يوصى به.</message>
-
-
-
-    <message key="xmlui.Submission.submit.AccessStep.reason_help">سبب الحظر، للاستخدام الداخلي فقط عادةً. اختياري .</message>
-
-
-
-    <message key="xmlui.Submission.submit.AccessStep.policies_help">السياسات المدرجة في هذا القسم تتخطى أي سياسات افتراضية للحاوية التي تقوم بالتقديم لها. إذا كنت ترغب في ضبط حظر لكن الحاوية المستهدفة  تتيح الوصول لأي مستخدم، يجب عليك ضبط سياسة تتيح الوصول  للمجموعة المجهولة فقط منذ تاريخ محدد فصاعداً .</message>
-
-
-
-
-
-    <message key="xmlui.Submission.submit.AccessStep.no_policies">لم يتم تنصيب أي سياسات مجموعة لهذه المادة .</message>
-
-
-
-    <message key="xmlui.Submission.submit.AccessStep.new_policy_head">حظر</message>
-
-
-
-    <message key="xmlui.Submission.submit.AccessStep.private_settings_label">خاص</message>
-
-
-
-    <message key="xmlui.Submission.submit.AccessStep.review_policy_line">الاسم: {0}; الإجراء: {1}, المجموعة: {2}, تاريخ البدء: {3}, تاريخ الانتهاء: {4}</message>
-
-
-
-    <message key="xmlui.Submission.submit.AccessStep.review_public_item">ستكون المادة قابلة للبحث</message>
-
-
-
-    <message key="xmlui.Submission.submit.AccessStep.review_private_item">لن تكون المادة قابلة للبحث</message>
-
-
-
-	<message key="xmlui.Submission.submit.UploadStep.virus_error">لم يتم تحميل الملف حيث يبدو أمه يحتوي على فيروس. يرجى الاتصال بإدارة  النظام .</message>
-
-
-
-    <message key="xmlui.Submission.submit.UploadStep.virus_checker_error">لقد حدثت مشكلة تقنية أثناء محاولة مسح الملف بحثا عن الفيروسات. يرجى الاتصال بإدارة النظام.</message>
-
-
-
-        <message key="xmlui.administrative.FlowCurationUtils.curate_success_notice">لقد تمت المهمة بنجاح.</message>
-
-        <message key="xmlui.administrative.FlowCurationUtils.curate_failed_notice">لقد انتهت العملية بشكل غير متوقع أو فشلت. للمزيد من المعلومات، يرجى الاتصال بمدير الموقع أو التحقق من  سجلات نظامك.</message>
-
-
-
-        <message key="xmlui.administrative.FlowCurationUtils.queue_success_notice">تم صف المهمة بنجاح.</message>
-
-        <message key="xmlui.administrative.FlowCurationUtils.queue_failed_notice">لم يتم صف المهمة. حدث خطأ. للمزيد من المعلومات،  يرجى الاتصال بمدير الموقع أو التحقق من سجلات نظامك .</message>
-
-
-
-	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.CC-LICENSE">رخص المشاع الإبداعي</message>
-
-
-
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-access-rights">وصول القراءة متاح لـ</message>
-
-
-
-        <message key="xmlui.dri2xhtml.METS-1.0.blocked">محظور</message>
-        
-        
-            <!-- Discovery statements -->
-
-        
-        
-
-
-    <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.contributor.author_filter">المؤلف</message>
-
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">الموضوع</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">نوع المحتوى</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">تاريخ الإصدار</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">تاريخ الإصدار</message>
-
-
-    <!-- Site Leve Recently Added Content -->
-    <message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">مضاف حديثاً</message>
-
-    <message key="xmlui.ArtifactBrowser.AbstractRecentSubmissionTransformer.recent_submissions_more">عرض المزيد</message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.head">{0}: التقديمات الحديثة</message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.trail">التقديمات الحديثة</message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.recent.head">مضاف حديثاً</message>
-
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type_filter">نوع</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_publisher_filter">الناشر</message>
-
-
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.ispartof">أبوي</message>
-
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by">تجميع النتائج بـ</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.none">لا شيء</message>
-
-
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.publication_grp">النشر</message>
-
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.comm">المجتمع</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.coll">الحاوية</message>
-
-
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.relation.ispartofseries_filter">سلاسل</message>
-
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.contributor.author_browse">استعراض بواسطة: المؤلف</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.title_browse">استعراض بواسطة: العنوان</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.subject_browse">استعراض بواسطة: الموضوع</message>
-        
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">استعراض بواسطة: الخلاصة</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">استعراض بواسطة: السلاسل</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">استعراض بواسطة: الراعي</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">استعراض بواسطة: المعرّف</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">استعراض بواسطة: اللغة (ISO)</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">استعراض بواسطة: الكلمة المفتاحية</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">استعراض بواسطة: الاسم العلمي</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_contributor_browse">استعراض بواسطة: المساهم</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_creator_browse">استعراض بواسطة: المنشئ</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_subject_browse">استعراض بواسطة: الموضوع</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_description_browse">استعراض بواسطة: الوصف</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_relation_browse">استعراض بواسطة: العلاقة</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_mime_browse">استعراض بواسطة: Mime-نوع</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_other_browse">استعراض بواسطة: مساهم آخر</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_advisor_browse">استعراض بواسطة: المستشار</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">استعراض بواسطة: القسم</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">استعراض بواسطة: تاريخ الإصدار</message>
-
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">المؤلف</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">العنوان</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">الموضوع</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">تاريخ الإصدار</message>
-
-
-
-    <message key="xmlui.dri2xhtml.structural.pagination-info.nototal">المواد المعروضة الآن {0}-{1}</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.type_author">ترشيح بواسطة: المؤلف</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">المؤلف</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author_filter">المؤلف</message>
-    <message key="xmlui.Discovery.AbstractSearch.type_subject">ترشيح بواسطة: الموضوع</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">الموضوع</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject_filter">الموضوع</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued.year">تاريخ الإصدار</message>
-
-
-    <message key="xmlui.Discovery.AbstractSearch.startswith">يبدأ بـ</message>
-    <message key="xmlui.Discovery.AbstractSearch.startswith.help">أو قم بإدخال الحروف الأولى:</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.head">فرز الخيارات:</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.relevance">الصلة</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_desc">العنوان تنازلياً</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_desc">تاريخ الإصدار تنازلياً</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_asc">العنوان تصاعدياً</message>
-    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_asc">تاريخ الإصدار تصاعدياً</message>
-
-    <message key="xmlui.Discovery.AbstractSearch.rpp">النتائج لكل صفحة:</message>
-
-
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.add-filter">إضافة مرشح</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.apply-filters">تطبيق</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.remove-filter">إزالة</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.new-filters.head">مرشحات جديدة:</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.controls.current-filters.head">المرشحات الحالية:</message>
-    <message key="xmlui.Discovery.AbstractSearch.filters.display">إضافة مرشحات</message>
-
-    <message key="xmlui.discovery.SearchFacetFilter.no-results">لم يتم العثور على قيم ترشيح</message>
-
-    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.head">اكتشف</message>
-    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.view-more">... عرض المزيد</message>
-
-
-    <message key="xmlui.Discovery.SimpleSearch.search_scope">بحث</message>
-    <message key="xmlui.discovery.SimpleSearch.search_label">بحث</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter_head">المرشحات</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter_help">استخدم المرشحات لتنقيح نتائج البحث .</message>
-
-    <message key="xmlui.Discovery.SimpleSearch.filter.contains">يحتوي على</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.equals">يساوي</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.authority">المعرّف</message>
-	<message key="xmlui.Discovery.SimpleSearch.filter.notcontains">لا يحتوي على</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.notequals">لا يساوي</message>
-    <message key="xmlui.Discovery.SimpleSearch.filter.notauthority">ليس معرّف</message>
-    
-    <message key="xmlui.Discovery.RelatedItems.head">مواد ذات صلة</message>
-    <message key="xmlui.Discovery.RelatedItems.help">عرض الملفات ذات الصلة بواسطة: العنوان، المؤلف، المنشئ والموضوع. </message>
-
-    <message key="xmlui.Discovery.AbstractSearch.head1_community">عرض {0} من إجمالي {1} نتيجة للمجتمع: {2}. <span class="searchTime">({3} ثوان)</span></message>
-   	<message key="xmlui.Discovery.AbstractSearch.head1_collection">عرض {0} من إجمالي {1} نتيجة للحاوية: {2}. <span class="searchTime">({3} ثوان)</span></message>
-   	<message key="xmlui.Discovery.AbstractSearch.head1_none">عرض {0} من إجمالي {1} النتائج. <span class="searchTime">({2} ثوان)</span></message>
-
-    <message key="xmlui.Discovery.AbstractSearch.head2">المجتمعات أو الحاويات المطابقة لاستعلامك</message>
-   	<message key="xmlui.Discovery.AbstractSearch.head3">المواد المطابقة لاستعلامك</message>
-
-   	<message key="xmlui.Discovery.SimpleSearch.did_you_mean">هل تعني: </message>
-
-    <!-- Sword Statements -->
-    
-    
-    
-    <!--   Sword Client  -->
-    <message key="xmlui.swordclient.Navigation.context_head">Sword نسخة</message>
-    <message key="xmlui.swordclient.Navigation.context_copy">نسخ المادة إلى مستودع آخر</message>
-    <message key="xmlui.swordclient.general.SwordCopy_trail">Sword نسخة</message>
-    <message key="xmlui.swordclient.general.main_head">نسخ المادة: {0}</message>
-
-
-    <message key="xmlui.swordclient.SelectTarget.title">Sword هدف نسخة</message>
-    <message key="xmlui.swordclient.SelectTarget.trail">تحديد هدف</message>
-    <message key="xmlui.swordclient.SelectTarget.url">URL</message>
-    <message key="xmlui.swordclient.SelectTarget.other_url">بديل URL</message>
-    <message key="xmlui.swordclient.SelectTarget.username">اسم المستخدم</message>
-    <message key="xmlui.swordclient.SelectTarget.password">كلمة المرور</message>
-    <message key="xmlui.swordclient.SelectTarget.on_behalf_of">بالنيابة عن</message>
-
-    <message key="xmlui.swordclient.SelectTargetAction.url_error">غير صحيح URL</message>
-    <message key="xmlui.swordclient.SelectTargetAction.username_error">اسم مستخدم غير صحيح</message>
-    <message key="xmlui.swordclient.SelectTargetAction.password_error">كلمة مرور غير صحيحة</message>
-    <message key="xmlui.swordclient.SelectTargetAction.serviceDoc_error">لقد حدث خطأ أثناء الحصول على وثيقة خدمة  Sword : {0}</message>
-
-    <message key="xmlui.swordclient.SelectCollection.title"> المستهدفة Sword حاويات</message>
-    <message key="xmlui.swordclient.SelectCollection.trail">تحديد الحاويات</message>
-    <message key="xmlui.swordclient.SelectCollection.collection_head">الحاوية: {0}</message>
-    <message key="xmlui.swordclient.SelectCollection.collection_title">العنوان: {0} </message>
-    <message key="xmlui.swordclient.SelectCollection.collection policy">السياسة: {0}</message>
-    <message key="xmlui.swordclient.SelectCollection.collection_mediation">الوسيط: {0}</message>
-    <message key="xmlui.swordclient.SelectCollection.collection_file_types">أنواع الملفات: {0}</message>
-    <message key="xmlui.swordclient.SelectCollection.collection_package_formats">تنسيقات الباقة: {0}</message>
-    <message key="xmlui.swordclient.SelectCollection.collection_deposit_button">الإيداع في هذا الموقع</message>
-
-    <message key="xmlui.swordclient.SelectCollection.sub_service_target">هدف الخدمة الفرعية</message>
-    <message key="xmlui.swordclient.SelectCollection.sub_service_target_button">الحصول على وثيقة الخدمة الفرعية</message>
-
-    <message key="xmlui.swordclient.SelectPackagingAction.head">الحاوية:{0}</message>
-    <message key="xmlui.swordclient.SelectPackagingAction.title">العنوان: {0}</message>
-    <message key="xmlui.swordclient.SelectPackagingAction.policy">السياسة: {0} </message>
-    <message key="xmlui.swordclient.SelectPackagingAction.mediation">الوسيط:{0} </message>
-    <message key="xmlui.swordclient.SelectPackagingAction.file_types">نوع الملف</message>
-    <message key="xmlui.swordclient.SelectPackagingAction.package_formats">تنسيق الباقة</message>
-    <message key="xmlui.swordclient.SelectPackagingAction.packageFormat_error">تم تحديد تنسيق باقة غير مدعوم </message>
-
-    <message key="xmlui.swordclient.DepositAction.success">تم نسخ المادة بنجاح</message>
-    <message key="xmlui.swordclient.DepositAction.package_error">خطأ في تنسيق الباقة</message>
-    <message key="xmlui.swordclient.DepositAction.invalid_handle">هاندل غير صحيح</message>
-    <message key="xmlui.swordclient.DepositAction.package_error">لقد حدث خطأأثناء إنشاء كائن الباقة </message>
-    <message key="xmlui.swordclient.DepositAction.error">لقد حدث خطأ أثناء الإيداع: {0}</message>
-
-    <message key="xmlui.swordclient.SwordResponse.title">Sword رد</message>
-    <message key="xmlui.swordclient.SwordResponse.trail">Sword رد</message>
-
-
-
-
-<!-- WorkFlow Statements -->
-
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.info1">الإجراءات الممكن أدائها لهذه المهمة:</message>
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.take_help">تعيين هذه المهمة لنفسك.</message>
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.take_submit">أخذ المهمة</message>
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.leave_help">ترك هذه المهمة في المجمع ليأخذها مستخدم آخر .</message>
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.leave_submit">ترك المهمة</message>
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.back">العودة إلى النظرة العامة</message>
-    <message key="xmlui.XMLWorkflow.workflow.ClaimAction.title">قبول/رفض المهمة </message>
-
-    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.head">أداء المهمة: قبول/رفض المادة</message>
-    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.info1">الإجراءات التي يمكن أدائها على هذه المادة:</message>
-    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.reject_help">إذا قمت بمراجعة المادة ووجدت أنها<strong>غير</strong> ملائمة للإدراج في الحاوية، قم بتحديد  "رفض".  عندها سيطلب منك إدخال رسالة توضح سبب عدم ملائمة المادة، وما  إذا كان على المقدم تغيير شيء ما وإعادة تقديمها.</message>
-    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.reject_submit">رفض المادة</message>
-    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.approve_help">إذا قمت بمراجعة المادة وكانت ملائمة للإدراج في الحاوية، قم بتحديد "موافقة"..</message>
-    <message key="xmlui.XMLWorkflow.workflow.AcceptAction.approve_submit">الموافقة على المادة</message>
-
-
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.head">أداء مهمة: قبول/رفض/تحرير المادة </message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.info1">الإجراءات التي يمكن أدائها على هذه المادة:</message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.reject_help">إذا قمت بمراجعة المادة ووجدت أنها <strong>غير</strong> ملائمة للإدراج في الحاوية، قم بتحديد  "رفض".  عندها سيطلب منك إدخال رسالة توضح سبب عدم ملائمة المادة، وما  إذا كان على المقدم تغيير شيء ما وإعادة تقديمها.</message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.reject_submit">رفض المادة</message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.approve_help">إذا قمت بمراجعة المادة وكانت ملائمة للإدراج في الحاوية، قم بتحديد "موافقة".</message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.approve_submit">الموافقة على المادة</message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.edit_help">تحديد هذا الخيار لتغيير ميتاداتا المادة </message>
-    <message key="xmlui.XMLWorkflow.workflow.EditMetadataAction.edit_submit">تحرير الميتاداتا</message>
-
-    <message key="xmlui.XMLWorkflow.step.unknown">حالة غير معروفة</message>
-
-    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.head">أداء المهمة: تعيين مراجع</message>
-    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.help">قم باستخدام مربع البحث الموجود أدناه للبحث عن شخص الكتروني لتعيين مهام المراجعة له.</message>
-    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.search.label">البحث عن مراجع</message>
-    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.search.button">البحث عن شخص الكتروني</message>
-    <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.select-reviewer.button">التحديد كمراجع</message>
-
-    <message key="xmlui.XMLWorkflow.workflow.SingleUserReviewAction.decline.help">إذا لم تكن الشخص ال مناسب لمعاينة هذه المادة فبإمكانك دائما رفض المهمة عن طريق تحديد زر  "رفض المهمة" .</message>
-    <message key="xmlui.XMLWorkflow.workflow.SingleUserReviewAction.decline.button">رفض المهمة</message>
-
-
-    <message key="xmlui.XMLWorkflow.workflow.ScoreReviewAction.head">معاينة التقديم</message>
-    <message key="xmlui.XMLWorkflow.workflow.ScoreReviewAction.score.button">معاينة التقديم</message>
-    <message key="xmlui.XMLWorkflow.workflow.ScoreReviewAction.help">إدخال الهدف لهذا التقديم</message>
-
-
-    <message key="xmlui.XMLWorkflow.Navigation.xmlworkflow_overview">نظرة عامة على سير العمل</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.trail">نظرة عامة على سير العمل</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.title">نظرة عامة على سير العمل</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column1"> </message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column2">خطوة</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column3">المادة</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column4">الحاوية</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.search_column5">المقدم</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.submit_submitter">إعادة إرسال المواد إلى المقدم</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.submit_delete">حذف المواد</message>
-    <message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.no_results">لا توجد نتائج</message>
-
-
-    <message key="xmlui.XMLWorkflow.WorkflowItemTransformer.title">عرض مادة سير العمل: {0}</message>
-    <message key="xmlui.XMLWorkflow.WorkflowItemTransformer.trail">عرض مادة سير العمل</message>
-
-    <message key="xmlui.XMLWorkflow.default.reviewstep">قبول/رفض</message>
-    <message key="xmlui.XMLWorkflow.default.reviewstep.claimaction">قبول/رفض</message>
-    <message key="xmlui.XMLWorkflow.default.reviewstep.reviewaction">قبول/رفض</message>
-
-    <message key="xmlui.XMLWorkflow.default.editstep">قبول/تحرير/رفض خطوة</message>
-    <message key="xmlui.XMLWorkflow.default.editstep.claimaction">قبول/تحرير/رفض</message>
-    <message key="xmlui.XMLWorkflow.default.editstep.editaction">قبول/تحرير/رفض</message>
-
-    <message key="xmlui.XMLWorkflow.default.finaleditstep"> القبول/التحرير النهائي</message>
-    <message key="xmlui.XMLWorkflow.default.finaleditstep.claimaction"> القبول/التحرير النهائي</message>
-    <message key="xmlui.XMLWorkflow.default.finaleditstep.finaleditaction"> القبول/التحرير النهائي</message>
-
-
-    <message key="xmlui.XMLWorkflow.selectSingleReviewer.selectReviewerStep.claimaction">خطوة تعيين مراجع</message>
-    <message key="xmlui.XMLWorkflow.selectSingleReviewer.selectReviewerStep.selectrevieweraction">تعيين مراجع</message>
-
-    <message key="xmlui.XMLWorkflow.selectSingleReviewer.singleUserReviewStep">خطوة معاينة المستخدم المفرد</message>
-    <message key="xmlui.XMLWorkflow.selectSingleReviewer.singleUserReviewStep.singleuserreviewaction">معاينة التقديم</message>
-
-    <message key="xmlui.XMLWorkflow.scoreReview.scoreReviewStep.claimaction">معاينة الهدف</message>
-    <message key="xmlui.XMLWorkflow.scoreReview.scoreReviewStep.scorereviewaction">معاينة الهدف</message>
-    <message key="xmlui.XMLWorkflow.scoreReview.scoreReviewStep">معاينة الهدف</message>
-
 </catalogue>

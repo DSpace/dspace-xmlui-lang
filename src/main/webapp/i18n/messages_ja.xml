@@ -1,28 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
+<catalogue xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xml:lang="en">
 
-    The contents of this file are subject to the license and copyright
-    detailed in the LICENSE and NOTICE files at the root of the source
-    tree and available online at
-
-    http://www.dspace.org/license/
-
--->
-<catalogue xml:lang="ja" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
-	
 	<!--
 		The format used by all keys is as follows
-		
+
 		xmlui.<Aspect>.<Java Class>.<name>
-		
-		There are a few exceptions to this nameing format,
-		1) Some general keys are in the xmlui.general namespace 
+
+		There are a few exceptions to this naming format,
+		1) Some general keys are in the xmlui.general namespace
 		   because they are used very frequently.
-		2) Some general keys which are specific to a particular aspect 
-		   may be found at xmlui.<Aspect> without specifiying a 
-		   particular java class. 
-		--> 
-	
+		2) Some general keys which are specific to a particular aspect
+		   may be found at xmlui.<Aspect> without specifying a
+		   particular java class.
+		-->
+
 	<!-- General keys -->
 	<message key="xmlui.general.dspace_home">ホーム</message>
 	<message key="xmlui.general.search">検索</message>
@@ -35,44 +25,60 @@
 	<message key="xmlui.general.delete">削除</message>
 	<message key="xmlui.general.next">次</message>
 	<message key="xmlui.general.untitled">タイトルなし</message>
-	
-	<!-- 
-		Page not found keys 
-		
+        <message key="xmlui.general.perform">実行</message>
+        <message key="xmlui.general.queue">キュー</message>
+
+        <!-- Keys which are used by exception2dri.xsl on error pages -->
+        <message key="xmlui.error.contact_msg">Please contact the site administrator if you wish to report this error. If possible, please  provide details about what you were doing at the time this error occurred.</message>
+        <message key="xmlui.error.contact">Contact site administrator</message>
+        <message key="xmlui.error.show_stack">Show underlying error stack</message>
+
+	<!--
+		Page not found keys
+
 		This is a special component that is not part of any aspect but is added
 		by manakin to all aspect chains.
 		-->
 	<message key="xmlui.PageNotFound.title">指定のページが見つかりません</message>
 	<message key="xmlui.PageNotFound.head">指定のページが見つかりません</message>
 	<message key="xmlui.PageNotFound.para1">指定のページを見つけることができませんでした。</message>
-	
-	
+
+
 	<!--
-		This section is for feed syndications (RSS, atom, etc)  
+	   The "utils" non-aspect
+       -->
+    <message key="xmlui.utils.AuthenticationUtil.onlyAdmins">サイト管理者だけが別のユーザとしてログインすることができます。</message>
+    <message key="xmlui.utils.AuthenticationUtil.onlyAuthenticatedAdmins">管理者権限を持つユーザだけが別のユーザとしてログインできます。</message>
+    <message key="xmlui.utils.AuthenticationUtil.notAnotherAdmin">別の管理者としてログインすることはできません。</message>
+
+
+	<!--
+		This section is for feed syndications (RSS, atom, etc)
 	-->
 	<message key="xmlui.feed.general_description">DSpaceは、デジタル研究資料を補足、格納、索引化、保存、配布するデジタルリポジトリシステムです。 </message>
+    <message key="xmlui.feed.header">RSS Feeds</message>
 	<message key="xmlui.feed.logo_title">チャネル画像</message>
 	<message key="xmlui.feed.untitled">タイトルなし</message>
-	
+
 	<!--
-		Default notice header 
+		Default notice header
 	 	-->
 	<message key="xmlui.general.notice.default_head">通知</message>
-	
-	
-	
+
+
+
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  
+
 		             ArtifactBrowser Aspect
-	
+
 		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.AbstractSearch.java -->
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_community">コミュニティの検索結果: {0}</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_collection">コレクションの検索結果: {0}</message>
@@ -111,7 +117,7 @@
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">識別子</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">言語コード</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">キーワード</message>
-   
+
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">貢献者</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">作者</message>
@@ -126,16 +132,17 @@
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.and">AND</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.or">OR</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.not">NOT</message>
-	
-	
+
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.ConfigureableBrowse.java -->
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with">移動先の先頭数文字を入力してください:</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with_help">これらの文字で始まるアイテムをブラウズします。</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_select">特定の日付に移動:</message>	
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_month">（月を選択）</message>	
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">（年を選択）</message>	
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_select">特定の日付に移動:</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_month">（月を選択）</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">（年を選択）</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year">移動する日付を入力: </message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year_help">指定した日付以降のアイテムをブラウズします。</message>
+        <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.no_results">表示すべきデータがありません。</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.sort_by"> ソート項目: </message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.order"> ソート順: </message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.rpp"> 表示件数: </message><!-- /Page -->
@@ -158,17 +165,37 @@
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.subject">主題 {1} のブラウズ: {0}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.subject">主題ブラウズ {0}</message>
-	
+
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.title">タイトル {1} のブラウズ: {0}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.title">タイトルブラウズ {0}</message>
-	
+
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateissued">公開日 {1} のブラウズ: {0}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateissued">公開日ブラウズ {0}</message>
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">投稿日 {1} のブラウズ: {0}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">投稿日ブラウズ {0}</message>
 
-	
+
+	<!-- org.dspace.app.xmlui.administrative.WithdrawnItems.java -->
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.title">Withdrawn Items by Title</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.title">Withdrawn Items by Title</message>
+
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateissued">Withdrawn Items by Issue Date</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateissued">Withdrawn Items by Issue Date</message>
+
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateaccessioned">Withdrawn Items by Submit Date</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateaccessioned">Withdrawn Items by Submit Date</message>
+
+	<!-- org.dspace.app.xmlui.administrative.PrivateItems.java -->
+	<message key="xmlui.Administrative.PrivateItems.title.item.title">Private Items by Title</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.title">Private Items by Title</message>
+
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateissued">Private Items by Issue Date</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateissued">Private Items by Issue Date</message>
+
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateaccessioned">Private Items by Submit Date</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateaccessioned">Private Items by Submit Date</message>
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.search_scope">検索範囲</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">リポジトリ全体</message>
@@ -179,7 +206,7 @@
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_dates">日付</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.advanced_search_link">詳細検索</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">最新登録資料</message>
-	
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityBrowser.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.title">コミュニティリスト</message>
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.trail">コミュニティリスト</message>
@@ -198,8 +225,8 @@
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_communities">このコミュニティのサブコミュニティ</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_collections">このコミュニティのコレクション</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_recent_submissions">最新登録資料</message>
-	
-	
+
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.Contact.java -->
 	<message key="xmlui.ArtifactBrowser.Contact.title">連絡先</message>
 	<message key="xmlui.ArtifactBrowser.Contact.trail">連絡先</message>
@@ -208,7 +235,7 @@
 	<message key="xmlui.ArtifactBrowser.Contact.feedback_label">オンラインフォーム</message>
 	<message key="xmlui.ArtifactBrowser.Contact.feedback_link">ご意見</message>
 	<message key="xmlui.ArtifactBrowser.Contact.email">メールアドレス</message>
-	
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackForm.java -->
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.title">ご意見をお聞かせください</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.trail">ご意見をお聞かせください</message>
@@ -218,23 +245,21 @@
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.email_help">このメールアドレスは貴方に連絡する必要がある場合のみ使用いたします。</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.comments">ご意見</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.submit">送信</message>
-	
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackSent.java -->
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.title">ご意見をお聞かせください</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.trail">ご意見をお聞かせください</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.head">送信完了</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackSent.para1">ご意見を承りました。ありがとうございました。</message>
-	
-	<!-- org.dspace.app.xmlui.artifactbrowser.FrontPageSearch.java -->
-	<message key="xmlui.ArtifactBrowser.FrontPageSearch.head">リポジトリの検索</message>
-	<message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">検索語を入力してください。</message>
-	
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
 	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">アイテム表示</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">このアイテムは次のコレクションに所属しています</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">アイテムの簡略レコードを表示する</message>
 	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">アイテムの詳細レコードを表示する</message>
-	
+
+        <message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">This item has been withdrawn and is no longer available.</message>
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
 	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">ブラウズ</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">リポジトリ全体</message>
@@ -246,14 +271,14 @@
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateaccessioned">投稿日</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_this_collection">このコレクション</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">このコミュニティ</message>
-	
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.SimpleSearch.java -->
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.title">検索</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.trail">検索</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.head">検索</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.search_scope">検索範囲</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.full_text_search">全文検索</message>
-	
+
 	<!-- org.dspace.app.xmlui.artifactbrowser.RestrictedItem.java -->
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.title">このリソースの利用は制限されています</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.trail">制限</message>
@@ -263,19 +288,25 @@
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_item">このアイテムの利用は制限されています</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_bitstream">このビットストリームの利用は制限されています</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_resource">あなたはこの制限されたリソースにアクセスする資格を持っていません。</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_community">あなたはこの制限されたコミュニティ <b>{0}</b> にアクセスする資格を持っていません。</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_collection">あなたはこの制限されたコレクション <b>{0}</b> にアクセスする資格を持っていません。</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item">あなたはこの制限されたアイテム <b>{0}</b> にアクセスする資格を持っていません。</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_bitstream">あなたはこの制限されたビットストリーム <b>{0}</b> にアクセスする資格を持っていません。</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_community">あなたはこの制限されたコミュニティ <b>{0}</b>.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_collection">あなたはこの制限されたコレクション <b>{0}</b>.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item">あなたはこの制限されたアイテム <b>{0}</b>.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_bitstream">あなたはこの制限されたビットストリーム <b>{0}</b>.</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_collection">コレクション</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_community">コミュニティ</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_bitstream">ビットストリーム</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_item">アイテム</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_resource">リソース</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.unknown">不明</message>
-	
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.login">Proceed to login screen</message>
+
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">This item is withdrawn</message>
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">The selected item is withdrawn and is no longer available.</message>
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">The selected item is access restricted and requires credentials to view. Please login to access the item.</message>
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Your user account does not have the credentials to view this item. Please contact the system administrator if you have any questions.</message>
+        
 	<!-- Authentication messages used at the top of the login page:  -->
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_header">このアイテムの利用は制限されています</message>	
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_header">このアイテムの利用は制限されています</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_message">ご指定のアイテムは利用が制限されており、閲覧には資格が必要です。下のリンクからログインしてください。</message>
 
     <message key="xmlui.ArtifactBrowser.StatisticsViewer.choose_month">月次報告書</message>
@@ -285,34 +316,140 @@
     <message key="xmlui.ArtifactBrowser.StatisticsViewer.no_report.text">このサービスには現在利用可能な報告書はありません。後ほどチェックしてください。</message>
 
     <!-- Authentication messages used for bitstream authentication -->
-	<message key="xmlui.BitstreamReader.auth_header">このファイルの利用は制限されています</message>	
+	<message key="xmlui.BitstreamReader.auth_header">このファイルの利用は制限されています</message>
 	<message key="xmlui.BitstreamReader.auth_message">ご指定のファイルは利用が制限されており、閲覧には資格が必要です。下のリンクからログインしてください。</message>
-	
+
 	<!-- Export Archive download messages -->
 	<message key="xmlui.ItemExportDownloadReader.auth_header">このアーカイブのエクスポートは制限されていますThis export archive is restricted.</message>
 	<message key="xmlui.ItemExportDownloadReader.auth_message">ご指定のアーカイブのエクスポートは制限されており、閲覧には資格が必要です。下のリンクからログインしてください。</message>
 
+
+	<!-- REQUEST COPY -->
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.title">Request a copy of the document</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.trail">Request a copy of the document</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.head">Request a copy of the document</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.login_para">Users of this system, can login to view this document.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.login">Login</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.para1">Enter the following information to request a copy of the document from the responsible person.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail">Your e-mail address</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail_help">This email address is used for sending the document.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail.error">E-mail is mandatory</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message">Message</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message.error">Message is mandatory</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.files">Files</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.allFiles">All files (of this document) in restricted access.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.notAllFiles">Only The requested file.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName">Name</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName.error">Name is required</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.submit">Request copy</message>
+
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestSent.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.title">Your request has been sent.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.trail">Your request has been sent.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.head">Your request has been sent.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.para1">Your request has been sent to the author or responsible person.</message>
+
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseDecisionForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.title">Document copy request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.trail">Document copy request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.head">Document copy request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para1">IF YOU ARE THE AUTHOR (OR AN AUTHOR) OF DOCUMENT "{0}" use the buttons to answer the user's request.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para2">This repository will propose an appropriate model reply, which you may edit.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactRequester">Initial reply to requester</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactAuthor"> Author permission request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Send copy</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.dontSend">Don't send copy</message>
+
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseTrueForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.title">Document copy request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.trail">Document copy request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.head">Document copy request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.para1">This is the text to be sent to the applicant.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.message">Message</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.subject">Subject</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.mail">Send</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.back">Back</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseFalseForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.title">Document copy request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.trail">Document copy request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.head">Document copy request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.para1">This is the text to be sent to the applicant (together with the document).</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.message">Message</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.subject">Subject</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.mail">Send</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.back">Back</message>
+	
+	 <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestChangeStatusForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.title">Change permissions request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.trail">Change permissions request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.head">Change permissions request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.para1">You may use this occasion to reconsider the access restrictions on the document (to avoid having to respond to these requests), if there is no reason to keep it restricted. To do so, after inserting your name and e-mail (for authentication), click the button "Change to Open Access".</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name">Name</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email">E-mail</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name.error">The name is required</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email.error">The e-mail address is required</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.changeToOpen">Change to open access</message>
+	        
+	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseFalseForm.java -->
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.title">Request sent</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.trail">Request sent</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.head">Your request to change permissions has been sent</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para1">Your request has been sent to the administrator</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para2">Thanks</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestContactRequester.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.title">Document copy request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.trail">Document copy request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.head">Document copy request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.para1">Initial communication with the requester, to let them know their request is being processed.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.toEmail">To</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.subject">Subject</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.message">Message</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.mail">Send</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.back">Back</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestContactAuthor.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.title">Document copy request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.trail">Document copy request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.head">Document copy request</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.para1">This is the text to be sent to the applicant (together with the document).</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.toEmail">To</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.subject">Subject</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.message">Message</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.mail">Send</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.back">Back</message>
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseSent.java -->
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.title">Your response has been sent.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.trail">Your response has been sent.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.head">Your response has been sent.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.para1">Your response has been sent.</message>
+
+
+	
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		
+
 		                EPerson Aspect
-		
+
 		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 	<!-- General keys used by the EPerson aspect -->
 	<message key="xmlui.EPerson.trail_new_registration">新規ユーザ登録</message>
 	<message key="xmlui.EPerson.trail_forgot_password">パスワードをお忘れですか</message>
-	
+
 	<!-- org.dspace.app.xmlui.eperson.CannotRegister.java -->
 	<message key="xmlui.EPerson.CannotRegister.title">登録機能は利用できません</message>
 	<message key="xmlui.EPerson.CannotRegister.head">登録機能は利用できません</message>
-	<message key="xmlui.EPerson.CannotRegister.para1">リポジトリの設定により、登録が許可されておりません。ご不明な点がございましたら、<a href="../contact">サイト管理者</a>にご連絡ください。</message>
-	
+	<message key="xmlui.EPerson.CannotRegister.para1">リポジトリの設定により、登録が許可されておりません。ご不明な点がございましたら、<a href="../contact">site administrator</a> with questions or comments.</message>
+
 	<!-- org.dspace.app.xmlui.eperson.EditProfile.java -->
 	<message key="xmlui.EPerson.EditProfile.title_update">利用者情報の更新</message>
 	<message key="xmlui.EPerson.EditProfile.title_create">利用者情報の作成</message>
@@ -323,6 +460,7 @@
 	<message key="xmlui.EPerson.EditProfile.first_name">名</message>
 	<message key="xmlui.EPerson.EditProfile.last_name">姓</message>
 	<message key="xmlui.EPerson.EditProfile.telephone">電話番号</message>
+        <message key="xmlui.EPerson.EditProfile.Language">言語</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions">購読</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions_help">コレクションを購読すると、購読したコレクションに新規登録されたアイテムが毎日メールで通知されます。コレクションはいくつでも購読できます。コレクションを購読する代わりにコレクションのRSSフィードを利用すること藻できます。</message>
 	<message key="xmlui.EPerson.EditProfile.email_subscriptions">購読コレクション</message>
@@ -339,7 +477,7 @@
 	<message key="xmlui.EPerson.EditProfile.head_auth">所属の権限グループ</message>
 	<message key="xmlui.EPerson.EditProfile.head_identify">利用者情報</message>
 	<message key="xmlui.EPerson.EditProfile.head_security">パスワード</message>
-	
+
 	<!-- org.dspace.app.xmlui.eperson.EPersonUtils.java -->
 	<message key="xmlui.EPerson.EPersonUtils.register_verify_email">メールアドレスの確認</message>
 	<message key="xmlui.EPerson.EPersonUtils.register_create_profile">プロフィールの作成</message>
@@ -352,14 +490,14 @@
 	<message key="xmlui.EPerson.ForgotPasswordFinished.title">パスワードのリセット</message>
 	<message key="xmlui.EPerson.ForgotPasswordFinished.head">パスワードのリセット</message>
 	<message key="xmlui.EPerson.ForgotPasswordFinished.para1">パスワードはリセットされました。</message>
-	
+
 	<!-- org.dspace.app.xmlui.eperson.InvalidToken.java -->
 	<message key="xmlui.EPerson.InvalidToken.title">不正なトークン</message>
 	<message key="xmlui.EPerson.InvalidToken.trail">不正なトークン</message>
 	<message key="xmlui.EPerson.InvalidToken.head">不正なトークン</message>
 	<message key="xmlui.EPerson.InvalidToken.para1">ご指定のURLは間違っています。メールソフト上でURLが次のように複数の行に分割されていませんでしたか:</message>
 	<message key="xmlui.EPerson.InvalidToken.para2">もしそうなら、リンクをクリックするのではなく、URL全体をコピーしてブラウザのアドレスバーにコピーしてください。その場合、アドレスバーは次のようになります:</message>
-	
+
 	<!-- org.dspace.app.xmlui.eperson.Navigation.java -->
 	<message key="xmlui.EPerson.Navigation.my_account">登録利用者</message>
 	<message key="xmlui.EPerson.Navigation.profile">利用者情報</message>
@@ -379,7 +517,7 @@
 	<message key="xmlui.EPerson.PasswordLogin.head2">新規利用者登録</message>
 	<message key="xmlui.EPerson.PasswordLogin.para1">新規アイテムのメール通知やアイテムの投稿には利用者登録が必要です。</message>
 	<message key="xmlui.EPerson.PasswordLogin.register_link">ここをクリックして、登録をしてください。</message>
-	
+
 	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java -->
 	<message key="xmlui.EPerson.LDAPLogin.title">ログイン</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">ログイン</message>
@@ -388,12 +526,13 @@
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">ユーザ名またはパスワードが間違っています。</message>
 	<message key="xmlui.EPerson.LDAPLogin.password">パスワード</message>
 	<message key="xmlui.EPerson.LDAPLogin.submit">ログイ</message>
-	
+
 	<!-- org.dspace.app.xmlui.eperson.LoginChooser.java -->
 	<message key="xmlui.EPerson.LoginChooser.title">ログイン方法の選択</message>
 	<message key="xmlui.EPerson.LoginChooser.trail">ログイン方法の選択</message>
 	<message key="xmlui.EPerson.LoginChooser.head1">ログイン方法の選択</message>
 	<message key="xmlui.EPerson.LoginChooser.para1">ログイン方法:</message>
+	<message key="org.dspace.authenticate.ShibAuthentication.title">Shibboleth認証</message>
 	<message key="org.dspace.eperson.LDAPAuthentication.title">LDAP認証</message>
 	<message key="org.dspace.eperson.PasswordAuthentication.title">パスワード認証</message>
 	<message key="org.dspace.eperson.X509Authentication.title">Web証明書認証</message>
@@ -405,24 +544,24 @@
 	<message key="xmlui.EPerson.FailedAuthentication.title">認証失敗</message>
     <message key="xmlui.EPerson.FailedAuthentication.trail">認証失敗</message>
     <message key="xmlui.EPerson.FailedAuthentication.h1">認証失敗</message>
-	
+
 	<!-- Login xml files -->
 	<message key="xmlui.eperson.noAuthMethod.head">認証方法が見つかりません</message>
 	<message key="xmlui.eperson.noAuthMethod.p1">認証方法が見つかりませんでした。サイト管理者にご連絡ください。</message>
 	<message key="xmlui.eperson.shibbLoginFailure.head">シボレスログイン失敗</message>
 	<message key="xmlui.eperson.shibbLoginFailure.p1">現在シボレス認証が利用できません。 サイト管理者にご連絡ください。</message>
-	
+
 	<!-- org.dspace.app.xmlui.eperson.ProfileUpdated.java -->
 	<message key="xmlui.EPerson.ProfileUpdated.title">利用者情報の更新</message>
 	<message key="xmlui.EPerson.ProfileUpdated.trail">利用者情報更新</message>
 	<message key="xmlui.EPerson.ProfileUpdated.head">利用者情報の更新</message>
 	<message key="xmlui.EPerson.ProfileUpdated.para1">利用者情報が更新されました。</message>
-	
+
 	<!-- org.dspace.app.xmlui.eperson.RegistrationFinished.java -->
 	<message key="xmlui.EPerson.RegistrationFinished.title">登録作業終了</message>
 	<message key="xmlui.EPerson.RegistrationFinished.head">登録作業終了</message>
 	<message key="xmlui.EPerson.RegistrationFinished.para1">リポジトリに登録されました。新規アイテムのメール通知を受け取るコレクションを登録することができます。</message>
-	
+
 	<!-- org.dspace.app.xmlui.eperson.ResetPassword.java -->
 	<message key="xmlui.EPerson.ResetPassword.title">パスワードのリセット</message>
 	<message key="xmlui.EPerson.ResetPassword.head">パスワードのリセット</message>
@@ -433,7 +572,7 @@
 	<message key="xmlui.EPerson.ResetPassword.submit">パスワードのリセット</message>
 	<message key="xmlui.EPerson.ResetPassword.error_invalid_password">少なくとも6文字以上のパスワードを指定してください。</message>
 	<message key="xmlui.EPerson.ResetPassword.error_unconfirmed_password">確認のため、もう一度パスワードを入力してください。</message>
-	
+
 	<!-- org.dspace.app.xmlui.eperson.StartForgotPassword.java -->
 	<message key="xmlui.EPerson.StartForgotPassword.title">パスワード再発行</message>
 	<message key="xmlui.EPerson.StartForgotPassword.head">パスワード再発行</message>
@@ -442,7 +581,7 @@
 	<message key="xmlui.EPerson.StartForgotPassword.email_address_help">登録時に指定したメールアドレスを入力してください。</message>
 	<message key="xmlui.EPerson.StartForgotPassword.error_not_found">メールアドレスが見つかりません。</message>
 	<message key="xmlui.EPerson.StartForgotPassword.submit">送信</message>
-	
+
 	<!-- org.dspace.app.xmlui.eperson.StartRegistration.java -->
 	<message key="xmlui.EPerson.StartRegistration.title">新規利用者登録</message>
 	<message key="xmlui.EPerson.StartRegistration.head1">メールアドレスは既に登録されています</message>
@@ -455,7 +594,7 @@
 	<message key="xmlui.EPerson.StartRegistration.email_address_help">このメールアドレスは確認後、ログイン名として使用されます。</message>
 	<message key="xmlui.EPerson.StartRegistration.error_bad_email">このメールアドレスにメールを送信できません。</message>
 	<message key="xmlui.EPerson.StartRegistration.submit_register">登録</message>
-	
+
 	<!-- org.dspace.app.xmlui.eperson.VerifyEmail.java -->
 	<message key="xmlui.EPerson.VerifyEmail.title">確認用メールの送信</message>
 	<message key="xmlui.EPerson.VerifyEmail.head">確認用メールの送信</message>
@@ -467,12 +606,12 @@
 
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		
+
 		               Submission Aspect
-		
-		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->	
-	
-	
+
+		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+
 
 
 
@@ -483,7 +622,7 @@
 	<message key="xmlui.Submission.general.go_mydspace">マイリポジトリホームへ戻る</message>
 	<message key="xmlui.Submission.general.submission.title">アイテム投稿</message>
 	<message key="xmlui.Submission.general.submission.trail">アイテム投稿</message>
-	<message key="xmlui.Submission.general.submission.head">アイテム投稿</message>	
+	<message key="xmlui.Submission.general.submission.head">アイテム投稿</message>
 	<message key="xmlui.Submission.general.submission.previous">&lt; 前ページ</message>
 	<message key="xmlui.Submission.general.submission.save">保存して終了</message>
 	<message key="xmlui.Submission.general.submission.next">次ページ &gt;</message>
@@ -495,25 +634,25 @@
 	<message key="xmlui.Submission.general.showsimple">アイテムの簡略レコードを表示</message>
 	<message key="xmlui.Submission.general.default.title">投稿</message>
 	<message key="xmlui.Submission.general.default.trail">投稿</message>
-	
+
 	<!-- org.dspace.app.xmlui.submission.CollectiovViewer -->
 	<message key="xmlui.Submission.CollectionViewer.link1">このレクションにアイテムを投稿する</message>
-	
+
 	<!-- org.dspace.app.xmlui.submission.Navigation -->
 	<message key="xmlui.Submission.Navigation.submissions">投稿</message>
 
-	
+
 	<!-- org.dspace.app.xmlui.Submission.submissions -->
 	<message key="xmlui.Submission.Submissions.title">投稿とワークフロー</message>
 	<message key="xmlui.Submission.Submissions.trail">投稿</message>
 	<message key="xmlui.Submission.Submissions.head">投稿とワークフロー作業</message>
-	<message key="xmlui.Submission.Submissions.untitled"><i>タイトルなし</i></message>
+	<message key="xmlui.Submission.Submissions.untitled"><i>Untitled</i></message>
 	<message key="xmlui.Submission.Submissions.email">メールアドレス: </message>
 	<!-- Same transformer, workflow section -->
 	<message key="xmlui.Submission.Submissions.workflow_head1">ワークフロー作業</message>
 	<message key="xmlui.Submission.Submissions.workflow_info1">以下はリポジトリへの追加のために承認待ちをしているアイテムに対する作業です。作業待ちには2種類あり、1つは貴方が作業をお子なることを選択したもので、もう一つはまだ作業をする人が決まっていないものです。</message>
 	<message key="xmlui.Submission.Submissions.workflow_head2">選択済みの作業</message>
-	<message key="xmlui.Submission.Submissions.workflow_column1"></message>
+	<message key="xmlui.Submission.Submissions.workflow_column1"/>
 	<message key="xmlui.Submission.Submissions.workflow_column2">作業</message>
 	<message key="xmlui.Submission.Submissions.workflow_column3">アイテム</message>
 	<message key="xmlui.Submission.Submissions.workflow_column4">コレクション</message>
@@ -525,14 +664,14 @@
 	<message key="xmlui.Submission.Submissions.workflow_info3">未選択の作業はありません</message>
 	<!-- Same transformer, submissions section -->
 	<message key="xmlui.Submission.Submissions.submit_head1">投稿</message>
-	<message key="xmlui.Submission.Submissions.submit_info1a"></message>
+	<message key="xmlui.Submission.Submissions.submit_info1a"/>
 	<message key="xmlui.Submission.Submissions.submit_info1b">ここをクリックして投稿を開始することができます。</message>
 	<message key="xmlui.Submission.Submissions.submit_info1c">作業内容は、アイテムのメタデータの登録とアイテムを構成するファイルのアップロードです。投稿ポリシーを設定しているコミュニティ/コレクションがあります。</message>
 	<message key="xmlui.Submission.Submissions.submit_head2">未完了の投稿</message>
 	<message key="xmlui.Submission.Submissions.submit_info2a">以下は、投稿が完了していないアイテムです。</message>
 	<message key="xmlui.Submission.Submissions.submit_info2b">ここをクリック</message>
 	<message key="xmlui.Submission.Submissions.submit_info2c">して別の投稿を開始することもできます。</message>
-	<message key="xmlui.Submission.Submissions.submit_column1"></message>
+	<message key="xmlui.Submission.Submissions.submit_column1"/>
 	<message key="xmlui.Submission.Submissions.submit_column2">タイトル</message>
 	<message key="xmlui.Submission.Submissions.submit_column3">コレクション</message>
 	<message key="xmlui.Submission.Submissions.submit_column4">投稿者</message>
@@ -556,16 +695,26 @@
 	<message key="xmlui.Submission.Submissions.status_6">編集中</message>
 	<message key="xmlui.Submission.Submissions.status_7">保管済</message>
 	<message key="xmlui.Submission.Submissions.status_unknown">状態不明</message>
+        <!-- Same transformer, completed submissions section -->
+        <message key="xmlui.Submission.Submissions.completed.head">Archived Submissions</message>
+        <message key="xmlui.Submission.Submissions.completed.info">These are your completed submissions which have been accepted into DSpace.</message>
+        <message key="xmlui.Submission.Submissions.completed.column1">Date accepted</message>
+        <message key="xmlui.Submission.Submissions.completed.column2">Title</message>
+        <message key="xmlui.Submission.Submissions.completed.column3">Collection</message>
+        <message key="xmlui.Submission.Submissions.completed.limit">We've only listed 50 of your archived submissions above. </message>
+        <message key="xmlui.Submission.Submissions.completed.displayall">Display all my archived submissions.</message>
 
 	<!-- submission progress bar messages -->
 	<message key="xmlui.Submission.submit.progressbar.initial-questions">質問</message>
 	<message key="xmlui.Submission.submit.progressbar.describe">記述</message>
-	<message key="xmlui.Submission.submit.progressbar.upload">アップロード</message>
+    <message key="xmlui.Submission.submit.progressbar.access">Access</message>
+    <message key="xmlui.Submission.submit.progressbar.upload">アップロード</message>
 	<message key="xmlui.Submission.submit.progressbar.verify">確認</message>
 	<message key="xmlui.Submission.submit.progressbar.creative-commons">クリエイティブ・コモンズ</message>
-	<message key="xmlui.Submission.submit.progressbar.license">ライセンス</message>
+	<message key="xmlui.Submission.submit.progressbar.CClicense">CC License</message>
+    <message key="xmlui.Submission.submit.progressbar.license">ライセンス</message>
 	<message key="xmlui.Submission.submit.progressbar.complete">完了</message>
-	
+
 	<!-- org.dspace.app.xmlui.Submission.submit.ResumeStep -->
 	<message key="xmlui.Submission.submit.ResumeStep.submit_resume">再開</message>
 
@@ -582,7 +731,7 @@
 	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_save">保存して、後で再開</message>
 	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_remove">投稿を削除</message>
 
-	
+
 	<!-- org.dpspace.app.xmlui.Submission.submit.InitialQuestionsStep -->
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.head">最初の質問</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.important_note">重要なお知らせ: </message>
@@ -591,7 +740,7 @@
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.open_set">（</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.close_set">）</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles">複数のタイトル</message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_help">アイテムは、<i>翻訳タイトルなど</i>、複数のタイトルを持っている。</message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_help">アイテムは、<i>e.g. a translated title</i></message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_note">上のチェックボックスをチェックしないと、次のタイトルがアイテムから削除されます: </message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before">出版（公開）済み</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before_help">アイテムは以前に出版または公開さている。</message>
@@ -599,26 +748,76 @@
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.date_issued">公開日</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.citation">引用</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.publisher">出版者</message>
-	
+
 	<!-- org.dspace.app.xmlui.Submission.submit.DescribeStep -->
 	<message key="xmlui.Submission.submit.DescribeStep.head">アイテムの記述</message>
 	<message key="xmlui.Submission.submit.DescribeStep.unknown_field">エラー: 未知のフィードタイプです</message>
 	<message key="xmlui.Submission.submit.DescribeStep.required_field">このフィールドは必須です</message>
-	<message key="xmlui.Submission.submit.DescribeStep.last_name_help">姓。 <i>例、山田</i></message>
-	<message key="xmlui.Submission.submit.DescribeStep.first_name_help">名。 <i>例、 太郎</i></message>
+	<message key="xmlui.Submission.submit.DescribeStep.last_name_help">姓。 <i>e.g. Smith</i></message>
+	<message key="xmlui.Submission.submit.DescribeStep.first_name_help">名。 <i>e.g. Donald Jr</i></message>
 	<message key="xmlui.Submission.submit.DescribeStep.year">年</message>
 	<message key="xmlui.Submission.submit.DescribeStep.month">月</message>
 	<message key="xmlui.Submission.submit.DescribeStep.day">日</message>
 	<message key="xmlui.Submission.submit.DescribeStep.series_name">シリーズ名</message>
 	<message key="xmlui.Submission.submit.DescribeStep.report_no">番号</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.link">Subject Categories</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.title">Subject Categories</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.label">Filter subjects</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.button">Filter</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.loading">Please wait while the controlled vocabulary is loading.</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.error">There was an issue when loading the controlled vocabulary, please try again later.</message>
 
-	<!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
+
+    <!-- org.dspace.app.xmlui.Submission.submit.AccessStep -->
+    <message key="xmlui.Submission.submit.AccessStep.head">Access Settings</message>
+    <message key="xmlui.Submission.submit.AccessStep.access_settings">Visible to a group of selected users (no selection needed for Anonymous)</message>
+    <message key="xmlui.Submission.submit.AccessStep.open_access">Allow access once item is accepted into archive</message>
+    <message key="xmlui.Submission.submit.AccessStep.embargo">Embargo until specific date</message>
+    <message key="xmlui.Submission.submit.AccessStep.embargo_visible">Access for selected group</message>
+    <message key="xmlui.Submission.submit.AccessStep.name">Policy name</message>
+    <message key="xmlui.Submission.submit.AccessStep.name_help">A short, descriptive name for the policy (up to 30 characters). May be shown to end users. Example: "Staff-only". Optional but recommended.</message>
+    <message key="xmlui.Submission.submit.AccessStep.description">Description</message>
+    <message key="xmlui.Submission.submit.AccessStep.reason">Embargo reason</message>
+    <message key="xmlui.Submission.submit.AccessStep.reason_help">The reason for the embargo, typically for internal use only. Optional.</message>
+    <message key="xmlui.Submission.submit.AccessStep.submit_add_policy">Confirm Policy &amp; add another</message>
+    <message key="xmlui.Submission.submit.AccessStep.list_assigned_groups">Group</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_format_date">Error format date</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_missing_date">When Embargo selected, date is required</message>
+    <message key="xmlui.Submission.submit.AccessStep.error_duplicated_policy">An identical policy for this group and this action is already in place.</message>
+    <message key="xmlui.Submission.submit.AccessStep.table_policies">Group policies</message>
+    <message key="xmlui.Submission.submit.AccessStep.policies_help">Policies listed in this section override any default policies for the collection you're submitting to. If you wish to set an embargo but the target collection allows access for any user, you must set a policy that allows access for the Anonymous group only from a specific date onwards.</message>
+    <message key="xmlui.Submission.submit.AccessStep.no_policies">No group policies have been set up for this item.</message>
+    <message key="xmlui.Submission.submit.AccessStep.new_policy_head">Embargo</message>
+    <message key="xmlui.Submission.submit.AccessStep.private_settings">Private item</message>
+    <message key="xmlui.Submission.submit.AccessStep.private_settings_help">If selected, the item won't be searchable</message>
+    <message key="xmlui.Submission.submit.AccessStep.private_settings_label">Private</message>
+    <message key="xmlui.Submission.submit.AccessStep.column0">Name</message>
+    <message key="xmlui.Submission.submit.AccessStep.column1">Action</message>
+    <message key="xmlui.Submission.submit.AccessStep.column2">Group</message>
+    <message key="xmlui.Submission.submit.AccessStep.column3">Start Date</message>
+    <message key="xmlui.Submission.submit.AccessStep.column4">End Date</message>
+    <message key="xmlui.Submission.submit.AccessStep.table_edit_button">Edit</message>
+    <message key="xmlui.Submission.submit.AccessStep.table_delete_button">Remove</message>
+    <message key="xmlui.administrative.authorization.AccessStep.label_date_help">The first day from which access is allowed. Accepted format: yyyy, yyyy-mm, yyyy-mm-dd</message>
+    <message key="xmlui.Submission.submit.AccessStep.review_policy_line">Name: {0}; action: {1}, group: {2}, start date: {3}, end date: {4}</message>
+    <message key="xmlui.Submission.submit.AccessStep.review_public_item">The item will be searchable</message>
+    <message key="xmlui.Submission.submit.AccessStep.review_private_item">The item will not be searchable</message>
+
+
+
+    <!-- org.dspace.app.xmlui.Submission.submit.EditPolicyStep -->
+    <message key="xmlui.Submission.submit.EditPolicyStep.head">Edit Policy</message>
+
+    <!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
 	<message key="xmlui.Submission.submit.UploadStep.head">ファイルのアップロード</message>
 	<message key="xmlui.Submission.submit.UploadStep.file">ファイル</message>
 	<message key="xmlui.Submission.submit.UploadStep.file_help">アップロードするファイルの完全パス名を入力してください。[参照...]を押すとファイル選択画面が表示されます。</message>
 	<message key="xmlui.Submission.submit.UploadStep.file_error">アイテムは少なくともファイルを1つ含んでいなければなりません。</message>
-	<message key="xmlui.Submission.submit.UploadStep.description">ファイル記述</message>
-	<message key="xmlui.Submission.submit.UploadStep.description_help">オプションで、ファイルに関する簡単な記述を提供することができます。例えば、"<i>主論文</i>" や "<i>実験データ</i>"など。</message>
+	<message key="xmlui.Submission.submit.UploadStep.upload_error">ファイルのアップロード中に問題が発生しました。ファイル名、ファイルフォーマットを確認してください。ネットワーク障害の可能性もあります。</message>
+	<message key="xmlui.Submission.submit.UploadStep.virus_error">The file has not been uploaded as it appears to contain a virus. Please contact the system administrator.</message>
+    <message key="xmlui.Submission.submit.UploadStep.virus_checker_error">A technical problem was encountered whilst attempting to scan the file for viruses. Please contact the system administrator.</message>
+    <message key="xmlui.Submission.submit.UploadStep.description">ファイル記述</message>
+	<message key="xmlui.Submission.submit.UploadStep.description_help">オプションで、ファイルに関する簡単な記述を提供することができます。例えば、"<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
 	<message key="xmlui.Submission.submit.UploadStep.submit_upload">アップロードして、さらに追加</message>
 	<message key="xmlui.Submission.submit.UploadStep.head2">アップロードされたファイル</message>
 	<message key="xmlui.Submission.submit.UploadStep.column0">主ファイル</message>
@@ -627,7 +826,7 @@
 	<message key="xmlui.Submission.submit.UploadStep.column3">サイズ</message>
 	<message key="xmlui.Submission.submit.UploadStep.column4">記述</message>
 	<message key="xmlui.Submission.submit.UploadStep.column5">フォーマット</message>
-	<message key="xmlui.Submission.submit.UploadStep.column6"></message>
+	<message key="xmlui.Submission.submit.UploadStep.column6"/>
 	<message key="xmlui.Submission.submit.UploadStep.unknown_name">不明</message>
 	<message key="xmlui.Submission.submit.UploadStep.unknown_format">不明フォーマット</message>
 	<message key="xmlui.Submission.submit.UploadStep.supported">（既サポート）</message>
@@ -636,19 +835,54 @@
 	<message key="xmlui.Submission.submit.UploadStep.submit_edit">編集</message>
 	<message key="xmlui.Submission.submit.UploadStep.checksum">チェックサム:</message>
 	<message key="xmlui.Submission.submit.UploadStep.submit_remove">選択したファイルを削除</message>
-	
+
+
+
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head">Upload File(s)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file">File</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_help">Please enter the full path of the file on your computer corresponding to your item. If you click "Browse...", a new window will allow you to select the file from your computer.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_error">The item must contain at least one file.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.upload_error">There was a problem uploading your file. Either the filename you entered was incorrect, there was a network problem which prevented the file from reaching us correctly, or you have attempted to upload a file format marked for internal system use only. Please try again.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_error">The file has not been uploaded as it appears to contain a virus. Please contact the system administrator.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_checker_error">A technical problem was encountered whilst attempting to scan the file for viruses. Please contact the system administrator.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description">File Description</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">Optionally, provide a brief description of the file, for example "<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_upload">Upload file &amp; add another</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head2">Files Uploaded</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column0">Primary</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column1">  </message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column2">File</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column3">Size</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column4">Description</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column5">Format</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"/>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_name">Unknown</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_format">unknown format</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.supported">(Supported)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.known">(Known)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unsupported">(Unsupported)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_edit">Edit</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.checksum">File checksum:</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_remove">Remove selected files</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_policy">Policies</message>
+
+
 	<!-- org.dspace.app.xmlui.Submission.submit.EditFileStep -->
 	<message key="xmlui.Submission.submit.EditFileStep.head">ファイルの編集</message>
 	<message key="xmlui.Submission.submit.EditFileStep.file">ファイル</message>
 	<message key="xmlui.Submission.submit.EditFileStep.description">ファイル記述</message>
-	<message key="xmlui.Submission.submit.EditFileStep.description_help">オプションで、ファイルに関する簡単な記述を提供することができます。例えば、"<i>主論文</i>" や "<i>実験データ</i>"など。</message>
-	<message key="xmlui.Submission.submit.EditFileStep.info1">ファイルフォーマットを以下のリストから選択してください（例えば、"<i>Adobe PDF</i>" や "<i>Microsoft Word</i>"）。<strong>リストにないフォーマットの場合は</strong>、リストの下の入力欄に入力してください。</message>
+	<message key="xmlui.Submission.submit.EditFileStep.description_help">オプションで、ファイルに関する簡単な記述を提供することができます。例えば、"<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
+	<message key="xmlui.Submission.submit.EditFileStep.info1">ファイルフォーマットを以下のリストから選択してください（例えば、"<i>Adobe PDF</i>" or "<i>Microsoft Word</i>." <strong>If the format is not in the list</strong>, please describe it in the input box below the list.</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_detected">検出されたフォーマット</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_selected">選択されたフォーマット</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_default">リストにないフォーマット</message>
-	<message key="xmlui.Submission.submit.EditFileStep.info2">上のリストにフォーマットがない場合は、<strong>"リストにないフォーマット" を選択して</strong>下の入力欄にファイルのフォーマットを記述してください。</message>
+	<message key="xmlui.Submission.submit.EditFileStep.info2">上のリストにフォーマットがない場合は、<strong>select "format not in list" above</strong> and describe the file's format in the box below.</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_user">その他のフォーマット</message>
-	<message key="xmlui.Submission.submit.EditFileStep.format_user_help">ファイルの作成に使用したアプリケーションソフト名とそのバージョン（例えば、"<i>ACMESoft SuperApp version 1.5</i>"）。</message>
+	<message key="xmlui.Submission.submit.EditFileStep.format_user_help">ファイルの作成に使用したアプリケーションソフト名とそのバージョン（例えば、"<i>ACMESoft SuperApp version 1.5</i>").</message>
+
+    <!-- org.dspace.app.xmlui.Submission.submit.EditBitstreamPolicies -->
+    <message key="xmlui.Submission.submit.EditBitstreamPolicies.head">Bitstream Access</message>
+
 
 	<!-- org.dspace.app.xmlui.Submission.submit.ReviewStep -->
 	<message key="xmlui.Submission.submit.ReviewStep.head">投稿の確認</message>
@@ -665,18 +899,21 @@
 	<message key="xmlui.Submission.submit.ReviewStep.unknown">不明</message>
 	<message key="xmlui.Submission.submit.ReviewStep.known">既知</message>
 	<message key="xmlui.Submission.submit.ReviewStep.supported">既サポート</message>
-	
+
 	<!-- org.dspace.app.xmlui.Submission.submit.CCLicenseStep -->
-	<message key="xmlui.Submission.submit.CCLicenseStep.head">クリエイティブ･コモンズ ライセンス</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.info1">希望する場合は、 <a href="http://creativecommons.org/">クリエイティブ･コモンズ</a> ライセンスをアイテムに与えることができます。<strong>クリエイティブ･コモンズ ライセンスは、貴方の作品を読む人が、その作品で何をすることができるかを決定します</strong>。クリエイティブ･コモンズ ライセンスを選択する場合は、以下のボタンをクリックしてください。クリエイティブ･コモンズのWebサイトが表示され、いくつかのライセンスの選択肢が提示されます。ライセンスを選択すると、このページに戻ってきます。</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.submit_to_creative_commons">クリエイティブ･コモンズのサイトでライセンスを選択</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.license">ライセンス</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.submit_remove">このクリエイティブ･コモンズ ライセンスを削除</message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.no_license">クリエイティブ･コモンズ ライセンスが選択されていません。</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.ccws_error">An error occurred ... {0}</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.head">クリエイティブ･コモンズ ライセンス</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.info1">希望する場合は、 <a href="http://creativecommons.org/">Creative Commons</a> License to your item. <strong>Creative Commons licenses govern what people who read your work may then do with it.</strong></message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.submit_choose_creative_commons">Choose a license</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.submit_to_creative_commons">クリエイティブ･コモンズのサイトでライセンスを選択</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.license">ライセンス</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.select_change">Select or modify your license ...</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.no_license">クリエイティブ･コモンズ ライセンスが選択されていません。</message>
+        <message key="xmlui.Submission.submit.CCLicenseStep.save_changes">You must click Next to save your changes.</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.LicenseStep -->
 	<message key="xmlui.Submission.submit.LicenseStep.head">配布ライセンス</message>
-	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>最後にしていただく処理があります:</strong> このリポジトリが貴方の投稿したアイテムを世界中に複製、翻訳、配布するために、貴方に次の条項を承認していただく必要があります。</message>
+	<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>There is one last step:</strong> In order for DSpace to reproduce, translate and distribute your submission worldwide, you must agree to the following terms.</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info2">「ライセンスを承諾」を選択して、[投稿完了]をクリックすることにより、標準配布ライセンスを承諾してください。</message>
 	<message key="xmlui.Submission.submit.LicenseStep.info3">このライセンスに関して疑問のある方は、システム管理者にご連絡ください。</message>
 	<message key="xmlui.Submission.submit.LicenseStep.decision_label">配布ライセンス</message>
@@ -686,13 +923,13 @@
 	<!-- org.dspace.app.xmlui.Submission.submit.RemovedStep -->
 	<message key="xmlui.Submission.submit.RemovedStep.head">投稿の削除</message>
 	<message key="xmlui.Submission.submit.RemovedStep.info1">投稿がキャンセルされ、未完のアイテムはシステムから削除されました。</message>
-	<message key="xmlui.Submission.submit.RemovedStep.go_submission">投稿ページに移動する</message>	
+	<message key="xmlui.Submission.submit.RemovedStep.go_submission">投稿ページに移動する</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.CompletedStep -->
-	<message key="xmlui.Submission.submit.CompletedStep.head">投稿完了</message>	
-	<message key="xmlui.Submission.submit.CompletedStep.info1">貴方の投稿は、このコレクションの査読処理にまわされました。コレクションに追加された場合や問題が発生した場合は、すぐにメールでお知らせします。投稿ページにアクセスすることにより処理状況をチェックすることもできます。</message>	
-	<message key="xmlui.Submission.submit.CompletedStep.go_submission">投稿ページに移動する</message>	
-	<message key="xmlui.Submission.submit.CompletedStep.submit_again">別のアイテムを投稿する</message>		
+	<message key="xmlui.Submission.submit.CompletedStep.head">投稿完了</message>
+	<message key="xmlui.Submission.submit.CompletedStep.info1">貴方の投稿は、このコレクションの査読処理にまわされました。コレクションに追加された場合や問題が発生した場合は、すぐにメールでお知らせします。投稿ページにアクセスすることにより処理状況をチェックすることもできます。</message>
+	<message key="xmlui.Submission.submit.CompletedStep.go_submission">投稿ページに移動する</message>
+	<message key="xmlui.Submission.submit.CompletedStep.submit_again">別のアイテムを投稿する</message>
 
 	<!-- org.dspace.app.xmlui.Submission.workflow.PerformTaskStep -->
 	<message key="xmlui.Submission.workflow.PerformTaskStep.info1">このタスクで行う作業:</message>
@@ -704,7 +941,7 @@
 	<message key="xmlui.Submission.workflow.PerformTaskStep.approve_submit">アイテムを承認</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_help">アイテムの編集後に、アイテムをリポジトリに追加する場合は、このオプションを使ってください。</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.commit_submit">リポジトリに追加</message>
-	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">このアイテムを査読して、コレクションに追加することがふさわしく<strong>ない</strong>場合は、[却下]を選択してください。何故アイテムの追加がふさわしくないか、投稿者は修正して再投稿するべきか否かを示すコメントの入力が求められます。</message>
+	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">このアイテムを査読して、コレクションに追加することがふさわしく<strong>not</strong> suitable for inclusion in the collection, select "Reject".  You will then be asked to enter a message indicating why the item is unsuitable, and whether the submitter should change something and resubmit.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.reject_submit">アイテムを却下</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.edit_help">アイテムのメタデータを変更する場合はこのオプションを使用してください。</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.edit_submit">メタデータの編集</message>
@@ -717,18 +954,22 @@
 	<message key="xmlui.Submission.workflow.RejectTaskStep.reason_required">このフィールドは必須です。</message>
 	<message key="xmlui.Submission.workflow.RejectTaskStep.submit_reject">アイテムを却下</message>
 
-	
-	
-	
+
+
+
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		
+
 		             Administrative Aspect
-		
+
 		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-	
-	<!-- action-generated messages. These are referenced from the sitemap rather than a transformer --> 	
-	
-	<message key="xmlui.administrative.FlowEPersonUtils.add_eperson_success_notice">ユーザの追加に成功しました。</message>
+
+	<!-- action-generated messages. These are referenced from the sitemap rather than a transformer -->
+
+        <message key="xmlui.administrative.FlowCurationUtils.curate_success_notice">The task was completed successfully.</message>
+        <message key="xmlui.administrative.FlowCurationUtils.curate_failed_notice">The task exited unexpectedly or failed. For more information, please contact the site administrator or check your system logs.</message>
+        <message key="xmlui.administrative.FlowCurationUtils.queue_success_notice">The task was queued successfully.</message>
+        <message key="xmlui.administrative.FlowCurationUtils.queue_failed_notice">The task could not be queued. An error occurred. For more information, please contact the site administrator or check your system logs.</message>
+        <message key="xmlui.administrative.FlowEPersonUtils.add_eperson_success_notice">ユーザの追加に成功しました。</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.edit_eperson_success_notice">ユーザの編集に成功しました。</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.reset_password_success_notice">新パスワードの選択に使用されるトークンを含むメールがユーザに送信されました。</message>
 	<message key="xmlui.administrative.FlowEPersonUtils.delete_eperson_success_notice">ユーザの削除に成功しました。</message>
@@ -747,16 +988,18 @@
 	<message key="xmlui.administrative.FlowItemUtils.metadata_added">新しいメタデータが追加されました。</message>
 	<message key="xmlui.administrative.FlowItemUtils.item_withdrawn">アイテムが取り下げられました。</message>
 	<message key="xmlui.administrative.FlowItemUtils.item_reinstated">アイテムが復活されました。</message>
+	<message key="xmlui.administrative.FlowItemUtils.item_moved">アイテムを移動しました。</message>
+	<message key="xmlui.administrative.FlowItemUtils.item_move_failed">選択したコレクションが見つかりません。</message>
 	<message key="xmlui.administrative.FlowItemUtils.bitstream_added">新しいビットストリームのアップロードに成功しました。</message>
 	<message key="xmlui.administrative.FlowItemUtils.bitstream_failed">ファイルのアップロード中に発生したエラー</message>
 	<message key="xmlui.administrative.FlowItemUtils.bitstream_updated">ビットストリームが更新されました。</message>
 	<message key="xmlui.administrative.FlowItemUtils.bitstream_delete">選択したビットストリームが削除されました。</message>
 	<message key="xmlui.administrative.FlowMapperUtils.map_items">アイテムのマッピングに成功しました。</message>
 	<message key="xmlui.administrative.FlowMapperUtils.unmaped_items">アイテムはマッピングが解除されました。</message>
-	
+
 	<!-- general items for all of the eperson classes -->
 	<message key="xmlui.administrative.eperson.general.epeople_trail">利用者の管理</message>
-		
+
 	<!-- org.dspace.app.xmlui.administrative.Navigation -->
 	<!-- contextual menu items -->
 	<message key="xmlui.administrative.Navigation.context_head">コンテキスト</message>
@@ -768,9 +1011,10 @@
 	<message key="xmlui.administrative.Navigation.context_create_subcommunity">サブコミュニティの作成</message>
 	<message key="xmlui.administrative.Navigation.context_create_community">コミュニティの作成</message>
 	<message key="xmlui.administrative.Navigation.context_export_item">アイテムのエクスポート</message>
-    <message key="xmlui.administrative.Navigation.context_export_collection">コレクションのエクスポート</message>
-    <message key="xmlui.administrative.Navigation.context_export_community">コミュニティのエクスポート</message>
-	
+        <message key="xmlui.administrative.Navigation.context_export_collection">コレクションのエクスポート</message>
+        <message key="xmlui.administrative.Navigation.context_export_community">コミュニティのエクスポート</message>
+        <message key="xmlui.administrative.Navigation.context_export_metadata">メタデータのエクスポート</message>
+
 	<!-- Site administrator options -->
 	<message key="xmlui.administrative.Navigation.administrative_head">管理作業</message>
 	<message key="xmlui.administrative.Navigation.administrative_access_control">アクセスコントロール</message>
@@ -780,15 +1024,20 @@
 	<message key="xmlui.administrative.Navigation.administrative_registries">レジストリ</message>
 	<message key="xmlui.administrative.Navigation.administrative_metadata">メタデータ</message>
 	<message key="xmlui.administrative.Navigation.administrative_format">フォーマット</message>
+    <message key="xmlui.administrative.Navigation.administrative_content">Content Administration</message>
 	<message key="xmlui.administrative.Navigation.administrative_items">アイテム</message>
     <message key="xmlui.administrative.Navigation.administrative_withdrawn">取り下げアイテム</message>
-	<message key="xmlui.administrative.Navigation.administrative_control_panel">コントロールパネル</message>
+    <message key="xmlui.administrative.Navigation.administrative_private">Private Items</message>
+    <message key="xmlui.administrative.Navigation.administrative_control_panel">コントロールパネル</message>
     <message key="xmlui.administrative.Navigation.statistics">統計</message>
+    <message key="xmlui.administrative.Navigation.administrative_batch_import">Batch Import (ZIP)</message>
+        <message key="xmlui.administrative.Navigation.administrative_import_metadata">メタデータのインポート</message>
+        <message key="xmlui.administrative.Navigation.administrative_curation">Curation Tasks</message>
 
     <!-- my account items -->
 	<message key="xmlui.administrative.Navigation.account_export">マイ･エクスポート</message>
-	
-	
+
+
 	<!-- export item -->
 	<message key="xmlui.administrative.ItemExport.head">アーカイブのエクスポート</message>
 	<message key="xmlui.administrative.ItemExport.item.id.error">ご指定のアイテムIDは間違っています。</message>
@@ -797,10 +1046,11 @@
 	<message key="xmlui.administrative.ItemExport.item.not.found">リクエストされたアイテムは見つかりませんでした。</message>
 	<message key="xmlui.administrative.ItemExport.collection.not.found">リクエストされたコレクションは見つかりませんでした。</message>
 	<message key="xmlui.administrative.ItemExport.community.not.found">リクエストされたコミュニティは見つかりませんでした。</message>
+	<message key="xmlui.administrative.ItemExport.item.success">アイテムをエクスポートしました。ダウンロードの準備ができたらメールを送信します。「マイエクスポート」リンクから利用可能なエクスポートファイルリストを見ることができます</message>
 	<message key="xmlui.administrative.ItemExport.collection.success">コレクションのエクスポートに成功しました。アーカイブのダウンロードの準備ができたらメールで通知されるはずです。「マイ･エクスポート」リンクを使用することにより、利用可能なアーカイブのリストを閲覧することができます。</message>
 	<message key="xmlui.administrative.ItemExport.community.success">コミュニティのエクスポートに成功しました。アーカイブのダウンロードの準備ができたらメールで通知されるはずです。「マイ･エクスポート」リンクを使用することにより、利用可能なアーカイブのリストを閲覧することができます</message>
 	<message key="xmlui.administrative.ItemExport.available.head">ダウンロード可能なエクスポートアーカイブ:</message>
-	
+
 
 
     <!-- org.dspace.app.xmlui.administrative.eperson.ManageEPeopleMain -->
@@ -815,14 +1065,14 @@
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_help">利用者のメールアドレスと名前の部分一致で検索できます。</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_para1">以下は、検索語に一致した利用者の一覧です。利用者を削除する場合は、利用者を選択して[削除]ボタンを押してください。編集する場合は、メールアドレスか名前をクリックしてください。</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_head">検索結果</message>
-	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"></message>
+	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"/>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column2">ID</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column3">名前</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column4">メールアドレス</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.submit_delete">削除</message>
 	<message key="xmlui.administrative.eperson.ManageEPeopleMain.no_results">該当する利用者はありません。</message>
-		
-		
+
+
 	<!-- org.dspace.app.xmlui.administrative.eperson.AddEPersonForm -->
 	<message key="xmlui.administrative.eperson.AddEPersonForm.title">利用者の追加</message>
 	<message key="xmlui.administrative.eperson.AddEPersonForm.trail">利用者の追加</message>
@@ -836,7 +1086,7 @@
 	<message key="xmlui.administrative.eperson.AddEPersonForm.req_certs">証明書が必要</message>
 	<message key="xmlui.administrative.eperson.AddEPersonForm.can_log_in">ログイン可能</message>
 	<message key="xmlui.administrative.eperson.AddEPersonForm.submit_create">作成</message>
-	
+
 	<!-- org.dspace.app.xmlui.administrative.eperson.EditEPersonForm -->
 	<message key="xmlui.administrative.eperson.EditEPersonForm.title">利用者の編集</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.trail">利用者の編集</message>
@@ -853,19 +1103,19 @@
 	<message key="xmlui.administrative.eperson.EditEPersonForm.special_help">この利用者の削除とパスワードのリセットをすることができます。パスワードをリセットすると、新しいパスワードを設定するためのURLが利用者に送信されます。</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.submit_delete">利用者の削除</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.submit_login_as">この利用者としてログイン</message>
-	
+
 	<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint">この利用者は次の制約があり削除することができません:</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.last_conjunction">、および</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.item">1つ以上のアイテムの投稿がある</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.workflowitem">処理中の投稿ワークフローがある</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.tasklistitem">選択すべきワークフロータスクがある</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.unknown">識別できない制約を持っている</message>
-	
+
 	<message key="xmlui.administrative.eperson.EditEPersonForm.member_head">この利用者が所属するグループ:</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.indirect_member">（間接的グループ: {0}）</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.member_none">なし</message>
-	
-	
+
+
 	<!-- org.dspace.app.xmlui.administrative.eperson.DeleteEPeopleConfirm -->
 	<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.title">利用者削除の確認</message>
 	<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.trail">削除の確認</message>
@@ -890,7 +1140,7 @@
 	<message key="xmlui.administrative.group.ManageGroupsMain.actions_search">グループの検索</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_help">グループ名の部分一致で検索できます。</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_head">検索結果</message>
-	<message key="xmlui.administrative.group.ManageGroupsMain.search_column1"></message>
+	<message key="xmlui.administrative.group.ManageGroupsMain.search_column1"/>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column2">ID</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column3">名前</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column4">メンバー</message>
@@ -912,6 +1162,7 @@
 	<message key="xmlui.administrative.group.EditGroupForm.submit_add">追加</message>
 	<message key="xmlui.administrative.group.EditGroupForm.submit_remove">削除</message>
 	<message key="xmlui.administrative.group.EditGroupForm.collection_para">このグループに関連するコレクション: </message>
+	<message key="xmlui.administrative.group.EditGroupForm.community_para">このグループは次のコミュニティと関係しています: </message>
 	<message key="xmlui.administrative.group.EditGroupForm.label_name">グループ名の変更: </message>
 	<message key="xmlui.administrative.group.EditGroupForm.label_instructions">このグループは特別なコレクションに関係しているので、名前を変更することができません。</message>
 	<message key="xmlui.administrative.group.EditGroupForm.label_search">追加するメンバーの検索: </message>
@@ -921,24 +1172,24 @@
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column1">ID</message>
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column2">名前</message>
 	<message key="xmlui.administrative.group.EditGroupForm.epeople_column3">メールアドレス</message>
-	<message key="xmlui.administrative.group.EditGroupForm.epeople_column4"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.epeople_column4"/>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column1">ID</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column2">名前</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column3">メンバー</message>
 	<message key="xmlui.administrative.group.EditGroupForm.groups_column4">コレクション</message>
-	<message key="xmlui.administrative.group.EditGroupForm.groups_column5"></message>
+	<message key="xmlui.administrative.group.EditGroupForm.groups_column5"/>
 	<message key="xmlui.administrative.group.ManageGroupsMain.groups_collection_link">閲覧</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_head">メンバー</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column1">ID</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column2">名前</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_column3">メールアドレス</message>
-	<message key="xmlui.administrative.group.EditGroupForm.members_column4"></message>
-	<message key="xmlui.administrative.group.EditGroupForm.members_group_name">グループ: {0}</message>	
+	<message key="xmlui.administrative.group.EditGroupForm.members_column4"/>
+	<message key="xmlui.administrative.group.EditGroupForm.members_group_name">グループ: {0}</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_none">このグループにはメンバーがいません。</message>
 	<message key="xmlui.administrative.group.EditGroupForm.members_pending">[保留]</message>
 	<message key="xmlui.administrative.group.EditGroupForm.instructions_para">メンバーの削除</message>
 	<message key="xmlui.administrative.group.EditGroupForm.collection_link_para">メンバーの削除</message>
-	
+
 	<!-- org.dspace.app.xmlui.administrative.group.DeleteGroupsConfirm -->
 	<message key="xmlui.administrative.group.DeleteGroupsConfirm.title">グループ削除の確認</message>
 	<message key="xmlui.administrative.group.DeleteGroupsConfirm.trail">削除の確認</message>
@@ -948,16 +1199,16 @@
 	<message key="xmlui.administrative.group.DeleteGroupsConfirm.column2">名前</message>
 	<message key="xmlui.administrative.group.DeleteGroupsConfirm.column3">利用者</message>
 	<message key="xmlui.administrative.group.DeleteGroupsConfirm.column4">グループ</message>
-	
+
 	<!-- general items for all of the registries classes -->
 	<message key="xmlui.administrative.registries.general.format_registry_trail">フォーマットレジストリ</message>
-	<message key="xmlui.administrative.registries.general.metadata_registry_trail">メタデータレジストリ</message>	
-	
+	<message key="xmlui.administrative.registries.general.metadata_registry_trail">メタデータレジストリ</message>
+
 	<!-- org.dspace.app.xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.java -->
 	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.title">ビットストリームフォーマットの削除</message>
 	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.trail">ビットストリームフォーマットの削除</message>
 	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.head">削除の確認</message>
-	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.para1">このフォーマットを<b>本当に</b>削除しますか。このファーマットの既存のビットストリームのフォーマットは不明になります。</message>
+	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.para1">このフォーマットを</message>
 	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.column1">ID</message>
 	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.column2">MIMEタイプ</message>
 	<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.column3">名前</message>
@@ -966,7 +1217,7 @@
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.title">フィールドの削除</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.trail">フィールドの削除</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.head">削除の確認</message>
-	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para1">このフィールドを<b>本当に</b>削除しますか。このフィールドのメタデータを持つアイテムが存在する場合は、フィールドを削除できません。このフィールド持つアイテムがないことを確認する必要があります。</message>
+	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para1">このフィールドを<b>absolutely</b> sure you want to delete these fields? If any items contain metadata for these fields, the field(s) cannot be deleted. You must ensure that no items use these fields.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.warning">警告: </message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para2">このフィールドのメタデータを持つアイテムが存在する場合は、エラーが発生します。</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.column1">ID</message>
@@ -977,7 +1228,7 @@
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.title">スキーマの削除</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.trail">スキーマの削除</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.head">削除の確認</message>
-	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">このスキーマを<b>本当に</b>削除しますか。このスキーマに含まれるフィールドのメタデータを持つアイテムが存在する場合は、スキーマを削除できません。このスキーマのメタデータを持つアイテムがないことを確認する必要があります。</message>
+	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">このスキーマを<b>absolutely</b> sure you want to delete this schema? If any items contain metadata for fields contained within this schema, the schema cannot be deleted. You must ensure that no items contain metadata in this schema.</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.warning">警告: </message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para2">このスキーマのメタデータを持つアイテムが存在する場合は、エラーが発生します。</message>
 	<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column1">ID</message>
@@ -994,6 +1245,7 @@
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.name_help">このフォーマットのユニークな名前（例えば、Microsoft Word XP や Microsoft Word 2000）</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.name_error">名前フィールドは必須です。</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.mimetype">MIMEタイプ</message>
+	<message key="xmlui.administrative.registries.EditBitstreamFormat.mimetype_help">このフォーマットに関するMIMEタイプは一意である必要はありません。</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.description">記述</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.support">サポートレベル</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.support_help">貴方の機関がこのフォーマットに保証するサポートレベル</message>
@@ -1011,7 +1263,7 @@
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head1">メタデータスキーマ: "{0}"</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.para1">"{0}" のメタデータスキーマです。このスキーマに新たにメタデータフィールドを追加したり、既存のメタデータフィールドを編集したりすることができます。フィールドを削除したり、別のスキーマに移動したりすることもできます。</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.head2">スキーマメタデータフィールド</message>
-	<message key="xmlui.administrative.registries.EditMetadataSchema.column1"></message>
+	<message key="xmlui.administrative.registries.EditMetadataSchema.column1"/>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column2">ID</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column3">フィールド</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.column4">適用注記</message>
@@ -1038,12 +1290,12 @@
 	<message key="xmlui.administrative.registries.FormatRegistryMain.head">ビットストリームフォーマットレジストリ</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.para1">このビットストリームフォーマットのリストは、既知のフォーマットとそのサポートレベルに関する情報を提供します。このツールを使って、ビットストリームフォーマットを編集したり、新規に追加したりすることができます。内部使用とマークされたフォーマットはユーザには隠され、管理用途のみに使用されます。</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.new_link">新規ビットストリームフォーマットの追加</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"></message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column2">ID</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column3">名前</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column4">MIMEタイプ</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column5">サポートレベル</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.internal">(<i>内部使用</i>)</message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.internal">(<i>internal</i>)</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.support_0">未知</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.support_1">既知</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.support_2">サポート</message>
@@ -1053,7 +1305,7 @@
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.title">メタデータレジストリ</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.head1">メタデータレジストリ</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.para1">メタデータレジストリは、このリポジトリで利用できる全てのメタデータフィールドのリストを管理します。これらのフィールドは複数のスキーマに分割することができます。しかし、DSpaceは限定子付のダブリンコアスキーマを必要とします。ダブリンコアスキーマにフィールドを追加して拡張したり、レジストリに新規のスキーマを追加したりすることができます。</message>
-	<message key="xmlui.administrative.registries.MetadataRegistryMain.column1"></message>
+	<message key="xmlui.administrative.registries.MetadataRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column2">ID</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column3">名前空間</message>
 	<message key="xmlui.administrative.registries.MetadataRegistryMain.column4">名前</message>
@@ -1078,13 +1330,13 @@
 	<message key="xmlui.administrative.registries.MoveMetadataField.para2">移動先のスキーマ: </message>
 	<message key="xmlui.administrative.registries.MoveMetadataField.submit_move">フィールドの移動</message>
 
-	
-	
-	
+
+
+
 	<!-- general authorization keywords -->
 	<message key="xmlui.administrative.authorization.general.authorize_trail">権限管理</message>
 	<message key="xmlui.administrative.authorization.general.policyList_trail">ポリシーリスト</message>
-	
+
 	<!-- org.dspace.app.xmlui.administrative.authorization.AuthorizationMain -->
 	<message key="xmlui.administrative.authorization.AuthorizationMain.title">権限ポリシーの管理</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.main_head">権限ポリシーの管理</message>
@@ -1097,9 +1349,9 @@
 	<message key="xmlui.administrative.authorization.AuthorizationMain.actions_advanced_link">アイテムのワイルドカードによるポリシー管理ツールを使用する場合は、ここをクリックしてください</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.containerList_head">コミュニティ/コレクションの権限</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.containerList_para">権限を編集するコミュニティまたはコレクションをクリックしてください。</message>
-	
-	
-	
+
+
+
 	<!-- org.dspace.app.xmlui.administrative.authorization.EditContainerPolicies -->
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.title">ポリシーの編集</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.trail">ポリシー一覧</message>
@@ -1108,13 +1360,16 @@
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_add_link">新しいポリシーの追加はここをクリックしてください。</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.submit_add">追加</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_id">ID</message>
+    <message key="xmlui.administrative.authorization.EditContainerPolicies.head_name">Name</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_action">アクション</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_group">グループ</message>
+    <message key="xmlui.administrative.authorization.EditContainerPolicies.head_start_date">Start Date</message>
+    <message key="xmlui.administrative.authorization.EditContainerPolicies.head_end_date">End Date</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.submit_delete">選択したポリシーを削除</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.group_edit">編集</message>
-	
 
-	
+
+
 	<!-- org.dspace.app.xmlui.administrative.authorization.EditItemPolicies -->
 	<message key="xmlui.administrative.authorization.EditItemPolicies.title">アイテムポリシーの編集</message>
 	<message key="xmlui.administrative.authorization.EditItemPolicies.trail">ポリシー一覧</message>
@@ -1127,10 +1382,10 @@
 	<message key="xmlui.administrative.authorization.EditItemPolicies.add_itemPolicy_link">新規アイテムポリシーの追加</message>
 	<message key="xmlui.administrative.authorization.EditItemPolicies.add_bundlePolicy_link">新規バンドルポリシーの追加</message>
 	<message key="xmlui.administrative.authorization.EditItemPolicies.add_bitstreamPolicy_link">新規ビットストリームポリシーの追加</message>
-	
+
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.no_policies">このオブジェクトにはポリシーがありません。</message>
-	
-	
+
+
 	<!-- org.dspace.app.xmlui.administrative.authorization.EditPolicyForm -->
 	<message key="xmlui.administrative.authorization.EditPolicyForm.title">ポリシーの編集</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.trail">ポリシーの編集</message>
@@ -1138,11 +1393,11 @@
 	<message key="xmlui.administrative.authorization.EditPolicyForm.main_head_edit">{1} {2}の{0} ポリシーの編集</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_group">グループが選択されていません</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.error_no_action">アクションが選択されていません</message>
-	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column4"></message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column4"/>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column1">ID</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column2">名前</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_column3">このリソースに対するアクション</message>
-	
+
 	<message key="xmlui.administrative.authorization.EditPolicyForm.set_group">設定</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.current_group">現在</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_head">検索結果</message>
@@ -1150,9 +1405,17 @@
 	<message key="xmlui.administrative.authorization.EditPolicyForm.label_search">グループの検索</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.submit_search_groups">検索</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_action">アクションの選択</message>
-    
-	
-	<!-- org.dspace.app.xmlui.administrative.authorization.AdvacedAuthorizationsForm -->
+
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_name">Name</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_description">Description</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_start_date">Start Date</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_end_date">End Date</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.error_date_format">Invalid date</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.error_duplicated_policy">An identical policy for this group and this action is already in place.</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.error_start_date_greater_than_end_date">Start date is greater than end date</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_date_help">Accepted format: yyyy, yyyy-mm, yyyy-mm-dd</message>
+
+    <!-- org.dspace.app.xmlui.administrative.authorization.AdvacedAuthorizationsForm -->
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.title">高機能権限ツール</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.trail">高機能ツール</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.main_head">高機能ポリシー管理ツール</message>
@@ -1167,7 +1430,17 @@
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.actions_policyCollections">コレクション</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.submit_add">ポリシーの追加</message>
 	<message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.submit_remove_all">ポリシーのクリア</message>
-	
+    <message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.label_date_help">Accepted format: yyyy, yyyy-mm, yyyy-mm-dd</message>
+
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_name">Name</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_description">Description</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_start_date">Start Date</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_end_date">End Date</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_date_format">Invalid date</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_start_date_greater_than_end_date">Start date is greater than end date</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_groupIds">Select at least a group</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_collectionIds">Select at least a collection</message>
+
 	<!-- org.dspace.app.xmlui.administrative.authorization.DeletePoliciesConfirm -->
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.title">ポリシー削除の確認</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.trail">削除の確認</message>
@@ -1176,15 +1449,53 @@
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_id">ID</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_action">アクション</message>
 	<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_group">グループ</message>
-	
+
+
+    <!-- Batch Import Tool -->
+    <!-- org.dspace.app.xmlui.administrative.batchimport -->
+    <message key="xmlui.administrative.batchimport.general.select_collection">Select a collection</message>
+    <message key="xmlui.administrative.batchimport.general.collection">Collection</message>
+    <message key="xmlui.administrative.batchimport.general.collection_help">Select the collection you wish to submit an item to.</message>
+    <message key="xmlui.administrative.batchimport.general.collection_default">Select a collection...</message>
+
+    <message key="xmlui.administrative.batchimport.general.title">Import Batch Load (ZIP)</message>
+    <message key="xmlui.administrative.batchimport.general.head1">Import Batch Load (ZIP)</message>
+    <message key="xmlui.administrative.batchimport.general.trail">Import Batch Load (ZIP)</message>
+    <message key="xmlui.administrative.batchimport.general.changes">changes</message>
+    <message key="xmlui.administrative.batchimport.general.no_changes">No changes were detected</message>
+    <message key="xmlui.administrative.batchimport.general.new_item">New item</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_successful">Upload successful</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_failed">Upload failed or no file selected</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_badschema">Unknown metadata schema in heading</message>
+    <message key="xmlui.administrative.batchimport.flow.upload_badelement">Unknown metadata element in heading</message>
+    <message key="xmlui.administrative.batchimport.flow.import_successful">Import successful</message>
+    <message key="xmlui.administrative.batchimport.flow.import_failed">Import failed</message>
+    <message key="xmlui.administrative.batchimport.flow.failed_no_collection">No Destination Collection Specified</message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
+    <message key="xmlui.administrative.batchimport.BatchmportMain.submit_upload">Upload SimpleArchiveFormat ZIP</message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportConfirm -->
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.success">Successfully processed</message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.changes_committed">Changes applied to item</message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_added">Added: </message>
+    <message key="xmlui.administrative.batchimport.BatchImportConfirm.item_removed">Removed: </message>
+
+    <!-- org.dspace.app.xmlui.administrative.batchimport.BatchImportUpload -->
+    <message key="xmlui.administrative.batchimport.BatchImportUpload.item_add">Add: </message>
+    <message key="xmlui.administrative.batchimport.BatchImportUpload.item_remove">Remove: </message>
+
 	<!-- general edit item messages -->
 	<message key="xmlui.administrative.item.general.item_trail">アイテム</message>
+	<message key="xmlui.administrative.item.general.template_head">コレクション: {0} のテンプレートアイテムの編集</message>
 	<message key="xmlui.administrative.item.general.option_head">アイテムの編集</message>
 	<message key="xmlui.administrative.item.general.option_status">アイテムの状態</message>
 	<message key="xmlui.administrative.item.general.option_bitstreams">アイテムのビットストリーム</message>
 	<message key="xmlui.administrative.item.general.option_metadata">アイテムのメタデータ</message>
 	<message key="xmlui.administrative.item.general.option_view">アイテムを閲覧</message>
-	
+        <message key="xmlui.administrative.item.general.option_curate">管理作業</message>
+        <message key="xmlui.administrative.item.general.option_queue">キュー</message>
+
 	<!-- org.dspace.app.xmlui.administrative.item.AddBitstreamForm -->
 	<message key="xmlui.administrative.item.AddBitstreamForm.title">ビットストリームのアップロード</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.trail">ビットストリームのアップロード</message>
@@ -1194,14 +1505,14 @@
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.METADATA">メタデータファイル</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.THUMBNAIL">サムネイル</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.LICENSE">ライセンス</message>
-	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.CC_LICENSE">クリエイティブ･コモンズ ライセンス</message>
+	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.CC-LICENSE">Creative Commons Licenses</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.file_label">ファイル</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.file_help">アイテムに対応するコンピュータ上のファイル名を入力してください。[参照...]ボタンをクリックすると、コンピュータ上のファイルを表示･選択する画面が表示されます。</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.description_label">記述</message>
-	<message key="xmlui.administrative.item.AddBitstreamForm.description_help">オプションとして、ファイルの簡単な説明を入力することができます。例えば、"<i>主論文</i>" や "<i>実験データ</i>" です。</message>
+	<message key="xmlui.administrative.item.AddBitstreamForm.description_help">オプションとして、ファイルの簡単な説明を入力することができます。例えば、"<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.submit_upload">アップロード</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.no_bundles">新規ビットストリームのアップロードには、少なくとも1つのバンドルに対する ADD &amp; WRITE 権限が必要です。</message>
-	
+
 	<!-- org.dspace.app.xmlui.administrative.item.DeleteBitstreamConfirm -->
 	<message key="xmlui.administrative.item.DeleteBitstreamConfirm.title">削除の確認</message>
 	<message key="xmlui.administrative.item.DeleteBitstreamConfirm.trail">削除の確認</message>
@@ -1210,7 +1521,7 @@
 	<message key="xmlui.administrative.item.DeleteBitstreamConfirm.column1">名前</message>
 	<message key="xmlui.administrative.item.DeleteBitstreamConfirm.column2">記述</message>
 	<message key="xmlui.administrative.item.DeleteBitstreamConfirm.column3">フォーマット</message>
-	
+
 	<!-- org.dspace.app.xmlui.administrative.item.ConfirmItemForm -->
 	<message key="xmlui.administrative.item.ConfirmItemForm.title">確認</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.trail">確認</message>
@@ -1223,6 +1534,19 @@
 	<message key="xmlui.administrative.item.ConfirmItemForm.column3">言語</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_withdraw">取下げ</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_reinstate">復帰</message>
+    <message key="xmlui.administrative.item.ConfirmItemForm.submit_private">Make it Private</message>
+    <message key="xmlui.administrative.item.ConfirmItemForm.submit_public">Make it Public</message>
+
+    <!-- org.dspace.app.xmlui.aspect.administrative.item.MoveItemForm -->
+	<message key="xmlui.administrative.item.MoveItemForm.title">移動</message>
+	<message key="xmlui.administrative.item.MoveItemForm.trail">移動</message>
+	<message key="xmlui.administrative.item.MoveItemForm.head1">アイテム: {0} の移動</message>
+	<message key="xmlui.administrative.item.MoveItemForm.collection">コレクション</message>
+	<message key="xmlui.administrative.item.MoveItemForm.collection_help">移動先のコレクションを選択してください。</message>
+	<message key="xmlui.administrative.item.MoveItemForm.collection_default">コレクションの選択...</message>
+	<message key="xmlui.administrative.item.MoveItemForm.submit_move">移動</message>
+    <message key="xmlui.administrative.item.MoveItemForm.inherit_policies">ポリシーの継承</message>
+    <message key="xmlui.administrative.item.MoveItemForm.inherit_policies_help">移動先コレクションのデフォルトポリシーを継承する</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditBitstreamForm -->
 	<message key="xmlui.administrative.item.EditBitstreamForm.title">ビットストリームの編集</message>
@@ -1233,31 +1557,39 @@
 	<message key="xmlui.administrative.item.EditBitstreamForm.primary_option_yes">はい</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.primary_option_no">いいえ</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.description_label">記述</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.description_help">オプションとして、ファイルの簡単な説明を入力できます。例えば、"<i>主論文</i>" や "<i>実験データ</i>" です。"</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.para1">下のリストからファイルのフォーマットを選択してください。例えば、"<i>Adobe PDF</i>"、"<i>Microsoft Word</i>"です。<b>あるいは</b>、該当するフォーマットがリストにない場合は、下の入力欄に記述してください。</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.description_help">オプションとして、ファイルの簡単な説明を入力できます。例えば、"<i>Main article</i>", or "<i>Experiment data readings</i>"."</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.para1">下のリストからファイルのフォーマットを選択してください。例えば、"<i>Adobe PDF</i>" or "<i>Microsoft Word</i>", <b>OR</b> if the format is not in the list, please describe it in the box below.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.format_label">選択されたフォーマット</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.format_default">リストにないフォーマット</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.para2">該当するフォーマットが上のリストにない場合は、<strong>"リストにないフォーマット" を選択して</strong>、下の入力欄に記述してください。</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.para2">該当するフォーマットが上のリストにない場合は、<strong>select "format not in list" above</strong> and describe it in the field below.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_label">その他のフォーマット</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">ファイルを作成した際に使用したソフトおよびそのバージョン数（例えば、"<i>ACMESoft SuperApp version 1.5</i>"）。</message>
-	
+	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">ファイルを作成した際に使用したソフトおよびそのバージョン数（例えば、"<i>ACMESoft SuperApp version 1.5</i>").</message>
+    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Filename</message>
+    <message key="xmlui.administrative.item.EditBitstreamForm.name_help">Change the filename for this bitstream. Note that this will change the display bitstream URL, but old links will still resolve as long as the sequence ID does not change.</message>
+
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.title">アイテムのビットストリーム</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.trail">アイテムのビットストリーム</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.head1">ビットストリーム</message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column1"></message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column1"/>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column2">名前</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column3">記述</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column4">フォーマット</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column5">閲覧</message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.bundle_label"><strong>バンドル: {0}</strong></message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column6">Order</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.column7"> </message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.bundle_label"><strong>Bundle: {0}</strong></message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.primary_label">（主たるファイル）</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.view_link">閲覧</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_add">新規ビットストリームのアップロード</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_delete">ビットストリームの削除</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_reorder">Update bitstream order</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.no_upload">新規ビットストリームをアップロードするには、アイテムとバンドルに対する ADD &amp; WRITE 権限が必要です。</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.no_remove">ビットストリームを削除するには、アイテムとバンドルに対する REMOVE 権限が必要です。</message>
-	
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.previous_order">Previous:</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.order_up">Move up</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.order_down">Move down</message>
+
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemMetadataForm -->
 	<message key="xmlui.administrative.item.EditItemMetadataForm.title">アイテムのメタデータ</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.trail">アイテムのメタデータ</message>
@@ -1266,7 +1598,7 @@
 	<message key="xmlui.administrative.item.EditItemMetadataForm.value_label">値</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.lang_label">言語</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.submit_add">新規メタデータの追加</message>
-	<message key="xmlui.administrative.item.EditItemMetadataForm.para1">注意: ここでの変更は検証が一切行われません。貴方には正しいフォーマットでデータを入力する責任があります。フォーマットが何であるか自信がない場合は、変更<storng>しない</storng>でください。</message>
+	<message key="xmlui.administrative.item.EditItemMetadataForm.para1">注意: ここでの変更は検証が一切行われません。貴方には正しいフォーマットでデータを入力する責任があります。フォーマットが何であるか自信がない場合は、変更</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.head2">メタデータ</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.column1">削除</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.column2">名前</message>
@@ -1285,67 +1617,128 @@
 	<message key="xmlui.administrative.item.EditItemStatusForm.label_auth">アイテムの権限</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.label_withdraw">アイテムのリポジトリからの取下げ</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.label_reinstate">アイテムのリポジトリへの復帰</message>
+	<message key="xmlui.administrative.item.EditItemStatusForm.label_move">アイテムの所有コレクションの移動</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.label_delete">アイテムの完全な消去</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.submit_authorizations">権限の編集</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.submit_withdraw">取下げ...</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.submit_reinstate">復帰...</message>
+	<message key="xmlui.administrative.item.EditItemStatusForm.submit_move">移動...</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.submit_delete">永久に削除</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.na">利用不可</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.sysadmins_only">（システム管理者のみ）</message>
-	
+	<message key="xmlui.administrative.item.EditItemStatusForm.collection_admins_only">（コレクション管理者のみ）</message>
+	<message key="xmlui.administrative.item.EditItemStatusForm.not_allowed">（この作業を行う権限がありません）</message>
+    <message key="xmlui.administrative.item.EditItemStatusForm.label_private">Make item private</message>
+    <message key="xmlui.administrative.item.EditItemStatusForm.label_public">Make item public</message>
+    <message key="xmlui.administrative.item.EditItemStatusForm.submit_private">Make it private...</message>
+    <message key="xmlui.administrative.item.EditItemStatusForm.submit_public">Make it public...</message>
+
+
+
 	<!-- org.dspace.app.xmlui.administrative.item.ViewItem -->
 	<message key="xmlui.administrative.item.ViewItem.title">アイテムの閲覧</message>
 	<message key="xmlui.administrative.item.ViewItem.trail">アイテムの閲覧</message>
-	
+        <!-- org.dspace.app.xmlui.administrative.item.CurateItemForm.java -->
+        <message key="xmlui.administrative.item.CurateItemForm.main_head">アイテム: {0} の管理作業</message>
+        <message key="xmlui.administrative.item.CurateItemForm.title">アイテムの管理</message>
+        <message key="xmlui.administrative.item.CurateItemForm.trail">管理作業</message>
+        <message key="xmlui.administrative.item.CurateItemForm.label_name">タスク</message>
+
 	<!-- org.dspace.app.xmlui.administrative.item.FindItemForm -->
 	<message key="xmlui.administrative.item.FindItemForm.title">アイテムの検索</message>
 	<message key="xmlui.administrative.item.FindItemForm.head1">アイテムの検索</message>
 	<message key="xmlui.administrative.item.FindItemForm.identifier_label">アイテムの内部ID/ハンドル</message>
 	<message key="xmlui.administrative.item.FindItemForm.identifier_error">識別子を解決できませんでした。</message>
 	<message key="xmlui.administrative.item.FindItemForm.find">検索</message>
-	
+
+        <!-- org.dspace.app.xmlui.administrative.metadataimport -->
+        <message key="xmlui.administrative.metadataimport.general.title">メタデータのインポート</message>
+        <message key="xmlui.administrative.metadataimport.general.head1">メタデータのインポート</message>
+        <message key="xmlui.administrative.metadataimport.general.trail">メタデータのインポート</message>
+        <message key="xmlui.administrative.metadataimport.general.changes">変更</message>
+        <message key="xmlui.administrative.metadataimport.general.no_changes">変更が見つかりませんでした</message>
+        <message key="xmlui.administrative.metadataimport.general.new_item">新アイテム</message>
+        <message key="xmlui.administrative.metadataimport.flow.upload_successful">アップロード成功</message>
+        <message key="xmlui.administrative.metadataimport.flow.upload_failed">アップロード失敗</message>
+        <message key="xmlui.administrative.metadataimport.flow.upload_badschema">見出し行に不明なスキーマがあります</message>
+        <message key="xmlui.administrative.metadataimport.flow.upload_badelement">見出し行に不明なメタデータ要素があります</message>
+        <message key="xmlui.administrative.metadataimport.flow.import_successful">インポート成功</message>
+        <message key="xmlui.administrative.metadataimport.flow.import_failed">インポート失敗</message>
+        <message key="xmlui.administrative.metadataimport.flow.over_limit">変更件数が上限を超えました。ファイルを分割するか、dspace.cfg の "bulkedit.gui-item-limit" を変更してください。</message>
+
+        <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportConfirm -->
+        <message key="xmlui.administrative.metadataimport.MetadataImportMain.submit_upload">CSVのアップロード</message>
+
+        <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportConfirm -->
+        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.success">処理が終了しました</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.changes_committed">変更適用アイテム</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_added">追加: </message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_removed">削除: </message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_newowner">新所有コレクション</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_oldowner">旧所有コレクション</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_mapped">新規マッピングコレクション</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_unmapped">マッピング解除コレクション</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_deleted">Item Expunged</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_withdrawn">Item Withdrawn</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_reinstated">Item Reinstated</message>
+
+        <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportUpload -->
+        <message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_add">追加: </message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_remove">削除: </message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_newowner">新所有コレクション</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_oldowner">旧所有コレクション</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_mapped">新規マッピングコレクション</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_unmapped">マッピング解除コレクション</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportUpload.changes_pending">ペンディング中の変更</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportUpload.submit_confirm">変更の適用</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportUpload.hint">ペンディングされた変更は次の通りです。</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_delete">Expunge Item</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_withdraw">Withdraw Item</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_reinstate">Reinstate Item</message>
+
 	<!-- general mapper messages -->
 	<message key="xmlui.administrative.mapper.general.mapper_trail">アイテムマッパー</message>
-	
+
 	<!-- org.dspace.app.xmlui.administrative.mapper.MapperMain -->
 	<message key="xmlui.administrative.mapper.MapperMain.title">アイテムマッパー</message>
 	<message key="xmlui.administrative.mapper.MapperMain.head1">アイテムマッパー - アイテムを他のコレクションにマップする</message>
 	<message key="xmlui.administrative.mapper.MapperMain.para1">コレクション: "<strong>{0}</strong>"</message>
 	<message key="xmlui.administrative.mapper.MapperMain.para2">これはアイテムマッパーツールです。コレクション管理者はアイテムをこのコレクションから他のコレクションにマップすることができます。他のコレクションからアイテムを検索して、マップすることができます。また、現在マップされているアイテムの一覧をブラウズすることができます。</message>
 	<message key="xmlui.administrative.mapper.MapperMain.stat_label">統計</message>
-	<message key="xmlui.administrative.mapper.MapperMain.stat_info">このコレクションの <strong>{0} / {1}</strong> のアイテムが他のコレクションにマップされています。</message>
+	<message key="xmlui.administrative.mapper.MapperMain.stat_info">このコレクションの <strong>{0} of {1}</strong> items in this collection are mapped in from other collections</message>
 	<message key="xmlui.administrative.mapper.MapperMain.search_label">検索</message>
 	<message key="xmlui.administrative.mapper.MapperMain.submit_search">アイテムの検索</message>
 	<message key="xmlui.administrative.mapper.MapperMain.submit_browse">マップされたアイテムのブラウズ</message>
 	<message key="xmlui.administrative.mapper.MapperMain.no_add">（コレクションの ADD 権限が必要です）</message>
-	
+
 	<!-- org.dspace.app.xmlui.administrative.mapper.SearchItemForm -->
 	<message key="xmlui.administrative.mapper.SearchItemForm.title">アイテムの検索</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.trail">アイテムの検索</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.head1">検索語: "{0}" による検索結果</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.submit_map">選択したアイテムをマップ</message>
-	<message key="xmlui.administrative.mapper.SearchItemForm.column1"></message>
+	<message key="xmlui.administrative.mapper.SearchItemForm.column1"/>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column2">コレクション</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column3">著者</message>
 	<message key="xmlui.administrative.mapper.SearchItemForm.column4">タイトル</message>
-		
+
 	<!-- org.dspace.app.xmlui.administrative.mapper.BrowseItemForm -->
 	<message key="xmlui.administrative.mapper.BrowseItemForm.title">マップされたアイテムのブラウズ</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.trail">マップされたアイテムのブラウズ</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.head1">マップされたアイテムのブラウズ</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.submit_unmap">選択したアイテムのマップ解消</message>
-	<message key="xmlui.administrative.mapper.BrowseItemForm.column1"></message>
+	<message key="xmlui.administrative.mapper.BrowseItemForm.column1"/>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column2">コレクション</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column3">著者</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column4">タイトル</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.no_remove">このコレクションからアイテムのマップを解消するにはこのコレクションに対する REMOVE 権限が必要です。</message>
-	
+
 	<!-- General tags for collection management -->
-	<message key="xmlui.administrative.collection.general.collection_trail">コレクション</message>	
-	<message key="xmlui.administrative.collection.general.options_metadata">メタデータの編集</message>	
-	<message key="xmlui.administrative.collection.general.options_roles">役割の付与</message>	
-	
-	
+	<message key="xmlui.administrative.collection.general.collection_trail">コレクション</message>
+	<message key="xmlui.administrative.collection.general.options_metadata">メタデータの編集</message>
+	<message key="xmlui.administrative.collection.general.options_roles">役割の付与</message>
+        <message key="xmlui.administrative.collection.general.options_curate">管理作業</message>
+        <message key="xmlui.administrative.collection.general.options_queue">キュー</message>
+
 	<!-- org.dspace.app.xmlui.administrative.collection.AssignCollectionRoles.java -->
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.title">コレクションの役割の編集</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.trail">役割</message>
@@ -1366,12 +1759,21 @@
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.role_group">関連するグループ</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.role_buttons">  </message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_admins">管理者</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf">ワークフロー･ステップ</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step1">受理/却下ステップ</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step2">受理/却下/メタデータ編集ステップ</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step3">メタデータ編集ステップ</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_submitters">投稿者</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_default_read">デフォルト閲覧アクセス</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.sysadmins_only"><nobr>（システム管理者のみ）</nobr></message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.sysadmins_only"><nobr>(system administrators only)</nobr></message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.repository_role"><br/>(Repository level group, system administrators only)</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>(you are not allowed to configure this)</nobr></message>
+
+        <!-- org.dspace.app.xmlui.administrative.collection.CurateCollectionForm.java -->
+        <message key="xmlui.administrative.collection.CurateCollectionForm.main_head">コレクション: {0} の管理作業</message>
+        <message key="xmlui.administrative.collection.CurateCollectionForm.title">コレクションの管理作業</message>
+        <message key="xmlui.administrative.collection.CurateCollectionForm.trail">管理作業</message>
+        <message key="xmlui.administrative.collection.CurateCollectionForm.label_name">タスク</message>
 
 	<!-- org.dspace.app.xmlui.administrative.collection.DeleteCollectionConfirm.java -->
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.title">削除の確認</message>
@@ -1381,14 +1783,14 @@
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.confirm_item1">他のコレクションに含まれていないこのコレクションのすべてのアイテムと投稿途中のアイテム</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.confirm_item2">それらのアイテムのコンテンツ</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionConfirm.confirm_item3">関連するすべての権限ポリシー</message>
-	
+
 	<!-- org.dspace.app.xmlui.administrative.collection.DeleteCollectionRoleConfirm.java -->
 	<message key="xmlui.administrative.collection.DeleteCollectionRoleConfirm.title">役割の削除の確認</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionRoleConfirm.trail">確認</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionRoleConfirm.main_head">役割 {0} の削除の確認</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionRoleConfirm.main_para_read">本当にこの役割を削除しても良いですか。このグループの削除により、今後このコレクションに投稿されるすべてのアイテムに対してすべてのユーザに READ 権限を与えることになります。この変更は遡及的には適用されないことに注意してください。このシステムに既に存在するアイテムは、削除しようとしている役割で定義されたメンバにはこの先も制限が続きます。</message>
 	<message key="xmlui.administrative.collection.DeleteCollectionRoleConfirm.main_para">本当にこの役割を削除しても良いですか。グループ {0} に対して行った追加や変更はすべて失われ、新たに作成し直さないといけなくなります。</message>
-	
+
 	<!-- org.dspace.app.xmlui.administrative.collection.EditCollectionMetadataForm.java -->
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.title">コレクションメタデータの編集</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.trail">メタデータ</message>
@@ -1408,13 +1810,107 @@
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.submit_delete_logo">ロゴの削除</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.submit_delete">コレクションの削除</message>
 	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.submit_save">保存</message>
-	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.sysadmins_only"><nobr>（システム管理者のみ）</nobr></message>
+	<message key="xmlui.administrative.collection.EditCollectionMetadataForm.sysadmins_only"><nobr>(system administrators only)</nobr></message>
 
 	<!-- org.dspace.app.xmlui.administrative.collection.CreateCollectionForm.java -->
 	<message key="xmlui.administrative.collection.CreateCollectionForm.title">コレクションの作成</message>
 	<message key="xmlui.administrative.collection.CreateCollectionForm.trail">コレクションの作成</message>
 	<message key="xmlui.administrative.collection.CreateCollectionForm.main_head">{0} の新規コレクションのメタデータの入力</message>
 	<message key="xmlui.administrative.collection.CreateCollectionForm.submit_save">作成</message>
+
+	<!-- General to the harvesting options under collection -->
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.title">ハーベスト設定</message>
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.trail">ハーベスト</message>
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.options_harvest">コレクションのコンテンツ</message>
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.label_source">コレクションのコンテンツ</message>
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.source_normal">通常通りDSpaceで作成</message>
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.source_harvested">外部情報源からハーベスト</message>
+	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.submit_save">保存</message>
+
+	<!-- org.dspace.app.xmlui.administrative.collection.SetupCollectionHarvestingForm.java -->
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.main_settings_head">ハーベスト対象プロバイダ</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.options_head">ハーベストオプション</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_oai_provider">OAIプロバイダURL</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_setid">OAIセット値</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_metadata_format">メタデータフォーマット</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaiurl">ハーベスト対象のOAIプロバイダのURL</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaiurl">ハーベスト対象のプロバイダURLを指定する必要があります。</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">ハーベスト対象のOAIプロバイダが使用している永続的識別子</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">ハーベスト対象のセット値を指定する必要があります。</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">ハーベストする内容</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">&gt;メタデータのみをハーベスト</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">メタデータとビットストリームのURLをハーベスト（OREサポートが必要）</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_bs">メタデータとビットストリームをハーベスト（OREサポートが必要）</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.submit_test">設定のテスト</message>
+
+	<!-- org.dspace.app.xmlui.administrative.collection.EditCollectionHarvestingForm.java -->
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.main_settings_head">ハーベスト対象プロバイダ</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_oai_provider">OAIプロバイダ</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_setid">OAIセット値</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_metadata_format">メタデータフォーマット</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_harvest_level">ハーベストするコンテンツ</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_harvest_result">前回のハーベスト結果</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_result_new">このコレクションはまだハーベストされていません。</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_harvest_status">現在のハーベスト状態</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_ready">ハーベストの準備が整いました。</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_busy">現在ハーベスト中です。</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_queued">ハーベスト待機中です。</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_oai_error">前回のハーベスト中にOAIエラーが発生しました。</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_unknown_error">前回のハーベスト中に想定外のエラーが発生しました。</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.option_md_only">メタデータのみをハーベスト</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.option_md_and_ref">メタデータとビットストリームのURLをハーベスト</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.option_md_and_bs">メタデータとビットストリームをハーベスト（完全な複製）</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.submit_change_settings">設定を変更</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.submit_import_now">インポート開始</message>
+	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.submit_reimport_collection">リセットして再インポート</message>
+
+	<message key="xmlui.administrative.ControlPanel.option_harvest">ハーベスト中</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_scheduler_head">ハーベストスケジュール管理</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_status">状態</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_actions">アクション</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_submit_start">ハーベスト開始</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_submit_reset">状態のリセット</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_submit_resume">再開</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_submit_pause">中断</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_submit_stop">停止</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_collections">ハーベスト先コレクションの設定</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_active">実行中のハーベスト</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_queued">待機中のハーベスト</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_errors">OAIエラー</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_internal_errors">内部エラーー</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_head_generator_settings">ジェネレータの設定</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_url">OAI-PMH URL</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_source">OREソース</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_head_harvester_settings">ハーベスタの設定</message>
+
+	<!-- General tags for community management -->
+	<message key="xmlui.administrative.community.general.community_trail">コミュニティ</message>
+	<message key="xmlui.administrative.community.general.options_metadata">メタデータの編集</message>
+	<message key="xmlui.administrative.community.general.options_roles">役割の付与</message>
+        <message key="xmlui.administrative.community.general.options_curate">管理作業</message>
+        <message key="xmlui.administrative.community.general.options_queue">キュー</message>
+
+	<!-- org.dspace.app.xmlui.administrative.community.AssignCommunityRoles.java -->
+	<message key="xmlui.administrative.community.AssignCommunityRoles.title">コミュニティの役割の編集</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.trail">役割</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.main_head">コミュニティ: {0} の編集</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.no_role">なし</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.create">作成...</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.help_admins">コミュニティ管理者は、サブコミュニティとコレクションの作成ができます。さらに、投稿できるユーザの決定、（投稿された）アイテムのメタデータの修正、既存のアイテムの別のコレクションへのマッピングができます。</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.default_read_custom">このコミュニティは独自のデフォルトアクセス設定を使用します。</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.default_read_anonymous">新規アイテム･ビットストリームのデフォルトのリード権限はAnonymousに設定されています。</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.edit_authorizations">権限ポリシーを直接編集する。</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.role_name">役割</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.role_group">設定されたグループ</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.role_buttons">  </message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.label_admins">管理者</message>
+	<message key="xmlui.administrative.community.AssignCommunityRoles.sysadmins_only"><nobr>(system administrators only)</nobr></message>
+
+        <!-- org.dspace.app.xmlui.administrative.community.CurateCommunityForm.java -->
+        <message key="xmlui.administrative.community.CurateCommunityForm.main_head">コミュニティ: {0} の管理作業</message>
+        <message key="xmlui.administrative.community.CurateCommunityForm.title">コミュニティの管理</message>
+        <message key="xmlui.administrative.community.CurateCommunityForm.trail">管理作業</message>
+        <message key="xmlui.administrative.community.CurateCommunityForm.label_name">タスク</message>
 
 	<!-- org.dspace.app.xmlui.administrative.community.DeleteCommunityConfirm.java -->
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.title">削除の確認</message>
@@ -1425,7 +1921,13 @@
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item2">他のコミュニティに含まれていないこのコミュニティのすべてのアイテムと投稿途中のアイテム</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item3">これらのアイテムのコンテンツ</message>
 	<message key="xmlui.administrative.community.DeleteCommunityConfirm.confirm_item4">関連するすべての権限ポリシー</message>
-	
+
+	<!-- org.dspace.app.xmlui.administrative.community.DeleteCommunityRoleConfirm.java -->
+	<message key="xmlui.administrative.community.DeleteCommunityRoleConfirm.title">削除の確認</message>
+	<message key="xmlui.administrative.community.DeleteCommunityRoleConfirm.trail">確認</message>
+	<message key="xmlui.administrative.community.DeleteCommunityRoleConfirm.main_head">役割 {0} の削除の確認</message>
+	<message key="xmlui.administrative.community.DeleteCommunityRoleConfirm.main_para">グループ {0} に行ったすべての変更･カスタマイズが失われますが、この役割を本当に削除しても良いですか。</message>
+
 	<!-- org.dspace.app.xmlui.administrative.community.EditCommunityMetadataForm.java -->
 	<message key="xmlui.administrative.community.EditCommunityMetadataForm.title">コミュニティメタデータの編集</message>
 	<message key="xmlui.administrative.community.EditCommunityMetadataForm.trail">メタデータ</message>
@@ -1440,7 +1942,7 @@
 	<message key="xmlui.administrative.community.EditCommunityMetadataForm.label_existing_logo">現在のロゴ</message>
 	<message key="xmlui.administrative.community.EditCommunityMetadataForm.submit_delete_logo">ロゴの削除</message>
 	<message key="xmlui.administrative.community.EditCommunityMetadataForm.submit_delete">コミュニティの削除</message>
-	
+
 	<!-- org.dspace.app.xmlui.administrative.community.CreateCommunityForm.java -->
 	<message key="xmlui.administrative.community.CreateCommunityForm.title">コミュニティの作成</message>
 	<message key="xmlui.administrative.community.CreateCommunityForm.trail">コミュニティの作成</message>
@@ -1471,7 +1973,16 @@
 	<message key="xmlui.administrative.ControlPanel.runtime_total">アロケートメモリ</message>
 	<message key="xmlui.administrative.ControlPanel.runtime_used">使用メモリ</message>
 	<message key="xmlui.administrative.ControlPanel.runtime_free">フリーメモリ</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_head">Cocoon Info</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_version">Cocoon Version</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_cache_dir">Cocoon Cache Directory</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_work_dir">Cocoon Work Directory</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_main_cache_size">Main Cache Size ({0})</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_cache_clear">(Clear Cache Immediately)</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_persistent_cache_size">Persistent Cache Size ({0})</message>
+        <message key="xmlui.administrative.ControlPanel.cocoon_transient_cache_size">Transient Cache Size ({0})</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_head">DSpaceの設定</message>
+        <message key="xmlui.administrative.ControlPanel.dspace_version">DSpace Version</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_dir">DSpaceインストールディレクトリ</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_url">DSpaceベースURL</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_hostname">DSpaceホスト名</message>
@@ -1487,7 +1998,7 @@
 	<message key="xmlui.administrative.ControlPanel.mail_feedback_recipient">フィードバック受信者</message>
 	<message key="xmlui.administrative.ControlPanel.mail_admin">全般的なサイト管理者メールアドレス</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_head">システム全体への警告</message>
-	<message key="xmlui.administrative.ControlPanel.alerts_warning"><strong>ロードバランスシステムへの警告</strong>: システム全般への警告は活性化されたノードに対してのみ有効です。設定された各システムが活性化警告コマンドを受信することを保証する必要があります。</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_warning"><strong>Warning for load balanced systems</strong>: System-wide alerts are only effective for the node on which it is activated. You need to ensure that each node in the set receives the activate alert command.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_message_label">警告メッセージ</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_message_default">定期保守のため、システムはまもなく停止されます。作業を保存してログアウトしてください。</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_label">カウントダウン</message>
@@ -1497,27 +2008,31 @@
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_30">30 分</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_60">1 時間</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_keep">現在のカウントダウンタイマーを保持する</message>
-	<message key="xmlui.administrative.ControlPanel.alerts_session_label">セッション管理</message>	
-	<message key="xmlui.administrative.ControlPanel.alerts_session_all_sessions">認証セッションの許可を続ける</message>	
-	<message key="xmlui.administrative.ControlPanel.alerts_session_current_sessions">認証を制限するが現在のセッションは保持する</message>	
-	<message key="xmlui.administrative.ControlPanel.alerts_session_only_administrative_sessions">認証を制限し、現在のセッションを停止する</message>	
-	<message key="xmlui.administrative.ControlPanel.alerts_session_note"><strong>注:</strong> サイト管理者はセッション管理を免除されます。</message>	
+	<message key="xmlui.administrative.ControlPanel.alerts_session_label">セッション管理</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_session_all_sessions">認証セッションの許可を続ける</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_session_current_sessions">認証を制限するが現在のセッションは保持する</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_session_only_administrative_sessions">認証を制限し、現在のセッションを停止する</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_session_note"><strong>Note:</strong> Site administrators are exempt from session management.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_activate">活性化</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_deactivate">非活性化</message>
 	<message key="xmlui.administrative.ControlPanel.activity_head">現在のアクティビティ（最大 {0} ページ）</message>
+	<message key="xmlui.administrative.ControlPanel.stop_anonymous">ユーザの利用記録を停止。</message>
+	<message key="xmlui.administrative.ControlPanel.start_anonymous">ユーザの利用記録を開始。</message>
+	<message key="xmlui.administrative.ControlPanel.stop_bot">botの利用記録を停止。</message>
+	<message key="xmlui.administrative.ControlPanel.start_bot">botの利用記録を開始。</message>
 	<message key="xmlui.administrative.ControlPanel.activity_sort_time">タイムスタンプ</message>
 	<message key="xmlui.administrative.ControlPanel.activity_sort_user">利用者</message>
 	<message key="xmlui.administrative.ControlPanel.activity_sort_ip">IPアドレス</message>
 	<message key="xmlui.administrative.ControlPanel.activity_sort_url">ページURL</message>
 	<message key="xmlui.administrative.ControlPanel.activity_sort_Agent">ユーザエージェント</message>
-	<message key="xmlui.administrative.ControlPanel.activity_anonymous">Anonymous {0}</message>	
+	<message key="xmlui.administrative.ControlPanel.activity_anonymous">Anonymous {0}</message>
 	<message key="xmlui.administrative.ControlPanel.activity_none">過去 {0} ページに貴方以外のページビューはありません。</message>
-	
+
 	<message key="xmlui.administrative.ControlPanel.select_panel">上のタブを使って表示する情報を選択してください。</message>
-	
+
 	<!-- org.dspace.app.xmlui.administrative.SystemwideAlerts -->
-	<message key="xmlui.administrative.SystemwideAlerts.countdown"><strong>{0} 分以内</strong>: </message>
-	
+	<message key="xmlui.administrative.SystemwideAlerts.countdown"><strong>In {0} minutes</strong>: </message>
+
 	<!-- org.dspace.app.xmlui.administrative.NotAuthorized -->
 	<message key="xmlui.administrative.NotAuthorized.title">権限がありません</message>
 	<message key="xmlui.administrative.NotAuthorized.trail">権限がありません</message>
@@ -1526,17 +2041,108 @@
 	<message key="xmlui.administrative.NotAuthorized.para1b">システム管理者</message>
 	<message key="xmlui.administrative.NotAuthorized.para1c">にご連絡ください。</message>
 	<message key="xmlui.administrative.NotAuthorized.para2">別の利用者としてログイン</message>
-	
-	
-	
-	
-	
-	
-	
+        
+        <!-- System-wide Curation Tasks form (org.dspace.app.xmlui.aspect.administrative.CurateForm) -->
+        <message key="xmlui.administrative.CurateForm.title">System Curation Tasks</message>
+        <message key="xmlui.administrative.CurateForm.trail">Curation Tasks</message>
+        <message key="xmlui.administrative.CurateForm.object_label_name">Handle of DSpace Object</message>
+        <message key="xmlui.administrative.CurateForm.object_hint">Hint: Enter [your-handle-prefix]/0 to run a task across entire site (not all tasks may support this capability)</message>
+        <message key="xmlui.administrative.CurateForm.task_label_name">Task</message>
+    <!-- Used by Curate<DSO>Form classes also -->
+        <message key="xmlui.administrative.CurateForm.taskgroup_label_name">Choose from the following groups</message>
+
+
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     Statistics Aspect
+
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <message key="xmlui.statistics.title">統計</message>
+    <message key="xmlui.statistics.search.title">Search Statistics</message>
+    <message key="xmlui.statistics.search.head">Search Statistics</message>
+    <message key="xmlui.statistics.search.head-dso">Search Statistics for {0}</message>
+    <message key="xmlui.statistics.search.error">There was an error while generating the search statistics, please try again later.</message>
+    <message key="xmlui.statistics.search.no-results">No search statistics available for the selected period.</message>
+    <message key="xmlui.statistics.workflow.title">Workflow Statistics</message>
+    <message key="xmlui.statistics.visits.total">総閲覧数</message>
+    <message key="xmlui.statistics.visits.month">月別閲覧数</message>
+    <message key="xmlui.statistics.visits.views">件数</message>
+    <message key="xmlui.statistics.visits.countries">国別閲覧数</message>
+    <message key="xmlui.statistics.visits.cities">都市別閲覧数</message>
+    <message key="xmlui.statistics.visits.bitstreams">ファイルダウンロード数</message>
+    <message key="xmlui.statistics.Navigation.title">統計</message>
+    <message key="xmlui.statistics.Navigation.usage.view">View Usage Statistics</message>
+    <message key="xmlui.statistics.Navigation.usage-Elasticsearch.view">View Usage Statistics</message>
+    <message key="xmlui.statistics.Navigation.search.view">View Search Statistics</message>
+    <message key="xmlui.statistics.Navigation.workflow.view">View Workflow Statistics</message>
+    <message key="xmlui.statistics.trail">統計</message>
+    <message key="xmlui.statistics.trail-search">Search Statistics</message>
+    <message key="xmlui.statistics.trail-workflow">Workflow Statistics</message>
+    <message key="xmlui.statistics.workflow.no-results">No workflow statistics available for the selected period.</message>
+    <message key="xmlui.statistics.workflow.error">There was an error while generating the workflow statistics, please try again later.</message>
+    <message key="xmlui.statistics.workflow.head">Workflow Statistics</message>
+    <message key="xmlui.statistics.workflow.head-dso">Workflow Statistics for {0}</message>
+
+
+    <message key="xmlui.statistics.StatisticsSearchTransformer.search-terms.head">Top Search Terms</message>
+    <message key="xmlui.statistics.StatisticsSearchTransformer.search-total.head">Total</message>
+    <message key="xmlui.statistics.StatisticsSearchTransformer.time-filter.last-month">Previous month</message>
+    <message key="xmlui.statistics.StatisticsSearchTransformer.time-filter.last-6-months">Previous 6 months</message>
+    <message key="xmlui.statistics.StatisticsSearchTransformer.time-filter.last-year">Previous year</message>
+    <message key="xmlui.statistics.StatisticsSearchTransformer.time-filter.overall">Overall</message>
+
+
+    <message key="xmlui.statistics.display.table.column-label.search-terms">Search Term</message>
+    <message key="xmlui.statistics.display.table.column-label.searches">Searches</message>
+    <message key="xmlui.statistics.display.table.column-label.percent-total">% of Total</message>
+    <message key="xmlui.statistics.display.table.column-label.views-search">Pageviews / Search</message>
+    <message key="xmlui.statistics.display.table.column-label.step">Step</message>
+    <message key="xmlui.statistics.display.table.column-label.performed">Performed</message>
+    <message key="xmlui.statistics.display.table.column-label.average">Average</message>
+    <message key="xmlui.statistics.display.table.workflow.step.STEP1POOL">Accept/Reject Step Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.STEP1">Accept/Reject Step</message>
+    <message key="xmlui.statistics.display.table.workflow.step.STEP2POOL">Accept/Reject/Edit Metadata Step Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.STEP2">Accept/Reject/Edit Metadata Step</message>
+    <message key="xmlui.statistics.display.table.workflow.step.STEP3POOL">Edit Metadata Step Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.STEP3">Edit Metadata Step</message>
+    <message key="xmlui.statistics.display.table.workflow.step.default.reviewstep.claimaction">Accept/Reject Step Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.default.reviewstep.reviewaction">Accept/Reject Step</message>
+    <message key="xmlui.statistics.display.table.workflow.step.default.editstep.claimaction">Accept/Reject/Edit Metadata Step Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.default.editstep.editaction">Accept/Reject/Edit Metadata Step</message>
+    <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.claimaction">Edit Metadata Step Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.default.finaleditstep.finaleditaction">Edit Metadata Step</message>
+    <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.claimaction">Score Review Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.scoreReview.scoreReviewStep.scorereviewaction">Score Review</message>
+    <message key="xmlui.statistics.display.table.workflow.step.scoreReview.evaluationStep.evaluationaction">Score Review Evaluation</message>
+    <message key="xmlui.statistics.display.table.workflow.step.scoreReview.evaluationStep.noUserSelectionAction">Score Review Evaluation Configuration</message>
+    <message key="xmlui.statistics.display.table.workflow.step.selectSingleReviewer.selectReviewerStep.claimaction">Single User Review Pool</message>
+    <message key="xmlui.statistics.display.table.workflow.step.selectSingleReviewer.singleUserReviewStep.autoassignAction">Single User Auto Assign Action</message>
+    <message key="xmlui.statistics.display.table.workflow.step.selectSingleReviewer.singleUserReviewStep.singleuserreviewaction">Single User Review Action</message>
+
+
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     Google Analytics Statistics Aspect
+
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+    <message key="xmlui.statisticsGoogleAnalytics.Navigation.title">Statistics</message>
+    <message key="xmlui.statisticsGoogleAnalytics.Navigation.usage.view">View Google Analytics Statistics</message>
+    <message key="xmlui.statisticsGoogleAnalytics.trail">Statistics</message>
+    <message key="xmlui.statisticsGoogleAnalytics.title">Google Analytics Statistics</message>
+
+    <message key="xmlui.statisticsGoogleAnalytics.dates.startDate">Start date</message>
+    <message key="xmlui.statisticsGoogleAnalytics.dates.endDate">End date</message>
+    <message key="xmlui.statisticsGoogleAnalytics.dates.refresh">Refresh</message>
+
+    <message key="xmlui.statisticsGoogleAnalytics.pageViews.title">Page Views</message>
+    <message key="xmlui.statisticsGoogleAnalytics.downloads.title">File Downloads</message>
+
+
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		
+
 		                  dri2xhtml
-		
+
 		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
 
@@ -1545,16 +2151,20 @@
 
 	<!-- structural.xsl -->
 	<message key="xmlui.dri2xhtml.structural.footer-promotional">
-		<a href="http://di.tamu.edu" id="ds-logo-link">                            
-			<span id="ds-footer-logo">&#160;</span>
+		<a href="http://di.tamu.edu" id="ds-logo-link">
+			<span id="ds-footer-logo"> </span>
 		</a>
 		<p>
-	        このサイトは、テキサスA&amp;M大学が開発した<a href="http://dspace.org">DSpace</a>の新フロントエンド <a href="http://di.tamu.edu">Manakin</a> を使用しています。
+			This website is using Manakin, a new front end for DSpace created by Texas A&amp;M University
+			Libraries. The interface can be extensively modified through Manakin Aspects and XSL based Themes.
+			For more information visit
+			<a href="http://di.tamu.edu">http://di.tamu.edu</a> and
+			<a href="http://dspace.org">http://dspace.org</a>
 		</p>
 	</message>
 	<message key="xmlui.dri2xhtml.structural.contact-link">連絡先</message>
 	<message key="xmlui.dri2xhtml.structural.feedback-link">ご意見をお寄せ下さい</message>
-	
+
 	<message key="xmlui.dri2xhtml.structural.head-subtitle">DSpace/Manakin Repository</message>
 
 	<message key="xmlui.dri2xhtml.structural.profile">プロフィール: </message>
@@ -1565,15 +2175,15 @@
 	<message key="xmlui.dri2xhtml.structural.search-advanced">詳細検索</message>
 	<message key="xmlui.dri2xhtml.structural.search-in-community">このコミュニティ</message>
 	<message key="xmlui.dri2xhtml.structural.search-in-collection">このコレクション</message>
-	
+
 	<message key="xmlui.dri2xhtml.structural.pagination-previous">前ページ</message>
 	<message key="xmlui.dri2xhtml.structural.pagination-info">{0}-{1} / {2}</message>
 	<message key="xmlui.dri2xhtml.structural.pagination-next">次ページ</message>
-	
+
 	<message key="xmlui.dri2xhtml.structural.link_cc">Creative Commons</message>
 	<message key="xmlui.dri2xhtml.structural.link_original_license">オリジナルライセンス</message>
-		
-	
+
+
 	<!-- DS-METS-1.0-MODS.xsl -->
 	<!-- DS-METS-1.0-DIM.xsl -->
 	<!-- DS-METS-1.0-QDC.xsl -->
@@ -1583,7 +2193,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.non-conformant">
 		これはMETS 1.0プロファイルに準拠したDSpaceオブジェクトではありません。そのため、うまく解析することができません。必要な機能を実行するために dri2xhtml の一般的なケースを処理するテンプレートを上書きするか、貴方が使用するプロファイルにあった独自のテンプレートを作成してください。
     </message>
-	
+
 	<message key="xmlui.dri2xhtml.METS-1.0.item-preview">プレビュー</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-title">タイトル</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-author">著者</message>
@@ -1593,315 +2203,286 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-date">日付</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-publisher">出版者</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-subject">主題</message>
-	
+
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-head">このアイテムのファイル</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-file">ファイル</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-name">名前</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-size">サイズ</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-format">フォーマット</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-files-view">閲覧</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">閲覧/開く</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-description">記述</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">閲覧/開く<wbr/>Open</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">このアイテムに関連するファイルは存在しません。</message>
 
 	<message key="xmlui.dri2xhtml.METS-1.0.size-bytes">バイト</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.size-kilobytes">Kb</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.size-megabytes">Mb</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.size-gigabytes">Gb</message>
-	
+
 	<message key="xmlui.dri2xhtml.METS-1.0.license-text">このファイルには次のライセンスファイルが添付されています。</message>
-		
+    <message key="xmlui.dri2xhtml.METS-1.0.cc-license-text">Except where otherwise noted, this item's license is described as </message>
+
 	<message key="xmlui.dri2xhtml.METS-1.0.collection-not-implemented">
 		コレクションのsummaryViewは現在使用されていないか、実装されていません。これは、collectionSummaryView という名の dri2xhtml のテンプレートを上書きすることにより修正することができます。
 	</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.community-not-implemented">
 		コミュニティのsummaryViewは現在使用されていないか、実装されていません。これは、communitySummaryView という名の dri2xhtml のテンプレートを上書きすることにより修正することができます。
 	</message>
-	
+
 	<message key="xmlui.dri2xhtml.METS-1.0.collection-logo-alt">コレクションのロゴ</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.community-logo-alt">コミュニティのロゴ</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.no-logo-alt">ロゴはありません</message>		
-	<message key="xmlui.dri2xhtml.METS-1.0.news">ニュース</message>	
+	<message key="xmlui.dri2xhtml.METS-1.0.no-logo-alt">ロゴはありません</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.news">ニュース</message>
 
 	<!-- Internationalization elements specific to the Qualified Dublin Core metadata handler.
 		DS-METS-1.0-QDC.xsl -->
 	<message key="xmlui.dri2xhtml.METS-1.0.qdc-not-applicable">
 		現在のところ、限定子付きダブリンコア（QDC）はDSpaceのコミュニティとコレクションには適用されません。QDCを使う場合は、DSpaceアイテムにはQDCクロスウォークを、コミュニティとコレクションの処理にはDIMかMODSのいずれかを使用してください。
 	</message>
-	
+
 	<message key="xmlui.dri2xhtml.METS-1.0.header-qdc-elements">ダブリンコア要素</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.header-qdc-terms">ダブリンコア用語</message>
-	
-	
+
+        <message key="xmlui.dri2xhtml.METS-1.0.blocked">Blocked</message>
+
+
 	<!-- Special pioneer model related text, wherever it might end up -->
 	<message key="xmlui.dri2xhtml.pioneer.preview">プレビュー</message>
 	<message key="xmlui.dri2xhtml.pioneer.date">日付</message>
 	<message key="xmlui.dri2xhtml.pioneer.title">タイトル</message>
 	<message key="xmlui.dri2xhtml.pioneer.author">著者</message>
-	
+
 	<!-- tag used to handle the empty textarea tag added 09/28/2006 -->
 	<message key="xmlui.dri2xhtml.default.textarea.value"> </message>
 
-	<message key="org.dspace.authenticate.ShibAuthentication.title">Shibboleth認証</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.no_results">表示すべきデータがありません。</message>
-	<message key="xmlui.ChoiceLookupTransformer.accept">この値を使用</message>
-	<message key="xmlui.ChoiceLookupTransformer.add">追加</message>
-	<message key="xmlui.ChoiceLookupTransformer.cancel">キャンセル</message>
-	<message key="xmlui.ChoiceLookupTransformer.fail">選択データのロードに失敗しました: </message>
-	<message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help">"姓, 名" 形式の名前</message>
-	<message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help.first">名、 たとえば "太郎"</message>
-	<message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help.last">姓、たとえば "山田"</message>
-	<message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.nonauthority">DSpace入力値 '@1@'</message>
-	<message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.title">LC著者名典拠検索</message>
-	<message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.help">出版者名</message>
-	<message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.nonauthority">非典拠値: @1@</message>
-	<message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.title">出版者の検索</message>
-	<message key="xmlui.ChoiceLookupTransformer.more">次ページ</message>
-	<message key="xmlui.ChoiceLookupTransformer.results">"@4@"の結果: @1@ - @2@ / @3@</message>
-	<message key="xmlui.ChoiceLookupTransformer.title">DSpace入力値の検索</message>
-	<message key="xmlui.EPerson.EditProfile.Language">言語</message>
-	<message key="xmlui.Submission.submit.UploadStep.upload_error">ファイルのアップロード中に問題が発生しました。ファイル名、ファイルフォーマットを確認してください。ネットワーク障害の可能性もあります。</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_head_generator_settings">ジェネレータの設定</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_head_harvester_settings">ハーベスタの設定</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_actions">アクション</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_active">実行中のハーベスト</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_collections">ハーベスト先コレクションの設定</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_internal_errors">内部エラーー</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_errors">OAIエラー</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_source">OREソース</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_url">OAI-PMH URL</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_queued">待機中のハーベスト</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_status">状態</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_scheduler_head">ハーベストスケジュール管理</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_submit_pause">中断</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_submit_reset">状態のリセット</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_submit_resume">再開</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_submit_start">ハーベスト開始</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_submit_stop">停止</message>
-	<message key="xmlui.administrative.ControlPanel.option_harvest">ハーベスト中</message>
-	<message key="xmlui.administrative.ControlPanel.start_anonymous">ユーザの利用記録を開始。</message>
-	<message key="xmlui.administrative.ControlPanel.start_bot">botの利用記録を開始。</message>
-	<message key="xmlui.administrative.ControlPanel.stop_anonymous">ユーザの利用記録を停止。</message>
-	<message key="xmlui.administrative.ControlPanel.stop_bot">botの利用記録を停止。</message>
-	<message key="xmlui.administrative.FlowItemUtils.item_move_failed">選択したコレクションが見つかりません。</message>
-	<message key="xmlui.administrative.FlowItemUtils.item_moved">アイテムを移動しました。</message>
-	<message key="xmlui.administrative.ItemExport.item.success">アイテムをエクスポートしました。ダウンロードの準備ができたらメールを送信します。「マイエクスポート」リンクから利用可能なエクスポートファイルリストを見ることができます</message>
-	<message key="xmlui.administrative.Navigation.administrative_import_metadata">メタデータのインポート</message>
-	<message key="xmlui.administrative.Navigation.context_export_metadata">メタデータのエクスポート</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf">ワークフロー･ステップ</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.not_allowed"><nobr>（設定権限がありません）</nobr></message>
-	<message key="xmlui.administrative.collection.CurateCollectionForm.label_name">タスク</message>
-	<message key="xmlui.administrative.collection.CurateCollectionForm.main_head">コレクション: {0} の管理作業</message>
-	<message key="xmlui.administrative.collection.CurateCollectionForm.title">コレクションの管理作業</message>
-	<message key="xmlui.administrative.collection.CurateCollectionForm.trail">管理作業</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_result_new">このコレクションはまだハーベストされていません。</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_busy">現在ハーベスト中です。</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_oai_error">前回のハーベスト中にOAIエラーが発生しました。</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_queued">ハーベスト待機中です。</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_ready">ハーベストの準備が整いました。</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.harvest_status_unknown_error">前回のハーベスト中に想定外のエラーが発生しました。</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_harvest_level">ハーベストするコンテンツ</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_harvest_result">前回のハーベスト結果</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_harvest_status">現在のハーベスト状態</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_metadata_format">メタデータフォーマット</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_oai_provider">OAIプロバイダ</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.label_setid">OAIセット値</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.main_settings_head">ハーベスト対象プロバイダ</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.option_md_and_bs">メタデータとビットストリームをハーベスト（完全な複製）</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.option_md_and_ref">メタデータとビットストリームのURLをハーベスト</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.option_md_only">メタデータのみをハーベスト</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.submit_change_settings">設定を変更</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.submit_import_now">インポート開始</message>
-	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.submit_reimport_collection">リセットして再インポート</message>
-	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.label_source">コレクションのコンテンツ</message>
-	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.options_harvest">コレクションのコンテンツ</message>
-	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.source_harvested">外部情報源からハーベスト</message>
-	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.source_normal">通常通りDSpaceで作成</message>
-	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.submit_save">保存</message>
-	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.title">ハーベスト設定</message>
-	<message key="xmlui.administrative.collection.GeneralCollectionHarvestingForm.trail">ハーベスト</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">ハーベスト対象のセット値を指定する必要があります。</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaiurl">ハーベスト対象のプロバイダURLを指定する必要があります。</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">ハーベスト対象のOAIプロバイダが使用している永続的識別子</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaiurl">ハーベスト対象のOAIプロバイダのURL</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">ハーベストする内容</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_metadata_format">メタデータフォーマット</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_oai_provider">OAIプロバイダURL</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_setid">OAIセット値</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.main_settings_head">ハーベスト対象プロバイダ</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_bs">メタデータとビットストリームをハーベスト（OREサポートが必要）</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">メタデータとビットストリームのURLをハーベスト（OREサポートが必要）</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">>メタデータのみをハーベスト</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.options_head">ハーベストオプション</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.submit_test">設定のテスト</message>
-	<message key="xmlui.administrative.collection.general.options_curate">管理作業</message>
-	<message key="xmlui.administrative.collection.general.options_queue">キュー</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.create">作成...</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.default_read_anonymous">新規アイテム･ビットストリームのデフォルトのリード権限はAnonymousに設定されています。</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.default_read_custom">このコミュニティは独自のデフォルトアクセス設定を使用します。</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.edit_authorizations">権限ポリシーを直接編集する。</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.help_admins">コミュニティ管理者は、サブコミュニティとコレクションの作成ができます。さらに、投稿できるユーザの決定、（投稿された）アイテムのメタデータの修正、既存のアイテムの別のコレクションへのマッピングができます。</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.label_admins">管理者</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.main_head">コミュニティ: {0} の編集</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.no_role">なし</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.role_buttons">  </message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.role_group">設定されたグループ</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.role_name">役割</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.sysadmins_only"><nobr>（システム管理者のみ）</nobr></message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.title">コミュニティの役割の編集</message>
-	<message key="xmlui.administrative.community.AssignCommunityRoles.trail">役割</message>
-	<message key="xmlui.administrative.community.CurateCommunityForm.label_name">タスク</message>
-	<message key="xmlui.administrative.community.CurateCommunityForm.main_head">コミュニティ: {0} の管理作業</message>
-	<message key="xmlui.administrative.community.CurateCommunityForm.title">コミュニティの管理</message>
-	<message key="xmlui.administrative.community.CurateCommunityForm.trail">管理作業</message>
-	<message key="xmlui.administrative.community.DeleteCommunityRoleConfirm.main_head">役割 {0} の削除の確認</message>
-	<message key="xmlui.administrative.community.DeleteCommunityRoleConfirm.main_para">グループ {0} に行ったすべての変更･カスタマイズが失われますが、この役割を本当に削除しても良いですか。</message>
-	<message key="xmlui.administrative.community.DeleteCommunityRoleConfirm.title">削除の確認</message>
-	<message key="xmlui.administrative.community.DeleteCommunityRoleConfirm.trail">確認</message>
-	<message key="xmlui.administrative.community.general.community_trail">コミュニティ</message>
-	<message key="xmlui.administrative.community.general.options_curate">管理作業</message>
-	<message key="xmlui.administrative.community.general.options_metadata">メタデータの編集</message>
-	<message key="xmlui.administrative.community.general.options_queue">キュー</message>
-	<message key="xmlui.administrative.community.general.options_roles">役割の付与</message>
-	<message key="xmlui.administrative.group.EditGroupForm.community_para">このグループは次のコミュニティと関係しています: </message>
-	<message key="xmlui.administrative.item.CurateItemForm.label_name">タスク</message>
-	<message key="xmlui.administrative.item.CurateItemForm.main_head">アイテム: {0} の管理作業</message>
-	<message key="xmlui.administrative.item.CurateItemForm.title">アイテムの管理</message>
-	<message key="xmlui.administrative.item.CurateItemForm.trail">管理作業</message>
-	<message key="xmlui.administrative.item.EditItemStatusForm.collection_admins_only">（コレクション管理者のみ）</message>
-	<message key="xmlui.administrative.item.EditItemStatusForm.label_move">アイテムの所有コレクションの移動</message>
-	<message key="xmlui.administrative.item.EditItemStatusForm.not_allowed">（この作業を行う権限がありません）</message>
-	<message key="xmlui.administrative.item.EditItemStatusForm.submit_move">移動...</message>
-	<message key="xmlui.administrative.item.MoveItemForm.collection">コレクション</message>
-	<message key="xmlui.administrative.item.MoveItemForm.collection_default">コレクションの選択...</message>
-	<message key="xmlui.administrative.item.MoveItemForm.collection_help">移動先のコレクションを選択してください。</message>
-	<message key="xmlui.administrative.item.MoveItemForm.head1">アイテム: {0} の移動</message>
-	<message key="xmlui.administrative.item.MoveItemForm.inherit_policies">ポリシーの継承</message>
-	<message key="xmlui.administrative.item.MoveItemForm.inherit_policies_help">移動先コレクションのデフォルトポリシーを継承する</message>
-	<message key="xmlui.administrative.item.MoveItemForm.submit_move">移動</message>
-	<message key="xmlui.administrative.item.MoveItemForm.title">移動</message>
-	<message key="xmlui.administrative.item.MoveItemForm.trail">移動</message>
-	<message key="xmlui.administrative.item.general.option_curate">管理作業</message>
-	<message key="xmlui.administrative.item.general.option_queue">キュー</message>
-	<message key="xmlui.administrative.item.general.template_head">コレクション: {0} のテンプレートアイテムの編集</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.changes_committed">変更適用アイテム</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_mapped">新規マッピングコレクション</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_newowner">新所有コレクション</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_oldowner">旧所有コレクション</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_unmapped">マッピング解除コレクション</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_added">追加: </message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_removed">削除: </message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportConfirm.success">処理が終了しました</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportMain.submit_upload">CSVのアップロード</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.changes_pending">ペンディング中の変更</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_mapped">新規マッピングコレクション</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_newowner">新所有コレクション</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_oldowner">旧所有コレクション</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.collection_unmapped">マッピング解除コレクション</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.hint">ペンディングされた変更は次の通りです。</message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_add">追加: </message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.item_remove">削除: </message>
-	<message key="xmlui.administrative.metadataimport.MetadataImportUpload.submit_confirm">変更の適用</message>
-	<message key="xmlui.administrative.metadataimport.flow.import_failed">インポート失敗</message>
-	<message key="xmlui.administrative.metadataimport.flow.import_successful">インポート成功</message>
-	<message key="xmlui.administrative.metadataimport.flow.over_limit">変更件数が上限を超えました。ファイルを分割するか、dspace.cfg の "bulkedit.gui-item-limit" を変更してください。</message>
-	<message key="xmlui.administrative.metadataimport.flow.upload_badelement">見出し行に不明なメタデータ要素があります</message>
-	<message key="xmlui.administrative.metadataimport.flow.upload_badschema">見出し行に不明なスキーマがあります</message>
-	<message key="xmlui.administrative.metadataimport.flow.upload_failed">アップロード失敗</message>
-	<message key="xmlui.administrative.metadataimport.flow.upload_successful">アップロード成功</message>
-	<message key="xmlui.administrative.metadataimport.general.changes">変更</message>
-	<message key="xmlui.administrative.metadataimport.general.head1">メタデータのインポート</message>
-	<message key="xmlui.administrative.metadataimport.general.new_item">新アイテム</message>
-	<message key="xmlui.administrative.metadataimport.general.no_changes">変更が見つかりませんでした</message>
-	<message key="xmlui.administrative.metadataimport.general.title">メタデータのインポート</message>
-	<message key="xmlui.administrative.metadataimport.general.trail">メタデータのインポート</message>
-	<message key="xmlui.administrative.registries.EditBitstreamFormat.mimetype_help">このフォーマットに関するMIMEタイプは一意である必要はありません。</message>
-	<message key="xmlui.authority.confidence.description.cf_accepted">ユーザにより確認済み</message>
-	<message key="xmlui.authority.confidence.description.cf_ambiguous">同値の典拠データが複数存在</message>
-	<message key="xmlui.authority.confidence.description.cf_failed">内部エラーが発生</message>
-	<message key="xmlui.authority.confidence.description.cf_notfound">マッチする典拠データなし</message>
-	<message key="xmlui.authority.confidence.description.cf_novalue">適当な典拠データなし</message>
-	<message key="xmlui.authority.confidence.description.cf_rejected">使用しないことを推奨</message>
-	<message key="xmlui.authority.confidence.description.cf_uncertain">ユーザによる確認が必要</message>
-	<message key="xmlui.authority.confidence.description.cf_unset">典拠値が記録されていない</message>
-	<message key="xmlui.authority.confidence.unlock.help">編集のために典拠値をアンロックする。アンロックされている場合はロックする。</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-description">記述</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-files-name">名前</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/marc">MARCレコード</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/mathematica">Mathematica</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/msword">Microsoft Word</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/octet-stream">不明</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/pdf">PDF</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/postscript">Postscript</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/sgml">SGML</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.ms-excel">Microsoft Excel</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.ms-powerpoint">Microsoft PowerPoint</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.ms-project">Microsoft Project</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.oasis.opendocument.database">OpenOffice Base</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.oasis.opendocument.formula">OpenOffice Math</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.oasis.opendocument.graphics">OpenOffice Draw</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.oasis.opendocument.presentation">OpenOffice Impress</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.oasis.opendocument.spreadsheet">OpenOffice Calc</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.oasis.opendocument.text">OpenOffice Writer</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.openxmlformats-officedocument.presentationml.presentation">Microsoft PowerPoint 2007</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">Microsoft Excel 2007</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.openxmlformats-officedocument.wordprocessingml.document">Microsoft Word 2007</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.sun.xml.calc">OpenOffice Calc (1.x)</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.sun.xml.draw">OpenOffice Draw (1.x)</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.sun.xml.impress">OpenOffice Impress (1.x)</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.sun.xml.writer.global">OpenOffice Writer (1.x)</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/vnd.visio">Microsoft Visio</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/wordperfect5.1">WordPerfect</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/x-dvi">TeX DVI</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/x-filemaker">FileMaker Pro</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/x-java-applet">Java applet</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/x-latex">LaTeX</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/x-photoshop">Photoshop</message>
-	<message key="xmlui.dri2xhtml.mimetype.application/x-tex">TeX</message>
-	<message key="xmlui.dri2xhtml.mimetype.audio/basic">Basic Audio</message>
-	<message key="xmlui.dri2xhtml.mimetype.audio/flac">FLAC Audio</message>
-	<message key="xmlui.dri2xhtml.mimetype.audio/m4a">AAC audio</message>
-	<message key="xmlui.dri2xhtml.mimetype.audio/m4a-latm">AAC audio</message>
-	<message key="xmlui.dri2xhtml.mimetype.audio/mpeg">mp3 audio</message>
-	<message key="xmlui.dri2xhtml.mimetype.audio/x-aiff">AIFF audio</message>
-	<message key="xmlui.dri2xhtml.mimetype.audio/x-mpeg">MPEG Audio</message>
-	<message key="xmlui.dri2xhtml.mimetype.audio/x-ms-wma">WMA Audio</message>
-	<message key="xmlui.dri2xhtml.mimetype.audio/x-ms-wmv">WMV Audio</message>
-	<message key="xmlui.dri2xhtml.mimetype.audio/x-ogg">Ogg Vorbis</message>
-	<message key="xmlui.dri2xhtml.mimetype.audio/x-pn-realaudio">RealAudio</message>
-	<message key="xmlui.dri2xhtml.mimetype.audio/x-wav">WAV audio</message>
-	<message key="xmlui.dri2xhtml.mimetype.image/gif">GIF image</message>
-	<message key="xmlui.dri2xhtml.mimetype.image/jp2">JPEG 2000 image</message>
-	<message key="xmlui.dri2xhtml.mimetype.image/jpeg">JPEG image</message>
-	<message key="xmlui.dri2xhtml.mimetype.image/png">PNG image</message>
-	<message key="xmlui.dri2xhtml.mimetype.image/tiff">TIFF image</message>
-	<message key="xmlui.dri2xhtml.mimetype.image/x-ms-bmp">BMP image</message>
-	<message key="xmlui.dri2xhtml.mimetype.image/x-photo-cd">Photo CD</message>
-	<message key="xmlui.dri2xhtml.mimetype.text/css">CSSファイル</message>
-	<message key="xmlui.dri2xhtml.mimetype.text/csv">CSVファイル</message>
-	<message key="xmlui.dri2xhtml.mimetype.text/html">HTML</message>
-	<message key="xmlui.dri2xhtml.mimetype.text/javascript">Javascript</message>
-	<message key="xmlui.dri2xhtml.mimetype.text/plain">テキストファイル</message>
-	<message key="xmlui.dri2xhtml.mimetype.text/richtext">RTF file</message>
-	<message key="xmlui.dri2xhtml.mimetype.text/xml">XML</message>
-	<message key="xmlui.dri2xhtml.mimetype.video/avi">AVI video</message>
-	<message key="xmlui.dri2xhtml.mimetype.video/mjp2">Motion JPEG 2000</message>
-	<message key="xmlui.dri2xhtml.mimetype.video/mp4">MPEG-4 video</message>
-	<message key="xmlui.dri2xhtml.mimetype.video/mpeg">MPEG video</message>
-	<message key="xmlui.dri2xhtml.mimetype.video/mpeg2">MPEG-2 video</message>
-	<message key="xmlui.dri2xhtml.mimetype.video/quicktime">QuickTime video</message>
-	<message key="xmlui.general.perform">実行</message>
-	<message key="xmlui.general.queue">キュー</message>
-	<message key="xmlui.statistics.Navigation.title">統計</message>
-	<message key="xmlui.statistics.Navigation.view">閲覧統計</message>
-	<message key="xmlui.statistics.title">統計</message>
-	<message key="xmlui.statistics.trail">統計</message>
-	<message key="xmlui.statistics.visits.bitstreams">ファイルダウンロード数</message>
-	<message key="xmlui.statistics.visits.cities">都市別閲覧数</message>
-	<message key="xmlui.statistics.visits.countries">国別閲覧数</message>
-	<message key="xmlui.statistics.visits.month">月別閲覧数</message>
-	<message key="xmlui.statistics.visits.total">総閲覧数</message>
-	<message key="xmlui.statistics.visits.views">件数</message>
-	<message key="xmlui.utils.AuthenticationUtil.notAnotherAdmin">別の管理者としてログインすることはできません。</message>
-	<message key="xmlui.utils.AuthenticationUtil.onlyAdmins">サイト管理者だけが別のユーザとしてログインすることができます。</message>
-	<message key="xmlui.utils.AuthenticationUtil.onlyAuthenticatedAdmins">管理者権限を持つユーザだけが別のユーザとしてログインできます。</message>
+  <!--###### File Format MIME Type Mappings ######-->
 
+  <!-- Application-based formats -->
+  <message key="xmlui.dri2xhtml.mimetype.application/marc">MARCレコード</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/mathematica">Mathematica</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/msword">Microsoft Word</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/octet-stream">不明</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/pdf">PDF</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/postscript">Postscript</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/sgml">SGML</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.ms-excel">Microsoft Excel</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.ms-powerpoint">Microsoft PowerPoint</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.ms-project">Microsoft Project</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.oasis.opendocument.database">OpenOffice Base</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.oasis.opendocument.formula">OpenOffice Math</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.oasis.opendocument.graphics">OpenOffice Draw</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.oasis.opendocument.presentation">OpenOffice Impress</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.oasis.opendocument.spreadsheet">OpenOffice Calc</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.oasis.opendocument.text">OpenOffice Writer</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.openxmlformats-officedocument.presentationml.presentation">Microsoft PowerPoint 2007</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">Microsoft Excel 2007</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.openxmlformats-officedocument.wordprocessingml.document">Microsoft Word 2007</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.sun.xml.calc">OpenOffice Calc (1.x)</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.sun.xml.draw">OpenOffice Draw (1.x)</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.sun.xml.impress">OpenOffice Impress (1.x)</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.sun.xml.writer.global">OpenOffice Writer (1.x)</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/vnd.visio">Microsoft Visio</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/wordperfect5.1">WordPerfect</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/x-dvi">TeX DVI</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/x-filemaker">FileMaker Pro</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/x-java-applet">Java applet</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/x-latex">LaTeX</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/x-photoshop">Photoshop</message>
+  <message key="xmlui.dri2xhtml.mimetype.application/x-tex">TeX</message>
+
+  <!-- Audio-based formats -->
+  <message key="xmlui.dri2xhtml.mimetype.audio/basic">Basic Audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/flac">FLAC Audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/m4a">AAC audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/m4a-latm">AAC audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/mpeg">mp3 audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/x-aiff">AIFF audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/x-mpeg">MPEG Audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/x-ms-wma">WMA Audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/x-ms-wmv">WMV Audio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/x-ogg">Ogg Vorbis</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/x-pn-realaudio">RealAudio</message>
+  <message key="xmlui.dri2xhtml.mimetype.audio/x-wav">WAV audio</message>
+
+  <!-- Image-based formats -->
+  <message key="xmlui.dri2xhtml.mimetype.image/gif">GIF image</message>
+  <message key="xmlui.dri2xhtml.mimetype.image/jp2">JPEG 2000 image</message>
+  <message key="xmlui.dri2xhtml.mimetype.image/jpeg">JPEG image</message>
+  <message key="xmlui.dri2xhtml.mimetype.image/png">PNG image</message>
+  <message key="xmlui.dri2xhtml.mimetype.image/tiff">TIFF image</message>
+  <message key="xmlui.dri2xhtml.mimetype.image/x-ms-bmp">BMP image</message>
+  <message key="xmlui.dri2xhtml.mimetype.image/x-photo-cd">Photo CD</message>
+
+  <!-- Text-based formats -->
+  <message key="xmlui.dri2xhtml.mimetype.text/css">CSSファイル</message>
+  <message key="xmlui.dri2xhtml.mimetype.text/csv">CSVファイル</message>
+  <message key="xmlui.dri2xhtml.mimetype.text/html">HTML</message>
+  <message key="xmlui.dri2xhtml.mimetype.text/javascript">Javascript</message>
+  <message key="xmlui.dri2xhtml.mimetype.text/plain">テキストファイル</message>
+  <message key="xmlui.dri2xhtml.mimetype.text/richtext">RTF file</message>
+  <message key="xmlui.dri2xhtml.mimetype.text/xml">XML</message>
+
+  <!-- Video-based formats -->
+  <message key="xmlui.dri2xhtml.mimetype.video/avi">AVI video</message>
+  <message key="xmlui.dri2xhtml.mimetype.video/mjp2">Motion JPEG 2000</message>
+  <message key="xmlui.dri2xhtml.mimetype.video/mpeg">MPEG video</message>
+  <message key="xmlui.dri2xhtml.mimetype.video/mpeg2">MPEG-2 video</message>
+  <message key="xmlui.dri2xhtml.mimetype.video/mp4">MPEG-4 video</message>
+  <message key="xmlui.dri2xhtml.mimetype.video/quicktime">QuickTime video</message>
+
+  <!-- explanatory messages for choice authority confidence values -->
+  <message key="xmlui.authority.confidence.description.cf_unset">典拠値が記録されていない</message>
+  <message key="xmlui.authority.confidence.description.cf_novalue">適当な典拠データなし</message>
+  <message key="xmlui.authority.confidence.description.cf_rejected">使用しないことを推奨</message>
+  <message key="xmlui.authority.confidence.description.cf_failed">内部エラーが発生</message>
+  <message key="xmlui.authority.confidence.description.cf_notfound">マッチする典拠データなし</message>
+  <message key="xmlui.authority.confidence.description.cf_ambiguous">同値の典拠データが複数存在</message>
+  <message key="xmlui.authority.confidence.description.cf_uncertain">ユーザによる確認が必要</message>
+  <message key="xmlui.authority.confidence.description.cf_accepted">ユーザにより確認済み</message>
+  <!-- help message on "unlock" button in EditItemMetadata display -->
+  <message key="xmlui.authority.confidence.unlock.help">編集のために典拠値をアンロックする。アンロックされている場合はロックする。</message>
+
+  <!-- Choice Lookup popup window -->
+  <!-- NOTE: These messages necessarily use a *different* format for
+     - parameters, unfortunately, since substitution happens in the
+     - JavaScript (AJAX) that completes the lookup popup window.
+     - So, positional parameters are @1@, @2@, etc.
+    -->
+  <message key="xmlui.ChoiceLookupTransformer.title">DSpace入力値の検索</message>
+  <message key="xmlui.ChoiceLookupTransformer.accept">この値を使用</message>
+  <message key="xmlui.ChoiceLookupTransformer.add">追加</message>
+  <message key="xmlui.ChoiceLookupTransformer.cancel">キャンセル</message>
+  <message key="xmlui.ChoiceLookupTransformer.more">次ページ</message>
+  <!-- params are: start, end, total-count, search-value -->
+  <message key="xmlui.ChoiceLookupTransformer.results">"@4@"の結果: @1@ - @2@ / @3@</message>
+  <message key="xmlui.ChoiceLookupTransformer.fail">選択データのロードに失敗しました: </message>
+  <message key="xmlui.ChoiceLookupTransformer.lookup">Lookup</message>
+
+  <!-- Choice Lookup - sample config for dc.publisher field -->
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.help">出版者名</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.title">出版者の検索</message>
+  <!-- Params are: search-value -->
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_publisher.nonauthority">非典拠値: @1@</message>
+
+  <!-- Choice Lookup - sample config for dc.contributor.author field -->
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help">"姓, 名" 形式の名前</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help.last">姓、たとえば "山田"</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help.first">名、 たとえば "太郎"</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.title">LC著者名典拠検索</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.nonauthority">DSpace入力値 '@1@'</message>
+
+  <!-- mobile theme -->
+  <message key="xmlui.mobile.home_mobile">DSpace Mobile</message>
+  <message key="xmlui.mobile.search_all">Search ALL</message>
+  <message key="xmlui.mobile.browse_all">Browse ALL by</message>
+  <message key="xmlui.mobile.browse_date">Date</message>
+  <message key="xmlui.mobile.browse_author">Author</message>
+  <message key="xmlui.mobile.browse_title">Title</message>
+  <message key="xmlui.mobile.browse_subject">Subject</message>
+  <message key="xmlui.mobile.related_google_scholar">Related</message>
+  <message key="xmlui.mobile.items_in_google_scholar">Items in Google Scholar</message>
+  <message key="xmlui.mobile.download">Download</message>
+
+
+    <!-- Versioning -->
+    <message key="xmlui.aspect.versioning.VersioningNavigation.context_create_version">Create version of this item</message>
+    <message key="xmlui.aspect.versioning.VersioningNavigation.context_show_version_history">Show version history</message>
+
+    <message key="xmlui.aspect.versioning.VersionItemForm.title">Create Version</message>
+    <message key="xmlui.aspect.versioning.VersionItemForm.trail">Version</message>
+    <message key="xmlui.aspect.versioning.VersionItemForm.head1">Create new version of item: {0}</message>
+    <message key="xmlui.aspect.versioning.VersionItemForm.submit_version">Version</message>
+    <message key="xmlui.aspect.versioning.VersionItemForm.submit_update_version">Update Version</message>
+    <message key="xmlui.aspect.versioning.VersionItemForm.summary">Reason for creating new version</message>
+
+    <message key="xmlui.aspect.versioning.VersionUpdateForm.title">Update Version</message>
+    <message key="xmlui.aspect.versioning.VersionUpdateForm.trail">Version</message>
+    <message key="xmlui.aspect.versioning.VersionUpdateForm.head1">Update version of item: {0}</message>
+    <message key="xmlui.aspect.versioning.VersionUpdateForm.submit_version">Version</message>
+    <message key="xmlui.aspect.versioning.VersionUpdateForm.submit_update_version">Update Version</message>
+    <message key="xmlui.aspect.versioning.VersionUpdateForm.summary">Summary</message>
+
+
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.title">Confirm Deletion</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.trail">Confirm deletion</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.head1">Confirm Deletion(s)</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.para1">Are you sure you want to delete these versions. </message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.para2">PLEASE NOTE: That by deleting these versions, the associated items will no longer be accessible.</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column1">Version</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column2">Item</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column3">Editor</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column4">Date</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column5">Summary</message>
+
+
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.title">Restore Version</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.trail">Restore Version</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.head1">Restore Version</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.para1">Are you sure you want to restore this version:</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.column1">Version</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.column2">Editor</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.column3">Date</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.column4">Summary</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.restore">Restore</message>
+
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.head2">Version History</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.column1">Version</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.column2">Item</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.column3">Editor</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.column4">Date</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.column5">Summary</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.column6">Actions</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.restore">Restore</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.update">Update</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.legend">*Selected version</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.delete">Delete Versions</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.return">Return</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.collection_admins_only">(collection administrators only)</message>
+
+    <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.new_version_head">Notice</message>
+    <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.new_version_help">This is not the latest version of this item. The latest version can be found at: </message>
+    <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_head">Notice</message>
+    <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">A more recent version of this item is in the Workflow.</message>
+
+    <message key="xmlui.aspect.sherpa.submission.consult">To check the copyright and self-archiving policies per journal or publisher, please consult <a href="http://www.sherpa.ac.uk/">SHERPA/RoMEO</a>.</message>
+    <message key="xmlui.aspect.sherpa.submission.title">Publisher information</message>
+    <message key="xmlui.aspect.sherpa.submission.journal">Journal: </message>
+    <message key="xmlui.aspect.sherpa.submission.publisher">Publisher information: </message>
+    <message key="xmlui.aspect.sherpa.submission.colour">RoMEO Colour: </message>
+    <message key="xmlui.aspect.sherpa.submission.more">(More info)</message>
+    <message key="xmlui.aspect.sherpa.submission.green">green</message>
+    <message key="xmlui.aspect.sherpa.submission.blue">blue</message>
+    <message key="xmlui.aspect.sherpa.submission.white">white</message>
+    <message key="xmlui.aspect.sherpa.submission.yellow">yellow</message>
+    <message key="xmlui.aspect.sherpa.submission.gray">gray</message>
+    <!-- End Versioning -->
+
+
+    <message key="xmlui.mirage2.itemSummaryView.MetaData">Metadata</message>
+    <message key="xmlui.mirage2.itemSummaryView.Collections">Collections</message>
+
+    <message key="xmlui.mirage2.discovery.reset">Reset</message>
+    <message key="xmlui.mirage2.discovery.newFilter">Add New Filter</message>
+    <message key="xmlui.mirage2.discovery.showAdvancedFilters">Show Advanced Filters</message>
+    <message key="xmlui.mirage2.discovery.hideAdvancedFilters">Hide Advanced Filters</message>
+
+
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.add">Add</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.remove">Remove</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.noSuggestionError">ERROR: Input field with "suggest" (autocomplete) choice behavior is not implemented for Composite (e.g. "name") fields.</message>
+    <message key="xmlui.mirage2.forms.nonInstancedCompositeFields.noSuggestionError">ERROR: Input field with "suggest" (autocomplete) choice behavior is not implemented for Composite (e.g. "name") fields.</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.add">Add</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.remove">Remove</message>
+
+    <message key="xmlui.mirage2.page-structure.aboutThisRepository">About This Repository</message>
+    <message key="xmlui.mirage2.page-structure.toggleNavigation">Toggle navigation</message>
+
+    <message key="xmlui.mirage2.page-structure.heroUnit.title">About This Repository</message>
+    <message key="xmlui.mirage2.page-structure.heroUnit.content">To add your own content to this page, edit webapps/xmlui/themes/Mirage2/lib/xsl/core/page-structure.xsl and add your own content to the title, trail, and body. If you wish to add additional pages, you will need to create an additional xsl:when block and match the request-uri to whatever page you are adding. Currently, static pages created through altering XSL are only available under the URI prefix of page/.</message>
+
+    <message key="xmlui.mirage2.navigation.rss.feed">feed</message>
+
+    <message key="xmlui.mirage2.choice-authority-control.loading">Loading...</message>
+
+    <message key="xmlui.mirage2.item-list.thumbnail">Thumbnail</message>
 </catalogue>
