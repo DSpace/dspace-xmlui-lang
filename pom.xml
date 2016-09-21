@@ -148,9 +148,69 @@
     </build>
 
     <!--
-      The SCM repository location is used by Continuum to update against
-      when changes have occurred.  This spawns a new build cycle and releases
-      snapshots into the snapshot repository below.
+         The 'release' profile is used by the 'maven-release-plugin' (see above)
+         to actually perform a DSpace lang packs release to Maven central.
+         This profile contains settings which are ONLY enabled when performing
+         a DSpace release. See alse https://wiki.duraspace.org/display/DSPACE/Release+Procedure
+        -->
+        <profile>
+            <id>release</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <!-- Configure Nexus plugin for new releases via Sonatype.
+                         See: http://central.sonatype.org/pages/apache-maven.html -->
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <version>1.6.7</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <!-- In your settings.xml, your username/password
+                                 MUST be specified for server 'ossrh' -->
+                            <serverId>ossrh</serverId>
+                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <!-- Require manual verification / release to Maven Central -->
+                            <autoReleaseAfterClose>false</autoReleaseAfterClose>
+                        </configuration>
+                    </plugin>
+                    <!-- For new releases, generate Source JAR files -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-source-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>attach-sources</id>
+                                <goals>
+                                    <goal>jar-no-fork</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <!-- Sign any new releases via GPG.
+                         NOTE: you may optionall specify the "gpg.passphrase" in your settings.xml -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+    <!--
+      Information about the SCM repository where source code exists.
     -->
     <scm>
         <connection>scm:git:git@github.com:DSpace/dspace-xmlui-lang.git</connection>
