@@ -318,7 +318,7 @@
         <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">Tento záznam byl vyřazen</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">Vybraný záznam byl vyřazen a není nadále dostupný.</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">Vybraný záznam je záznam s omezeným přístupem a pro jeho zobrazení musíte mít potřebná oprávnění. Prosím, pro zobrazení tohoto záznamu se přihlaste.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Váš účet nemá potřebná oprávnění pro zobrazení ttohoto záznamu. Jestli máte jakékoliv nejasnosti, obraťte se na správce systému.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Váš účet nemá potřebná oprávnění pro zobrazení tohoto záznamu. Jestli máte jakékoliv nejasnosti, obraťte se na správce systému.</message>
 	
 	<!-- Authentication messages used at the top of the login page:  -->
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_header">Toto je záznam s omezeným přístupem</message>	
@@ -401,7 +401,7 @@
 	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.title">Požadavek na změnu oprávnění</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.trail">Požadavek na změnu oprávnění</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.head">Požadavek na změnu oprávnění</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.para1">Můžete využít tuto příležitost na opětovné zvážení omezení tohoto dokumentu (aby jste nemuseli odpovídat na tyto požadavky), pokud není důvod pro zachovíní omezení dokumentu. Pokud tak chcete učinit, po vložení vašeho jména a emailu (pro ověření) klikněte na tlačítko „Změnit na Open Access“.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.para1">Můžete využít tuto příležitost na opětovné zvážení omezení tohoto dokumentu (aby jste nemuseli odpovídat na tyto požadavky), pokud není důvod pro zachování omezení dokumentu. Pokud tak chcete učinit, po vložení vašeho jména a emailu (pro ověření) klikněte na tlačítko „Změnit na Open Access“.</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name">Jméno</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email">Email</message>
     <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name.error">Jméno je nutné vyplnit</message>
@@ -762,7 +762,7 @@
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before">Zveřejněno</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before_help">Dokument byl již dříve publikován</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before_note">Je-li zaškrtávací pole nahoře označeno, ze záznamu se odstraní následující:</message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.date_issued">Dátum publikování</message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.date_issued">Datum publikování</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.citation">Citace zdrojového dokumentu</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.publisher">Nakladatel</message>
 	
@@ -792,7 +792,7 @@
         <message key="xmlui.Submission.submit.AccessStep.embargo">Embargo na přístup do určeného data</message>
         <message key="xmlui.Submission.submit.AccessStep.embargo_visible">Viditelný/embargo</message>
         <message key="xmlui.Submission.submit.AccessStep.name">Název</message>
-        <message key="xmlui.Submission.submit.AccessStep.name_help">Krátký, popisní název politiky (do 30 znaků). Může se zobrazit koncovému uživateli. Např. „Pouze pro změstnance“. Nepovinný, ale doporučuje se vyplnit.</message>
+        <message key="xmlui.Submission.submit.AccessStep.name_help">Krátký, popisní název politiky (do 30 znaků). Může se zobrazit koncovému uživateli. Např. „Pouze pro zaměstnance“. Nepovinný, ale doporučuje se vyplnit.</message>
         <message key="xmlui.Submission.submit.AccessStep.description">Popis</message>
         <message key="xmlui.Submission.submit.AccessStep.reason">Důvod</message>
         <message key="xmlui.Submission.submit.AccessStep.reason_help">Důvod embarga. Typicky pouze pro interní využití. Nepovinný.</message>
@@ -802,7 +802,7 @@
         <message key="xmlui.Submission.submit.AccessStep.error_missing_date">Když je zvoleno embargo, vyžaduje se datum</message>
         <message key="xmlui.Submission.submit.AccessStep.error_duplicated_policy">Identická politika pro tuto skupinu a tuto operaci již existuje.</message>
         <message key="xmlui.Submission.submit.AccessStep.table_policies">Seznam politik</message>
-        <message key="xmlui.Submission.submit.AccessStep.policies_help">Politiky uvedené v této sekci mají pripritu před jakýmikoliv výchozími politikami kolekcí, do kterých přidáváte záznam. Pokud si přejete nastavit embargo, ale cílová kolekce umožňuje přístup pro libovolného uživatele, musíte nastavit politiku, která povoluje přístup pro skupinu Anonymous pouze od určitého data dále.</message>
+        <message key="xmlui.Submission.submit.AccessStep.policies_help">Politiky uvedené v této sekci mají prioritu před jakýmikoliv výchozími politikami kolekcí, do kterých přidáváte záznam. Pokud si přejete nastavit embargo, ale cílová kolekce umožňuje přístup pro libovolného uživatele, musíte nastavit politiku, která povoluje přístup pro skupinu Anonymous pouze od určitého data dále.</message>
         <message key="xmlui.Submission.submit.AccessStep.no_policies">Pro tento záznam nebyli nastaveny žádné skupinové politiky.</message>
         <message key="xmlui.Submission.submit.AccessStep.new_policy_head">Embargo</message>
         <message key="xmlui.Submission.submit.AccessStep.private_settings">Soukromý záznam</message>
@@ -828,11 +828,11 @@
         <message key="xmlui.Submission.submit.EditPolicyStep.head">Upravit politiku</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
-	<message key="xmlui.Submission.submit.UploadStep.head">Nahrat soubory</message>
+	<message key="xmlui.Submission.submit.UploadStep.head">Nahrát soubory</message>
 	<message key="xmlui.Submission.submit.UploadStep.file">Soubor</message>
 	<message key="xmlui.Submission.submit.UploadStep.file_help">Prosím, zadejte plnou cestu k souboru na vašem počítači, která odpovídá vašemu záznamu. Po kliknutí na „Procházet...“ se zobrazí nové okno, které vám umožní vybrat soubor z vašeho počítače.</message>
 	<message key="xmlui.Submission.submit.UploadStep.file_error">Záznam musí obsahovat alespoň jeden soubor.</message>
-	<message key="xmlui.Submission.submit.UploadStep.upload_error">Vyskytl se problém při nahrávání vašeho souboru. Buď nebyl správně zadán název souboru nebo nastal problém v síti, který znemožnil korektní uložení vašeho souboru. Další přičinou může být pokus o nahrání souboru ve formátu, který je jen pro interní použití. Prosím, zkuste to znovu.</message>
+	<message key="xmlui.Submission.submit.UploadStep.upload_error">Vyskytl se problém při nahrávání vašeho souboru. Buď nebyl správně zadán název souboru nebo nastal problém v síti, který znemožnil korektní uložení vašeho souboru. Další příčinou může být pokus o nahrání souboru ve formátu, který je jen pro interní použití. Prosím, zkuste to znovu.</message>
 	<message key="xmlui.Submission.submit.UploadStep.virus_error">Soubor nebyl nahraný, protože to vypadá, že obsahuje virus.</message>
 	<message key="xmlui.Submission.submit.UploadStep.virus_checker_error">Vyskytli se technické potíže při pokusu o kontrolu virů. Prosím, kontaktujte správce systému.</message>
 	<message key="xmlui.Submission.submit.UploadStep.description">Popis souboru</message>
@@ -892,7 +892,7 @@
 	<message key="xmlui.Submission.submit.EditFileStep.description">Popis souboru</message>
 	<message key="xmlui.Submission.submit.EditFileStep.description_help">Můžete dodat stručný popis obsahu tohoto souboru. Například „<i>Hlavní článek</i>“ nebo „<i>Experimentální hodnoty dat</i>“.</message>
 	<message key="xmlui.Submission.submit.EditFileStep.info1">Z níže uvedeného seznamu vyberte formát souboru, například „<i>Adobe PDF</i>“ nebo „<i>Microsoft Word</i>“. <strong>Není-li formát v seznamu</strong>, a popište ho v textovém poli pod seznamem.</message>
-	<message key="xmlui.Submission.submit.EditFileStep.format_detected">Zjištený formát</message>
+	<message key="xmlui.Submission.submit.EditFileStep.format_detected">Zjištěný formát</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_selected">Vybraný formát</message>
 	<message key="xmlui.Submission.submit.EditFileStep.format_default">Formát není v seznamu</message>
 	<message key="xmlui.Submission.submit.EditFileStep.info2">Není-li formát ve výše uvedeném seznamu, <strong>vyberte „Formát není v seznamu“ výše</strong> a popište formát souboru ve spodním poli.</message>
@@ -923,7 +923,7 @@
 	<message key="xmlui.Submission.submit.CCLicenseStep.ccws_error">Vyskytla se chyba ... {0}</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.head">Licencujte své dílo</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.info1">Jestli si přejete, můžete ke svému dílu připojit licenci <a href="http://creativecommons.org/">Creative Commons</a>. <strong>Licence Creative Commons definují, jak mohou ostatní lidé nakládat s vaším dílem.</strong></message>
-	<message key="xmlui.Submission.submit.CCLicenseStep.submit_choose_creative_commons">Choose a license</message>
+	<message key="xmlui.Submission.submit.CCLicenseStep.submit_choose_creative_commons">Zvolit licenci</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.submit_to_creative_commons">Pokračovat na výběr licence na webu Creative Commons</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.license">Typ licence</message>
 	<message key="xmlui.Submission.submit.CCLicenseStep.select_change">Vyberte nebo změňte svou licenci ...</message>
@@ -952,7 +952,7 @@
 
 	<!-- org.dspace.app.xmlui.Submission.workflow.PerformTaskStep -->
 	<message key="xmlui.Submission.workflow.PerformTaskStep.info1">Operace, které můžete na této úloze vykonat:</message>
-	<message key="xmlui.Submission.workflow.PerformTaskStep.take_help">Přidelit tuto úlohu sobě.</message>
+	<message key="xmlui.Submission.workflow.PerformTaskStep.take_help">Přidělit tuto úlohu sobě.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.take_submit">Převzít úlohu</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.leave_help">Ponechat tuto úlohu v zásobníku, aby ji převzal někdo jiný.</message>
 	<message key="xmlui.Submission.workflow.PerformTaskStep.leave_submit">Zanechat úlohu</message>
@@ -1119,7 +1119,7 @@
 	<message key="xmlui.administrative.eperson.EditEPersonForm.req_certs">Požadovat certifikát</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.can_log_in">Může se přihlásit</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.submit_reset_password">Vygenerovat heslo</message>
-	<message key="xmlui.administrative.eperson.EditEPersonForm.special_help">Můžete trvale ostranit tuto e-osobu ze systému nebo jí vygenerovat nové heslo. Po vygenerování hesla se uživateli odešle e-mail obsahující speciální odkaz, kde si může své heslo změnit.</message>
+	<message key="xmlui.administrative.eperson.EditEPersonForm.special_help">Můžete trvale odstranit tuto e-osobu ze systému nebo jí vygenerovat nové heslo. Po vygenerování hesla se uživateli odešle e-mail obsahující speciální odkaz, kde si může své heslo změnit.</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.submit_delete">Smazat e-osobu</message>
 	<message key="xmlui.administrative.eperson.EditEPersonForm.submit_login_as">Přihlásit se jako e-osoba</message>
 	
@@ -1294,7 +1294,7 @@
 	<message key="xmlui.administrative.registries.EditMetadataSchema.note">Poznámka o rozsahu</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.note_help">Další poznámky o tomto metadatovém poli.</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.submit_add">Přidat pole metadat</message>
-	<message key="xmlui.administrative.registries.EditMetadataSchema.head4">Aktualizovať pole: {0}</message>
+	<message key="xmlui.administrative.registries.EditMetadataSchema.head4">Aktualizovat pole: {0}</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.submit_update">Aktualizovat pole</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.error">Chyba</message>
 	<message key="xmlui.administrative.registries.EditMetadataSchema.error_duplicate_field">Název pole se již používá, všechny prvky a kvalifikátory musí být jedinečné.</message>
@@ -1307,7 +1307,7 @@
 	<!-- org.dspace.app.xmlui.administrative.registries.FormatRegistryMain.java -->
 	<message key="xmlui.administrative.registries.FormatRegistryMain.title">Registr formátů</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.head">Registr formátů bitového toku</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.para1">Tento seznam formátů bitových toků poskytuje informace o známych formátech a úrovni jejich podpory. Pomocí tohoto nástroje můžete upravovat nebo přidávat nové formáty bitových toků. Formáty označené jako „interní“ jsou uživatelům skryté a používají se na účely správy.</message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.para1">Tento seznam formátů bitových toků poskytuje informace o známých formátech a úrovni jejich podpory. Pomocí tohoto nástroje můžete upravovat nebo přidávat nové formáty bitových toků. Formáty označené jako „interní“ jsou uživatelům skryté a používají se na účely správy.</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.new_link">Přidat nový formát bitového toku</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"/>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column2">ID</message>
@@ -1364,7 +1364,7 @@
 	<message key="xmlui.administrative.authorization.AuthorizationMain.actions_item_lookup">Vyhledat záznam</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.search_help">Záznamy je možné nalézt dle handle nebo interního ID</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.submit_find">Najít</message>
-	<message key="xmlui.administrative.authorization.AuthorizationMain.actions_advanced">Poročilá správa autorizace</message>
+	<message key="xmlui.administrative.authorization.AuthorizationMain.actions_advanced">Pokročilá správa autorizace</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.actions_advanced_link">Nástroj na správu politik zástupných znaků</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.containerList_head">Oprávnění komunity/kolekce</message>
 	<message key="xmlui.administrative.authorization.AuthorizationMain.containerList_para">Vyberte komunitu nebo kolekci k editaci jejích politik.</message>
@@ -1399,7 +1399,7 @@
 	<message key="xmlui.administrative.authorization.EditItemPolicies.subhead_bundle">Politiky pro svazek {0} ({1})</message>
 	<message key="xmlui.administrative.authorization.EditItemPolicies.subhead_bitstream">Bitový tok {0} ({1})</message>
 	<message key="xmlui.administrative.authorization.EditItemPolicies.add_itemPolicy_link">Přidat novou politiku záznamu</message>
-	<message key="xmlui.administrative.authorization.EditItemPolicies.add_bundlePolicy_link">Přidat novú politiku svazku</message>
+	<message key="xmlui.administrative.authorization.EditItemPolicies.add_bundlePolicy_link">Přidat novou politiku svazku</message>
 	<message key="xmlui.administrative.authorization.EditItemPolicies.add_bitstreamPolicy_link">Přidat novou politiku bitového toku</message>
 	
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.no_policies">Pro tento objekt nebyly nalezeny žádné politiky.</message>
@@ -1603,7 +1603,7 @@
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.view_link">zobrazit</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_add">Nahrát nový bitový tok</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_delete">Smazat bitové toky</message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_reorder">Aktualizovat pořadí bitvých toků</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_reorder">Aktualizovat pořadí bitových toků</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.no_upload">Potřebujete oprávnění ADD a WRITE alespoň na záznamu a svazku, abyste mohli nahrávat nové bitové toky.</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.no_remove">Pouze správci systému mají oprávnění smazat bitové toky/soubory.</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.previous_order">Předchozí:</message>
@@ -1852,9 +1852,9 @@
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_setid">ID množiny OAI</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_metadata_format">Formát metadat</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaiurl">URL služby poskytovatele OAI cílového repozitáře</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaiurl">Musíte zadat ID množniny cílové kolekce</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaiurl">Musíte zadat ID množiny cílové kolekce</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.help_oaisetid">Perzistentní identifikátor, který používá poskytovatel OAI na určení cílové kolekce</message>
-	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">Musíte zadat ID množniny cílové kolekce</message>
+	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.error_oaisetid">Musíte zadat ID množiny cílové kolekce</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.label_harvest_level">Sklízený obsah</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_only">Sklízet pouze metadata.</message>
 	<message key="xmlui.administrative.collection.SetupCollectionHarvestingForm.option_md_and_ref">Sklízet metadata a odkazy na bitové toky (vyžaduje podporu ORE).</message>
@@ -2030,7 +2030,7 @@
 	<message key="xmlui.administrative.ControlPanel.alerts_session_all_sessions">Nadále povolovat ověřené relace</message>	
 	<message key="xmlui.administrative.ControlPanel.alerts_session_current_sessions">Omezit ověřování, ale ponechat aktuální relace</message>	
 	<message key="xmlui.administrative.ControlPanel.alerts_session_only_administrative_sessions">Omezit ověřování a ukončit aktuální relace</message>	
-	<message key="xmlui.administrative.ControlPanel.alerts_session_note"><strong>Poznámka:</strong> Spravců lokality se netýká správa relací.</message>	
+	<message key="xmlui.administrative.ControlPanel.alerts_session_note"><strong>Poznámka:</strong> Správců lokality se netýká správa relací.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_activate">Aktivovat</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_deactivate">Deaktivovat</message>
 	<message key="xmlui.administrative.ControlPanel.activity_head">Aktuální aktivita (maximálně {0} stránek)</message>
@@ -2064,10 +2064,10 @@
 	<message key="xmlui.administrative.CurateForm.title">Systémové úlohy správy</message>
 	<message key="xmlui.administrative.CurateForm.trail">Úlohy správy</message>
 	<message key="xmlui.administrative.CurateForm.object_label_name">Handle objektu DSpace</message>
-	<message key="xmlui.administrative.CurateForm.object_hint">Tip: zadejte [váš-prefix-handle]/0 pro spuštení úlohy napříč celým repozitářem (ne všechny úlohy musí podporovat tuto možnost)</message>
+	<message key="xmlui.administrative.CurateForm.object_hint">Tip: zadejte [váš-prefix-handle]/0 pro spuštění úlohy napříč celým repozitářem (ne všechny úlohy musí podporovat tuto možnost)</message>
 	<message key="xmlui.administrative.CurateForm.task_label_name">Úloha</message>
 	<!-- Used by Curate<DSO>Form classes also -->
-	<message key="xmlui.administrative.CurateForm.taskgroup_label_name">Vyberte si z nasledovních skupin</message>
+	<message key="xmlui.administrative.CurateForm.taskgroup_label_name">Vyberte si z následujících skupin</message>
 
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -2191,7 +2191,7 @@
 
 	<message key="xmlui.dri2xhtml.structural.search">Prohledat DSpace</message>
 	<message key="xmlui.dri2xhtml.structural.search-advanced">Rozšířené hledání</message>
-	<message key="xmlui.dri2xhtml.structural.search-in-community">V této komunite</message>
+	<message key="xmlui.dri2xhtml.structural.search-in-community">V této komunitě</message>
 	<message key="xmlui.dri2xhtml.structural.search-in-collection">V této kolekci</message>
 	
 	<message key="xmlui.dri2xhtml.structural.pagination-previous">předchozí strana</message>
@@ -2358,7 +2358,7 @@
   <!-- explanatory messages for choice authority confidence values -->
   <message key="xmlui.authority.confidence.description.cf_unset">Pro tuto hodnotu nebyla jistota nikdy zaznamenána</message>
   <message key="xmlui.authority.confidence.description.cf_novalue">Autorita nevrátila žádnou rozumnou hodnotu jistoty</message>
-  <message key="xmlui.authority.confidence.description.cf_rejected">Autorita doporučuje zamítnutí tohto příspěvku</message>
+  <message key="xmlui.authority.confidence.description.cf_rejected">Autorita doporučuje zamítnutí tohoto příspěvku</message>
   <message key="xmlui.authority.confidence.description.cf_failed">Autorita zjistila vnitřní chybu</message>
   <message key="xmlui.authority.confidence.description.cf_notfound">Autorita neobsahuje odpovídající záznamy</message>
   <message key="xmlui.authority.confidence.description.cf_ambiguous">Autorita obsahuje více odpovídajících hodnot se stejnou platností</message>
@@ -2469,7 +2469,7 @@
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_head">Oznámení</message>
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">Novější verze tohoto záznamu se nachází ve workflow.</message>
 
-    <message key="xmlui.aspect.sherpa.submission.consult">Prosím, navštivte <a href="http://www.sherpa.ac.uk/">SHERPA/RoMEO</a> pro získání informací o autorských právách a zásadách autoarchivace jednotlivých časopisů nebo vydavatelů.</message>
+    <message key="xmlui.aspect.sherpa.submission.consult">Prosím, navštivte <a href="http://www.sherpa.ac.uk/">SHERPA/RoMEO</a> pro získání informací o autorských právech a zásadách autoarchivace jednotlivých časopisů nebo vydavatelů.</message>
     <message key="xmlui.aspect.sherpa.submission.title">Informace o vydavateli</message>
     <message key="xmlui.aspect.sherpa.submission.journal">Časopis: </message>
     <message key="xmlui.aspect.sherpa.submission.publisher">Informace o vydavateli: </message>
@@ -2557,7 +2557,7 @@
     <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">Prohlížení dle abstraktu</message>
     <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">Prohlížení dle série</message>
     <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">Prohlížení dle sponzora</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">Prohlížení dle identifikátora</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">Prohlížení dle identifikátoru</message>
     <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">Prohlížení dle jazyka (ISO)</message>
     <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">Prohlížení dle klíčového slova</message>
     <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">Prohlížení dle taxonu</message>
@@ -2677,7 +2677,7 @@
     <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.search.button">Vyhledat uživatele</message>
     <message key="xmlui.XMLWorkflow.workflow.SelectReviewerAction.select-reviewer.button">Zvolit jako kontrolora</message>
 
-    <message key="xmlui.XMLWorkflow.workflow.SingleUserReviewAction.decline.help">Pokud nejste správná osoba pro kontrolu tohto záznamu, můžete přiřazení úlohy zamítnout tlačítkem „Odmítnout přiřazení úlohy“.</message>
+    <message key="xmlui.XMLWorkflow.workflow.SingleUserReviewAction.decline.help">Pokud nejste správná osoba pro kontrolu tohoto záznamu, můžete přiřazení úlohy zamítnout tlačítkem „Odmítnout přiřazení úlohy“.</message>
     <message key="xmlui.XMLWorkflow.workflow.SingleUserReviewAction.decline.button">Odmítnout přiřazení úlohy</message>
 
 
