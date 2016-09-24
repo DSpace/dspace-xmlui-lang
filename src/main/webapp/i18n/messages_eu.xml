@@ -1,4 +1,5 @@
-<catalogue xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xml:lang="eu">
 
 	<!--
 		The format used by all keys is as follows
