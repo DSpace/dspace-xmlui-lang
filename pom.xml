@@ -147,7 +147,8 @@
         </plugins>
     </build>
 
-    <!--
+    <profiles>
+       <!--
          The 'release' profile is used by the 'maven-release-plugin' (see above)
          to actually perform a DSpace lang packs release to Maven central.
          This profile contains settings which are ONLY enabled when performing
