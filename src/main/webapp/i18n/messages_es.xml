@@ -8,7 +8,7 @@
     http://www.dspace.org/license/
     
                                       -->
-<catalogue xml:lang="en" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<catalogue xml:lang="es" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
 
 	<!--
 		The format used by all keys is as follows
@@ -27,7 +27,7 @@
 <message key="xmlui.general.dspace_home">DSpace Principal</message>
 <message key="xmlui.general.search">Búsquedas</message>
 <message key="xmlui.general.go">Ir</message>
-<message key="xmlui.general.go_home">Ir a página principal DSpace</message>
+<message key="xmlui.general.go_home">Ir a página principal de DSpace</message>
 <message key="xmlui.general.save">Guardar</message>
 <message key="xmlui.general.cancel">Cancelar</message>
 <message key="xmlui.general.return">Volver</message>
@@ -151,7 +151,7 @@
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_month">(Elegir mes)</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">(Elegir año)</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year">O introducir un año:</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year_help">Listar ítems  de un determinado año.</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year_help">Listar ítems de un determinado año.</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.no_results">Lo sentimos, no hay resultados para esta búsqueda.</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.sort_by">Ordenar por:</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.order">Orden:</message>
@@ -173,7 +173,7 @@
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.author">Listar {0} por autor {1}</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.author">Listar {0} por autor</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.subject">Listar{0} por tema {1}</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.subject">Listar {0} por tema {1}</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.subject">Listar {0} por tema</message>
 
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.title">Listar {0} por título {1}</message>
@@ -253,7 +253,7 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
 <message key="xmlui.ArtifactBrowser.Navigation.head_browse">Listar</message>
 <message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">Todo DSpace</message>
-<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Comunidades &amp; Colecciones</message>
+<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Comunidades y Colecciones</message>
 <message key="xmlui.ArtifactBrowser.Navigation.browse_title">Títulos</message>
 <message key="xmlui.ArtifactBrowser.Navigation.browse_author">Autores</message>
 <message key="xmlui.ArtifactBrowser.Navigation.browse_subject">Materias</message>
@@ -293,7 +293,7 @@
 <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">Este ítem ha sido retirado  </message>
 <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">El ítem seleccionado ha sido retirado y no está disponible</message>
 <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">El ítem seleccionado es de acceso restringido  y requiere de credenciales para su visualización. </message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Su usuario no dispone de permisos para ver el ítem. Para más información, contacte por favor con el administrador</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Su usuario no dispone de permisos para ver el ítem. Para más información, contacte por favor con el administrador.</message>
         
 	<!-- Authentication messages used at the top of the login page:  -->
 <message key="xmlui.ArtifactBrowser.RestrictedItem.auth_header">Este ítem está restringido</message>
@@ -633,9 +633,9 @@
 
 
 	<!-- org.dspace.app.xmlui.Submission.submissions -->
-<message key="xmlui.Submission.Submissions.title">Envíos &amp; Flujos de trabajo</message>
+<message key="xmlui.Submission.Submissions.title">Envíos y Flujos de trabajo</message>
 <message key="xmlui.Submission.Submissions.trail">Envíos</message>
-<message key="xmlui.Submission.Submissions.head">Envíos &amp; tareas del flujo de trabajo</message>
+<message key="xmlui.Submission.Submissions.head">Envíos y tareas del flujo de trabajo</message>
 <message key="xmlui.Submission.Submissions.untitled"><i>Sin título</i></message>
 <message key="xmlui.Submission.Submissions.email">correo electrónico:</message>
 	<!-- Same transformer, workflow section -->
@@ -769,7 +769,7 @@
 <message key="xmlui.Submission.submit.AccessStep.description">Descripción</message>
 <message key="xmlui.Submission.submit.AccessStep.reason">Motivo del embargo</message>
 <message key="xmlui.Submission.submit.AccessStep.reason_help">La razón del embargo, para uso interno normalmente. Opcional.</message>
-<message key="xmlui.Submission.submit.AccessStep.submit_add_policy">Confirmar privilegios &amp; añadir más</message>
+<message key="xmlui.Submission.submit.AccessStep.submit_add_policy">Confirmar privilegios y añadir más</message>
 <message key="xmlui.Submission.submit.AccessStep.list_assigned_groups">Grupos</message>
 <message key="xmlui.Submission.submit.AccessStep.error_format_date">Error en el formato de la fecha</message>
 <message key="xmlui.Submission.submit.AccessStep.error_missing_date">Si selecciona Embargo, se requiere especificar fecha</message>
@@ -837,7 +837,7 @@
 <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_checker_error">Hubo un problema al intentar comprobar la existencia de virus en el fichero. Por favor, contacte con el administrador del sistema.</message>
 <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description">Descripción del fichero</message>
 <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">Opcionalmente, describa brevemente el fichero, por ejemplo "<i>Artículo principal</i>", r "<i>Datos Experimentales</i>".</message>
-<message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_upload">Subir Fichero &amp; añadir otro</message>
+<message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_upload">Subir Fichero y añadir otro</message>
 <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head2">Ficheros Subidos</message>
 <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column0">Primario</message>
 <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column1">  </message>
