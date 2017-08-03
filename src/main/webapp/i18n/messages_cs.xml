@@ -2769,7 +2769,7 @@
     <message key="xmlui.swordclient.SelectPackagingAction.packageFormat_error">Byl zvolen nepodporovaný formát balíku</message>
 
     <message key="xmlui.swordclient.DepositAction.success">Záznam byl úspěšně zkopírován</message>
-    <message key="xmlui.swordclient.DepositAction.package_error">Chyba formátu balíku</message>
+    <message key="xmlui.swordclient.DepositAction.package_format_error">Chyba formátu balíku</message>
     <message key="xmlui.swordclient.DepositAction.invalid_handle">Neplatný handle</message>
     <message key="xmlui.swordclient.DepositAction.package_error">Vyskytla se chyba během vytváření objektu balíku</message>
     <message key="xmlui.swordclient.DepositAction.error">Vyskytla se chyba během zasílání: {0}</message>

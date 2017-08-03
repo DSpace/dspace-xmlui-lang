@@ -2442,7 +2442,7 @@
     <message key="xmlui.swordclient.SelectPackagingAction.packageFormat_error">Wybrano nieobsługiwany format pakietu</message>
 
     <message key="xmlui.swordclient.DepositAction.success">Pozycja została poprawnie skopiowana</message>
-    <message key="xmlui.swordclient.DepositAction.package_error">Błąd formatu pakietu</message>
+    <message key="xmlui.swordclient.DepositAction.package_format_error">Błąd formatu pakietu</message>
     <message key="xmlui.swordclient.DepositAction.invalid_handle">Niepoprawny wskaźnik</message>
     <message key="xmlui.swordclient.DepositAction.package_error">Podczas tworzenia pakietu wystąpił błąd</message>
     <message key="xmlui.swordclient.DepositAction.error">Podczas deponowania wystąpił błąd: {0}</message>

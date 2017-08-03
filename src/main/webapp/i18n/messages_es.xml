@@ -2743,7 +2743,7 @@ Cuando se usa QDC para los elementos de DSpace se recomienda el uso de crosswalk
     <message key="xmlui.swordclient.SelectPackagingAction.packageFormat_error">Seleccionado formato de paquete no soportado</message>
 
     <message key="xmlui.swordclient.DepositAction.success">Ítem copiado</message>
-    <message key="xmlui.swordclient.DepositAction.package_error">Error del Formato de Paquete</message>
+    <message key="xmlui.swordclient.DepositAction.package_format_error">Error del Formato de Paquete</message>
     <message key="xmlui.swordclient.DepositAction.invalid_handle">Handle inválido</message>
     <message key="xmlui.swordclient.DepositAction.package_error">Ocurrió un error al empaquetar el objeto</message>
     <message key="xmlui.swordclient.DepositAction.error">Ocurrió un error durante el depósito: {0}</message>

@@ -2421,7 +2421,7 @@
   <message key="xmlui.swordclient.SelectPackagingAction.packageFormat_error">Das gewählte Paketformat wird nicht unterstützt</message>
 
   <message key="xmlui.swordclient.DepositAction.success">Dokument erfolgreich kopiert</message>
-  <message key="xmlui.swordclient.DepositAction.package_error">Paketformatfehler</message>
+  <message key="xmlui.swordclient.DepositAction.package_format_error">Paketformatfehler</message>
   <message key="xmlui.swordclient.DepositAction.invalid_handle">Ungültiges Handle</message>
   <message key="xmlui.swordclient.DepositAction.package_error">Bei Erstellung des Paketobjektes ist ein Fehler aufgetreten.</message>
   <message key="xmlui.swordclient.DepositAction.error">Beim Deposit ist ein Fehler aufgetreten: {0}</message>
