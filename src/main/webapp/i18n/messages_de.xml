@@ -912,7 +912,7 @@
 	<message key="xmlui.administrative.Navigation.administrative_control_panel">Systemdaten</message>
 	<message key="xmlui.administrative.Navigation.statistics">Statistiken</message>
 	<message key="xmlui.administrative.Navigation.administrative_import_metadata">Metadaten Importieren</message>
-	<message key="xmlui.administrative.Navigation.administrative_curation">Datenpflege - Aufgabens</message>
+	<message key="xmlui.administrative.Navigation.administrative_curation">Datenpflege - Aufgaben</message>
 	
     <!-- my account items -->
 	<message key="xmlui.administrative.Navigation.account_export">Meine Exporte</message>
