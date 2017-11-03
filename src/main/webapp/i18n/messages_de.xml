@@ -598,7 +598,7 @@
     <message key="xmlui.Submission.Submissions.completed.info">Dies sind die Ihre in DSpace angenommenen Veröffentlichungen.</message>
     <message key="xmlui.Submission.Submissions.completed.column1">Zugangsdatum</message>
     <message key="xmlui.Submission.Submissions.completed.column2">Titel</message>
-    <message key="xmlui.Submission.Submissions.completed.column3">SAmmlung</message>
+    <message key="xmlui.Submission.Submissions.completed.column3">Sammlung</message>
     <message key="xmlui.Submission.Submissions.completed.limit">Es werden 50 Ihrer Veröffentlichungen angezeigt. </message>
     <message key="xmlui.Submission.Submissions.completed.displayall">Anzeige aller Veröffentlichungen.</message>
 
