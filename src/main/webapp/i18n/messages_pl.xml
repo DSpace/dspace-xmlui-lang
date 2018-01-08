@@ -8,12 +8,7 @@
     http://www.dspace.org/license/
 
 -->
-<!--
-    Translation Kamil Gałuszka
-    Translation Mateusz Neumann &lt;M.Neumann@icm.edu.pl&gt;
--->
-
-<catalogue xml:lang="pl" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<catalogue xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xml:lang="pl">
 
     <!--
         The format used by all keys is as follows
@@ -27,6 +22,12 @@
            may be found at xmlui.<Aspect> without specifying a
            particular java class.
         -->
+
+<!--
+    Translation Kamil Gałuszka
+    Translation Mateusz Neumann M.Neumann@icm.edu.pl
+    Translation Michał Pasternak michal.dtz@gmail.com
+-->
 
     <!-- General keys -->
     <message key="xmlui.general.dspace_home">Strona główna DSpace</message>
@@ -66,7 +67,7 @@
         This section is for feed syndications (RSS, atom, etc)
     -->
     <message key="xmlui.feed.general_description">Repozytorium cyfrowe DSpace zapisuje, przechowuje, indeksuje i udostępnia cyfrowe materiały.</message>
-    <message key="xmlui.feed.header">RSS Feeds</message>
+    <message key="xmlui.feed.header">Kanały RSS</message>
     <message key="xmlui.feed.logo_title">Obrazek kanału</message>
     <message key="xmlui.feed.untitled">Bez tytułu</message>
 
@@ -670,7 +671,7 @@
     <message key="xmlui.Submission.submit.AccessStep.error_missing_date">Konfiguracja ograniczonego dostępu (embargo) wymaga podania daty</message>
     <message key="xmlui.Submission.submit.AccessStep.error_duplicated_policy">Takie ustawienia dostępu są już skonfigurowane.</message>
     <message key="xmlui.Submission.submit.AccessStep.table_policies">Lista ustawień dostępu</message>
-    <message key="xmlui.Submission.submit.AccessStep.private_settings">Pozycja prywatna</message>
+    <message key="xmlui.Submission.submit.AccessStep.private_settings">Pozycja niejawna</message>
     <message key="xmlui.Submission.submit.AccessStep.private_settings_help">Wybór tej opcji sprawi, że pozycja nie będzie pojawiała się w wynikach wyszukiwania</message>
     <message key="xmlui.Submission.submit.AccessStep.column0">Nazwa</message>
     <message key="xmlui.Submission.submit.AccessStep.column1">Działanie</message>
@@ -1974,7 +1975,7 @@
     <!-- structural.xsl -->
     <message key="xmlui.dri2xhtml.structural.footer-promotional">
         <a href="http://di.tamu.edu" id="ds-logo-link">
-            <span id="ds-footer-logo">&#160;</span>
+            <span id="ds-footer-logo"> </span>
         </a>
         <p> 
             Ta strona używa Manakina, nowego interfejsu dla DSpace stworzonego przez Texas A&amp;M University 
@@ -1987,7 +1988,7 @@
     <message key="xmlui.dri2xhtml.structural.contact-link">Kontakt z nami</message>
     <message key="xmlui.dri2xhtml.structural.feedback-link">Wyślij uwagi</message>
 
-    <message key="xmlui.dri2xhtml.structural.head-subtitle">Repozytorium Centrum Otwartej Nauki</message>
+    <message key="xmlui.dri2xhtml.structural.head-subtitle">Repozytorium DSpace</message>
 
     <message key="xmlui.dri2xhtml.structural.profile">Profil: </message>
     <message key="xmlui.dri2xhtml.structural.logout">Wyloguj</message>
