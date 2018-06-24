@@ -7,7 +7,7 @@
     <description>
       DSpace Language Packs to support multiple languages in XMLUI.
     </description>
-    <version>6.0.7</version>
+    <version>6.0.8-SNAPSHOT</version>
     <url>https://github.com/dspace/dspace-xmlui-lang</url>
 
     <organization>
@@ -239,7 +239,7 @@
         <connection>scm:git:git@github.com:DSpace/dspace-xmlui-lang.git</connection>
         <developerConnection>scm:git:git@github.com:DSpace/dspace-xmlui-lang.git</developerConnection>
         <url>git@github.com:DSpace/dspace-xmlui-lang.git</url>
-        <tag>dspace-xmlui-lang-6.0.7</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <!-- Configure our release repositories to use Sonatype.
