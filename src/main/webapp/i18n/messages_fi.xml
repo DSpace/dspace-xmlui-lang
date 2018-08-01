@@ -2684,7 +2684,7 @@
     <message key="xmlui.swordclient.SelectPackagingAction.packageFormat_error">Pakkausformaattia ei tueta</message>
 
     <message key="xmlui.swordclient.DepositAction.success">Aineisto kopioitu</message>
-    <message key="xmlui.swordclient.DepositAction.package_error">Virhe pakkausformaatissa</message>
+    <message key="xmlui.swordclient.DepositAction.package_format_error">Virhe pakkausformaatissa</message>
     <message key="xmlui.swordclient.DepositAction.invalid_handle">Virheellinen handle-tunniste</message>
     <message key="xmlui.swordclient.DepositAction.package_error">Aineiston pakkaamisessa tapahtui virhe</message>
     <message key="xmlui.swordclient.DepositAction.error">Aineiston tallettamissa tapahtui virhe:: {0}</message>

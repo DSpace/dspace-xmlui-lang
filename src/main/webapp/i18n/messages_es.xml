@@ -2675,7 +2675,6 @@ http://www.dspace.org/license/
 	<message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.submit_delete">Borrar ítems</message>
 	<message key="xmlui.XMLWorkflow.WorkflowOverviewTransformer.button.no_results">Sin resultados</message>
 
-
 	<message key="xmlui.XMLWorkflow.WorkflowItemTransformer.title">Ver el flujo de trabajo de item: {0}</message>
 	<message key="xmlui.XMLWorkflow.WorkflowItemTransformer.trail">Ver el flujo de trabajo de item</message>
 

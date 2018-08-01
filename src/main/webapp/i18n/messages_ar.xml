@@ -2997,7 +2997,7 @@
     <message key="xmlui.swordclient.SelectPackagingAction.packageFormat_error">تم تحديد تنسيق باقة غير مدعوم </message>
 
     <message key="xmlui.swordclient.DepositAction.success">تم نسخ المادة بنجاح</message>
-    <message key="xmlui.swordclient.DepositAction.package_error">خطأ في تنسيق الباقة</message>
+    <message key="xmlui.swordclient.DepositAction.package_format_error">خطأ في تنسيق الباقة</message>
     <message key="xmlui.swordclient.DepositAction.invalid_handle">هاندل غير صحيح</message>
     <message key="xmlui.swordclient.DepositAction.package_error">لقد حدث خطأأثناء إنشاء كائن الباقة </message>
     <message key="xmlui.swordclient.DepositAction.error">لقد حدث خطأ أثناء الإيداع: {0}</message>

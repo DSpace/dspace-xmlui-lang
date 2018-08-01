@@ -2451,7 +2451,7 @@
     <message key="xmlui.swordclient.SelectPackagingAction.packageFormat_error">Formato de pacote selecionado nao suportado</message>
     
     <message key="xmlui.swordclient.DepositAction.success">Cópia do item realizada com sucesso</message>
-    <message key="xmlui.swordclient.DepositAction.package_error">Erro no formato do pacote</message>
+    <message key="xmlui.swordclient.DepositAction.package_format_error">Erro no formato do pacote</message>
     <message key="xmlui.swordclient.DepositAction.invalid_handle">Indentificador persistente inválido</message>
     <message key="xmlui.swordclient.DepositAction.package_error">Um erro ocorreu na criação do pacote do objeto</message>
     <message key="xmlui.swordclient.DepositAction.error">Erro encontrado durate o processo de depósito: {0}</message>
