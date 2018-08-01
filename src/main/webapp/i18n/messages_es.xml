@@ -126,6 +126,9 @@ http://www.dspace.org/license/
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">Identificador</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">Idioma (ISO)</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">Palabra clave</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_has_content_in_original_bundle">Tiene(n) archivo(s)</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.value_has_content_in_original_bundle_true">Si</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.value_has_content_in_original_bundle_false">No</message>
 
 	<!--  some common other possibilities for Advanced Search Fields -->
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Contribuidor/a</message>
@@ -2552,7 +2555,7 @@ http://www.dspace.org/license/
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">Título</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Materia</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">Fecha</message>
-
+	<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.has_content_in_original_bundle">Tiene(n) archivo(s)</message>
 
 	<message key="xmlui.dri2xhtml.structural.pagination-info.nototal">Mostrando items {0}-{1}</message>
 
