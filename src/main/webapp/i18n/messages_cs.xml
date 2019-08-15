@@ -816,7 +816,7 @@
         <message key="xmlui.Submission.submit.AccessStep.table_edit_button">Upravit</message>
         <message key="xmlui.Submission.submit.AccessStep.table_delete_button">Odstranit</message>
         <message key="xmlui.administrative.authorization.AccessStep.label_date_help">První den, od kterého je povolen přístup. Akceptovaný formát: yyyy, yyyy-mm, yyyy-mm-dd</message>
-	<message key="xmlui.administrative.authorization.AccessStep.label_date_displayonly_help">První den, od kterého je povolen přístup. <b>Toto datum nelze v tomto formuláři změnit.</b> Chcete-li nastavit datum embarga bitového toku, přejděte na kartu <i>Stav záznamu</i>, klikněte na <i>Autorizaice...</i>, vytvořte nebo upravte u dotyčného bitového toku politiku typu <i>READ</i> a nastavte požadované <i>Datum začátku</i>.</message>
+	<message key="xmlui.administrative.authorization.AccessStep.label_date_displayonly_help">První den, od kterého je povolen přístup. <b>Toto datum nelze v tomto formuláři změnit.</b> Chcete-li nastavit datum embarga bitového toku, přejděte na kartu <i>Stav záznamu</i>, klikněte na <i>Autorizace...</i>, vytvořte nebo upravte u dotyčného bitového toku politiku typu <i>READ</i> a nastavte požadované <i>Datum začátku</i>.</message>
         <message key="xmlui.Submission.submit.AccessStep.review_policy_line">Název: {0}; operace: {1}, skupina: {2}, platí od: {3}, platí do: {4}</message>
         <message key="xmlui.Submission.submit.AccessStep.review_public_item">Záznam bude možné vyhledat</message>
         <message key="xmlui.Submission.submit.AccessStep.review_private_item">Záznam nebude možné vyhledat</message>
