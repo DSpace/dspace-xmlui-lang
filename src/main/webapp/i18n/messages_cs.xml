@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!--
-    translation: Ivan Masár, 2008-2014.
+    translation: Ivan Masár, 2008-2019.
     review: Dana Kovářová, 2008-2012.
 
     The contents of this file are subject to the license and copyright
@@ -1034,6 +1034,7 @@
 	<message key="xmlui.administrative.Navigation.context_export_collection">Exportovat kolekci</message>
 	<message key="xmlui.administrative.Navigation.context_export_community">Exportovat komunitu</message>
 	<message key="xmlui.administrative.Navigation.context_export_metadata">Exportovat metadata</message>
+	<message key="xmlui.administrative.Navigation.context_search_export_metadata">Exportovat metadata vyhledávání</message>
 	
 	<!-- Site administrator options -->
 	<message key="xmlui.administrative.Navigation.administrative_head">Správa</message>
@@ -1886,6 +1887,7 @@
 	<message key="xmlui.administrative.ControlPanel.option_harvest">Sklízení</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_scheduler_head">Ovládání plánovače sklízení</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_label_status">Stav</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_status_refresh">(aktualizovat)</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_label_actions">Operace</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_submit_start">Spustit sklizeň</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_submit_reset">Resetovat stav sklizně</message>
@@ -2046,8 +2048,21 @@
 	<message key="xmlui.administrative.ControlPanel.activity_sort_Agent">User-Agent</message>
 	<message key="xmlui.administrative.ControlPanel.activity_anonymous">Anonymní {0}</message>	
 	<message key="xmlui.administrative.ControlPanel.activity_none">Nebyla zaznamenána žádná zobrazení stránek.</message>
-	
+
+	<message key="xmlui.administrative.ControlPanel.detail">Podrobnosti</message>
+	<message key="xmlui.administrative.ControlPanel.show_hide">zobrazit/skrýt</message>
+	<message key="xmlui.administrative.ControlPanel.host">Hostitel: {0}</message>
+	<message key="xmlui.administrative.ControlPanel.puser">Hlavní uživatel: {0}</message>
+	<message key="xmlui.administrative.ControlPanel.headers">Hlavičky: {0}</message>
+	<message key="xmlui.administrative.ControlPanel.cookies">Cookies: {0}</message>
 	<message key="xmlui.administrative.ControlPanel.select_panel">Vyberte informace, které chcete zobrazit pomocí záložek výše</message>
+
+	<message key="xmlui.administrative.ControlPanel.tabs.Java Information">Informace o Javě</message>
+	<message key="xmlui.administrative.ControlPanel.tabs.Configuration">Konfigurace</message>
+	<message key="xmlui.administrative.ControlPanel.tabs.SystemWide Alerts">Celosystémová upozornění</message>
+	<message key="xmlui.administrative.ControlPanel.tabs.Harvesting">Sklízení</message>
+	<message key="xmlui.administrative.ControlPanel.tabs.Current Activity">Aktuální aktivita</message>
+
 	
 	<!-- org.dspace.app.xmlui.administrative.SystemwideAlerts -->
 	<message key="xmlui.administrative.SystemwideAlerts.countdown"><strong>Za {0} minut</strong>:</message>
@@ -2480,6 +2495,7 @@
     <message key="xmlui.aspect.sherpa.submission.blue">modrá</message>
     <message key="xmlui.aspect.sherpa.submission.white">bílá</message>
     <message key="xmlui.aspect.sherpa.submission.yellow">žlutá</message>
+    <message key="xmlui.aspect.sherpa.submission.gray">šedá</message>
     <!-- End Versioning -->
 
 
@@ -2511,6 +2527,13 @@
 
     <message key="xmlui.mirage2.item-list.thumbnail">Náhled</message>
 
+    <!-- org.dspace.app.xmlui.Submission.submit.StartSubmissionLookupStep -->
+    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.submit_lookup">Hledat</message>
+    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.title">Hledat publikaci</message>
+    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.lookup_help">Vyplňte ID, DOI, název nebo autora publikace a klikněte na „Hledat“. Zobrazí se seznam odpovídajících publikací, které můžete vybrat a pokračovat v zasílání..</message>
+    <message key="xmlui.Submission.submit.StartSubmissionLookupStep.submit_publication_item">Záznam importované publikace</message>
+    <message key="xmlui.Submission.submit.progressbar.lookup">Vyhledat</message>
+
 
 
   <!-- Discovery -->
@@ -2523,6 +2546,10 @@
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">Typ obsahu</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">Datum publikování</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">Datum publikování</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_has_content_in_original_bundle">Má soubory</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.value_has_content_in_original_bundle_true">ano</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.value_has_content_in_original_bundle_false">ne</message>
 
 
     <!-- Site Leve Recently Added Content -->
@@ -2578,6 +2605,9 @@
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Předmět</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">Datum publikování</message>
 
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.has_content_in_original_bundle">Má soubory</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.original_bundle_filenames">Název souboru</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.original_bundle_descriptions">Popis souboru</message>
 
 
     <message key="xmlui.dri2xhtml.structural.pagination-info.nototal">Zobrazují se záznamy {0}-{1}</message>
