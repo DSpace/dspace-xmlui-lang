@@ -27,7 +27,7 @@ Translated by Ekaterina Chubich
 	<!-- General keys -->
 <message key="xmlui.general.dspace_home">Главная</message>
 <message key="xmlui.general.search">Поиск</message>
-<message key="xmlui.general.go">Ok</message>
+<message key="xmlui.general.go">Ок</message>
 <message key="xmlui.general.go_home">На главную страницу DSpace</message>
 <message key="xmlui.general.save">Сохранить</message>
 <message key="xmlui.general.cancel">Отмена</message>
@@ -145,7 +145,7 @@ Translated by Ekaterina Chubich
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with_help">Искать элементы, которые начинаются с этих символов</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_select">Перейти к определенному пункту оглавления</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_month">(Выберите месяц)</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">(Выбрите год)</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">(Выберите год)</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year">Или укажите год:</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year_help">Искать элементы указанного года.</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.no_results">К сожалению, этот поиск не дал результатов.</message>
@@ -312,74 +312,74 @@ Translated by Ekaterina Chubich
 
 	<!-- REQUEST COPY -->
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestForm.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.title">Request a copy of the document</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.trail">Request a copy of the document</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.head">Request a copy of the document</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.title">Запросить копию документа</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.trail">Запросить копию документа</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.head">Запросить копию документа</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.para1">Enter the following information to request a copy of the document from the responsible person</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail">Your e-mail address</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail_help">This email address is used for sending the document.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail.error">Address is required</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message">Message</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message.error">Message is required</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.files">Files</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail">Ваш e-mail адрес</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail_help">Этот email адрес используется для отправки документа.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail.error">Поле "E-mail" является обязательным</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message">Сообщение</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message.error">Поле "Сообщение" является обязательным</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.files">Файлы</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.allFiles">All files (of this document) in restricted access.</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestForm.notAllFiles">Only The requested file.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName">Name</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName.error">Name is required</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.submit">Request copy</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName">Имя</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName.error">Поле "Имя" является обязательным</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.submit">Запросить копию</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestSent.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestSent.title">Your request has been sent.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestSent.trail">Your request has been sent.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestSent.head">Your request has been sent.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.title">Ваш запрос отправлен.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.trail">Ваш запрос отправлен.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.head">Ваш запрос отправлен.</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestSent.para1">Your request has been sent to the author or responsible person.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseDecisionForm.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.title">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.trail">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.head">Document copy request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.title">Запрос копии документа</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.trail">Запрос копии документа</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.head">Запрос копии документа</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para1">IF YOU ARE THE AUTHOR (OR AN AUTHOR) OF DOCUMENT "{0}" use the buttons to answer the user's request.</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para2">This repository will propose an appropriate model reply, which you may edit.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Send copy</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.dontSend">Don't send copy</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Отправить копию</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.dontSend">Не отправлять копию</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseTrueForm.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.title">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.trail">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.head">Document copy request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.title">Запрос копии документа</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.trail">Запрос копии документа</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.head">Запрос копии документа</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.para1">This is the text to be sent to the applicant.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.message">Message</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.subject">Subject</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.mail">Send</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.back">Back</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.message">Сообщение</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.subject">Тема</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.mail">Отправить</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.back">Назад</message>
 
     <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseFalseForm.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.title">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.trail">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.head">Document copy request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.title">Запрос копии документа</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.trail">Запрос копии документа</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.head">Запрос копии документа</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.para1">This is the text to be sent to the applicant (together with the document).</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.message">Message</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.subject">Subject</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.mail">Send</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.back">Back</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.message">Сообщение</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.subject">Тема</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.mail">Отправить</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.back">Назад</message>
 	
 	 <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestChangeStatusForm.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.title">Change permissions request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.trail">Change permissions request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.head">Change permissions request</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.title">Запрос на изменение разрешений</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.trail">Запрос на изменение разрешений</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.head">Запрос на изменение разрешений</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.para1">You may use this occasion to reconsider the access restrictions on the document (to avoid having to respond to these requests), if there is no reason to keep it restricted. To do so, after inserting your name and e-mail (for authentication), click the button "Change to Open Access".</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name">Name</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name">Имя</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email">E-mail</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name.error">The name is required</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email.error">The e-mail address is required</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name.error">Поле "Имя" является обязательным</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email.error">Поле "E-mail" является обязательным</message>
 	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.changeToOpen">Change to open access</message>
 	        
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseFalseForm.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.title">Request sent</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.trail">Request sent</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.head">Your request to change permissions has been sent</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para1">Your request has been sent to the administrator</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para2">Thanks</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.title">Запрос отправлен</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.trail">Запрос отправлен</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.head">Ваш запрос на изменение разрешений отправлен</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para1">Ваш запрос отправлен администратору</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para2">Спасибо</message>
 	
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -1307,7 +1307,7 @@ Translated by Ekaterina Chubich
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_head_collection">Policies for Collection "{0}" ({1},ID: {2})</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_head_community">Policies for Community "{0}" ({1},ID: {2})</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.main_add_link">Click here to add a new policy. </message>
-	<message key="xmlui.administrative.authorization.EditContainerPolicies.submit_add">Add</message>
+	<message key="xmlui.administrative.authorization.EditContainerPolicies.submit_add">Добавить</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_id">ID</message>
     <message key="xmlui.administrative.authorization.EditContainerPolicies.head_name">Name</message>
 	<message key="xmlui.administrative.authorization.EditContainerPolicies.head_action">Action</message>
@@ -1349,14 +1349,14 @@ Translated by Ekaterina Chubich
 
 	<message key="xmlui.administrative.authorization.EditPolicyForm.set_group">Set</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.current_group">current</message>
-	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_head">Search Results</message>
+	<message key="xmlui.administrative.authorization.EditPolicyForm.groups_head">Результаты поиска</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.policy_currentGroup">Select a group</message>
 	<message key="xmlui.administrative.authorization.EditPolicyForm.label_search">Search for a group</message>
-    <message key="xmlui.administrative.authorization.EditPolicyForm.submit_search_groups">Search</message>
-    <message key="xmlui.administrative.authorization.EditPolicyForm.label_action">Select the action</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.submit_search_groups">Поиск</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_action">Выберите действие</message>
 
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_name">Имя</message>
-    <message key="xmlui.administrative.authorization.EditPolicyForm.label_description">Description</message>
+    <message key="xmlui.administrative.authorization.EditPolicyForm.label_description">Описание</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_start_date">Start Date</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.label_end_date">End Date</message>
     <message key="xmlui.administrative.authorization.EditPolicyForm.error_date_format">Invalid date</message>
@@ -1418,13 +1418,13 @@ Translated by Ekaterina Chubich
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.ORIGINAL">Content Files (default)</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.METADATA">Metadata Files</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.THUMBNAIL">Thumbnails</message>
-	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.LICENSE">Licenses</message>
+	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.LICENSE">Лицензии</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.bundle.CC-LICENSE">Creative Commons Licenses</message>
-	<message key="xmlui.administrative.item.AddBitstreamForm.file_label">File</message>
+	<message key="xmlui.administrative.item.AddBitstreamForm.file_label">Файл</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.file_help">Please enter the name of the file on your computer corresponding to your item. If you click "Browse...", a new window will appear in which you can locate and select the file from your computer.</message>
-	<message key="xmlui.administrative.item.AddBitstreamForm.description_label">Description</message>
+	<message key="xmlui.administrative.item.AddBitstreamForm.description_label">Описание</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.description_help">Optionally, provide a brief description of the file, for example "<i>Main article</i>", or "<i>Experiment data readings</i>".</message>
-	<message key="xmlui.administrative.item.AddBitstreamForm.submit_upload">Upload</message>
+	<message key="xmlui.administrative.item.AddBitstreamForm.submit_upload">Загрузить</message>
 	<message key="xmlui.administrative.item.AddBitstreamForm.no_bundles">You need the ADD &amp; WRITE privilege on at least one bundle to be able to upload new bitstreams.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.DeleteBitstreamConfirm -->
@@ -1443,8 +1443,8 @@ Translated by Ekaterina Chubich
 	<message key="xmlui.administrative.item.ConfirmItemForm.para_delete">Are you sure this item should be completely deleted? Caution: At present, no tombstone would be left.</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.para_withdraw">Are you sure this item should be withdrawn from the archive?</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.para_reinstate">Are you sure this item should be reinstated to the archive?</message>
-	<message key="xmlui.administrative.item.ConfirmItemForm.column1">Field</message>
-	<message key="xmlui.administrative.item.ConfirmItemForm.column2">Value</message>
+	<message key="xmlui.administrative.item.ConfirmItemForm.column1">Поле</message>
+	<message key="xmlui.administrative.item.ConfirmItemForm.column2">Значение</message>
 <message key="xmlui.administrative.item.ConfirmItemForm.column3">Язык</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_withdraw">Withdraw</message>
 	<message key="xmlui.administrative.item.ConfirmItemForm.submit_reinstate">Reinstate</message>
@@ -1466,7 +1466,7 @@ Translated by Ekaterina Chubich
 <message key="xmlui.administrative.item.EditBitstreamForm.title">Редактировать архив</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.trail">Редактировать архив</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.head1">Редактировать архив</message>
-	<message key="xmlui.administrative.item.EditBitstreamForm.file_label">File</message>
+	<message key="xmlui.administrative.item.EditBitstreamForm.file_label">Файл</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.primary_label">Основной архив</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.primary_option_yes">Да</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.primary_option_no">Нет</message>
@@ -1478,7 +1478,7 @@ Translated by Ekaterina Chubich
 	<message key="xmlui.administrative.item.EditBitstreamForm.para2">If the format is not in the above list, <strong>select "format not in list" above</strong> and describe it in the field below.</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_label">Other Format</message>
 	<message key="xmlui.administrative.item.EditBitstreamForm.user_help">The application you used to create the file, and the version number (for example, "<i>ACMESoft SuperApp version 1.5</i>").</message>
-    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Filename</message>
+    <message key="xmlui.administrative.item.EditBitstreamForm.name_label">Имя файла</message>
     <message key="xmlui.administrative.item.EditBitstreamForm.name_help">Change the filename for this bitstream. Note that this will change the display bitstream URL, but old links will still resolve as long as the sequence ID does not change.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->
@@ -1500,7 +1500,7 @@ Translated by Ekaterina Chubich
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.submit_reorder">Update bitstream order</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.no_upload">You need the ADD &amp; WRITE privilege on the item and bundles to be able to upload new bitstreams.</message>
 	<message key="xmlui.administrative.item.EditItemBitstreamsForm.no_remove">Only System Administrators can delete bitstreams / files.</message>
-	<message key="xmlui.administrative.item.EditItemBitstreamsForm.previous_order">Previous:</message>
+	<message key="xmlui.administrative.item.EditItemBitstreamsForm.previous_order">Предыдущий:</message>
 <message key="xmlui.administrative.item.EditItemBitstreamsForm.order_up">Загрузить</message>
 <message key="xmlui.administrative.item.EditItemBitstreamsForm.order_down">Скачать</message>
 
@@ -1513,11 +1513,11 @@ Translated by Ekaterina Chubich
 <message key="xmlui.administrative.item.EditItemMetadataForm.lang_label">Язык</message>
 <message key="xmlui.administrative.item.EditItemMetadataForm.submit_add">Добавить новые метаданные</message>
 	<message key="xmlui.administrative.item.EditItemMetadataForm.para1">PLEASE NOTE: These changes are not validated in any way. You are responsible for entering the data in the correct format. If you are not sure what the format is, please do NOT make changes.</message>
-	<message key="xmlui.administrative.item.EditItemMetadataForm.head2">Metadata</message>
-	<message key="xmlui.administrative.item.EditItemMetadataForm.column1">Remove</message>
-	<message key="xmlui.administrative.item.EditItemMetadataForm.column2">Name</message>
-	<message key="xmlui.administrative.item.EditItemMetadataForm.column3">Value</message>
-	<message key="xmlui.administrative.item.EditItemMetadataForm.column4">Language</message>
+	<message key="xmlui.administrative.item.EditItemMetadataForm.head2">Метаданные</message>
+	<message key="xmlui.administrative.item.EditItemMetadataForm.column1">Удалить</message>
+	<message key="xmlui.administrative.item.EditItemMetadataForm.column2">Имя</message>
+	<message key="xmlui.administrative.item.EditItemMetadataForm.column3">Значение</message>
+	<message key="xmlui.administrative.item.EditItemMetadataForm.column4">Язык</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemStatusForm -->
 	<message key="xmlui.administrative.item.EditItemStatusForm.title">Item Status</message>
@@ -1536,7 +1536,7 @@ Translated by Ekaterina Chubich
 	<message key="xmlui.administrative.item.EditItemStatusForm.submit_authorizations">Authorizations...</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.submit_withdraw">Withdraw...</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.submit_reinstate">Reinstate...</message>
-	<message key="xmlui.administrative.item.EditItemStatusForm.submit_move">Move...</message>
+	<message key="xmlui.administrative.item.EditItemStatusForm.submit_move">Переместить...</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.submit_delete">Permanently delete</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.na">n/a</message>
 	<message key="xmlui.administrative.item.EditItemStatusForm.sysadmins_only">(system administrators only)</message>
@@ -1561,12 +1561,12 @@ Translated by Ekaterina Chubich
 	<message key="xmlui.administrative.item.FindItemForm.head1">Find Item</message>
 	<message key="xmlui.administrative.item.FindItemForm.identifier_label">Internal Item ID/Item Handle</message>
 	<message key="xmlui.administrative.item.FindItemForm.identifier_error">Unable to resolve identifier.</message>
-	<message key="xmlui.administrative.item.FindItemForm.find">Find</message>
+	<message key="xmlui.administrative.item.FindItemForm.find">Найти</message>
 
         <!-- org.dspace.app.xmlui.administrative.metadataimport -->
-        <message key="xmlui.administrative.metadataimport.general.title">Import Metadata</message>
-        <message key="xmlui.administrative.metadataimport.general.head1">Import Metadata</message>
-        <message key="xmlui.administrative.metadataimport.general.trail">Import Metadata</message>
+        <message key="xmlui.administrative.metadataimport.general.title">Импортировать метаданные</message>
+        <message key="xmlui.administrative.metadataimport.general.head1">Импортировать метаданные</message>
+        <message key="xmlui.administrative.metadataimport.general.trail">Импортировать метаданные</message>
         <message key="xmlui.administrative.metadataimport.general.changes">changes</message>
         <message key="xmlui.administrative.metadataimport.general.no_changes">No changes were detected</message>
         <message key="xmlui.administrative.metadataimport.general.new_item">New item</message>
@@ -1579,13 +1579,13 @@ Translated by Ekaterina Chubich
         <message key="xmlui.administrative.metadataimport.flow.over_limit">Number of changes exceeds maximum allowed. Limit changes or alter bulkedit.gui-item-limit in dspace.cfg</message>
 
         <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportConfirm -->
-        <message key="xmlui.administrative.metadataimport.MetadataImportMain.submit_upload">Upload CSV</message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportMain.submit_upload">Загрузить CSV</message>
 
         <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportConfirm -->
         <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.success">Successfully processed</message>
         <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.changes_committed">Changes applied to item</message>
-        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_added">Added: </message>
-        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_removed">Removed: </message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_added">Добавлено: </message>
+        <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.item_removed">Удалено: </message>
         <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_newowner">Added to owning collection</message>
         <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_oldowner">Removed from owning collection</message>
         <message key="xmlui.administrative.metadataimport.MetadataImportConfirm.collection_mapped">Mapped to collection</message>
@@ -1618,7 +1618,7 @@ Translated by Ekaterina Chubich
 	<message key="xmlui.administrative.mapper.MapperMain.para2">This is the item mapper tool that allows collection administrators to map items from other collections into this collection. You can search for items from other collections and map them, or browse the list of currently mapped items.</message>
 	<message key="xmlui.administrative.mapper.MapperMain.stat_label">Statistics</message>
 	<message key="xmlui.administrative.mapper.MapperMain.stat_info"><strong>{0} of {1}</strong> items in this collection are mapped in from other collections</message>
-	<message key="xmlui.administrative.mapper.MapperMain.search_label">Search</message>
+	<message key="xmlui.administrative.mapper.MapperMain.search_label">Поиск</message>
 	<message key="xmlui.administrative.mapper.MapperMain.submit_search">Search Items</message>
 	<message key="xmlui.administrative.mapper.MapperMain.submit_browse">Browse mapped items</message>
 	<message key="xmlui.administrative.mapper.MapperMain.no_add">(Requires the collection ADD privilege)</message>
@@ -1640,8 +1640,8 @@ Translated by Ekaterina Chubich
 	<message key="xmlui.administrative.mapper.BrowseItemForm.submit_unmap">Unmap selected items</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column1"></message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.column2">Collection</message>
-	<message key="xmlui.administrative.mapper.BrowseItemForm.column3">Author</message>
-	<message key="xmlui.administrative.mapper.BrowseItemForm.column4">Title</message>
+	<message key="xmlui.administrative.mapper.BrowseItemForm.column3">Автор</message>
+	<message key="xmlui.administrative.mapper.BrowseItemForm.column4">Название</message>
 	<message key="xmlui.administrative.mapper.BrowseItemForm.no_remove">You need the REMOVE privilege on this collection to be able to unmap items from this collection.</message>
 
 	<!-- General tags for collection management -->
@@ -1656,7 +1656,7 @@ Translated by Ekaterina Chubich
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.trail">Roles</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.main_head">Edit Collection: {0}</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.no_role">none</message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.create">Create...</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.create">Создать...</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.restrict">Restrict...</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_admins">Collection administrators decide who can submit items to the collection, edit item metadata (after submission), and add (map) existing items from other collections to this collection (subject to authorization for that collection).</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.help_wf_step1">The people responsible for this step are able to accept or reject incoming submissions. However, they are not able to edit the submission's metadata.</message>
@@ -1670,7 +1670,7 @@ Translated by Ekaterina Chubich
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.role_name">Role</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.role_group">Associated group</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.role_buttons">  </message>
-	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_admins">Administrators</message>
+	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_admins">Администраторы</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf">Workflow steps</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step1">Accept/Reject Step</message>
 	<message key="xmlui.administrative.collection.AssignCollectionRoles.label_wf_step2">Accept/Reject/Edit Metadata Step</message>
@@ -2135,7 +2135,7 @@ Translated by Ekaterina Chubich
 	<message key="xmlui.dri2xhtml.METS-1.0.collection-logo-alt">The collection's logo</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.community-logo-alt">The community's logo</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.no-logo-alt">No logo</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.news">News</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.news">Новости</message>
 
 	<!-- Internationalization elements specific to the Qualified Dublin Core metadata handler.
 		DS-METS-1.0-QDC.xsl -->
@@ -2219,12 +2219,12 @@ Translated by Ekaterina Chubich
 <message key="xmlui.dri2xhtml.mimetype.image/x-photo-cd">Фото CD</message>
 
   <!-- Text-based formats -->
-  <message key="xmlui.dri2xhtml.mimetype.text/css">CSS file</message>
-  <message key="xmlui.dri2xhtml.mimetype.text/csv">CSV file</message>
+  <message key="xmlui.dri2xhtml.mimetype.text/css">CSS файл</message>
+  <message key="xmlui.dri2xhtml.mimetype.text/csv">CSV файл</message>
   <message key="xmlui.dri2xhtml.mimetype.text/html">HTML</message>
   <message key="xmlui.dri2xhtml.mimetype.text/javascript">Javascript</message>
   <message key="xmlui.dri2xhtml.mimetype.text/plain">Text file</message>
-  <message key="xmlui.dri2xhtml.mimetype.text/richtext">RTF file</message>
+  <message key="xmlui.dri2xhtml.mimetype.text/richtext">RTF файл</message>
   <message key="xmlui.dri2xhtml.mimetype.text/xml">XML</message>
 
   <!-- Video-based formats -->
@@ -2255,8 +2255,8 @@ Translated by Ekaterina Chubich
     -->
   <message key="xmlui.ChoiceLookupTransformer.title">DSpace Value Lookup</message>
   <message key="xmlui.ChoiceLookupTransformer.accept">Accept</message>
-  <message key="xmlui.ChoiceLookupTransformer.add">Add</message>
-  <message key="xmlui.ChoiceLookupTransformer.cancel">Cancel</message>
+  <message key="xmlui.ChoiceLookupTransformer.add">Добавить</message>
+  <message key="xmlui.ChoiceLookupTransformer.cancel">Отменить</message>
   <message key="xmlui.ChoiceLookupTransformer.more">See More Results</message>
   <!-- params are: start, end, total-count, search-value -->
   <message key="xmlui.ChoiceLookupTransformer.results">Results @1@ to @2@ of @3@ for "@4@"</message>
@@ -2279,67 +2279,67 @@ Translated by Ekaterina Chubich
   <message key="xmlui.mobile.home_mobile">DSpace Mobile</message>
   <message key="xmlui.mobile.search_all">Search ALL</message>
   <message key="xmlui.mobile.browse_all">Browse ALL by</message>
-  <message key="xmlui.mobile.browse_date">Date</message>
-  <message key="xmlui.mobile.browse_author">Author</message>
-  <message key="xmlui.mobile.browse_title">Title</message>
-  <message key="xmlui.mobile.browse_subject">Subject</message>
+  <message key="xmlui.mobile.browse_date">Дата</message>
+  <message key="xmlui.mobile.browse_author">Автор</message>
+  <message key="xmlui.mobile.browse_title">Название</message>
+  <message key="xmlui.mobile.browse_subject">Содержание</message>
   <message key="xmlui.mobile.related_google_scholar">Related</message>
   <message key="xmlui.mobile.items_in_google_scholar">Items in Google Scholar</message>
-  <message key="xmlui.mobile.download">Download</message>
+  <message key="xmlui.mobile.download">Скачать</message>
 
 
     <!-- Versioning -->
     <message key="xmlui.aspect.versioning.VersioningNavigation.context_create_version">Create version of this item</message>
-    <message key="xmlui.aspect.versioning.VersioningNavigation.context_show_version_history">Show version history</message>
+    <message key="xmlui.aspect.versioning.VersioningNavigation.context_show_version_history">Показать историю версий</message>
 
-    <message key="xmlui.aspect.versioning.VersionItemForm.title">Create Version</message>
-    <message key="xmlui.aspect.versioning.VersionItemForm.trail">Version</message>
+    <message key="xmlui.aspect.versioning.VersionItemForm.title">Создать версию</message>
+    <message key="xmlui.aspect.versioning.VersionItemForm.trail">Версия</message>
     <message key="xmlui.aspect.versioning.VersionItemForm.head1">Create new version of item: {0}</message>
     <message key="xmlui.aspect.versioning.VersionItemForm.submit_version">Version</message>
-    <message key="xmlui.aspect.versioning.VersionItemForm.submit_update_version">Update Version</message>
+    <message key="xmlui.aspect.versioning.VersionItemForm.submit_update_version">Обновить версию</message>
     <message key="xmlui.aspect.versioning.VersionItemForm.summary">Reason for creating new version</message>
 
-    <message key="xmlui.aspect.versioning.VersionUpdateForm.title">Update Version</message>
-    <message key="xmlui.aspect.versioning.VersionUpdateForm.trail">Version</message>
+    <message key="xmlui.aspect.versioning.VersionUpdateForm.title">Обновить версию</message>
+    <message key="xmlui.aspect.versioning.VersionUpdateForm.trail">Версия</message>
     <message key="xmlui.aspect.versioning.VersionUpdateForm.head1">Update version of item: {0}</message>
-    <message key="xmlui.aspect.versioning.VersionUpdateForm.submit_version">Version</message>
-    <message key="xmlui.aspect.versioning.VersionUpdateForm.submit_update_version">Update Version</message>
+    <message key="xmlui.aspect.versioning.VersionUpdateForm.submit_version">Версия</message>
+    <message key="xmlui.aspect.versioning.VersionUpdateForm.submit_update_version">Обновить версию</message>
     <message key="xmlui.aspect.versioning.VersionUpdateForm.summary">Summary</message>
 
 
-    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.title">Confirm Deletion</message>
-    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.trail">Confirm deletion</message>
-    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.head1">Confirm Deletion(s)</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.title">Подтвердить удаление</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.trail">Подтвердить удаление</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.head1">Подтвердить удаление(удаления)</message>
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.para1">Are you sure you want to delete these versions. </message>
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.para2">PLEASE NOTE: That by deleting these versions, the associated items will no longer be accessible.</message>
-    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column1">Version</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column1">Версия</message>
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column2">Item</message>
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column3">Editor</message>
-    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column4">Date</message>
+    <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column4">Дата</message>
     <message key="xmlui.aspect.versioning.DeleteVersionsConfirm.column5">Summary</message>
 
 
-    <message key="xmlui.aspect.versioning.RestoreVersionForm.title">Restore Version</message>
-    <message key="xmlui.aspect.versioning.RestoreVersionForm.trail">Restore Version</message>
-    <message key="xmlui.aspect.versioning.RestoreVersionForm.head1">Restore Version</message>
-    <message key="xmlui.aspect.versioning.RestoreVersionForm.para1">Are you sure you want to restore this version:</message>
-    <message key="xmlui.aspect.versioning.RestoreVersionForm.column1">Version</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.title">Восстановить версию</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.trail">Восстановить версию</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.head1">Восстановить версию</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.para1">Вы действительно хотите восстановить данную версию:</message>
+    <message key="xmlui.aspect.versioning.RestoreVersionForm.column1">Версия</message>
     <message key="xmlui.aspect.versioning.RestoreVersionForm.column2">Editor</message>
     <message key="xmlui.aspect.versioning.RestoreVersionForm.column3">Дата</message>
     <message key="xmlui.aspect.versioning.RestoreVersionForm.column4">Resumen</message>
     <message key="xmlui.aspect.versioning.RestoreVersionForm.restore">Восстановить</message>
 
-    <message key="xmlui.aspect.versioning.VersionHistoryForm.head2">Version History</message>
-    <message key="xmlui.aspect.versioning.VersionHistoryForm.column1">Version</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.head2">История версий</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.column1">Версия</message>
     <message key="xmlui.aspect.versioning.VersionHistoryForm.column2">Item</message>
     <message key="xmlui.aspect.versioning.VersionHistoryForm.column3">Editor</message>
     <message key="xmlui.aspect.versioning.VersionHistoryForm.column4">Дата</message>
     <message key="xmlui.aspect.versioning.VersionHistoryForm.column5">Summary</message>
     <message key="xmlui.aspect.versioning.VersionHistoryForm.column6">Actions</message>
-    <message key="xmlui.aspect.versioning.VersionHistoryForm.restore">Restore</message>
-    <message key="xmlui.aspect.versioning.VersionHistoryForm.update">Update</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.restore">Восстановить</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.update">Обновить</message>
     <message key="xmlui.aspect.versioning.VersionHistoryForm.legend">*Selected version</message>
-    <message key="xmlui.aspect.versioning.VersionHistoryForm.delete">Delete Versions</message>
+    <message key="xmlui.aspect.versioning.VersionHistoryForm.delete">Удалить версии</message>
     <message key="xmlui.aspect.versioning.VersionHistoryForm.return">Назад</message>
     <message key="xmlui.aspect.versioning.VersionHistoryForm.collection_admins_only">(collection administrators only)</message>
 

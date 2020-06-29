@@ -73,9 +73,9 @@
 		This is a special component that is not part of any aspect but is added
 		by manakin to all aspect chains.
 		-->
-	<message key="xmlui.PageNotFound.title">Page not found</message>
-	<message key="xmlui.PageNotFound.head">Page not found</message>
-	<message key="xmlui.PageNotFound.para1">We can't find the page you asked for.</message>
+	<message key="xmlui.PageNotFound.title">Сторінку не знайдено</message>
+	<message key="xmlui.PageNotFound.head">Сторінку не знайдено</message>
+	<message key="xmlui.PageNotFound.para1">Ми не можемо знайти потрібну сторінку.</message>
 	
 	
 	<!--
@@ -426,12 +426,12 @@
 	<message key="xmlui.EPerson.LDAPLogin.submit">Вхід</message>
 	
 	<!-- org.dspace.app.xmlui.eperson.LoginChooser.java -->
-	<message key="xmlui.EPerson.LoginChooser.title">Choose a Login Method</message>
+	<message key="xmlui.EPerson.LoginChooser.title">Виберіть метод входу</message>
 	<message key="xmlui.EPerson.LoginChooser.trail">Choose Login</message>
-	<message key="xmlui.EPerson.LoginChooser.head1">Choose a Login Method</message>
-	<message key="xmlui.EPerson.LoginChooser.para1">Log in via:</message>
-	<message key="org.dspace.authenticate.ShibAuthentication.title">Shibboleth Authentication</message>
-	<message key="org.dspace.eperson.LDAPAuthentication.title">LDAP Authentication</message>
+	<message key="xmlui.EPerson.LoginChooser.head1">Виберіть метод входу</message>
+	<message key="xmlui.EPerson.LoginChooser.para1">Увійдіть через:</message>
+	<message key="org.dspace.authenticate.ShibAuthentication.title">Автентифікація Shibboleth</message>
+	<message key="org.dspace.eperson.LDAPAuthentication.title">Автентифікація LDAP</message>
 	<message key="org.dspace.eperson.PasswordAuthentication.title">Password Authentication</message>
 	<message key="org.dspace.eperson.X509Authentication.title">Web Certificate Authentication</message>
 
@@ -439,9 +439,9 @@
 	<message key="xmlui.EPerson.FailedAuthentication.BadCreds">The credentials provided are invalid.</message>
 	<message key="xmlui.EPerson.FailedAuthentication.BadArgs">Unable to authenticate due to invalid arguments received.</message>
 	<message key="xmlui.EPerson.FailedAuthentication.NoSuchUser">A user was not found with the credentials provided.</message>
-	<message key="xmlui.EPerson.FailedAuthentication.title">Authentication Failed</message>
-    <message key="xmlui.EPerson.FailedAuthentication.trail">Failed Authentication</message>
-    <message key="xmlui.EPerson.FailedAuthentication.h1">Authentication Failed</message>
+	<message key="xmlui.EPerson.FailedAuthentication.title">Помилка автентифікації</message>
+    <message key="xmlui.EPerson.FailedAuthentication.trail">Помилка автентифікації</message>
+    <message key="xmlui.EPerson.FailedAuthentication.h1">Помилка автентифікації</message>
 	
 	<!-- Login xml files -->
 	<message key="xmlui.eperson.noAuthMethod.head">No Authentication Method Found</message>
@@ -1915,12 +1915,12 @@
   <message key="xmlui.dri2xhtml.mimetype.audio/x-wav">WAV audio</message>
 
   <!-- Image-based formats -->
-  <message key="xmlui.dri2xhtml.mimetype.image/gif">GIF image</message>
-  <message key="xmlui.dri2xhtml.mimetype.image/jp2">JPEG 2000 image</message>
-  <message key="xmlui.dri2xhtml.mimetype.image/jpeg">JPEG image</message>
-  <message key="xmlui.dri2xhtml.mimetype.image/png">PNG image</message>
-  <message key="xmlui.dri2xhtml.mimetype.image/tiff">TIFF image</message>
-  <message key="xmlui.dri2xhtml.mimetype.image/x-ms-bmp">BMP image</message>
+  <message key="xmlui.dri2xhtml.mimetype.image/gif">Зображення GIF</message>
+  <message key="xmlui.dri2xhtml.mimetype.image/jp2">Зображення JPEG 2000</message>
+  <message key="xmlui.dri2xhtml.mimetype.image/jpeg">Зображення JPEG</message>
+  <message key="xmlui.dri2xhtml.mimetype.image/png">Зображення PNG</message>
+  <message key="xmlui.dri2xhtml.mimetype.image/tiff">Зображення TIFF</message>
+  <message key="xmlui.dri2xhtml.mimetype.image/x-ms-bmp">Зображення BMP</message>
   <message key="xmlui.dri2xhtml.mimetype.image/x-photo-cd">Photo CD</message>
 
   <!-- Text-based formats -->
@@ -1933,12 +1933,12 @@
   <message key="xmlui.dri2xhtml.mimetype.text/xml">XML</message>
 
   <!-- Video-based formats -->
-  <message key="xmlui.dri2xhtml.mimetype.video/avi">AVI video</message>
+  <message key="xmlui.dri2xhtml.mimetype.video/avi">Відео AVI</message>
   <message key="xmlui.dri2xhtml.mimetype.video/mjp2">Motion JPEG 2000</message>
-  <message key="xmlui.dri2xhtml.mimetype.video/mpeg">MPEG video</message>
-  <message key="xmlui.dri2xhtml.mimetype.video/mpeg2">MPEG-2 video</message>
-  <message key="xmlui.dri2xhtml.mimetype.video/mp4">MPEG-4 video</message>
-  <message key="xmlui.dri2xhtml.mimetype.video/quicktime">QuickTime video</message>
+  <message key="xmlui.dri2xhtml.mimetype.video/mpeg">Відео MPEG</message>
+  <message key="xmlui.dri2xhtml.mimetype.video/mpeg2">Відео MPEG-2</message>
+  <message key="xmlui.dri2xhtml.mimetype.video/mp4">Відео MPEG-4</message>
+  <message key="xmlui.dri2xhtml.mimetype.video/quicktime">Відео QuickTime</message>
 
   <!-- explanatory messages for choice authority confidence values -->
   <message key="xmlui.authority.confidence.description.cf_unset">Confidence was never recorded for this value</message>
