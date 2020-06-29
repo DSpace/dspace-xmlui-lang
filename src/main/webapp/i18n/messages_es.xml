@@ -2461,7 +2461,7 @@ Cuando se usa QDC para los elementos de DSpace se recomienda el uso de crosswalk
 <message key="xmlui.mirage2.discovery.reset">Restaurar</message>
 <message key="xmlui.mirage2.discovery.newFilter">Añadir nuevo filtro</message>
 <message key="xmlui.mirage2.discovery.showAdvancedFilters">Mostrar filtros avanzados</message>
-<message key="xmlui.mirage2.discovery.hideAdvancedFilters">Ocultar filttos avanzados</message>
+<message key="xmlui.mirage2.discovery.hideAdvancedFilters">Ocultar filtros avanzados</message>
 
 
 <message key="xmlui.mirage2.forms.instancedCompositeFields.add">Añadir</message>
