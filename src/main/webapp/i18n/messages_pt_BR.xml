@@ -905,7 +905,7 @@
 	<!-- Site administrator options -->
 	<message key="xmlui.administrative.Navigation.administrative_head">Administrativo</message>
 	<message key="xmlui.administrative.Navigation.administrative_access_control">Controle de acesso</message>
-	<message key="xmlui.administrative.Navigation.administrative_people">People</message>
+	<message key="xmlui.administrative.Navigation.administrative_people">Pessoas</message>
 	<message key="xmlui.administrative.Navigation.administrative_groups">Grupos</message>
 	<message key="xmlui.administrative.Navigation.administrative_authorizations">Autorizações</message>
 	<message key="xmlui.administrative.Navigation.administrative_registries">Registros</message>
@@ -2287,6 +2287,21 @@
 	
     <!-- End Versioning -->
 
+    <message key="xmlui.mirage2.itemSummaryView.MetaData">Metadados</message>
+    <message key="xmlui.mirage2.itemSummaryView.Collections">Coleções</message>
+    <message key="xmlui.mirage2.discovery.reset">Redefinir</message>
+    <message key="xmlui.mirage2.discovery.newFilter">Adicionar Novo Filtro</message>
+    <message key="xmlui.mirage2.discovery.showAdvancedFilters">Mostrar Filtros Avançados</message>
+    <message key="xmlui.mirage2.discovery.hideAdvancedFilters">Esconder Filtros Avançados</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.add">Adicionar</message>
+    <message key="xmlui.mirage2.forms.instancedCompositeFields.remove">Remover</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.add">Adicionar</message>
+    <message key="xmlui.mirage2.forms.nonCompositeFieldSet.remove">Remover</message>
+    <message key="xmlui.mirage2.page-structure.aboutThisRepository">Sobre Este Repositório</message>
+    <message key="xmlui.mirage2.page-structure.toggleNavigation">Alternar navegação</message>
+    <message key="xmlui.mirage2.page-structure.heroUnit.title">Sobre Este Repositório</message>
+    <message key="xmlui.mirage2.choice-authority-control.loading">Carregando...</message>
+    <message key="xmlui.mirage2.item-list.thumbnail">Miniatura</message>
 
     <!-- Discovery -->
 
